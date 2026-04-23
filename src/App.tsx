@@ -22,6 +22,7 @@ import {
   Globe,
   Moon,
   Calendar,
+  MapPin,
   ChevronLeft,
   ChevronRight
 } from 'lucide-react';
@@ -1757,8 +1758,17 @@ export default function App() {
 
       {/* Footer */}
       <footer className="col-span-full border-t border-brand-border flex flex-col md:flex-row items-center p-6 md:px-10 justify-between text-[10px] opacity-40 uppercase tracking-[0.1em] gap-6 md:gap-0">
-        <div className="flex gap-8 items-center">
+        <div className="flex flex-wrap gap-8 items-center">
           <span>{t.footer.rights}</span>
+          <motion.a 
+            href="https://share.google/F7iXzgqCoMn0eUtTm" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            whileHover={{ x: 5 }} 
+            className="hover:text-brand-fg transition-colors flex items-center gap-1.5"
+          >
+            <MapPin size={10} /> {t.footer.gmb}
+          </motion.a>
           <motion.button whileHover={{ x: 5 }} onClick={() => setLegalType('terms')} className="hover:text-brand-fg transition-colors">{t.legal.terms.split(' ')[0]}</motion.button>
           <motion.button whileHover={{ x: 5 }} onClick={() => setLegalType('privacy')} className="hover:text-brand-fg transition-colors">{t.legal.privacy.split(' ')[0]}</motion.button>
           <motion.button whileHover={{ x: 5 }} onClick={() => setLegalType('ip')} className="hover:text-brand-fg transition-colors">{t.legal.ip.split(' ')[0]}</motion.button>

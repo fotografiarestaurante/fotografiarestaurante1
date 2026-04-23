@@ -104,7 +104,8 @@ export const translations = {
       servicios: "Servicios",
       legal: "Legal",
       rights: "© 2026 Fotografía Restaurante. Todos los derechos reservados.",
-      tagline: "Hecho con el horno encendido."
+      tagline: "Hecho con el horno encendido.",
+      gmb: "GOOGLE BUSINESS"
     },
     cookies: {
       bannerTitle: "Aviso de Privacidad",
@@ -399,7 +400,8 @@ export const translations = {
       servicios: "Services",
       legal: "Legal",
       rights: "© 2026 Restaurant Photography. All rights reserved.",
-      tagline: "Made with the oven on."
+      tagline: "Made with the oven on.",
+      gmb: "GOOGLE BUSINESS"
     },
     cookies: {
       bannerTitle: "Privacy Notice",
@@ -695,7 +697,8 @@ export const translations = {
       servicios: "Services",
       legal: "Mentions Légales",
       rights: "© 2026 Photographie de Restauration. Tous droits réservés.",
-      tagline: "Fait avec le four allumé."
+      tagline: "Fait avec le four allumé.",
+      gmb: "GOOGLE BUSINESS"
     },
     cookies: {
       bannerTitle: "Avis de Confidentialité",
@@ -991,7 +994,8 @@ export const translations = {
       servicios: "Servizi",
       legal: "Legale",
       rights: "© 2026 Fotografia per Ristoranti. Tutti i diritti riservati.",
-      tagline: "Fatto con il forno acceso."
+      tagline: "Fatto con il forno acceso.",
+      gmb: "GOOGLE BUSINESS"
     },
     cookies: {
       bannerTitle: "Informativa sulla Privacy",
