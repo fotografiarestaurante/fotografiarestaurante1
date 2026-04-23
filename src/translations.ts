@@ -24,9 +24,17 @@ export const translations = {
       subtitle: "Estrategias de imagen y marketing gastronómico",
       readMore: "Leer Informe Completo",
       back: "Volver a la Base",
+      categories: {
+        all: "Todos",
+        rescue: "Rescate",
+        seo: "SEO & Estrategia",
+        tech: "Técnica IA",
+        marketing: "Marketing"
+      },
       articles: [
         {
           id: "uci-fotografia-gastronomica",
+          category: "rescue",
           title: "La UCI de tu Fotografía Gastronómica: Rescate de Producto 2026",
           excerpt: "No somos fotógrafos. No venimos a retratar vuestras salas, ni el alma de vuestros fogones. Venimos a salvar vuestras fotos de móvil.",
           slogan: "Cirugía de urgencia para platos que necesitan vender hoy mismo.",
@@ -36,6 +44,7 @@ export const translations = {
         },
         {
           id: "ia-ventas-delivery",
+          category: "seo",
           title: "Cómo la Fotografía IA puede duplicar tus ventas en UberEats",
           excerpt: "Descubre por qué los algoritmos de las apps de delivery premian la iluminación quirúrgica y cómo puedes aprovecharlo.",
           slogan: "No solo vendes comida, vendes el deseo de hincarle el diente.",
@@ -45,6 +54,7 @@ export const translations = {
         },
         {
           id: "importancia-fondos",
+          category: "rescue",
           title: "El fin de los fondos ruidosos: Limpieza visual para chefs",
           excerpt: "Un plato exquisito en una mesa desordenada pierde su valor. La extracción de fondo es la clave del lujo digital.",
           slogan: "Tu plato es el protagonista. El resto es ruido que te hace perder dinero.",
@@ -54,6 +64,7 @@ export const translations = {
         },
         {
           id: "metodo-chef-ia",
+          category: "tech",
           title: "Cirugía Estética para Cartas Digitales: El Método del Chef IA",
           excerpt: "Descubre cómo el retoque quirúrgico puede elevar el ticket promedio de tu restaurante sin cambiar un solo ingrediente corregir.",
           slogan: "La belleza técnica es el atajo más rápido hacia la rentabilidad.",
@@ -63,6 +74,7 @@ export const translations = {
         },
         {
           id: "protocolo-autoridad-algoritmo",
+          category: "seo",
           title: "El Protocolo de Autoridad: Cómo Domina el Algoritmo de Google en 2026",
           excerpt: "¿Por qué algunos restaurantes aparecen siempre arriba y otros son invisibles? La respuesta está en la consistencia visual.",
           slogan: "Google no solo lee tus reseñas, también analiza la autoridad de tus imágenes.",
@@ -72,6 +84,7 @@ export const translations = {
         },
         {
           id: "movil-vs-reflex-ia",
+          category: "tech",
           title: "Móvil vs Réflex: ¿Ha muerto la fotografía de estudio tradicional?",
           excerpt: "En 2026, el mejor equipo no es una cámara de 5.000€, sino tu smartphone combinado con un post-procesado IA agresivo.",
           slogan: "La potencia de un estudio de Michelin en la palma de tu mano.",
@@ -81,6 +94,7 @@ export const translations = {
         },
         {
           id: "psicologia-color-hambre",
+          category: "marketing",
           title: "Psicología del Color: Cómo hackear el apetito de tus clientes",
           excerpt: "La diferencia entre un plato aburrido y uno irresistible está en el balance de blancos y la saturación selectiva.",
           slogan: "Cocinamos para los ojos antes que para el paladar.",
@@ -90,6 +104,7 @@ export const translations = {
         },
         {
           id: "rescate-fotos-clientes",
+          category: "rescue",
           title: "El Oro Oculto en las Fotos de tus Clientes: Rescate de UGC",
           excerpt: "Tus clientes suben fotos horribles a Google Maps. Aprende cómo usarlas a tu favor para mejorar tu reputación online.",
           slogan: "Si la foto de tu cliente es mala, la culpa es de la luz, no del plato. Nosotros lo arreglamos.",
@@ -99,6 +114,7 @@ export const translations = {
         },
         {
           id: "fotografo-gastronomico-barcelona-eficiencia",
+          category: "seo",
           title: "Fotógrafo Gastronómico en Barcelona: ¿Por qué el 90% de las sesiones son ineficientes?",
           excerpt: "En ciudades competitivas como Barcelona, esperar 2 semanas por el retoque de un fotógrafo es perder cientos de pedidos.",
           slogan: "El tiempo es el ingrediente que nadie te devuelve. Cocina rápido, rescata más rápido.",
@@ -108,6 +124,7 @@ export const translations = {
         },
         {
           id: "marketing-guerrilla-hosteleria",
+          category: "marketing",
           title: "Marketing de Guerrilla para Hosteleros: La imagen que tu competencia no puede comprar",
           excerpt: "No necesitas un presupuesto de franquicia para tener fotos de estrella Michelin. Necesitas inteligencia técnica.",
           slogan: "Sé más listo que tu competencia, no más caro.",
@@ -117,6 +134,7 @@ export const translations = {
         },
         {
           id: "manual-no-shooting",
+          category: "tech",
           title: "Manual del 'No-Shooting': Cómo renovar tu carta en 15 minutos",
           excerpt: "Olvida los trípodes, los focos y las esperas. Aprende la técnica del 'disparo limpio' para enviarnos tus fotos.",
           slogan: "Tú cocinas, nosotros iluminamos. La simbiosis perfecta.",
@@ -126,6 +144,7 @@ export const translations = {
         },
         {
           id: "barcelona-gastro-tendencias-2026",
+          category: "marketing",
           title: "Barcelona Gastro-Visual: Tendencias 2026 para dominar el Eixample y Gràcia",
           excerpt: "Desde el brunch de Gràcia hasta las cenas de lujo del Eixample. Cómo adaptar tu estética al barrio.",
           slogan: "Cada barrio de Barcelona tiene su luz. Nosotros la inyectamos mediante IA.",
@@ -438,9 +457,17 @@ export const translations = {
       subtitle: "Image strategies and gastronomic marketing",
       readMore: "Read Full Report",
       back: "Back to Base",
+      categories: {
+        all: "All",
+        rescue: "Rescue",
+        seo: "SEO & Strategy",
+        tech: "AI Technique",
+        marketing: "Marketing"
+      },
       articles: [
         {
           id: "uci-fotografia-gastronomica",
+          category: "rescue",
           title: "The Food Photography ICU: Product Rescue 2026",
           excerpt: "We are not photographers. We don't come to portray your rooms or the soul of your kitchens. We come to save your mobile photos.",
           slogan: "Emergency surgery for dishes that need to sell right now.",
@@ -450,6 +477,7 @@ export const translations = {
         },
         {
           id: "ia-ventas-delivery",
+          category: "seo",
           title: "How AI Photography can double your UberEats sales",
           excerpt: "Discover why delivery app algorithms reward surgical lighting and how you can take advantage of it.",
           slogan: "You don't just sell food, you sell the craving to take a bite.",
@@ -459,6 +487,7 @@ export const translations = {
         },
         {
           id: "importancia-fondos",
+          category: "rescue",
           title: "The End of Noisy Backgrounds: Visual Clarity for Chefs",
           excerpt: "An exquisite dish on a messy table loses its value. Background extraction is the key to digital luxury.",
           slogan: "Your dish is the star. The rest is noise making you lose money.",
@@ -468,6 +497,7 @@ export const translations = {
         },
         {
           id: "metodo-chef-ia",
+          category: "tech",
           title: "Aesthetic Surgery for Digital Menus: The AI Chef Method",
           excerpt: "Discover how surgical retouching can raise your restaurant's average ticket without changing a single ingredient.",
           slogan: "Technical beauty is the fastest shortcut to profitability.",
@@ -477,6 +507,7 @@ export const translations = {
         },
         {
           id: "protocolo-autoridad-algoritmo",
+          category: "seo",
           title: "The Authority Protocol: Dominating the Google Algorithm in 2026",
           excerpt: "Why are some restaurants always at the top while others remain invisible? The answer lies in visual consistency.",
           slogan: "Google doesn't just read your reviews, it also analyzes your image authority.",
@@ -486,6 +517,7 @@ export const translations = {
         },
         {
           id: "movil-vs-reflex-ia",
+          category: "tech",
           title: "Mobile vs DSLR: Has Traditional Studio Photography Died?",
           excerpt: "In 2026, the best equipment isn't a €5,000 camera, but your smartphone combined with aggressive AI post-processing.",
           slogan: "The power of a Michelin studio in the palm of your hand.",
@@ -495,6 +527,7 @@ export const translations = {
         },
         {
           id: "psicologia-color-hambre",
+          category: "marketing",
           title: "Color Psychology: How to Hack Your Customers' Appetite",
           excerpt: "The difference between a boring dish and an irresistible one lies in white balance and selective saturation.",
           slogan: "We cook for the eyes before the palate.",
@@ -504,6 +537,7 @@ export const translations = {
         },
         {
           id: "rescate-fotos-clientes",
+          category: "rescue",
           title: "The Hidden Gold in Your Customers' Photos: UGC Rescue",
           excerpt: "Your customers upload horrible photos to Google Maps. Learn how to use them to your advantage to improve your online reputation.",
           slogan: "If your customer's photo is bad, it's the light's fault, not the dish. We fix it.",
@@ -513,6 +547,7 @@ export const translations = {
         },
         {
           id: "fotografo-gastronomico-barcelona-eficiencia",
+          category: "seo",
           title: "Gastronomic Photographer in Barcelona: Why 90% of Sessions are Inefficient",
           excerpt: "In competitive cities like Barcelona, waiting 2 weeks for a photographer's retouch is losing hundreds of orders.",
           slogan: "Time is the ingredient nobody gives back. Cook fast, rescue faster.",
@@ -522,6 +557,7 @@ export const translations = {
         },
         {
           id: "marketing-guerrilla-hosteleria",
+          category: "marketing",
           title: "Guerrilla Marketing for Hoteliers: The Image Your Competition Can't Buy",
           excerpt: "You don't need a franchise budget to have Michelin-star photos. You need technical intelligence.",
           slogan: "Be smarter than your competition, not more expensive.",
@@ -531,6 +567,7 @@ export const translations = {
         },
         {
           id: "manual-no-shooting",
+          category: "tech",
           title: "The 'No-Shooting' Manual: Renew Your Menu in 15 Minutes",
           excerpt: "Forget tripods, lights, and waiting. Learn the 'clean shot' technique to send us your photos.",
           slogan: "You cook, we light. The perfect symbiosis.",
@@ -540,6 +577,7 @@ export const translations = {
         },
         {
           id: "barcelona-gastro-tendencias-2026",
+          category: "marketing",
           title: "Barcelona Gastro-Visual: 2026 Trends to Dominate Eixample and Gràcia",
           excerpt: "From Gràcia's brunch to Eixample's luxury dinners. How to adapt your aesthetic to the neighborhood.",
           slogan: "Every Barcelona neighborhood has its light. We inject it via AI.",

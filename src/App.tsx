@@ -1087,6 +1087,7 @@ export default function App() {
 
   const [legalType, setLegalType] = useState<'terms' | 'privacy' | 'ip' | null>(null);
   const [selectedArticleId, setSelectedArticleId] = useState<string | null>(null);
+  const [selectedCategory, setSelectedCategory] = useState<string>('all');
   const [activeProtocol, setActiveProtocol] = useState<{title: string, details: string} | null>(null);
   const [showCookieBanner, setShowCookieBanner] = useState(false);
   const [showCookieModal, setShowCookieModal] = useState(false);
@@ -1402,18 +1403,37 @@ export default function App() {
             </div>
           </div>
 
+          <div className="flex flex-wrap items-center gap-4 mb-12">
+            {Object.entries(t.blog.categories).map(([key, label]: [string, any]) => (
+              <button
+                key={key}
+                onClick={() => setSelectedCategory(key)}
+                className={`text-[10px] font-black uppercase tracking-[0.2em] px-6 py-3 border transition-all ${
+                  selectedCategory === key 
+                    ? 'bg-brand-fg text-brand-bg border-brand-fg' 
+                    : 'bg-transparent text-brand-fg/40 border-brand-border hover:border-brand-fg/40'
+                }`}
+              >
+                {label}
+              </button>
+            ))}
+          </div>
+
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-            {t.blog.articles.map((article: any, idx: number) => (
+            {t.blog.articles
+              .filter((article: any) => selectedCategory === 'all' || article.category === selectedCategory)
+              .map((article: any, idx: number) => (
               <motion.div 
                 key={article.id}
                 initial={{ opacity: 0, y: 20 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true }}
+                animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: idx * 0.1 }}
                 whileHover={{ y: -5 }}
                 className="bg-brand-fg/[0.02] border border-brand-border p-10 flex flex-col items-start gap-4 hover:bg-brand-fg/[0.05] transition-all"
               >
-                <div className="text-[10px] uppercase tracking-[0.3em] font-black text-brand-fg/30">Rescate Log #0{idx + 1}</div>
+                <div className="text-[10px] uppercase tracking-[0.3em] font-black text-brand-fg/30">
+                  Rescate Log #{(t.blog.articles.findIndex((a: any) => a.id === article.id) + 1).toString().padStart(2, '0')}
+                </div>
                 <h3 className="text-xl font-black uppercase tracking-tight leading-tight">{article.title}</h3>
                 <p className="text-[14px] opacity-70 leading-relaxed italic">"{article.excerpt}"</p>
                 <button 
