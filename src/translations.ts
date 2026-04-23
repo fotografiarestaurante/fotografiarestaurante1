@@ -4,8 +4,8 @@ export type Language = 'es' | 'en' | 'fr' | 'it';
 export const translations = {
   es: {
     seo: {
-      description: "Especialistas en fotografía de restaurantes y fotografía gastronómica IA en Barcelona. Rescatamos tus fotos de móvil para UberEats, Glovo y JustEat en 48h. Retoque profesional gourmet.",
-      keywords: "fotografia restaurantes Barcelona, fotografia gastronomica IA, marketing digital restaurantes, marketing gastronomico, fotos comida UberEats, fotografia producto alimentacion, retoque fotografico gourmet, Barcelona food photography"
+      description: "Especialistas en fotografía de restaurantes y fotografía gastronómica IA. Rescatamos tus fotos de móvil para UberEats y Glovo en 48h. Retoque profesional gourmet en toda España.",
+      keywords: "fotografia restaurantes Madrid, Barcelona, Valencia, Sevilla, Zaragoza, Málaga, Murcia, Bilbao, Alicante, fotografia gastronomica IA España, retoque gourmet, fotos comida marketing"
     },
     header: {
       title: "FOTOGRAFÍA RESTAURANTE",

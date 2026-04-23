@@ -1792,6 +1792,11 @@ export default function App() {
           <Instagram size={12} />
           <span>@fotografiarestaurante</span>
         </motion.div>
+
+        {/* SEO On-Page (Virtually invisible for indexing) */}
+        <div className="absolute opacity-[0.01] pointer-events-none text-[1px] invisible md:visible -z-50 select-none overflow-hidden h-0 w-0">
+          Servicios de fotografía de restaurantes y gastronomía IA en toda España: Madrid, Barcelona, Valencia, Sevilla, Zaragoza, Málaga, Murcia, Palma, Las Palmas, Bilbao, Alicante, Córdoba, Valladolid, Vigo, Gijón, Hospitalet, Vitoria, A Coruña, Granada, Elche, Oviedo, Badalona, Terrassa, Cartagena, Jerez, Sabadell, Móstoles, Santa Cruz de Tenerife, Alcalá de Henares, Fuenlabrada, Leganés, Getafe, Alcorcón, Marbella, San Cristóbal de la Laguna, Dos Hermanas, Badajoz, Torrejón de Ardoz, Parla, Mataró, Algeciras, León, Alcobendas.
+        </div>
       </footer>
 
       <CookieModal 
