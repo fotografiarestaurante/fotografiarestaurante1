@@ -244,6 +244,14 @@ export const translations = {
       tagline: "Hecho con el horno encendido.",
       gmb: "GOOGLE BUSINESS"
     },
+    liveProof: {
+      title: "PRUEBA EN VIVO",
+      subtitle: "RESCATE EN TIEMPO REAL",
+      slogan: "Comprueba en vivo lo que podemos hacer",
+      beforeLabel: "Foto de montón",
+      afterLabel: "Una foto de 10",
+      tagline: "* Deslizamiento táctil activo para evaluación técnica"
+    },
     cookies: {
       bannerTitle: "Aviso de Privacidad",
       bannerText: "Utilizamos cookies propias y de terceros para optimizar tu experiencia en el quirófano y analizar el flujo de rescates gastronómicos.",
@@ -438,7 +446,7 @@ export const translations = {
   en: {
     seo: {
       description: "Restaurant photography and food photography specialists using advanced AI in Barcelona. We rescue mobile photos for UberEats, Glovo and Deliveroo in 48h. Professional gourmet retouching.",
-      keywords: "restaurant photography Barcelona, food photography IA, gastro marketing, digital marketing for restaurants, UberEats food photos, professional food retouching, Barcelona food stylist"
+      keywords: "restaurant photography Barcelona, food photography AI, gastro marketing, digital marketing for restaurants, UberEats food photos, professional food retouching, Barcelona food stylist"
     },
     header: {
       title: "RESTAURANT PHOTOGRAPHY",
@@ -482,7 +490,7 @@ export const translations = {
           excerpt: "Discover why delivery app algorithms reward surgical lighting and how you can take advantage of it.",
           slogan: "You don't just sell food, you sell the craving to take a bite.",
           image: "https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&q=80&w=1000",
-          imageAlt: "restaurant-photography-ia-ubereats-sales-growth-fotografiarestaurante-com.jpg",
+          imageAlt: "restaurant-photography-ai-ubereats-sales-growth-fotografiarestaurante-com.jpg",
           content: "In the saturated world of UberEats and Glovo, you only have 2 seconds to catch the attention of a hungry customer. Studies show that consistent lighting and enhanced textures increase click-through rates by 40%."
         },
         {
@@ -492,13 +500,13 @@ export const translations = {
           excerpt: "An exquisite dish on a messy table loses its value. Background extraction is the key to digital luxury.",
           slogan: "Your dish is the star. The rest is noise making you lose money.",
           image: "https://images.unsplash.com/photo-1476224483451-93c674ee5f60?auto=format&fit=crop&q=80&w=1000",
-          imageAlt: "food-photography-ia-background-removal-fotografiarestaurante-com.jpg",
+          imageAlt: "food-photography-ai-background-removal-fotografiarestaurante-com.jpg",
           content: "Many restaurants make the mistake of uploading photos with distracting backgrounds: used napkins, steel reflections, or harsh shadows. AI allows us to surgically extract the dish and place it in minimalist settings that raise the average ticket."
         },
         {
           id: "metodo-chef-ia",
           category: "tech",
-          title: "Aesthetic Surgery for Digital Menus: The AI Chef Method",
+          title: "Esthetic Surgery for Digital Menus: The AI Chef Method",
           excerpt: "Discover how surgical retouching can raise your restaurant's average ticket without changing a single ingredient.",
           slogan: "Technical beauty is the fastest shortcut to profitability.",
           image: "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?auto=format&fit=crop&q=80&w=1000",
@@ -522,7 +530,7 @@ export const translations = {
           excerpt: "In 2026, the best equipment isn't a €5,000 camera, but your smartphone combined with aggressive AI post-processing.",
           slogan: "The power of a Michelin studio in the palm of your hand.",
           image: "https://images.unsplash.com/photo-1512428559087-560fa5ceab42?auto=format&fit=crop&q=80&w=1000",
-          imageAlt: "mobile-food-photography-vs-dslr-ia-fotografiarestaurante-com.jpg",
+          imageAlt: "mobile-food-photography-vs-dslr-ai-fotografiarestaurante-com.jpg",
           content: "For decades, restaurants have depended on photographers loaded with lights and tripods that interrupted service. That's over. Today, a smartphone sensor captures enough information for our AI to reconstruct the scene as if it were lit by a professional."
         },
         {
@@ -562,7 +570,7 @@ export const translations = {
           excerpt: "You don't need a franchise budget to have Michelin-star photos. You need technical intelligence.",
           slogan: "Be smarter than your competition, not more expensive.",
           image: "https://images.unsplash.com/photo-1552566626-52f8b828add9?auto=format&fit=crop&q=80&w=1000",
-          imageAlt: "gastronomic-guerrilla-marketing-ia-fotografiarestaurante-com.jpg",
+          imageAlt: "gastronomic-guerrilla-marketing-ai-fotografiarestaurante-com.jpg",
           content: "Guerrilla marketing is based on using ingenuity to beat the budget. While your competition saves for months for one professional photo session, you can update your menu every week using fotografiarestaurante.com."
         },
         {
@@ -572,7 +580,7 @@ export const translations = {
           excerpt: "Forget tripods, lights, and waiting. Learn the 'clean shot' technique to send us your photos.",
           slogan: "You cook, we light. The perfect symbiosis.",
           image: "https://images.unsplash.com/photo-1466633364863-56722d3d152e?auto=format&fit=crop&q=80&w=1000",
-          imageAlt: "manual-fast-restaurant-photography-ia-fotografiarestaurante-com.jpg",
+          imageAlt: "manual-fast-restaurant-photography-ai-fotografiarestaurante-com.jpg",
           content: "Most manuals teach you to prepare a 4-hour session. We teach you how not to need it. For a perfect AI rescue, you only need natural window light, a neutral background, and a stable frame."
         },
         {
@@ -647,7 +655,7 @@ export const translations = {
       disclaimer: "* All images are the result of digital interventions on low-resolution source files."
     },
     lab: {
-      desc: "Our aesthetic surgeries are exclusively applied to gastronomic files (food). We do not intervene on premises, facades, or people. We rescue your digital culinary heritage.",
+      desc: "Our esthetic surgeries are exclusively applied to gastronomic files (food). We do not intervene on premises, facades, or people. We rescue your digital culinary heritage.",
       baseProtocol: "Base Protocols",
       postProcess: "Post-Processing"
     },
@@ -676,6 +684,14 @@ export const translations = {
       rights: "© 2026 Restaurant Photography. All rights reserved.",
       tagline: "Made with the oven on.",
       gmb: "GOOGLE BUSINESS"
+    },
+    liveProof: {
+      title: "LIVE PROOF",
+      subtitle: "REAL-TIME RESCUE",
+      slogan: "Check live what we can do",
+      beforeLabel: "Basic Snap",
+      afterLabel: "Top-Tier Shot",
+      tagline: "* Active touch swipe for technical evaluation"
     },
     cookies: {
       bannerTitle: "Privacy Notice",
@@ -835,37 +851,37 @@ export const translations = {
         title: "Reconstructive Tasting (1 Photo)",
         subtitle: "Digital ICU / Rescue Trial",
         price: "0€",
-        details: "[PRINCIPIOS]\nYour dish in the Digital ICU. We rescue that gastronomic gem hidden in a bad Google (GMB) or Instagram photo, or lost on your phone, before you commit to a full rescue.\n[INCLUSIONES]\n• Technical resuscitation: Adjusting textures, highlights, and the Chef's original volumes.\n• Surgical cleaning: Removing hands, messy tables, stains, or third parties.\n• Optimization: Adapting to Feed, Story, or Original in high resolution (PNG/JPG).\n[CONDICIONES]\n• Includes @fotografiarestaurante watermark.\n• Limit of 1 image per establishment.\n• Delivery time: Maximum 48 hours.\n[INSTRUCCIONES]\nAfter confirming this free order, contact us via Instagram to receive shipping instructions for:\n1. The original photograph (GMB, social media, or phone).\n2. Name of your restaurant, Instagram, contact person, and contact email.\n3. Desired format (Feed, Story, or Original)."
+        details: "[PRINCIPLES]\nYour dish in the Digital ICU. We rescue that gastronomic gem hidden in a bad Google (GMB) or Instagram photo, or lost on your phone, before you commit to a full rescue.\n[INCLUSIONS]\n• Technical resuscitation: Adjusting textures, highlights, and the Chef's original volumes.\n• Surgical cleaning: Removing hands, messy tables, stains, or third parties.\n• Optimization: Adapting to Feed, Story, or Original in high resolution (PNG/JPG).\n[CONDITIONS]\n• Includes @fotografiarestaurante watermark.\n• Limit of 1 image per establishment.\n• Delivery time: Maximum 48 hours.\n[INSTRUCTIONS]\nAfter confirming this free order, contact us via Instagram to receive shipping instructions for:\n1. The original photograph (GMB, social media, or phone).\n2. Name of your restaurant, Instagram, contact person, and contact email.\n3. Desired format (Feed, Story, or Original)."
       },
       {
         title: "Appetizer & Vermouth Peeling (5 Photos)",
         subtitle: "Rapid Asset Intervention",
         price: "100€",
-        details: "[PRINCIPIOS]\nFast intervention for high-rotation assets. Removal of visual noise in snacks and drinks. Focus on immediate freshness.\n[INCLUSIONES]\n• 5 complete technical interventions.\n• Ambient color correction.\n• Optimized formats for social media.\n[CONDICIONES]\n• No watermark.\n• Delivery in 72 hours.\n[INSTRUCCIONES]\nTo prioritize your order, the protocol is strictly as follows:\n1. IG CONTACT: Brief conversation via Instagram (@fotografiarestaurante) for initial basic audit.\n2. ORDER CONFIRMATION: Service is activated after secure payment validation on a payment platform.\n3. SEND YOUR PHOTOS: After paying for the contracted service, you will receive the technical shipping address.\n4. MANDATORY DATA: Include your restaurant name, Instagram, contact person, and contact email in the shipment."
+        details: "[PRINCIPLES]\nFast intervention for high-rotation assets. Removal of visual noise in snacks and drinks. Focus on immediate freshness.\n[INCLUSIONS]\n• 5 complete technical interventions.\n• Ambient color correction.\n• Optimized formats for social media.\n[CONDITIONS]\n• No watermark.\n• Delivery in 72 hours.\n[INSTRUCTIONS]\nTo prioritize your order, the protocol is strictly as follows:\n1. IG CONTACT: Brief conversation via Instagram (@fotografiarestaurante) for initial basic audit.\n2. ORDER CONFIRMATION: Service is activated after secure payment validation on a payment platform.\n3. SEND YOUR PHOTOS: After paying for the contracted service, you will receive the technical shipping address.\n4. MANDATORY DATA: Include your restaurant name, Instagram, contact person, and contact email in the shipment."
       },
       {
         title: "Tasting & Pairing Lifting (10 Photos)",
         subtitle: "Express Rescue Pack",
         price: "190€",
-        details: "[PRINCIPIOS]\nThe visual revolution for your restaurant: Studio quality without photographers on site. We transform your current menu into a high-impact sales tool using the content you already have.\n[INCLUSIONES]\n• Smart Criteria: Our technology decides the best perspective (Top, 45º, Front, or Detail) for maximum visual appetite.\n• Professional Quality: Perfect optimization for Web, Instagram, and Google (GMB).\n• ICU Guarantee: A single re-intervention included on the same image following your instructions if the result is not to your liking.\n[CONDICIONES]\n• No clutter: Does not require spotlights or sessions that stop your service.\n• Final Delivery: Once the final images are sent, no further changes are allowed.\n• Delivery time: 48-72 hours from material receipt and payment validation.\n[INSTRUCCIONES]\nTo prioritize your order, the protocol is strictly as follows:\n1. IG CONTACT: Brief conversation via Instagram (@fotografiarestaurante) for initial basic audit.\n2. ORDER CONFIRMATION: Service is activated after secure payment validation on a payment platform.\n3. SEND YOUR PHOTOS: After paying for the contracted service, you will receive the technical shipping address.\n4. MANDATORY DATA: Include your restaurant name, Instagram, contact person, and contact email in the shipment."
+        details: "[PRINCIPLES]\nThe visual revolution for your restaurant: Studio quality without photographers on site. We transform your current menu into a high-impact sales tool using the content you already have.\n[INCLUSIONS]\n• Smart Criteria: Our technology decides the best perspective (Top, 45º, Front, or Detail) for maximum visual appetite.\n• Professional Quality: Perfect optimization for Web, Instagram, and Google (GMB).\n• ICU Guarantee: A single re-intervention included on the same image following your instructions if the result is not to your liking.\n[CONDITIONS]\n• No clutter: Does not require spotlights or sessions that stop your service.\n• Final Delivery: Once the final images are sent, no further changes are allowed.\n• Delivery time: 48-72 hours from material receipt and payment validation.\n[INSTRUCTIONS]\nTo prioritize your order, the protocol is strictly as follows:\n1. IG CONTACT: Brief conversation via Instagram (@fotografiarestaurante) for initial basic audit.\n2. ORDER CONFIRMATION: Service is activated after secure payment validation on a payment platform.\n3. SEND YOUR PHOTOS: After paying for the contracted service, you will receive the technical shipping address.\n4. MANDATORY DATA: Include your restaurant name, Instagram, contact person, and contact email in the shipment."
       },
       {
         title: "Monthly Antiaging (30 Photos)",
         subtitle: "Smart Maintenance",
         price: "299€",
-        details: "[PRINCIPIOS]\nMonthly Maintenance Plan (30 operating room sessions). Keep your digital storefront alive, professional, and consistent. With this plan, you have a professional 'resuscitation' for every day of the month. Smart savings: Less than 10€ per catalog image.\n[INCLUSIONES]\n• One dish a day: 30 high-quality photographs ready to publish (Feed, Stories or GMB).\n• Smart Criteria: Our technology decides the best perspective (Top, 45º, Front, or Detail).\n• ICU Guarantee: 30 total re-intervention vouchers (max. 2 adjustments per image).\n[CONDICIONES]\n• You choose the material: Phone, staff, or customer photos.\n• Case Closure: Once final images are sent, no further changes are allowed.\n• Delivery time: 48-72 hours from each shipment's receipt.\n[INSTRUCCIONES]\nTo prioritize your order, the protocol is strictly as follows:\n1. IG CONTACT: Brief conversation via Instagram (@fotografiarestaurante) for initial basic audit.\n2. ORDER CONFIRMATION: The system activates your service month after validating secure payment on a payment platform.\n3. FILE UPLOAD: After paying for the service, you will receive the technical shipping address. Maximum 30 days to consume the 30 operating room sessions.\n4. MANDATORY DATA: Indicate your restaurant name, Instagram, contact person, and contact email."
+        details: "[PRINCIPLES]\nMonthly Maintenance Plan (30 operating room sessions). Keep your digital storefront alive, professional, and consistent. With this plan, you have a professional 'resuscitation' for every day of the month. Smart savings: Less than 10€ per catalog image.\n[INCLUSIONS]\n• One dish a day: 30 high-quality photographs ready to publish (Feed, Stories or GMB).\n• Smart Criteria: Our technology decides the best perspective (Top, 45º, Front, or Detail).\n• ICU Guarantee: 30 total re-intervention vouchers (max. 2 adjustments per image).\n[CONDITIONS]\n• You choose the material: Phone, staff, or customer photos.\n• Case Closure: Once final images are sent, no further changes are allowed.\n• Delivery time: 48-72 hours from each shipment's receipt.\n[INSTRUCTIONS]\nTo prioritize your order, the protocol is strictly as follows:\n1. IG CONTACT: Brief conversation via Instagram (@fotografiarestaurante) for initial basic audit.\n2. ORDER CONFIRMATION: The system activates your service month after validating secure payment on a payment platform.\n3. FILE UPLOAD: After paying for the service, you will receive the technical shipping address. Maximum 30 days to consume the 30 operating room sessions.\n4. MANDATORY DATA: Indicate your restaurant name, Instagram, contact person, and contact email."
       },
       {
         title: "Menu Bodyshaping (60 Photos)",
         subtitle: "Strategic Renovation",
         price: "499€",
-        details: "[PRINCIPIOS]\n'Menu Renovation' Pack. The definitive leap for seasonal changes or openings. Strategic intervention so your entire proposal looks like high-end cuisine quality. Includes free 4K Upgrade on 6 main images.\n[INCLUSIONES]\n• 60 Elite Rescues: Content to renew your menu all at once or over 2 months.\n• AI Perspective Control: Choose between Top, 45º, Front, Macro, or Diner's View.\n• GMB & Instagram Audit: We track customer photos to rescue the best ones.\n• ICU Guarantee: Re-intervention on up to 30 images (max. 3 adjustments per photo).\n[CONDICIONES]\n• Formats on Demand: Choose Original, Feed, or Vertical for each shot.\n• Consumption period: Maximum 60 days (2 months) to consume your 60 rescues.\n• Delivery time: 48-72 hours (4K images may require an extra 24h).\n[INSTRUCCIONES]\nTo prioritize your order, the protocol is strictly as follows:\n1. IG CONTACT: Brief conversation via Instagram (@fotografiarestaurante) for initial basic audit.\n2. ORDER CONFIRMATION: Service is activated after secure payment validation on a payment platform.\n3. MATERIAL SHIPMENT: After paying for the service, you will receive the technical shipping address.\n4. MANDATORY DATA: Include your restaurant name, Instagram, contact person, and contact email."
+        details: "[PRINCIPLES]\n'Menu Renovation' Pack. The definitive leap for seasonal changes or openings. Strategic intervention so your entire proposal looks like high-end cuisine quality. Includes free 4K Upgrade on 6 main images.\n[INCLUSIONS]\n• 60 Elite Rescues: Content to renew your menu all at once or over 2 months.\n• AI Perspective Control: Choose between Top, 45º, Front, Macro, or Diner's View.\n• GMB & Instagram Audit: We track customer photos to rescue the best ones.\n• ICU Guarantee: Re-intervention on up to 30 images (max. 3 adjustments per photo).\n[CONDITIONS]\n• Formats on Demand: Choose Original, Feed, or Vertical for each shot.\n• Consumption period: Maximum 60 days (2 months) to consume your 60 rescues.\n• Delivery time: 48-72 hours (4K images may require an extra 24h).\n[INSTRUCTIONS]\nTo prioritize your order, the protocol is strictly as follows:\n1. IG CONTACT: Brief conversation via Instagram (@fotografiarestaurante) for initial basic audit.\n2. ORDER CONFIRMATION: Service is activated after secure payment validation on a payment platform.\n3. MATERIAL SHIPMENT: After paying for the service, you will receive the technical shipping address.\n4. MANDATORY DATA: Include your restaurant name, Instagram, contact person, and contact email."
       },
       {
         title: "Full Treatment (120 Photos)",
         subtitle: "Annual Total Intervention",
         price: "799€",
-        details: "[PRINCIPIOS]\nThe Latent Archivist - Total Intervention. Audit and total execution of your Google and Instagram presence. The smartest investment: visual identity for a whole year (approx. 6.60€ per catalog image).\n[INCLUSIONES]\n• 120 Elite Rescues: Content to cover up to 4 months or renew your entire offer at once.\n• AI Perspective Control: Choose the view (Top, 45º, Front, Macro, or Table View).\n• 4K Upgrade (20%): We elevate 24 main images to ultra-high resolution for printing.\n• ICU Guarantee: Re-intervention on up to 60 images (max. 3 adjustments per photo).\n[CONDICIONES]\n• Formats on Demand: Choose Original, Feed, or Vertical for each shot.\n• Consumption period: Maximum 120 days (4 months) to consume your 120 rescues.\n• GMB & Instagram Audit: Massive tracking on Google and social media to locate assets.\n[INSTRUCCIONES]\nTo prioritize your order, the protocol is strictly as follows:\n1. IG CONTACT: Brief conversation via Instagram (@fotografiarestaurante) for initial basic audit.\n2. ORDER CONFIRMATION: Service is activated after secure payment validation on a payment platform.\n3. MATERIAL SHIPMENT: After paying for the service, you will receive the technical shipping address.\n4. MANDATORY DATA: Include your restaurant name, Instagram, contact person, and contact email."
+        details: "[PRINCIPLES]\nThe Latent Archivist - Total Intervention. Audit and total execution of your Google and Instagram presence. The smartest investment: visual identity for a whole year (approx. 6.60€ per catalog image).\n[INCLUSIONS]\n• 120 Elite Rescues: Content to cover up to 4 months or renew your entire offer at once.\n• AI Perspective Control: Choose the view (Top, 45º, Front, Macro, or Table View).\n• 4K Upgrade (20%): We elevate 24 main images to ultra-high resolution for printing.\n• ICU Guarantee: Re-intervention on up to 60 images (max. 3 adjustments per photo).\n[CONDITIONS]\n• Formats on Demand: Choose Original, Feed, or Vertical for each shot.\n• Consumption period: Maximum 120 days (4 months) to consume your 120 rescues.\n• GMB & Instagram Audit: Massive tracking on Google and social media to locate assets.\n[INSTRUCTIONS]\nTo prioritize your order, the protocol is strictly as follows:\n1. IG CONTACT: Brief conversation via Instagram (@fotografiarestaurante) for initial basic audit.\n2. ORDER CONFIRMATION: Service is activated after secure payment validation on a payment platform.\n3. MATERIAL SHIPMENT: After paying for the service, you will receive the technical shipping address.\n4. MANDATORY DATA: Include your restaurant name, Instagram, contact person, and contact email."
       }
     ]
   },
@@ -973,6 +989,14 @@ export const translations = {
       rights: "© 2026 Photographie de Restauration. Tous droits réservés.",
       tagline: "Fait avec le four allumé.",
       gmb: "GOOGLE BUSINESS"
+    },
+    liveProof: {
+      title: "PREUVE EN DIRECT",
+      subtitle: "SAUVETAGE EN TEMPS RÉEL",
+      slogan: "Vérifiez en direct ce que nous pouvons faire",
+      beforeLabel: "Photo banale",
+      afterLabel: "Une photo de 10",
+      tagline: "* Balayage tactile actif pour évaluation technique"
     },
     cookies: {
       bannerTitle: "Avis de Confidentialité",
@@ -1085,7 +1109,7 @@ export const translations = {
         title: "Perspective de la Caméra",
         subtitle: "Récit et Point de Vue",
         description: "L'angle détermine la façon dont le client se rapporte à la nourriture. Ce n'est pas seulement une position ; c'est une déclaration d'intention : de la majesté de la 'Prise Héroïque' à l'honnêteté de la 'Vue Frontale'.\n\nLa bonne perspective souligne le volume, le jus et la technique, guidant l'œil du convive vers la valeur réelle de votre patrimoine culinaire.",
-        options: ["Haut (Plongée)", "Héroïque à 45°", "Frontal (Naveau Yeux)", "Gros Plan (Macro)", "Point de Vue Client", "Auto-Perspective", "Original Préservé"]
+        options: ["Haut (Plongée)", "Héroïque à 45°", "Frontal (Niveau Yeux)", "Gros Plan (Macro)", "Point de Vue Client", "Auto-Perspective", "Original Préservé"]
       },
       {
         title: "Vaisselle Fine",
@@ -1097,15 +1121,15 @@ export const translations = {
     authorityProtocols: {
       nap: {
         title: "Sync NAP & Photo",
-        details: "[PRINCIPIOS]\nToute intervention visuelle est stérile si l'algorithme ne peut la localiser. Ce protocole cimente votre pertinence grâce à une synchronisation absolue de votre identité numérique.\n[INCLUSIONES]\n• Architecture NAP : Unification du Nom, de l'Adresse et du Téléphone dans tout l'écosystème Google.\n• Injection EXIF : Nous enregistrons des métadonnées avancées, des mots-clés et la paternité dans l'ADN de chaque image sauvée.\n• Géolocalisation Profonde : Marquage géographique précis pour dominer votre rayon de livraison et de visibilité.\n• Maîtrise des Catégories : Sélection technique des sous-secteurs dans GMB pour filtrer le trafic à forte intention.\n[CONDICIONES]\n• Protocole de configuration technique unique.\n• Livraison de l'audit de synchronisation final.\n[INSTRUCCIONES]\nAction requise : Après avoir formalisé le service, demandez le formulaire des actifs d'identité. Le processus prend 72h."
+        details: "[PRINCIPES]\nToute intervention visuelle est stérile si l'algorithme ne peut la localiser. Ce protocole cimente votre pertinence grâce à une synchronisation absolue de votre identité numérique.\n[INCLUSIONS]\n• Architecture NAP : Unification du Nom, de l'Adresse et du Téléphone dans tout l'écosystème Google.\n• Injection EXIF : Nous enregistrons des métadonnées avancées, des mots-clés et la paternité dans l'ADN de chaque image sauvée.\n• Géolocalisation Profonde : Marquage géographique précis pour dominer votre rayon de livraison et de visibilité.\n• Maîtrise des Catégories : Sélection technique des sous-secteurs dans GMB pour filtrer le trafic à forte intention.\n[CONDITIONS]\n• Protocole de configuration technique unique.\n• Livraison de l'audit de synchronisation final.\n[INSTRUCTIONS]\nAction requise : Après avoir formalisé le service, demandez le formulaire des actifs d'identité. Le processus prend 72h."
       },
       gmb: {
         title: "Gestion du Moteur de Visibilité",
-        details: "[PRINCIPIOS]\nL'autorité ne s'hérite pas, elle s'entretient. Nous transformons votre profil Google en une entité vivante, gérée chirurgicalement pour convertir chaque recherche en une réservation active.\n[INCLUSIONES]\n• Ingénierie des Avis : Réponse professionnelle quotidienne sous protocole de marque.\n• Flux d'Actualités : 2 publications techniques hebdomadaires avec un texte SEO à fort impact.\n• Hygiène de la Carte : Mise à jour constante des produits, prix et disponibilité sur GMB.\n• Suivi du Positionnement : Suivi mensuel de votre part de recherche locale.\n[CONDICIONES]\n• Abonnement actif sans engagement.\n• Nécessite un audit initial ou une exécution préalable de la Sync NAP.\n[INSTRUCCIONES]\nGestion déléguée : Une fois activé, nommez notre compte officiel comme gestionnaire de profil après le contact initial."
+        details: "[PRINCIPES]\nL'autorité ne s'hérite pas, elle s'entretient. Nous transformons votre profil Google en une entité vivante, gérée chirurgicalement pour convertir chaque recherche en une réservation active.\n[INCLUSIONS]\n• Ingénierie des Avis : Réponse professionnelle quotidienne sous protocole de marque.\n• Flux d'Actualités : 2 publications techniques hebdomadaires avec un texte SEO à fort impact.\n• Hygiène de la Carte : Mise à jour constante des produits, prix et disponibilité sur GMB.\n• Suivi du Positionnement : Suivi mensuel de votre part de recherche locale.\n[CONDITIONS]\n• Abonnement actif sans engagement.\n• Nécessite un audit initial ou une exécution préalable de la Sync NAP.\n[INSTRUCTIONS]\nGestion déléguée : Une fois activé, nommez notre compte officiel comme gestionnaire de profil après le contact initial."
       },
       identity: {
         title: "Identité Numérique & Branding",
-        details: "[PRINCIPIOS]\nNous imprégnons vos actifs de l'âme de votre marque. Il ne s'agit pas seulement d'un logo ; c'est s'assurer que chaque pixel respire votre philosophie gastronomique.\n[INCLUSIONES]\n• Intégration des Actifs : Mise en œuvre du logo et du filigrane avec une opacité intelligente.\n• Typographie d'Entreprise : Adaptation du texte à la police officielle de votre établissement.\n• Chromatisme de Marque : Ajustement des couleurs pour aligner la photo avec votre manuel d'identité.\n• Texte Stratégique : Textes courts à haute conversion (max 5 lignes) pour les réseaux sociaux.\n[CONDICIONES]\n• Protocole appliqué par lot d'images ou guide de style unique.\n• Livraison du manuel de style appliqué.\n[INSTRUCCIONES]\nEnvoyez votre manuel de marque ou votre logo au format vectoriel (SVG/AI) après la commande."
+        details: "[PRINCIPES]\nNous imprégnons vos actifs de l'âme de votre marque. Il ne s'agit pas seulement d'un logo ; c'est s'assurer que chaque pixel respire votre philosophie gastronomique.\n[INCLUSIONS]\n• Intégration des Actifs : Mise en œuvre du logo et du filigrane avec une opacité intelligente.\n• Typographie d'Entreprise : Adaptation du texte à la police officielle de votre établissement.\n• Chromatisme de Marque : Ajustement des couleurs pour aligner la photo avec votre manuel d'identité.\n• Texte Stratégique : Textes courts à haute conversion (max 5 lignes) pour les réseaux sociaux.\n[CONDITIONS]\n• Protocole appliqué par lot d'images ou guide de style unique.\n• Livraison du manuel de style appliqué.\n[INSTRUCTIONS]\nEnvoyez votre manuel de marque ou votre logo au format vectoriel (SVG/AI) après la commande."
       }
     },
     videoProtocols: {
@@ -1125,44 +1149,84 @@ export const translations = {
     legalContent: {
       terms: "1. Acceptation\nEn faisant appel à nos services numériques, le client accepte expressément les présentes conditions. Le protocole d'intervention technique commence immédiatement après la validation du paiement.\n2. Prestation du Service\nLes délais de livraison technique (48-72h) sont des estimations basées sur la complexité du sauvetage numérique et la charge du bloc opératoire. Ils ne constituent pas une obligation contractuelle de résultat en temps exact.\n3. Politique d'Annulation\nEn raison de la nature numérique et immédiate du service, aucun remboursement ou annulation n'est admis une fois que le Chef Digital a commencé le processus de réanimation des actifs.\n4. Propriété et Responsabilité\nLe client garantit posséder les droits d'exploitation des images originales envoyées. Photographie de Restauration n'est pas responsable des réclamations de tiers concernant l'utilisation de matériel non autorisé.",
       privacy: "1. Traitement des Données Sensibles\nNous traitons vos photographies comme du matériel hautement sensible. Les données personnelles et fichiers reçus sont utilisés exclusivement pour la gestion de la commande et la communication technique nécessaire au sauvetage.\n2. Protocole de Suppression Absolue\nUne fois l'intervention numérique terminée et la réception confirmée par le client, nous procédons à la suppression permanente de tous les fichiers originaux et traités de nos postes de travail. Aucune copie de sauvegarde ni duplicata n'est conservé après un délai de 7 jours suivant la livraison finale.\n3. Confidentialité Chirurgicale\nNous garantissons la non-cession de données à des tiers. Vos plats et secrets visuels sont protégés par un cryptage de bout en bout pendant le processus de transport numérique.\n4. Droits de la Personne Concernée\nVous pouvez demander l'accès, la rectification ou la suppression immédiate de votre historique de commande en envoyant un e-mail à notre adresse officielle.",
-      ip: "1. Transfert de Propriété\nAprès paiement intégral de la commande, la propriété intellectuelle des résultats traités est entièrement transférée au client pour un usage commercial illimité.\n2. Droit de Portfolio\nPhotographie de Restauration se réserve le droit d'utiliser les résultats visuels pour son portfolio commercial ou les réseaux sociaux, avec mention de l'auteur, sauf si le client en fait explicitement la demande écrite contraire.\n3. Intégrité de la Marque\nLe client s'engage à ne pas utiliser les résultats traités à des fins portant atteinte à la réputation du secteur gastronomique ou enfreignant les lois en vigueur."
+      ip: "1. Transfert de Propriété\nAprès paiement intégral de la commande, la propriété intellectuelle des résultats traités est entièrement transférée au client pour un usage commercial illimitato.\n2. Droit de Portfolio\nPhotographie de Restauration se réserve le droit d'utiliser les résultats visuels pour son portfolio commercial ou les réseaux sociaux, avec mention de l'auteur, sauf si le client en fait explicitement la demande écrite contraire.\n3. Intégrité de la Marque\nLe client s'engage à ne pas utiliser les résultats traités à des fins portant atteinte à la réputation du secteur gastronomique ou enfreignant les lois en vigueur."
+    },
+    blog: {
+      title: "LE BLOG DU CHIRURGIEN DIGITAL",
+      subtitle: "ARTICLES SUR LE SAUVETAGE ET L'ESTHÉTIQUE GASTRONOMIQUE",
+      categories: {
+        all: "TOUT",
+        ia: "IA & TECHNOLOGIE",
+        marketing: "MARKETING",
+        surgery: "CHIRURGIE VISUELLE"
+      },
+      readMore: "LIRE LA DIAGNOSE",
+      articles: [
+        {
+          id: "ia-vs-fotografia-tradicional",
+          title: "SAUVETAGE NUMÉRIQUE VS SESSIONS TRADITIONNELLES : QUELLE EST LA MEILLEURE OPTION ?",
+          excerpt: "Découvrez pourquoi vous n'avez plus besoin d'arrêter votre service pour avoir des photos de couverture. L'efficacité de l'IA face au coût du photographe traditionnel.",
+          date: "20 FÉV 2024",
+          category: "IA & TECHNOLOGIE",
+          image: "https://images.unsplash.com/photo-1551218808-94e220e031c2?auto=format&fit=crop&q=80&w=800",
+          imageAlt: "Comparaison entre photographie traditionnelle et sauvetage par IA"
+        },
+        {
+          id: "ia-ventas-delivery",
+          title: "IA : THÉRAPIE INTENSIVE POUR VOS PHOTOS UBEREATS ET GLOVO",
+          excerpt: "Comment multiplier vos commandes sur les plateformes de livraison sans cuisiner un seul plat de plus. Le pouvoir de l'appétit visuel numérique.",
+          date: "15 FÉV 2024",
+          category: "MARKETING",
+          image: "https://images.unsplash.com/photo-1526367790936-2319409893af?auto=format&fit=crop&q=80&w=800",
+          imageAlt: "Interface d'application de livraison optimisée avec des photos par AI"
+        },
+        {
+          id: "metodo-chef-ia",
+          title: "LA MÉTHODE : CHIRURGIE ESTHÉTIQUE POUR VOTRE CARTE DIGITALE",
+          excerpt: "Entrez dans notre laboratoire. Nous vous montrons comment nous appliquons la texturation, le ré-éclairage et l'extraction pour élever votre produit au rang d'œuvre d'art.",
+          date: "10 FÉV 2024",
+          category: "CHIRURGIE VISUELLE",
+          image: "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?auto=format&fit=crop&q=80&w=800",
+          imageAlt: "Processus de retouche gastronomique professionnelle"
+        }
+      ]
     },
     packs: [
       {
         title: "Dégustation Reconstructive (1 Photo)",
         subtitle: "Bloc Numérique / Essai de Sauvetage",
         price: "0€",
-        details: "[PRINCIPIOS]\nVotre plat au bloc numérique. Nous sauvons ce joyau gastronomique caché dans une mauvaise photo Google (GMB) ou Instagram, ou perdu sur votre téléphone, avant de vous engager dans un sauvetage complet.\n[INCLUSIONES]\n• Réanimation technique : Ajustement des textures, des reflets et des volumes originaux du Chef.\n• Nettoyage chirurgical : Retrait des mains, tables encombrées, taches ou tiers.\n• Optimisation : Adaptation pour Feed, Story ou Original en haute résolution (PNG/JPG).\n[CONDICIONES]\n• Inclut le filigrane @fotografiarestaurante.\n• Limite d'une image par établissement.\n• Délai de livraison : Maximum 48 heures.\n[INSTRUCCIONES]\nAprès avoir confirmé cette commande gratuite, contactez-nous via Instagram pour recevoir les instructions d'envoi pour :\n1. La photographie originale (GMB, réseaux sociaux ou téléphone).\n2. Nom de votre restaurant, Instagram, personne de contact et e-mail de contact.\n3. Format souhaité (Feed, Story ou Original)."
+        details: "[PRINCIPES]\nVotre plat au bloc numérique. Nous sauvons ce joyau gastronomique caché dans une mauvaise photo Google (GMB) ou Instagram, ou perdu sur votre téléphone, avant de vous engager dans un sauvetage complet.\n[INCLUSIONS]\n• Réanimation technique : Ajustement des textures, des reflets et des volumes originaux du Chef.\n• Nettoyage chirurgical : Retrait des mains, tables encombrées, taches ou tiers.\n• Optimisation : Adaptation pour Feed, Story ou Original en haute résolution (PNG/JPG).\n[CONDITIONS]\n• Inclut le filigrane @fotografiarestaurante.\n• Limite d'une image par établissement.\n• Délai de livraison : Maximum 48 heures.\n[INSTRUCTIONS]\nAprès avoir confirmé cette commande gratuite, contactez-nous via Instagram pour recevoir les instructions d'envoi pour :\n1. La photographie originale (GMB, réseaux sociaux ou téléphone).\n2. Nom de votre restaurant, Instagram, personne de contact et e-mail de contact.\n3. Format souhaité (Feed, Story ou Original)."
       },
       {
         title: "Peeling Apéritif & Vermouth (5 Photos)",
         subtitle: "Intervention Rapide sur Actifs",
         price: "100€",
-        details: "[PRINCIPIOS]\nIntervention rapide pour les actifs à rotation élevée. Suppression du bruit visuel dans les snacks et les boissons. Focus sur la fraîcheur immédiate.\n[INCLUSIONES]\n• 5 interventions techniques complètes.\n• Correction chromatique d'ambiance.\n• Formats optimisés pour les réseaux sociaux.\n[CONDICIONES]\n• Pas de filigrane.\n• Livraison en 72 heures.\n[INSTRUCCIONES]\nPour donner la priorité à votre commande, le protocole est strictement le suivant :\n1. CONTACT IG : Brève conversation via Instagram (@fotografiarestaurante) pour l'audit de base initial.\n2. CONFIRMATION DE COMMANDE : Le service est activé après validation du paiement sécurisé sur une plateforme.\n3. ENVOI DES PHOTOS : Après avoir payé le service contracté, vous recevrez l'adresse technique d'expédition.\n4. DONNÉES OBLIGATOIRES : Incluez le nom de votre restaurant, Instagram, personne de contact et e-mail dans l'envoi."
+        details: "[PRINCIPES]\nIntervention rapide pour les actifs à rotation élevée. Suppression du bruit visuel dans les snacks et les boissons. Focus sur la fraîcheur immédiate.\n[INCLUSIONS]\n• 5 interventions techniques complètes.\n• Correction chromatique d'ambiance.\n• Formats optimisés pour les réseaux sociaux.\n[CONDITIONS]\n• Pas de filigrane.\n• Livraison en 72 heures.\n[INSTRUCTIONS]\nPour donner la priorité à votre commande, le protocole est strictement le suivant :\n1. CONTACT IG : Brève conversation via Instagram (@fotografiarestaurante) pour l'audit de base initial.\n2. CONFIRMATION DE COMMANDE : Le service est activé après validation du paiement sécurisé sur une plateforme.\n3. ENVOI DES PHOTOS : Après avoir payé le service contracté, vous recevrez l'adresse technique d'expédition.\n4. DONNÉES OBLIGATOIRES : Incluez le nom de votre restaurant, Instagram, personne de contact et e-mail dans l'envoi."
       },
       {
         title: "Lifting Dégustation & Accord (10 Photos)",
         subtitle: "Pack Sauvetage Express",
         price: "190€",
-        details: "[PRINCIPIOS]\nLa révolution visuelle pour votre restaurant : Qualité studio sans photographes sur place. Nous transformons votre carte actuelle en un outil de vente à fort impact en utilisant le contenu que vous possédez déjà.\n[INCLUSIONES]\n• Critère Intelligent : Notre technologie décide de la meilleure perspective (Zénithale, 45º, Frontale ou Détail) pour un appétit visuel maximum.\n• Qualité Professionnelle : Optimisation parfaite pour le Web, Instagram et Google (GMB).\n• Garantie Bloc : Une seule ré-intervention incluse sur la même image en suivant vos instructions si le résultat ne vous convient pas.\n[CONDICIONES]\n• Sans encombrement : Ne nécessite ni projecteurs ni sessions qui interrompent votre service.\n• Livraison Finale : Une fois les images finales envoyées, aucune modification supplémentaire n'est autorisée.\n• Délai de livraison : 48-72 heures à compter de la réception du matériel et de la validation du paiement.\n[INSTRUCCIONES]\nPour donner la priorité à votre commande, le protocole est strictement le suivant :\n1. CONTACT IG : Brève conversation via Instagram (@fotografiarestaurante) pour l'audit de base initial.\n2. CONFIRMATION DE COMMANDE : Le service est activé après validation du paiement sécurisé sur une plateforme.\n3. ENVOI DES PHOTOS : Après avoir payé le service contracté, vous recevrez l'adresse technique d'expédition.\n4. DONNÉES OBLIGATOIRES : Incluez le nom de votre restaurant, Instagram, personne de contact et e-mail dans l'envoi."
+        details: "[PRINCIPES]\nLa révolution visuelle pour votre restaurant : Qualité studio sans photographes sur place. Nous transformons votre carte actuelle en un outil de vente à fort impact en utilisant le contenu que vous possédez déjà.\n[INCLUSIONS]\n• Critère Intelligent : Notre technologie décide de la meilleure perspective (Zénithale, 45º, Frontale ou Détail) pour un appétit visuel maximum.\n• Qualité Professionnelle : Optimisation parfaite pour le Web, Instagram et Google (GMB).\n• Garantie Bloc : Une seule ré-intervention incluse sur la même image en suivant vos instructions si le résultat ne vous convient pas.\n[CONDITIONS]\n• Sans encombrement : Ne nécessite ni projecteurs ni sessions qui interrompent votre service.\n• Livraison Finale : Une fois les images finales envoyées, aucune modification supplémentaire n'est autorisée.\n• Délai de livraison : 48-72 heures à compter de la réception du matériel et de la validation du paiement.\n[INSTRUCTIONS]\nPour donner la priorité à votre commande, le protocole est strictement le suivant :\n1. CONTACT IG : Brève conversation via Instagram (@fotografiarestaurante) pour l'audit de base initial.\n2. CONFIRMATION DE COMMANDE : Le service est activé après validation du paiement sécurisé sur une plateforme.\n3. ENVOI DES PHOTOS : Après avoir payé le service contracté, vous recevrez l'adresse technique d'expédition.\n4. DONNÉES OBLIGATOIRES : Incluez le nom de votre restaurant, Instagram, personne de contact et e-mail dans l'envoi."
       },
       {
         title: "Anti-âge Mensuel (30 Photos)",
         subtitle: "Maintenance Intelligente",
         price: "299€",
-        details: "[PRINCIPIOS]\nPlan de Maintenance Mensuelle (30 séances au bloc). Gardez votre vitrine numérique vivante, professionnelle et constante. Avec ce plan, vous bénéficiez d'une 'réanimation' professionnelle pour chaque jour du mois. Économies intelligentes : Moins de 10 € par image de catalogue.\n[INCLUSIONES]\n• Un plat par jour : 30 photographies de haute qualité prêtes à être publiées (Feed, Stories ou GMB).\n• Critère Intelligent : Notre technologie décide de la meilleure perspective (Zénithale, 45º, Frontale ou Détail).\n• Garantie Bloc : 30 bons de ré-intervention totale (max. 2 ajustements par image).\n[CONDICIONES]\n• Vous choisissez le matériel : Photos de téléphone, du personnel ou des clients.\n• Clôture du Dossier : Une fois les images finales envoyées, aucune modification supplémentaire n'est autorisée.\n• Délai de livraison : 48-72 heures après réception de chaque envoi.\n[INSTRUCCIONES]\nPour donner la priorité à votre commande, le protocole est strictement le suivant :\n1. CONTACT IG : Brève conversation via Instagram (@fotografiarestaurante) pour l'audit de base initial.\n2. CONFIRMATION DE COMMANDE : Le système active votre mois de service après confirmation du paiement sécurisé.\n3. TÉLÉCHARGEMENT DES FICHIERS : Après paiement, vous recevrez l'adresse technique d'expédition. Maximum 30 jours pour consommer les 30 séances.\n4. DONNÉES OBLIGATOIRES : Indiquez le nom de votre restaurant, Instagram, personne de contact et e-mail."
+        details: "[PRINCIPES]\nPlan de Maintenance Mensuelle (30 séances au bloc). Gardez votre vitrine numérique vivante, professionnelle et constante. Avec ce plan, vous bénéficiez d'une 'réanimation' professionnelle pour chaque jour du mois. Économies intelligentes : Moins de 10 € par image de catalogue.\n[INCLUSIONS]\n• Un plat par jour : 30 photographies de haute qualité prêtes à être publiées (Feed, Stories ou GMB).\n• Critère Intelligent : Notre technologie décide de la meilleure perspective (Zénithale, 45º, Frontale ou Détail).\n• Garantie Bloc : 30 bons de ré-intervention totale (max. 2 ajustements par image).\n[CONDITIONS]\n• Vous choisissez le matériel : Photos de téléphone, du personnel ou des clients.\n• Clôture du Dossier : Une fois les images finales envoyées, aucune modification supplémentaire n'est autorisée.\n• Délai de livraison : 48-72 heures après réception de chaque envoi.\n[INSTRUCTIONS]\nPour donner la priorité à votre commande, le protocole est strictement le suivant :\n1. CONTACT IG : Brève conversation via Instagram (@fotografiarestaurante) pour l'audit de base initial.\n2. CONFIRMATION DE COMMANDE : Le système active votre mois de service après confirmation du paiement sécurisé.\n3. TÉLÉCHARGEMENT DES FICHIERS : Après paiement, vous recevrez l'adresse technique d'expédition. Maximum 30 jours pour consommer les 30 séances.\n4. DONNÉES OBLIGATOIRES : Indiquez le nom de votre restaurant, Instagram, personne de contact et e-mail."
       },
       {
         title: "Remodelage de Carte (60 Photos)",
         subtitle: "Rénovation Stratégique",
         price: "499€",
-        details: "[PRINCIPIOS]\nPack 'Rénovation de Carte'. Le saut définitif pour les changements de saison ou les ouvertures. Intervention stratégique pour que l'ensemble de votre proposition ait la qualité de la haute cuisine. Inclut une mise à niveau 4K gratuite sur 6 images principales.\n[INCLUSIONES]\n• 60 Sauvetages d'Élite : Du contenu pour renouveler votre carte d'un coup ou sur 2 mois.\n• Contrôle de Perspective IA : Choisissez entre Zénithale, 45º, Frontale, Macro ou Vue du Client.\n• Audit GMB & Instagram : Nous suivons les photos des clients pour sauver les meilleures.\n• Garantie Bloc : Ré-intervention sur jusqu'à 30 images (max. 3 ajustements par photo).\n[CONDICIONES]\n• Formats à la Carte : Choisissez Original, Feed ou Vertical pour chaque prise.\n• Période de consommation : Maximum 60 jours (2 mois) pour consommer vos 60 sauvetages.\n• Délai de livraison : 48-72 heures (les images 4K peuvent nécessiter 24h supplémentaires).\n[INSTRUCCIONES]\nPour donner la priorité à votre commande, le protocole est strictement le suivant :\n1. CONTACT IG : Brève conversation via Instagram (@fotografiarestaurante) pour l'audit de base initial.\n2. CONFIRMATION DE COMMANDE : Le service est activé après validation du paiement sécurisé sur une plateforme.\n3. ENVOI DU MATÉRIEL : Après avoir payé le service, vous recevrez l'adresse technique d'expédition.\n4. DONNÉES OBLIGATOIRES : Incluez le nom de votre restaurant, Instagram, personne de contact et e-mail."
+        details: "[PRINCIPES]\nPack 'Rénovation de Carte'. Le saut définitif pour les changements de saison ou les ouvertures. Intervention stratégique pour que l'ensemble de votre proposition ait la qualité de la haute cuisine. Inclut une mise à niveau 4K gratuite sur 6 images principales.\n[INCLUSIONS]\n• 60 Sauvetages d'Élite : Du contenu pour renouveler votre carte d'un coup ou sur 2 mois.\n• Contrôle de Perspective IA : Choisissez entre Zénithale, 45º, Frontale, Macro ou Vue du Client.\n• Audit GMB & Instagram : Nous suivons les photos des clients pour sauver les meilleures.\n• Garantie Bloc : Ré-intervention sur jusqu'à 30 images (max. 3 ajustements par photo).\n[CONDITIONS]\n• Formats à la Carte : Choisissez Original, Feed ou Vertical pour chaque prise.\n• Période de consommation : Maximum 60 jours (2 mois) pour consommer vos 60 sauvetages.\n• Délai de livraison : 48-72 heures (les images 4K peuvent nécessiter 24h supplémentaires).\n[INSTRUCTIONS]\nPour donner la priorité à votre commande, le protocole est strictement le suivant :\n1. CONTACT IG : Brève conversation via Instagram (@fotografiarestaurante) pour l'audit de base initial.\n2. CONFIRMATION DE COMMANDE : Le service est activé après validation du paiement sécurisé sur une plateforme.\n3. ENVOI DU MATÉRIEL : Après avoir payé le service, vous recevrez l'adresse technique d'expédition.\n4. DONNÉES OBLIGATOIRES : Incluez le nom de votre restaurant, Instagram, personne de contact et e-mail."
       },
       {
         title: "Traitement Intégral (120 Photos)",
         subtitle: "Intervention Totale Annuelle",
         price: "799€",
-        details: "[PRINCIPIOS]\nL'Archiviste Latent - Intervention Totale. Audit et exécution totale de votre présence sur Google et Instagram. L'investissement le plus intelligent : identité visuelle pour toute une année (environ 6,60 € par image).\n[INCLUSIONES]\n• 120 Sauvetages d'Élite : Du contenu pour couvrir jusqu'à 4 mois ou renouveler toute votre offre d'un coup.\n• Contrôle de Perspective IA : Choisissez la vue (Zénithale, 45º, Frontale, Macro ou Vue de Table).\n• Mise à niveau 4K (20%) : Nous élevons 24 images principales en ultra-haute résolution pour l'impression.\n• Garantie Bloc : Ré-intervention sur jusqu'à 60 images (max. 3 ajustements par photo).\n[CONDICIONES]\n• Formats à la Carte : Choisissez Original, Feed ou Vertical pour chaque prise.\n• Période de consommation : Maximum 120 jours (4 mois) pour consommer vos 120 sauvetages.\n• Audit GMB & Instagram : Suivi massif sur Google et les réseaux sociaux pour localiser les actifs.\n[INSTRUCCIONES]\nPour donner la priorité à votre commande, le protocole est strictement le suivant :\n1. CONTACT IG : Brève conversation via Instagram (@fotografiarestaurante) pour l'audit de base initial.\n2. CONFIRMATION DE COMMANDE : Le service est activé après validation du paiement sécurisé sur une plateforme.\n3. ENVOI DU MATÉRIEL : Après avoir payé le service, vous recevrez l'adresse technique d'expédition.\n4. DONNÉES OBLIGATOIRES : Incluez le nom de votre restaurant, Instagram, personne de contact et e-mail."
+        details: "[PRINCIPES]\nL'Archiviste Latent - Intervention Totale. Audit et exécution totale de votre présence sur Google et Instagram. L'investissement le plus intelligent : identité visuelle pour toute une année (environ 6,60 € par image).\n[INCLUSIONS]\n• 120 Sauvetages d'Élite : Du contenu pour couvrir jusqu'à 4 mois ou renouveler toute votre offre d'un coup.\n• Contrôle de Perspective IA : Choisissez la vue (Zénithale, 45º, Frontale, Macro ou Vue de Table).\n• Mise à niveau 4K (20%) : Nous élevons 24 images principales en ultra-haute résolution pour l'impression.\n• Garantie Bloc : Ré-intervention sur jusqu'à 60 images (max. 3 ajustements par photo).\n[CONDITIONS]\n• Formats à la Carte : Choisissez Original, Feed ou Vertical pour chaque prise.\n• Période de consommation : Maximum 120 jours (4 mois) pour consommer vos 120 sauvetages.\n• Audit GMB & Instagram : Suivi massif sur Google et les réseaux sociaux pour localiser les actifs.\n[INSTRUCTIONS]\nPour donner la priorité à votre commande, le protocole est strictement le suivant :\n1. CONTACT IG : Brève conversation via Instagram (@fotografiarestaurante) pour l'audit de base initial.\n2. CONFIRMATION DE COMMANDE : Le service est activé après validation du paiement sécurisé sur une plateforme.\n3. ENVOI DU MATÉRIEL : Après avoir payé le service, vous recevrez l'adresse technique d'expédition.\n4. DONNÉES OBLIGATOIRES : Incluez le nom de votre restaurant, Instagram, personne de contact et e-mail."
       }
     ]
   },
@@ -1255,7 +1319,7 @@ export const translations = {
       ariaInstrucciones: "Istruzioni tecniche per l'ordine",
       submit: "CONSULENZA IN CUCINA",
       submitSuccess: "Comanda inviata con successo. Lo Chef Digitale esaminerà presto la tua richiesta.",
-      disclaimer: "Riceverete una respuesta dopo la validazione tecnica dello Chef Digitale.",
+      disclaimer: "Riceverete una risposta dopo la validazione tecnica dello Chef Digitale.",
       tallyId: "0Qjpz9"
     },
     consultancy: {
@@ -1270,6 +1334,14 @@ export const translations = {
       rights: "© 2026 Fotografia per Ristoranti. Tutti i diritti riservati.",
       tagline: "Fatto con il forno acceso.",
       gmb: "GOOGLE BUSINESS"
+    },
+    liveProof: {
+      title: "PROVA DAL VIVO",
+      subtitle: "SALVATAGGIO IN TEMPO REALE",
+      slogan: "Verifica dal vivo cosa possiamo fare",
+      beforeLabel: "Foto di routine",
+      afterLabel: "Una foto da 10",
+      tagline: "* Scorrimento touch attivo per valutazione tecnica"
     },
     cookies: {
       bannerTitle: "Informativa sulla Privacy",
@@ -1363,7 +1435,7 @@ export const translations = {
         title: "Laboratorio di Luce",
         subtitle: "Volume e Psicologia",
         description: "La luce è lo strumento chirurgico più potente. Riapplichiamo la luce ai vostri piatti per evidenziare texture e colori che il sensore di un cellulare non può catturare.\n\nColore emozionale e inquadratura tecnica. La luce frontale, laterale o di sfondo viene applicata in base all'obiettivo di vendita di ogni asset.",
-        options: ["Luce Laterale (Texture)", "Luce Frontale (Chiarezza)", "Bagliore di Candela", "Contrasto Drammatico", "Bianco Minimale", "Nero Assoluto", "Umami Rosso", "Ounno Moody"]
+        options: ["Luce Laterale (Texture)", "Luce Frontale (Chiarezza)", "Bagliore di Candela", "Contrasto Drammatico", "Bianco Minimale", "Nero Assoluto", "Umami Rosso", "Autunno Moody"]
       },
       {
         title: "Psicologia del Colore",
@@ -1401,7 +1473,7 @@ export const translations = {
       },
       identity: {
         title: "Identità Digitale & Branding",
-        details: "[PRINCIPI]\nDotiamo i vostri asset dell'anima del vostro marchio. Non si tratta solo di mettere un logo; è assicurarsi che ogni pixel respiri la vostra filosofia gastronomica.\n[INCLUSIONS]\n• Integrazione degli Asset: Implementazione di loghi e filigrane con opacità intelligente.\n• Tipografia Aziendale: Adattamento del testo al carattere ufficiale del vostro locale.\n• Cromatismo del Marchio: Regolazione fine dei colori per allineare la foto al vostro manuale di identità.\n• Copy Strategico: Testi brevi ad alta conversione (max 5 righe) per i social.\n[CONDIZIONI]\n• Protocollo applicato per lotto di immagini o guida di stile unica.\n• Consegna del manuale di stile applicato.\n[ISTRUZIONI]\nInviate il vostro manuale di marca o il logo in formato vettoriale (SVG/AI) dopo l'assunzione."
+        details: "[PRINCIPI]\nDotiamo i vostri asset dell'anima del vostro marchio. Non si tratta solo di mettere un logo; è assicurarsi che ogni pixel respiri la vostra filosofia gastronomica.\n[INCLUSIONI]\n• Integrazione degli Asset: Implementazione di loghi e filigrane con opacitá intelligente.\n• Tipografia Aziendale: Adattamento del testo al carattere ufficiale del vostro locale.\n• Cromatismo del Marchio: Regolazione fine dei colori per allineare la foto al vostro manuale di identitá.\n• Copy Strategico: Testi brevi ad alta conversione (max 5 righe) per i social.\n[CONDIZIONI]\n• Protocollo applicato per lotto di immagini o guida di stile unica.\n• Consegna del manuale di stile applicato.\n[ISTRUZIONI]\nInviate il vostro manuale di marca o il logo in formato vettoriale (SVG/AI) dopo l'assunzione."
       }
     },
     videoProtocols: {
@@ -1420,45 +1492,85 @@ export const translations = {
     },
     legalContent: {
       terms: "1. Accettazione\nAssumendo i nostri servizi digitali, il cliente accetta espressamente le presenti condizioni. Il protocollo di intervento tecnico inizia immediatamente dopo la convalida del pagamento.\n2. Prestazione del Servizio\nI tempi di consegna tecnica (48-72 ore) sono stime basate sulla complessità del salvataggio digitale e sul carico della sala operatoria. Non costituiscono un obbligo contrattuale di risultato in tempi esatti.\n3. Politica di Cancellazione\nA causa della natura digitale e immediata del servizio, non sono ammessi rimborsi o cancellazioni una volta che lo Chef Digitale ha iniziato il processo di rianimazione degli asset.\n4. Proprietà e Responsabilità\nIl cliente garantisce di possedere i diritti di sfruttamento delle immagini originali inviate. Fotografia per Ristoranti non è responsabile per reclami di terzi riguardanti l'uso di materiale non autorizzato.",
-      privacy: "1. Trattamento dei Dati Sensibili\nTrattiamo le tue fotografie come materiale altamente sensibile. I dati personali e i file ricevuti vengono utilizzati esclusivamente per la gestione dell'ordine e la comunicazione tecnica necessaria per il salvataggio.\n2. Protocollo di Cancellazione Assoluta\nUna vez completado l'intervento digitale e confermata la ricezione da parte del cliente, procediamo alla cancellazione permanente di tutti i file originali ed elaborati dalle nostre postazioni di lavoro. Non vengono conservate copie di sicurezza, backup o duplicati dopo 7 giorni dalla consegna finale.\n3. Riservatezza Chirurgica\nGarantiamo la non cessione dei dati a terzi. I tuoi piatti e i tuoi segreti visivi sono protetti da crittografia end-to-end durante il processo di trasporto digitale.\n4. Diritti dell'Interessato\nPuoi richiedere l'accesso, la rettifica o la cancellazione immediata della tua cronologia ordini inviando un'e-mail al nostro indirizzo ufficiale.",
+      privacy: "1. Trattamento dei Dati Sensibili\nTrattiamo le tue fotografie come materiale altamente sensibile. I dati personali e i file ricevuti vengono utilizzati esclusivamente per la gestione dell'ordine e la comunicazione tecnica necessaria per il salvataggio.\n2. Protocollo di Cancellazione Assoluta\nUna volta completato l'intervento digitale e confermata la ricezione da parte del cliente, procediamo alla cancellazione permanente di tutti i file originali ed elaborati dalle nostre postazioni di lavoro. Non vengono conservate copie di sicurezza, backup o duplicati dopo 7 giorni dalla consegna finale.\n3. Riservatezza Chirurgica\nGarantiamo la non cessione dei dati a terzi. I tuoi piatti e i tuoi segreti visivi sono protetti da crittografia end-to-end durante il processo di trasporto digitale.\n4. Diritti dell'Interessato\nPuoi richiedere l'accesso, la rettifica o la cancellazione immediata della tua cronologia ordini inviando un'e-mail al nostro indirizzo ufficiale.",
       ip: "1. Trasferimento di Proprietà\nDopo il pagamento completo dell'ordine, la proprietà intellettuale dei risultati elaborati viene trasferita integralmente al cliente per uso commerciale illimitato.\n2. Diritto di Portfolio\nFotografia per Ristoranti si riserva il diritto di utilizzare i risultati visivi per il proprio portfolio commerciale o sui social media, sempre menzionando l'autore, a meno che il cliente non richieda esplicitamente e per iscritto il contrario.\n3. Integrità del Marchio\nIl cliente si impegna a non utilizzare i risultati elaborati per scopi che danneggino la reputazione del settore gastronomico o violino le leggi vigenti."
+    },
+    blog: {
+      title: "IL BLOG DEL CHIRURGO DIGITALE",
+      subtitle: "ARTICOLI SUL SALVATAGGIO E L'ESTETICA GASTRONOMICA",
+      categories: {
+        all: "TUTTO",
+        ia: "IA & TECNOLOGIA",
+        marketing: "MARKETING",
+        surgery: "CHIRURGIA VISIVA"
+      },
+      readMore: "LEGGI LA DIAGNOSI",
+      articles: [
+        {
+          id: "ia-vs-fotografia-tradicional",
+          title: "SALVATAGGIO DIGITALE VS SESSIONI TRADIZIONALI: QUAL È L'OPZIONE MIGLIORE?",
+          excerpt: "Scoprite perché non è più necessario interrompere il servizio per avere foto di alta qualità. L'efficienza dell'IA rispetto al costo del fotografo tradizionale.",
+          date: "20 FEB 2024",
+          category: "IA & TECNOLOGIA",
+          image: "https://images.unsplash.com/photo-1551218808-94e220e031c2?auto=format&fit=crop&q=80&w=800",
+          imageAlt: "Confronto tra fotografia tradizionale e salvataggio tramite AI"
+        },
+        {
+          id: "ia-ventas-delivery",
+          title: "IA: TERAPIA INTENSIVA PER LE VOSTRE FOTO UBEREATS E GLOVO",
+          excerpt: "Come moltiplicare i vostri ordini sulle piattaforme di delivery senza cucinare un solo piatto in più. Il potere dell'appetito visivo digitale.",
+          date: "15 FEB 2024",
+          category: "MARKETING",
+          image: "https://images.unsplash.com/photo-1526367790936-2319409893af?auto=format&fit=crop&q=80&w=800",
+          imageAlt: "Interfaccia dell'app di consegna ottimizzata con foto AI"
+        },
+        {
+          id: "metodo-chef-ia",
+          title: "IL METODO: CHIRURGIA ESTETICA PER IL VOSTRO MENU DIGITALE",
+          excerpt: "Entrate nel nostro laboratorio. Vi mostriamo come applichiamo texturing, re-illumination ed estrazione per elevare il vostro prodotto a opera d'arte.",
+          date: "10 FEB 2024",
+          category: "CHIRURGIA VISIVA",
+          image: "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?auto=format&fit=crop&q=80&w=800",
+          imageAlt: "Processo di fotoritocco gastronomico professionale"
+        }
+      ]
     },
     packs: [
       {
         title: "Degustazione Ricostruttiva (1 Foto)",
         subtitle: "Terapia Intensiva Digitale / Prova di Salvataggio",
         price: "0€",
-        details: "[PRINCIPIOS]\nIl vostro piatto in Terapia Intensiva Digitale. Salviamo quel gioiello gastronomico nascosto in una brutta foto di Google (GMB) o Instagram, o persa nel cellulare, prima di impegnarvi in un salvataggio completo.\n[INCLUSIONES]\n• Rianimazione tecnica: Regolazione di texture, riflessi e volumi originali dello Chef.\n• Pulizia chirurgica: Rimozione di mani, tavoli disordinati, macchie o terze parti.\n• Ottimizzazione: Adattamento per Feed, Story o Originale in alta risoluzione (PNG/JPG).\n[CONDICIONES]\n• Include filigrana @fotografiarestaurante.\n• Limite di 1 immagine per locale.\n• Tempi di consegna: Massimo 48 ore.\n[INSTRUCCIONES]\nDopo aver confermato questo ordine gratuito, contattateci tramite Instagram per ricevere le istruzioni di invio per:\n1. La fotografia originale (GMB, social o cellulare).\n2. Nome del ristorante, Instagram, persona di contatto e e-mail di contatto.\n3. Formato desiderato (Feed, Story o Originale)."
+        details: "[PRINCIPI]\nIl vostro piatto in Terapia Intensiva Digitale. Salviamo quel gioiello gastronomico nascosto in una brutta foto di Google (GMB) o Instagram, o persa nel cellulare, prima di impegnarvi in un salvataggio completo.\n[INCLUSIONI]\n• Rianimazione tecnica: Regolazione di texture, riflessi e volumi originali dello Chef.\n• Pulizia chirurgica: Rimozione di mani, tavoli disordinati, macchie o terze parti.\n• Ottimizzazione: Adattamento per Feed, Story o Originale in alta risoluzione (PNG/JPG).\n[CONDIZIONI]\n• Include filigrana @fotografiarestaurante.\n• Limite di 1 immagine per locale.\n• Tempi di consegna: Massimo 48 ore.\n[ISTRUZIONI]\nDopo aver confermato questo ordine gratuito, contattateci tramite Instagram per ricevere le istruzioni di invio per:\n1. La fotografia originale (GMB, social o cellulare).\n2. Nome del ristorante, Instagram, persona di contatto e e-mail di contatto.\n3. Formato desiderato (Feed, Story o Originale)."
       },
       {
         title: "Peeling Aperitivo & Vermouth (5 Foto)",
         subtitle: "Intervento Rapido sugli Asset",
         price: "100€",
-        details: "[PRINCIPIOS]\nIntervento rapido per asset ad alta rotazione. Rimozione del rumore visivo in snack e bevande. Focus sulla freschezza immediata.\n[INCLUSIONES]\n• 5 interventi tecnici completi.\n• Correzione cromatica ambientale.\n• Formati ottimizzati per i social.\n[CONDICIONES]\n• Senza filigrana.\n• Consegna in 72 ore.\n[INSTRUCCIONES]\nPer dare priorità al vostro ordine, il protocollo è rigorosamente il seguente:\n1. CONTATTO IG: Breve conversazione via Instagram (@fotografiarestaurante) per l'audit di base iniziale.\n2. CONFERMA DELL'ORDINE: Il servizio viene attivato dopo la convalida del pagamento sicuro su una piattaforma.\n3. INVIATE LE VOSTRE FOTO: Dopo aver pagato il servizio contrattato, riceverete l'indirizzo tecnico di spedizione.\n4. DATI OBBLIGATORI: Includete il nome del ristorante, Instagram, persona di contatto e e-mail nella spedizione."
+        details: "[PRINCIPI]\nIntervento rapido per asset ad alta rotazione. Rimozione del rumore visivo in snack e bevande. Focus sulla freschezza immediata.\n[INCLUSIONI]\n• 5 interventi tecnici completi.\n• Correzione cromatica ambientale.\n• Formati ottimizzati per i social.\n[CONDIZIONI]\n• Senza filigrana.\n• Consegna in 72 ore.\n[ISTRUZIONI]\nPer dare priorità al vostro ordine, il protocollo è rigorosamente il seguente:\n1. CONTATTO IG: Breve conversazione via Instagram (@fotografiarestaurante) per l'audit di base iniziale.\n2. CONFERMA DELL'ORDINE: Il servizio viene attivato dopo la convalida del pagamento sicuro su una piattaforma.\n3. INVIATE LE VOSTRE FOTO: Dopo aver pagato il servizio contrattato, riceverete l'indirizzo tecnico di spedizione.\n4. DATI OBBLIGATORI: Includete il nome del ristorante, Instagram, persona di contatto e e-mail nella spedizione."
       },
       {
         title: "Lifting Degustazione & Abbinamento (10 Foto)",
         subtitle: "Pack Salvataggio Express",
         price: "190€",
-        details: "[PRINCIPIOS]\nLa rivoluzione visiva per il vostro ristorante: Qualità da studio senza fotografi in sala. Trasformiamo il vostro menu attuale in uno strumento di vendita ad alto impatto utilizzando i contenuti che già possedete.\n[INCLUSIONES]\n• Criterio Intelligente: La nostra tecnologia decide la migliore prospettiva (Zenitale, 45º, Frontale o Dettaglio) per il massimo appetito visivo.\n• Qualità Professionale: Ottimizzazione perfetta per Web, Instagram e Google (GMB).\n• Garanzia Sala: Un singolo re-intervento incluso sulla stessa immagine seguendo le vostre indicazioni se il risultato non è di vostro gradimento.\n[CONDICIONES]\n• Senza ingombri: Non richiede faretti o sessioni che interrompano il servizio.\n• Consegna Finale: Una volta inviate le immagini definitive, no sono consentite ulteriori modifiche.\n• Tempi di consegna: 48-72 ore dal ricevimento del materiale e dalla convalida del pagamento.\n[INSTRUCCIONES]\nPer dare priorità al vostro ordine, il protocollo è rigorosamente il seguente:\n1. CONTATTO IG: Breve conversazione via Instagram (@fotografiarestaurante) per l'audit di base iniziale.\n2. CONFERMA DELL'ORDINE: Il servizio viene attivato dopo la convalida del pagamento sicuro su una piattaforma.\n3. INVIATE LE VOSTRE FOTO: Dopo aver pagato il servicio contrattato, riceverete l'indirizzo tecnico di spedizione.\n4. DATI OBBLIGATORI: Includete il nome del ristorante, Instagram, persona di contatto e e-mail nella spedizione."
+        details: "[PRINCIPI]\nLa rivoluzione visiva per il vostro ristorante: Qualità da studio senza fotografi in sala. Trasformiamo il vostro menu attuale in uno strumento di vendita ad alto impatto utilizzando i contenuti che già possedete.\n[INCLUSIONI]\n• Criterio Intelligente: La nostra tecnologia decide la migliore prospettiva (Zenitale, 45º, Frontale o Dettaglio) per il massimo appetito visivo.\n• Qualità Professionale: Ottimizzazione perfetta per Web, Instagram e Google (GMB).\n• Garanzia Sala: Un singolo re-intervento incluso sulla stessa immagine seguendo le vostre indicazioni se il risultato non è di vostro gradimento.\n[CONDIZIONI]\n• Senza ingombri: Non richiede faretti o sessioni che interrompano il servizio.\n• Consegna Finale: Una volta inviate le immagini definitive, non sono consentite ulteriori modifiche.\n• Tempi di consegna: 48-72 ore dal ricevimento del materiale e dalla convalida del pagamento.\n[ISTRUZIONI]\nPer dare priorità al vostro ordine, il protocollo è rigorosamente il seguente:\n1. CONTATTO IG: Breve conversazione via Instagram (@fotografiarestaurante) per l'audit di base iniziale.\n2. CONFERMA DELL'ORDINE: Il servizio viene attivato dopo la convalida del pagamento sicuro su una piattaforma.\n3. INVIATE LE VOSTRE FOTO: Dopo aver pagato il servizio contrattato, riceverete l'indirizzo tecnico di spedizione.\n4. DATI OBBLIGATORI: Includete il nome del ristorante, Instagram, persona di contatto e e-mail nella spedizione."
       },
       {
         title: "Anti-aging Mensile (30 Foto)",
         subtitle: "Manutenzione Intelligente",
         price: "299€",
-        details: "[PRINCIPIOS]\nPiano di Manutenzione Mensile (30 sessioni in sala operatoria). Mantenete la vostra vetrina digitale viva, professionale e costante. Con questo piano, avrete una 'rianimazione' professionale per ogni giorno del mese. Risparmio intelligente: Meno di 10 € per immagine di catalogo.\n[INCLUSIONES]\n• Un piatto al giorno: 30 fotografie di alta qualità pronte per la pubblicazione (Feed, Stories o GMB).\n• Criterio Intelligente: La nostra tecnologia decide la migliore prospettiva (Zenitale, 45º, Frontale o Dettaglio).\n• Garanzia Sala: 30 voucher per re-intervento totale (max. 2 modifiche per immagine).\n[CONDICIONES]\n• Scegliete voi il materiale: Foto da cellulare, dello staff o dei clienti.\n• Chiusura del Caso: Una volta inviate le immagini definitive, no sono consentite ulteriori modifiche.\n• Tempi di consegna: 48-72 ore dal ricevimento di ogni spedizione.\n[INSTRUCCIONES]\nPer dare priorità al vostro ordine, il protocollo è rigorosamente il seguente:\n1. CONTATTO IG: Breve conversazione via Instagram (@fotografiarestaurante) per l'audit di base iniziale.\n2. CONFERMA DELL'ORDINE: Il sistema attiva il mese di servizio dopo aver convalidato il pagamento sicuro.\n3. CARICAMENTO FILE: Dopo il pagamento, riceverete l'indirizzo tecnico di spedizione. Massimo 30 giorni per consumare le 30 sessioni.\n4. DATI OBBLIGATORI: Indicate il nome del ristorante, Instagram, persona di contatto e e-mail."
+        details: "[PRINCIPI]\nPiano di Manutenzione Mensile (30 sessioni in sala operatoria). Mantenete la vostra vetrina digitale viva, professionale e costante.\n[INCLUSIONI]\n• Un piatto al giorno: 30 fotografie di alta qualità pronte per la pubblicazione (Feed, Stories o GMB).\n• Criterio Intelligente: La nostra tecnologia decide la migliore prospettiva (Zenitale, 45º, Frontale o Dettaglio).\n• Garanzia Sala: 30 voucher per re-intervento totale (max. 2 modifiche per immagine).\n[CONDIZIONI]\n• Scegliete voi il materiale: Foto da cellulare, dello staff o dei clienti.\n• Chiusura del Caso: Una volta inviate le immagini definitive, non sono consentite ulteriori modifiche.\n• Tempi di consegna: 48-72 ore dal ricevimento di ogni spedizione.\n[ISTRUZIONI]\nPer dare priorità al vostro ordine, il protocollo è rigorosamente il seguente:\n1. CONTATTO IG: Breve conversazione via Instagram (@fotografiarestaurante) per l'audit di base iniziale.\n2. CONFERMA DELL'ORDINE: Il sistema attiva il mese di servizio dopo aver convalidato il pagamento sicuro.\n3. CARICAMENTO FILE: Dopo il pagamento, riceverete l'indirizzo tecnico di spedizione. Massimo 30 giorni per consumare le 30 sessioni.\n4. DATI OBBLIGATORI: Indicate il nome del ristorante, Instagram, persona di contatto e e-mail."
       },
       {
         title: "Bodyshaping del Menu (60 Foto)",
         subtitle: "Rinnovamento Strategico",
         price: "499€",
-        details: "[PRINCIPIOS]\nPack 'Rinnovamento del Menu'. Il salto definitivo per cambi di stagione o aperture. Intervento strategico affinché tutta la vostra proposta abbia la qualità dell'alta cucina. Include l'Upgrade 4K gratuito su 6 immagini principali.\n[INCLUSIONES]\n• 60 Salvataggi d'Élite: Contenuti per rinnovare il menu tutto in una volta o in 2 mesi.\n• Controllo Prospettiva IA: Scegliete tra Zenitale, 45º, Frontale, Macro o Vista del Cliente.\n• Audit GMB & Instagram: Monitoriamo le foto dei clienti per salvare le migliori.\n• Garanzia Sala: Re-intervento su un massimo di 30 immagini (max. 3 modifiche per foto).\n[CONDICIONES]\n• Formati on Demand: Scegliete Originale, Feed o Verticale per ogni scatto.\n• Periodo di consumo: Massimo 60 giorni (2 mesi) per consumare i 60 salvataggi.\n• Tempi di consegna: 48-72 ore (le immagini 4K possono richiedere 24 ore extra).\n[INSTRUCCIONES]\nPer dare priorità al vostro ordine, il protocollo è rigorosamente il seguente:\n1. CONTATTO IG: Breve conversazione via Instagram (@fotografiarestaurante) per l'audit de base iniziale.\n2. CONFERMA DELL'ORDINE: Il servizio viene attivato dopo la convalida del pagamento sicuro su una piattaforma.\n3. INVIO DEL MATERIALE: Dopo il pagamento, riceverete l'indirizzo tecnico di spedizione.\n4. DATI OBBLIGATORI: Includete il nome del ristorante, Instagram, persona di contatto e e-mail."
+        details: "[PRINCIPI]\nPack 'Rinnovamento del Menu'. Il salto definitivo per cambi di stagione o aperture. Intervento strategico affinché tutta la vostra proposta abbia la qualità dell'alta cucina. Include l'Upgrade 4K gratuito su 6 immagini principali.\n[INCLUSIONI]\n• 60 Salvataggi d'Élite: Contenuti per rinnovare il menu tutto in una volta o in 2 mesi.\n• Controllo Prospettiva IA: Scegliete tra Zenitale, 45º, Frontale, Macro o Vista del Cliente.\n• Audit GMB & Instagram: Monitoriamo le foto dei clienti per salvare le migliori.\n• Garanzia Sala: Re-intervento su un massimo di 30 immagini (max. 3 modifiche per foto).\n[CONDIZIONI]\n• Formati on Demand: Scegliete Originale, Feed o Verticale per ogni scatto.\n• Periodo di consumo: Massimo 60 giorni (2 mesi) per consumare i 60 salvataggi.\n• Tempi di consegna: 48-72 ore (le immagini 4K possono richiedere 24 ore extra).\n[ISTRUZIONI]\nPer dare priorità al vostro ordine, il protocollo è rigorosamente il seguente:\n1. CONTATTO IG: Breve conversazione via Instagram (@fotografiarestaurante) per l'audit di base iniziale.\n2. CONFERMA DELL'ORDINE: Il servizio viene attivato dopo la convalida del pagamento sicuro su una piattaforma.\n3. INVIO DEL MATERIALE: Dopo il pagamento, riceverete l'indirizzo tecnico di spedizione.\n4. DATI OBBLIGATORI: Includete il nome del ristorante, Instagram, persona di contatto e e-mail."
       },
       {
         title: "Trattamento Integrale (120 Foto)",
         subtitle: "Intervento Totale Annuale",
         price: "799€",
-        details: "[PRINCIPIOS]\nL'Archivista Latente - Intervento Totale. Audit ed esecuzione totale della vostra presenza su Google e Instagram. L'investimento più intelligente: identità visiva per un anno intero (circa 6,60 € per immagine).\n[INCLUSIONES]\n• 120 Salvataggi d'Elite: Contenuti per coprire fino a 4 mesi o rinnovare l'intera offerta in una volta sola.\n• Controllo Prospettiva IA: Scegliete la vista (Zenitale, 45º, Frontale, Macro o Vista Tavolo).\n• Upgrade 4K (20%): Eleviamo 24 immagini principali in altissima risoluzione per la stampa.\n• Garanzia Sala: Re-intervento su un massimo di 60 immagini (max. 3 modifiche per foto).\n[CONDICIONES]\n• Formati on Demand: Scegliete Originale, Feed o Verticale per ogni scatto.\n• Periodo di consumo: Massimo 120 giorni (4 mesi) per consumare i vostri 120 salvataggi.\n• Audit GMB & Instagram: Monitoraggio massiccio su Google e social media per localizzare gli asset.\n[INSTRUCCIONES]\nPer dare priorità al vostro ordine, il protocollo è rigorosamente il seguente:\n1. CONTATTO IG: Breve conversazione via Instagram (@fotografiarestaurante) per l'audit di base iniziale.\n2. CONFERMA DELL'ORDINE: Il servizio viene attivato dopo la convalida del pagamento sicuro su una piattaforma.\n3. INVIO DEL MATERIALE: Dopo aver pagato il servizio, riceverete l'indirizzo tecnico di spedizione.\n4. DATI OBBLIGATORI: Includete il nome del vostro ristorante, Instagram, persona di contatto e e-mail."
+        details: "[PRINCIPI]\nL'Archivista Latente - Intervento Totale. Audit ed esecuzione totale della vostra presenza su Google e Instagram. L'investimento più intelligente: identità visiva per un anno intero (circa 6,60 € per immagine).\n[INCLUSIONI]\n• 120 Salvataggi d'Elite: Contenuti per coprire fino a 4 mesi o rinnovare l'intera offerta in una volta sola.\n• Controllo Prospettiva IA: Scegliete la vista (Zenitale, 45º, Frontale, Macro o Vista Tavolo).\n• Upgrade 4K (20%): Eleviamo 24 immagini principali in altissima risoluzione per la stampa.\n• Garanzia Sala: Re-intervento su un massimo di 60 immagini (max. 3 modifiche per foto).\n[CONDIZIONI]\n• Formati on Demand: Scegliete Originale, Feed o Verticale per ogni scatto.\n• Periodo di consumo: Massimo 120 giorni (4 mesi) per consumare i vostri 120 salvataggi.\n• Audit GMB & Instagram: Monitoraggio massiccio su Google e social media per localizzare gli asset.\n[ISTRUZIONI]\nPer dare priorità al vostro ordine, il protocollo è rigorosamente il seguente:\n1. CONTATTO IG: Breve conversazione via Instagram (@fotografiarestaurante) per l'audit di base iniziale.\n2. CONFERMA DELL'ORDINE: Il servizio viene attivato dopo la convalida del pagamento sicuro su una piattaforma.\n3. INVIO DEL MATERIALE: Dopo aver pagato il servizio, riceverete l'indirizzo tecnico di spedizione.\n4. DATI OBBLIGATORI: Includete il nome del vostro ristorante, Instagram, persona di contatto e e-mail."
       }
     ]
   }

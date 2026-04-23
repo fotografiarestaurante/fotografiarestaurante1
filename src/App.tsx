@@ -162,7 +162,23 @@ const LanguageSwitcher = ({ current, onChange }: { current: Language, onChange: 
   );
 };
 
-const BeforeAfterSlider = ({ t }: { t: any }) => {
+const BeforeAfterSlider = ({ 
+  t, 
+  beforeUrl, 
+  afterUrl, 
+  beforeLabel, 
+  afterLabel,
+  tagline,
+  aspectRatio = "aspect-[4/5] sm:aspect-square lg:aspect-[9/16]"
+}: { 
+  t: any, 
+  beforeUrl?: string, 
+  afterUrl?: string, 
+  beforeLabel?: string, 
+  afterLabel?: string,
+  tagline?: string,
+  aspectRatio?: string
+}) => {
   const [sliderPos, setSliderPos] = useState(60);
   const containerRef = useRef<HTMLDivElement>(null);
 
@@ -174,60 +190,70 @@ const BeforeAfterSlider = ({ t }: { t: any }) => {
     setSliderPos(Math.min(Math.max(position, 0), 100));
   };
 
-  return (
-    <Viewfinder className="w-full aspect-[4/5] sm:aspect-square lg:aspect-[9/16] mb-6 shadow-xl">
-      <div 
-        ref={containerRef}
-        className="relative w-full h-full bg-brand-fg/5 overflow-hidden cursor-ew-resize select-none border border-brand-border"
-        onMouseMove={(e) => (e.buttons === 1 || e.type === 'mousedown') && handleMove(e)}
-        onTouchMove={handleMove}
-        onMouseDown={handleMove}
-      >
-        {/* After (Color) - Always full width background */}
-        <div className="absolute inset-0">
-          <img 
-            src="https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?auto=format&fit=crop&q=80&w=1000" 
-            alt={t.common.sliderAfter} 
-            className="w-full h-full object-cover"
-            referrerPolicy="no-referrer"
-          />
-          <div className="absolute top-[20px] md:top-[30px] right-[20px] md:right-[30px] z-30 text-brand-fg text-[9px] md:text-[10px] font-black uppercase tracking-[0.3em] bg-brand-bg/80 px-2 py-1">
-            AFTER [8K]
-          </div>
-        </div>
+  const finalBeforeUrl = beforeUrl || "https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?auto=format&fit=crop&q=80&w=1000&sat=-100&bri=-20";
+  const finalAfterUrl = afterUrl || "https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?auto=format&fit=crop&q=80&w=1000";
+  const finalBeforeLabel = beforeLabel || "BEFORE [RAW]";
+  const finalAfterLabel = afterLabel || "AFTER [8K]";
 
-        {/* Before (B&W) - Overlaid with controllable width */}
+  return (
+    <div className="flex flex-col gap-4">
+      <Viewfinder className={`w-full ${aspectRatio} shadow-xl`}>
         <div 
-          className="absolute inset-y-0 left-0 overflow-hidden z-20 pointer-events-none"
-          style={{ width: `${sliderPos}%` }}
+          ref={containerRef}
+          className="relative w-full h-full bg-brand-fg/5 overflow-hidden cursor-ew-resize select-none border border-brand-border"
+          onMouseMove={(e) => (e.buttons === 1 || e.type === 'mousedown') && handleMove(e)}
+          onTouchMove={handleMove}
+          onMouseDown={handleMove}
         >
-          <div className="absolute inset-0 w-[1000%] h-full"> 
-            {/* The inner div is much wider to ensure the image doesn't squash, but we use calc or fixed width trick */}
-            {/* Actually, a cleaner way is using object-fit cover and relative positioning */}
+          {/* After (Color) - Always full width background */}
+          <div className="absolute inset-0">
             <img 
-              src="https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?auto=format&fit=crop&q=80&w=1000&sat=-100&bri=-20" 
-              alt={t.common.sliderBefore} 
-              className="absolute inset-0 h-full object-cover max-w-none"
-              style={{ width: containerRef.current ? `${containerRef.current.offsetWidth}px` : '1000px' }}
+              src={finalAfterUrl} 
+              alt={t.common.sliderAfter} 
+              className="w-full h-full object-cover"
               referrerPolicy="no-referrer"
             />
+            <div className="absolute top-[20px] md:top-[30px] right-[20px] md:right-[30px] z-30 text-brand-fg text-[9px] md:text-[10px] font-black uppercase tracking-[0.3em] bg-brand-bg/80 px-2 py-1">
+              {finalAfterLabel}
+            </div>
           </div>
-          <div className="absolute top-[20px] md:top-[30px] left-[20px] md:left-[30px] z-30 text-white text-[9px] md:text-[10px] font-black uppercase tracking-[0.3em] bg-black/40 px-2 py-1">
-            BEFORE [RAW]
-          </div>
-        </div>
 
-        {/* Handle */}
-        <div 
-          className="absolute top-0 bottom-0 w-[2px] bg-brand-fg z-30"
-          style={{ left: `${sliderPos}%` }}
-        >
-          <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-8 h-8 rounded-full bg-brand-fg text-brand-bg flex items-center justify-center shadow-xl border-4 border-brand-bg/20">
-            <Maximize2 size={12} className="rotate-45" />
+          {/* Before (B&W or original) - Overlaid with controllable width */}
+          <div 
+            className="absolute inset-y-0 left-0 overflow-hidden z-20 pointer-events-none border-r border-brand-fg/50"
+            style={{ width: `${sliderPos}%` }}
+          >
+            <div className="absolute inset-0 w-[1000%] h-full"> 
+              <img 
+                src={finalBeforeUrl} 
+                alt={t.common.sliderBefore} 
+                className="absolute inset-0 h-full object-cover max-w-none"
+                style={{ width: containerRef.current ? `${containerRef.current.offsetWidth}px` : '1000px' }}
+                referrerPolicy="no-referrer"
+              />
+            </div>
+            <div className="absolute top-[20px] md:top-[30px] left-[20px] md:left-[30px] z-30 text-white text-[9px] md:text-[10px] font-black uppercase tracking-[0.3em] bg-black/40 px-2 py-1">
+              {finalBeforeLabel}
+            </div>
+          </div>
+
+          {/* Handle */}
+          <div 
+            className="absolute top-0 bottom-0 w-[2px] bg-brand-fg z-30"
+            style={{ left: `${sliderPos}%` }}
+          >
+            <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-8 h-8 rounded-full bg-brand-fg text-brand-bg flex items-center justify-center shadow-xl border-4 border-brand-bg/20">
+              <Maximize2 size={12} className="rotate-45" />
+            </div>
           </div>
         </div>
-      </div>
-    </Viewfinder>
+      </Viewfinder>
+      {tagline && (
+        <p className="text-[14px] font-black uppercase tracking-tighter text-center mt-2 italic drop-shadow-sm">
+          {tagline}
+        </p>
+      )}
+    </div>
   );
 };
 
@@ -1213,7 +1239,11 @@ export default function App() {
         </div>
         
         <div className="mt-8">
-          <BeforeAfterSlider t={t} />
+          <BeforeAfterSlider 
+            t={t} 
+            beforeLabel={t.liveProof.beforeLabel} 
+            afterLabel={t.liveProof.afterLabel}
+          />
         </div>
       </aside>
 
@@ -1308,6 +1338,36 @@ export default function App() {
             {t.gallery.disclaimer}
           </p>
         </div>
+
+        {/* Live Proof Section */}
+        <section className="mb-24 py-16 bg-brand-fg/5 -mx-10 px-10 border-y border-brand-border overflow-hidden">
+          <div className="max-w-4xl mx-auto">
+            <div className="flex flex-col items-center text-center mb-12">
+              <div className="flex items-center gap-2 mb-4">
+                <div className="w-1 h-4 bg-brand-fg" />
+                <h2 className="text-[10px] font-black text-brand-fg tracking-[0.3em] uppercase block">
+                  {t.liveProof.title}
+                </h2>
+              </div>
+              <h3 className="text-3xl md:text-5xl font-black uppercase tracking-tighter mb-4 leading-none">
+                {t.liveProof.subtitle}
+              </h3>
+              <p className="text-[14px] md:text-[18px] opacity-70 italic font-medium uppercase tracking-widest px-4">
+                {t.liveProof.slogan}
+              </p>
+            </div>
+
+            <BeforeAfterSlider 
+              t={t}
+              beforeUrl="https://res.cloudinary.com/dsahovs5z/image/upload/q_auto/f_auto/v1776986622/enhanced-image-1775560540228_q4ofc5.webp"
+              afterUrl="https://res.cloudinary.com/dsahovs5z/image/upload/q_auto/f_auto/v1776987095/enhanced-image-1775560899143_x7pb06.webp"
+              beforeLabel={t.liveProof.beforeLabel}
+              afterLabel={t.liveProof.afterLabel}
+              aspectRatio="aspect-square md:aspect-[16/9]"
+              tagline={t.liveProof.tagline}
+            />
+          </div>
+        </section>
 
         {/* Testimonials Section */}
         <Testimonials t={t} />
