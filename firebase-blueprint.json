@@ -1,0 +1,23 @@
+{
+  "entities": {
+    "Comanda": {
+      "title": "Comanda",
+      "description": "Una consulta o solicitud de servicio de fotografía.",
+      "type": "object",
+      "properties": {
+        "restaurante": { "type": "string", "description": "Nombre del restaurante" },
+        "responsable": { "type": "string", "description": "Nombre de la persona de contacto" },
+        "instrucciones": { "type": "string", "description": "Detalles o instrucciones adicionales" },
+        "language": { "type": "string", "description": "Idioma del usuario" },
+        "createdAt": { "type": "string", "format": "date-time", "description": "Fecha de creación" }
+      },
+      "required": ["restaurante", "responsable", "instrucciones", "language", "createdAt"]
+    }
+  },
+  "firestore": {
+    "/comandas/{comandaId}": {
+      "schema": "Comanda",
+      "description": "Colección de comandas enviadas por clientes."
+    }
+  }
+}

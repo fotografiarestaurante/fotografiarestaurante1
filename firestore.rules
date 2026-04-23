@@ -1,0 +1,37 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    // Catch-all: default deny
+    match /{document=**} {
+      allow read, write: if false;
+    }
+
+    // --- Helper Primitives ---
+    function isSignedIn() { return request.auth != null; }
+    function incoming() { return request.resource.data; }
+    function isValidId(id) { 
+      return id is string 
+             && id.size() <= 128 
+             && id.matches('^[a-zA-Z0-9_\\\\-]+$'); 
+    }
+
+    // --- Comanda Logic ---
+    function isValidComanda(data) {
+      return data.keys().hasAll(['restaurante', 'responsable', 'instrucciones', 'language', 'createdAt'])
+             && data.keys().size() == 5
+             && data.restaurante is string && data.restaurante.size() <= 500
+             && data.responsable is string && data.responsable.size() <= 200
+             && data.instrucciones is string && data.instrucciones.size() <= 2000
+             && data.language in ['es', 'en', 'fr', 'it']
+             && data.createdAt == request.time;
+    }
+
+    match /comandas/{comandaId} {
+      // Allows creating a comanda without auth (since it's a lead form)
+      allow create: if isValidId(comandaId) && isValidComanda(incoming());
+      
+      // Strict: no public read, update or delete
+      allow get, list, update, delete: if false;
+    }
+  }
+}
