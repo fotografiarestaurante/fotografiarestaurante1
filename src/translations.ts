@@ -26,6 +26,15 @@ export const translations = {
       back: "Volver a la Base",
       articles: [
         {
+          id: "uci-fotografia-gastronomica",
+          title: "La UCI de tu Fotografía Gastronómica: Rescate de Producto 2026",
+          excerpt: "No somos fotógrafos. No venimos a retratar vuestras salas, ni el alma de vuestros fogones. Venimos a salvar vuestras fotos de móvil.",
+          slogan: "Cirugía de urgencia para platos que necesitan vender hoy mismo.",
+          image: "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?auto=format&fit=crop&q=80&w=1000",
+          imageAlt: "uci-fotografia-gastronomica-rescate-mobile-fotografiarestaurante-com.jpg",
+          content: "Lo primero, una declaración de principios: No somos fotógrafos convencionales. No venimos a retratar vuestras salas vacías ni el alma de vuestros fogones; para eso ya existen artistas excelentes.\n\nNosotros somos la UCI. Venimos a salvar vuestras fotos de móvil. Esa foto que hiciste rápido con el Samsung entre comandas, esa que tiene sombras duras y un fondo que grita 'estoy en la cocina', esa es la que rescatamos.\n\nEn 2026, el umami visual es el primer ingrediente de cualquier pedido. Si tu plato no salta de la pantalla en UberEats o Glovo, el cliente pasará de largo en 0.5 segundos. Nuestra metodología de rescate mediante IA inyecta luz de estudio, extrae el ruido y realza el producto para que parezca alta cocina, incluso si la base era mediocre. Fotografiarestaurante.com es tu hospital de confianza."
+        },
+        {
           id: "ia-ventas-delivery",
           title: "Cómo la Fotografía IA puede duplicar tus ventas en UberEats",
           excerpt: "Descubre por qué los algoritmos de las apps de delivery premian la iluminación quirúrgica y cómo puedes aprovecharlo.",
@@ -42,6 +51,24 @@ export const translations = {
           image: "https://images.unsplash.com/photo-1476224483451-93c674ee5f60?auto=format&fit=crop&q=80&w=1000",
           imageAlt: "fotografia-gastronomica-barcelona-fondos-profesionales-ia-fotografiarestaurante-com.jpg",
           content: "Muchos restaurantes cometen el error de subir fotos con fondos que distraen: servilletas usadas, reflejos en el acero o sombras duras. La IA nos permite extraer el plato quirúrgicamente y situarlo en entornos minimalistas que elevan el ticket promedio.\n\nLa limpieza visual transmite higiene y profesionalidad. Un restaurante en Valencia o Sevilla que cuida sus fondos está comunicando que también cuida cada detalle de su cocina."
+        },
+        {
+          id: "metodo-chef-ia",
+          title: "Cirugía Estética para Cartas Digitales: El Método del Chef IA",
+          excerpt: "Descubre cómo el retoque quirúrgico puede elevar el ticket promedio de tu restaurante sin cambiar un solo ingrediente corregir.",
+          slogan: "La belleza técnica es el atajo más rápido hacia la rentabilidad.",
+          image: "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?auto=format&fit=crop&q=80&w=1000",
+          imageAlt: "metodo-chef-ia-retoque-gastronomico-profesional-fotografiarestaurante-com.jpg",
+          content: "El 'Método del Chef IA' no se trata de engañar al cliente, sino de mostrar la mejor versión posible de tu cocina. La realidad es que una cámara de móvil, por muy buena que sea, aplana las texturas y apaga los colores de un plato recién servido.\n\nMediante procesos de post-producción avanzada, devolvemos la jugosidad a las carnes, el brillo a los vegetales y el vapor a los platos calientes. Esta 'cirugía estética digital' permite que un restaurante pequeño compita visualmente con grandes cadenas que gastan miles de euros en producciones de estudio. En fotografiarestaurante.com democratizamos la imagen de lujo para todos los hosteleros de España."
+        },
+        {
+          id: "protocolo-autoridad-algoritmo",
+          title: "El Protocolo de Autoridad: Cómo Domina el Algoritmo de Google en 2026",
+          excerpt: "¿Por qué algunos restaurantes aparecen siempre arriba y otros son invisibles? La respuesta está en la consistencia visual.",
+          slogan: "Google no solo lee tus reseñas, también analiza la autoridad de tus imágenes.",
+          image: "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&q=80&w=1000",
+          imageAlt: "seo-local-gastronomico-google-business-fotografiarestaurante-com.jpg",
+          content: "El SEO local para restaurantes ha evolucionado. Ya no basta con tener el nombre y el teléfono (NAP) bien puestos. En 2026, los algoritmos de visión artificial de Google analizan la calidad de las fotos que subes a tu ficha de Google Business.\n\nLas fotos optimizadas, con metadatos limpios y una estética profesional, generan señales de confianza que te posicionan por encima de la competencia. Implementar un protocolo de autoridad visual significa que cada imagen que publiques actúe como un imán para el posicionamiento orgánico. No dejes tu visibilidad al azar; usa el método de fotografiarestaurante.com para dominar tu área local."
         }
       ]
     },
@@ -350,6 +377,15 @@ export const translations = {
       back: "Back to Base",
       articles: [
         {
+          id: "uci-fotografia-gastronomica",
+          title: "The Food Photography ICU: Product Rescue 2026",
+          excerpt: "We are not photographers. We don't come to portray your rooms or the soul of your kitchens. We come to save your mobile photos.",
+          slogan: "Emergency surgery for dishes that need to sell right now.",
+          image: "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?auto=format&fit=crop&q=80&w=1000",
+          imageAlt: "food-photography-icu-mobile-rescue-fotografiarestaurante-com.jpg",
+          content: "First, a declaration of principles: we are not conventional photographers. We don't come to portray your empty rooms or the soul of your kitchens; there are already excellent artists for that.\n\nWe are the ICU. We come to save your mobile photos. That photo you took quickly with your Samsung between shifts, the one with harsh shadows and a background that screams 'I'm in the kitchen'—that's the one we rescue.\n\nIn 2026, visual umami is the first ingredient of any order. If your dish does not jump off the screen on UberEats or Glovo, the customer will pass by in 0.5 seconds. Our AI rescue methodology injects studio light, extracts noise, and enhances the product so that it looks like fine dining, even if the base was mediocre. Fotografiarestaurante.com is your trusted hospital."
+        },
+        {
           id: "ia-ventas-delivery",
           title: "How AI Photography can double your UberEats sales",
           excerpt: "Discover why delivery app algorithms reward surgical lighting and how you can take advantage of it.",
@@ -357,6 +393,33 @@ export const translations = {
           image: "https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&q=80&w=1000",
           imageAlt: "restaurant-photography-ia-ubereats-sales-growth-fotografiarestaurante-com.jpg",
           content: "In the saturated world of UberEats and Glovo, you only have 2 seconds to catch the attention of a hungry customer. Studies show that consistent lighting and enhanced textures increase click-through rates by 40%."
+        },
+        {
+          id: "importancia-fondos",
+          title: "The End of Noisy Backgrounds: Visual Clarity for Chefs",
+          excerpt: "An exquisite dish on a messy table loses its value. Background extraction is the key to digital luxury.",
+          slogan: "Your dish is the star. The rest is noise making you lose money.",
+          image: "https://images.unsplash.com/photo-1476224483451-93c674ee5f60?auto=format&fit=crop&q=80&w=1000",
+          imageAlt: "food-photography-ia-background-removal-fotografiarestaurante-com.jpg",
+          content: "Many restaurants make the mistake of uploading photos with distracting backgrounds: used napkins, steel reflections, or harsh shadows. AI allows us to surgically extract the dish and place it in minimalist settings that raise the average ticket."
+        },
+        {
+          id: "metodo-chef-ia",
+          title: "Aesthetic Surgery for Digital Menus: The AI Chef Method",
+          excerpt: "Discover how surgical retouching can raise your restaurant's average ticket without changing a single ingredient.",
+          slogan: "Technical beauty is the fastest shortcut to profitability.",
+          image: "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?auto=format&fit=crop&q=80&w=1000",
+          imageAlt: "ai-chef-method-professional-food-retouching-fotografiarestaurante-com.jpg",
+          content: "The 'AI Chef Method' isn't about deceiving the customer; it's about showing the best possible version of your kitchen. The reality is that a mobile camera, no matter how good, flattens textures and dulls the colors of a freshly served dish."
+        },
+        {
+          id: "protocolo-autoridad-algoritmo",
+          title: "The Authority Protocol: Dominating the Google Algorithm in 2026",
+          excerpt: "Why are some restaurants always at the top while others remain invisible? The answer lies in visual consistency.",
+          slogan: "Google doesn't just read your reviews, it also analyzes your image authority.",
+          image: "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&q=80&w=1000",
+          imageAlt: "gastronomic-local-seo-google-business-fotografiarestaurante-com.jpg",
+          content: "Local SEO for restaurants has evolved. It's no longer enough to have your NAP correctly set. In 2026, Google's artificial vision algorithms analyze the quality of the photos you upload to your Google Business profile."
         }
       ]
     },
