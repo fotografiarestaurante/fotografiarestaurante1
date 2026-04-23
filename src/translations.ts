@@ -69,6 +69,69 @@ export const translations = {
           image: "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&q=80&w=1000",
           imageAlt: "seo-local-gastronomico-google-business-fotografiarestaurante-com.jpg",
           content: "El SEO local para restaurantes ha evolucionado. Ya no basta con tener el nombre y el teléfono (NAP) bien puestos. En 2026, los algoritmos de visión artificial de Google analizan la calidad de las fotos que subes a tu ficha de Google Business.\n\nLas fotos optimizadas, con metadatos limpios y una estética profesional, generan señales de confianza que te posicionan por encima de la competencia. Implementar un protocolo de autoridad visual significa que cada imagen que publiques actúe como un imán para el posicionamiento orgánico. No dejes tu visibilidad al azar; usa el método de fotografiarestaurante.com para dominar tu área local."
+        },
+        {
+          id: "movil-vs-reflex-ia",
+          title: "Móvil vs Réflex: ¿Ha muerto la fotografía de estudio tradicional?",
+          excerpt: "En 2026, el mejor equipo no es una cámara de 5.000€, sino tu smartphone combinado con un post-procesado IA agresivo.",
+          slogan: "La potencia de un estudio de Michelin en la palma de tu mano.",
+          image: "https://images.unsplash.com/photo-1512428559087-560fa5ceab42?auto=format&fit=crop&q=80&w=1000",
+          imageAlt: "fotografia-movil-gastronómica-vs-reflex-ia-fotografiarestaurante-com.jpg",
+          content: "Durante décadas, los restaurantes han dependido de fotógrafos cargados de focos y trípodes que interrumpían el servicio. Eso se ha terminado. Hoy, el sensor de un iPhone o un Samsung captura información suficiente para que nuestra IA reconstruya la escena como si hubiera sido iluminada por un profesional.\n\nEn ciudades como Málaga o Bilbao, donde el ritmo de las cocinas no para, esperar a un shooting convencional es perder dinero. Con fotografiarestaurante.com, tú disparas con el móvil y nosotros hacemos la magia técnica. Menos costes, más rapidez y la misma calidad que una cámara réflex de gama alta."
+        },
+        {
+          id: "psicologia-color-hambre",
+          title: "Psicología del Color: Cómo hackear el apetito de tus clientes",
+          excerpt: "La diferencia entre un plato aburrido y uno irresistible está en el balance de blancos y la saturación selectiva.",
+          slogan: "Cocinamos para los ojos antes que para el paladar.",
+          image: "https://images.unsplash.com/photo-1551218808-94e220e0346c?auto=format&fit=crop&q=80&w=1000",
+          imageAlt: "psicologia-color-gastronomico-marketing-fotografiarestaurante-com.jpg",
+          content: "Un filete con tonos azulados o una ensalada con verdes apagados mata el hambre al instante. La psicología del color gastronómico nos dice que los tonos cálidos (rojos, naranjas, ocres) activan el sistema nervioso y abren el apetito.\n\nMediante nuestro 'Rescate de Color', ajustamos quirúrgicamente cada tono para que el cerebro del cliente reciba la señal de 'delicioso' al instante. No saturamos toda la imagen; saturamos el sabor. Ya sea que tengas un asador en Valladolid o un local de sushi en Vigo, el ajuste cromático IA es tu mejor aliado de ventas."
+        },
+        {
+          id: "rescate-fotos-clientes",
+          title: "El Oro Oculto en las Fotos de tus Clientes: Rescate de UGC",
+          excerpt: "Tus clientes suben fotos horribles a Google Maps. Aprende cómo usarlas a tu favor para mejorar tu reputación online.",
+          slogan: "Si la foto de tu cliente es mala, la culpa es de la luz, no del plato. Nosotros lo arreglamos.",
+          image: "https://images.unsplash.com/photo-1559339352-11d035aa65de?auto=format&fit=crop&q=80&w=1000",
+          imageAlt: "rescate-fotos-clientes-google-maps-restaurantes-fotografiarestaurante-com.jpg",
+          content: "Las reseñas de Google Maps son el escaparate más importante de la actualidad. El problema es que los clientes suelen subir fotos movidas, oscuras o mal encuadradas que arruinan tu imagen de marca. \n\n¿Sabías que puedes descargar esas fotos, enviárnoslas para un rescate IA y volver a subirlas como 'Propietario'? Al inundar tu perfil con fotos rescatadas de alta calidad, desplazas las fotos mediocres hacia abajo. En fotografiarestaurante.com ayudamos a locales de toda España a tomar el control de su galería pública. Deja de recibir críticas por 'fotos que no hacen justicia' y empieza a mostrar la realidad gourmet de tu negocio."
+        },
+        {
+          id: "fotografo-gastronomico-barcelona-eficiencia",
+          title: "Fotógrafo Gastronómico en Barcelona: ¿Por qué el 90% de las sesiones son ineficientes?",
+          excerpt: "En ciudades competitivas como Barcelona, esperar 2 semanas por el retoque de un fotógrafo es perder cientos de pedidos.",
+          slogan: "El tiempo es el ingrediente que nadie te devuelve. Cocina rápido, rescata más rápido.",
+          image: "https://images.unsplash.com/photo-1550966841-3ee5ad6070d8?auto=format&fit=crop&q=80&w=1000",
+          imageAlt: "fotografo-gastronomico-barcelona-precios-eficiencia-fotografiarestaurante-com.jpg",
+          content: "Barcelona es la capital del diseño, pero también de las prisas. Contratar a un fotógrafo tradicional implica: cuadrar agendas, cerrar zona de mesas, esperar al 'vuelta de fotos' y pagar por horas de presencia física. \n\nEn fotografiarestaurante.com hemos eliminado la fricción. Si buscas un fotógrafo gastronómico en Barcelona para tu nuevo menú, nuestra recomendación es que ahorres el 70% del presupuesto haciendo tú las fotos base. Nuestra IA se encarga de que el acabado final supere al de cualquier estudio del Eixample. Resultados en 48h, no en 14 días. La eficiencia 4.0 ha llegado a la hostelería catalana."
+        },
+        {
+          id: "marketing-guerrilla-hosteleria",
+          title: "Marketing de Guerrilla para Hosteleros: La imagen que tu competencia no puede comprar",
+          excerpt: "No necesitas un presupuesto de franquicia para tener fotos de estrella Michelin. Necesitas inteligencia técnica.",
+          slogan: "Sé más listo que tu competencia, no más caro.",
+          image: "https://images.unsplash.com/photo-1552566626-52f8b828add9?auto=format&fit=crop&q=80&w=1000",
+          imageAlt: "marketing-gastronomico-guerrilla-ia-fotografiarestaurante-com.jpg",
+          content: "El marketing de guerrilla se basa en usar el ingenio para batir al presupuesto. Mientras tu competencia ahorra durante meses para una sesión de fotos profesional, tú puedes actualizar tu carta cada semana usando fotografiarestaurante.com.\n\nEsta agilidad te permite reaccionar a tendencias, platos de temporada o sugerencias del día con imágenes de impacto inmediato. El futuro del sector no es de los más grandes, sino de los más rápidos en adaptarse visualmente a lo que el cliente demanda hoy mismo. Entra en el quirófano y empieza a ganar la batalla digital."
+        },
+        {
+          id: "manual-no-shooting",
+          title: "Manual del 'No-Shooting': Cómo renovar tu carta en 15 minutos",
+          excerpt: "Olvida los trípodes, los focos y las esperas. Aprende la técnica del 'disparo limpio' para enviarnos tus fotos.",
+          slogan: "Tú cocinas, nosotros iluminamos. La simbiosis perfecta.",
+          image: "https://images.unsplash.com/photo-1466633364863-56722d3d152e?auto=format&fit=crop&q=80&w=1000",
+          imageAlt: "manual-fotografia-restaurantes-rapida-ia-fotografiarestaurante-com.jpg",
+          content: "La mayoría de manuales te enseñan a preparar una sesión de 4 horas. Nosotros te enseñamos a no necesitarla. Para un rescate IA perfecto solo necesitas: luz natural de ventana, un fondo neutro (incluso un mantel limpio vale) y un encuadre estable. \n\nNo busques el acabado final en el móvil, búscalo en el quirófano de fotografiarestaurante.com. Al eliminar el 90% del trabajo de campo, permitimos que chefs y propietarios se centren en lo que de verdad importa: el servicio. Este es el manual definitivo para el hostelero moderno que no tiene tiempo que perder."
+        },
+        {
+          id: "barcelona-gastro-tendencias-2026",
+          title: "Barcelona Gastro-Visual: Tendencias 2026 para dominar el Eixample y Gràcia",
+          excerpt: "Desde el brunch de Gràcia hasta las cenas de lujo del Eixample. Cómo adaptar tu estética al barrio.",
+          slogan: "Cada barrio de Barcelona tiene su luz. Nosotros la inyectamos mediante IA.",
+          image: "https://images.unsplash.com/photo-1559339352-11d035aa65de?auto=format&fit=crop&q=80&w=1000",
+          imageAlt: "tendencias-fotografia-gastronomica-barcelona-2026-fotografiarestaurante-com.jpg",
+          content: "Barcelona no es una sola ciudad, son muchos barrios con personalidades visuales distintas. En Gràcia triunfa lo artesano y rústico; en el Eixample, la elegancia minimalista y los contrastes de luz dura. \n\nEntender estas micro-tendencias es vital para conectar con tu público local. En fotografiarestaurante.com adaptamos el 'vibe' de tu rescate al código visual de tu zona. No es lo mismo una foto para un delivery en Poblenou que para un restaurante en Sarrià. Domina tu código postal a través de una imagen quirúrgicamente diseñada para tu vecino."
         }
       ]
     },
@@ -420,6 +483,69 @@ export const translations = {
           image: "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&q=80&w=1000",
           imageAlt: "gastronomic-local-seo-google-business-fotografiarestaurante-com.jpg",
           content: "Local SEO for restaurants has evolved. It's no longer enough to have your NAP correctly set. In 2026, Google's artificial vision algorithms analyze the quality of the photos you upload to your Google Business profile."
+        },
+        {
+          id: "movil-vs-reflex-ia",
+          title: "Mobile vs DSLR: Has Traditional Studio Photography Died?",
+          excerpt: "In 2026, the best equipment isn't a €5,000 camera, but your smartphone combined with aggressive AI post-processing.",
+          slogan: "The power of a Michelin studio in the palm of your hand.",
+          image: "https://images.unsplash.com/photo-1512428559087-560fa5ceab42?auto=format&fit=crop&q=80&w=1000",
+          imageAlt: "mobile-food-photography-vs-dslr-ia-fotografiarestaurante-com.jpg",
+          content: "For decades, restaurants have depended on photographers loaded with lights and tripods that interrupted service. That's over. Today, a smartphone sensor captures enough information for our AI to reconstruct the scene as if it were lit by a professional."
+        },
+        {
+          id: "psicologia-color-hambre",
+          title: "Color Psychology: How to Hack Your Customers' Appetite",
+          excerpt: "The difference between a boring dish and an irresistible one lies in white balance and selective saturation.",
+          slogan: "We cook for the eyes before the palate.",
+          image: "https://images.unsplash.com/photo-1551218808-94e220e0346c?auto=format&fit=crop&q=80&w=1000",
+          imageAlt: "gastronomic-color-psychology-marketing-fotografiarestaurante-com.jpg",
+          content: "A steak with blue tones or a salad with dull greens kills hunger instantly. Gastronomic color psychology tells us that warm tones (reds, oranges, ochres) activate the nervous system and open the appetite."
+        },
+        {
+          id: "rescate-fotos-clientes",
+          title: "The Hidden Gold in Your Customers' Photos: UGC Rescue",
+          excerpt: "Your customers upload horrible photos to Google Maps. Learn how to use them to your advantage to improve your online reputation.",
+          slogan: "If your customer's photo is bad, it's the light's fault, not the dish. We fix it.",
+          image: "https://images.unsplash.com/photo-1559339352-11d035aa65de?auto=format&fit=crop&q=80&w=1000",
+          imageAlt: "customer-photo-rescue-google-maps-restaurants-fotografiarestaurante-com.jpg",
+          content: "Google Maps reviews are today's most important storefront. The problem is that customers often upload blurry, dark, or poorly framed photos that ruin your brand image."
+        },
+        {
+          id: "fotografo-gastronomico-barcelona-eficiencia",
+          title: "Gastronomic Photographer in Barcelona: Why 90% of Sessions are Inefficient",
+          excerpt: "In competitive cities like Barcelona, waiting 2 weeks for a photographer's retouch is losing hundreds of orders.",
+          slogan: "Time is the ingredient nobody gives back. Cook fast, rescue faster.",
+          image: "https://images.unsplash.com/photo-1550966841-3ee5ad6070d8?auto=format&fit=crop&q=80&w=1000",
+          imageAlt: "gastronomic-photographer-barcelona-prices-efficiency-fotografiarestaurante-com.jpg",
+          content: "Barcelona is the capital of design, but also of haste. Hiring a traditional photographer implies: squaring schedules, closing tables, waiting for the 'photo return', and paying for hours of physical presence."
+        },
+        {
+          id: "marketing-guerrilla-hosteleria",
+          title: "Guerrilla Marketing for Hoteliers: The Image Your Competition Can't Buy",
+          excerpt: "You don't need a franchise budget to have Michelin-star photos. You need technical intelligence.",
+          slogan: "Be smarter than your competition, not more expensive.",
+          image: "https://images.unsplash.com/photo-1552566626-52f8b828add9?auto=format&fit=crop&q=80&w=1000",
+          imageAlt: "gastronomic-guerrilla-marketing-ia-fotografiarestaurante-com.jpg",
+          content: "Guerrilla marketing is based on using ingenuity to beat the budget. While your competition saves for months for one professional photo session, you can update your menu every week using fotografiarestaurante.com."
+        },
+        {
+          id: "manual-no-shooting",
+          title: "The 'No-Shooting' Manual: Renew Your Menu in 15 Minutes",
+          excerpt: "Forget tripods, lights, and waiting. Learn the 'clean shot' technique to send us your photos.",
+          slogan: "You cook, we light. The perfect symbiosis.",
+          image: "https://images.unsplash.com/photo-1466633364863-56722d3d152e?auto=format&fit=crop&q=80&w=1000",
+          imageAlt: "manual-fast-restaurant-photography-ia-fotografiarestaurante-com.jpg",
+          content: "Most manuals teach you to prepare a 4-hour session. We teach you how not to need it. For a perfect AI rescue, you only need natural window light, a neutral background, and a stable frame."
+        },
+        {
+          id: "barcelona-gastro-tendencias-2026",
+          title: "Barcelona Gastro-Visual: 2026 Trends to Dominate Eixample and Gràcia",
+          excerpt: "From Gràcia's brunch to Eixample's luxury dinners. How to adapt your aesthetic to the neighborhood.",
+          slogan: "Every Barcelona neighborhood has its light. We inject it via AI.",
+          image: "https://images.unsplash.com/photo-1559339352-11d035aa65de?auto=format&fit=crop&q=80&w=1000",
+          imageAlt: "gastronomic-photography-trends-barcelona-2026-fotografiarestaurante-com.jpg",
+          content: "Barcelona is not just one city, but many neighborhoods with distinct visual personalities. In Gràcia, artisanal and rustic vibes triumph; in Eixample, minimalist elegance and hard light contrasts."
         }
       ]
     },
