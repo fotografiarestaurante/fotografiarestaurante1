@@ -12,11 +12,38 @@ export const translations = {
       nav: {
         protocols: "Protocolos",
         lab: "Laboratorio",
+        blog: "Archivos",
         contact: "Contacto"
       },
       darkMode: "Modo Oscuro",
       lightMode: "Modo Claro",
       subtitle: "FOTOGRAFÍA GASTRONÓMICA IA"
+    },
+    blog: {
+      title: "ARCHIVOS DE RESCATE (BLOG SEO)",
+      subtitle: "Estrategias de imagen y marketing gastronómico",
+      readMore: "Leer Informe Completo",
+      back: "Volver a la Base",
+      articles: [
+        {
+          id: "ia-ventas-delivery",
+          title: "Cómo la Fotografía IA puede duplicar tus ventas en UberEats",
+          excerpt: "Descubre por qué los algoritmos de las apps de delivery premian la iluminación quirúrgica y cómo puedes aprovecharlo.",
+          slogan: "No solo vendes comida, vendes el deseo de hincarle el diente.",
+          image: "https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&q=80&w=1000",
+          imageAlt: "fotografia-restaurantes-madrid-ubereats-ventas-ia-fotografiarestaurante-com.jpg",
+          content: "En el saturado mundo de UberEats y Glovo, solo tienes 2 segundos para captar la atención de un cliente hambriento. Los estudios demuestran que una iluminación coherente y texturas realzadas aumentan el ratio de clicks en un 40%.\n\nNuestra metodología de rescate mediante IA no solo mejora la estética; inyecta 'umami visual' que dispara el deseo de compra. En Madrid y Barcelona, la competencia es feroz, y contar con fotos que parezcan hechas en un estudio de Michelin, partiendo de un simple móvil, es tu mayor ventaja competitiva."
+        },
+        {
+          id: "importancia-fondos",
+          title: "El fin de los fondos ruidosos: Limpieza visual para chefs",
+          excerpt: "Un plato exquisito en una mesa desordenada pierde su valor. La extracción de fondo es la clave del lujo digital.",
+          slogan: "Tu plato es el protagonista. El resto es ruido que te hace perder dinero.",
+          image: "https://images.unsplash.com/photo-1476224483451-93c674ee5f60?auto=format&fit=crop&q=80&w=1000",
+          imageAlt: "fotografia-gastronomica-barcelona-fondos-profesionales-ia-fotografiarestaurante-com.jpg",
+          content: "Muchos restaurantes cometen el error de subir fotos con fondos que distraen: servilletas usadas, reflejos en el acero o sombras duras. La IA nos permite extraer el plato quirúrgicamente y situarlo en entornos minimalistas que elevan el ticket promedio.\n\nLa limpieza visual transmite higiene y profesionalidad. Un restaurante en Valencia o Sevilla que cuida sus fondos está comunicando que también cuida cada detalle de su cocina."
+        }
+      ]
     },
     aside: {
       diagnostic: "DIAGNÓSTICO TÉCNICO",
@@ -34,6 +61,7 @@ export const translations = {
       equipment: "VI. INSTRUMENTAL QUIRÚRGICO",
       cinema: "VII. CINEMATOGRAFÍA",
       activeProtocols: "VIII. PROTOCOLOS ACTIVOS",
+      blog: "IX. ARCHIVOS DE RESCATE (BLOG)",
       contact: "CONSULTA COCINA",
       consultancy: "CONSULTORÍA 1 A 1"
     },
@@ -308,11 +336,29 @@ export const translations = {
       nav: {
         protocols: "Protocols",
         lab: "Laboratory",
+        blog: "Archives",
         contact: "Contact"
       },
       darkMode: "Dark Mode",
       lightMode: "Light Mode",
       subtitle: "PHOTOGRAPHIC OPERATING ROOM"
+    },
+    blog: {
+      title: "RESCUE ARCHIVES (SEO BLOG)",
+      subtitle: "Image strategies and gastronomic marketing",
+      readMore: "Read Full Report",
+      back: "Back to Base",
+      articles: [
+        {
+          id: "ia-ventas-delivery",
+          title: "How AI Photography can double your UberEats sales",
+          excerpt: "Discover why delivery app algorithms reward surgical lighting and how you can take advantage of it.",
+          slogan: "You don't just sell food, you sell the craving to take a bite.",
+          image: "https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&q=80&w=1000",
+          imageAlt: "restaurant-photography-ia-ubereats-sales-growth-fotografiarestaurante-com.jpg",
+          content: "In the saturated world of UberEats and Glovo, you only have 2 seconds to catch the attention of a hungry customer. Studies show that consistent lighting and enhanced textures increase click-through rates by 40%."
+        }
+      ]
     },
     aside: {
       diagnostic: "TECHNICAL DIAGNOSIS",
@@ -330,6 +376,7 @@ export const translations = {
       equipment: "VI. SURGICAL INSTRUMENTS",
       cinema: "VII. CINEMATOGRAPHY",
       activeProtocols: "VIII. ACTIVE PROTOCOLS",
+      blog: "IX. RESCUE ARCHIVES (BLOG)",
       contact: "KITCHEN INQUIRY",
       consultancy: "1-ON-1 CONSULTANCY"
     },

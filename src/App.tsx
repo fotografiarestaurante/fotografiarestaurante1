@@ -1086,6 +1086,7 @@ export default function App() {
   }, []);
 
   const [legalType, setLegalType] = useState<'terms' | 'privacy' | 'ip' | null>(null);
+  const [selectedArticleId, setSelectedArticleId] = useState<string | null>(null);
   const [activeProtocol, setActiveProtocol] = useState<{title: string, details: string} | null>(null);
   const [showCookieBanner, setShowCookieBanner] = useState(false);
   const [showCookieModal, setShowCookieModal] = useState(false);
@@ -1166,6 +1167,7 @@ export default function App() {
           <div className="hidden lg:flex gap-6">
             <button onClick={() => document.getElementById('tecnologia')?.scrollIntoView({behavior: 'smooth'})} className="hover:opacity-50 transition-all cursor-pointer">{t.header.nav.protocols}</button>
             <button onClick={() => document.getElementById('laboratorio')?.scrollIntoView({behavior: 'smooth'})} className="hover:opacity-50 transition-all cursor-pointer">{t.header.nav.lab}</button>
+            <button onClick={() => document.getElementById('archivos')?.scrollIntoView({behavior: 'smooth'})} className="hover:opacity-50 transition-all cursor-pointer">{t.header.nav.blog}</button>
             <button onClick={() => document.getElementById('comanda')?.scrollIntoView({behavior: 'smooth'})} className="hover:opacity-50 transition-all cursor-pointer">{t.header.nav.contact}</button>
           </div>
           <div className="ml-auto flex items-center gap-3 sm:gap-6">
@@ -1389,6 +1391,41 @@ export default function App() {
             ))}
           </div>
         </div>
+
+        {/* Blog Section */}
+        <section id="archivos" className="mt-32 pt-20 border-t border-brand-border">
+          <div className="flex items-center gap-2 mb-12">
+            <div className="w-1.5 h-6 bg-brand-fg" />
+            <div>
+              <h2 className="text-3xl font-black uppercase tracking-tighter">{t.sections.blog}</h2>
+              <p className="text-[10px] uppercase tracking-[0.4em] opacity-40 mt-1">{t.blog.subtitle}</p>
+            </div>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+            {t.blog.articles.map((article: any, idx: number) => (
+              <motion.div 
+                key={article.id}
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                transition={{ delay: idx * 0.1 }}
+                whileHover={{ y: -5 }}
+                className="bg-brand-fg/[0.02] border border-brand-border p-10 flex flex-col items-start gap-4 hover:bg-brand-fg/[0.05] transition-all"
+              >
+                <div className="text-[10px] uppercase tracking-[0.3em] font-black text-brand-fg/30">Rescate Log #0{idx + 1}</div>
+                <h3 className="text-xl font-black uppercase tracking-tight leading-tight">{article.title}</h3>
+                <p className="text-[14px] opacity-70 leading-relaxed italic">"{article.excerpt}"</p>
+                <button 
+                  onClick={() => setSelectedArticleId(article.id)}
+                  className="mt-6 flex items-center gap-2 text-[10px] font-black uppercase tracking-[0.3em] px-4 py-2 bg-brand-fg text-brand-bg hover:opacity-80 transition-opacity"
+                >
+                  {t.blog.readMore} <ArrowRight size={12} />
+                </button>
+              </motion.div>
+            ))}
+          </div>
+        </section>
 
         <footer className="mt-24 border-t border-brand-border pt-16 pb-24">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-16 items-start">
@@ -1814,6 +1851,74 @@ export default function App() {
             onConfigure={() => setShowCookieModal(true)}
             t={t}
           />
+        )}
+      </AnimatePresence>
+      <AnimatePresence>
+        {selectedArticleId && (
+          <motion.div 
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            exit={{ opacity: 0 }}
+            className="fixed inset-0 z-[200] bg-brand-bg/95 backdrop-blur-xl overflow-y-auto p-6 md:p-20"
+          >
+            <div className="max-w-3xl mx-auto">
+              <button 
+                onClick={() => setSelectedArticleId(null)}
+                className="mb-12 flex items-center gap-2 text-[10px] font-black uppercase tracking-[0.3em] hover:opacity-50 transition-opacity"
+              >
+                <ChevronLeft size={16} /> {t.blog.back}
+              </button>
+
+              {t.blog.articles.find((a: any) => a.id === selectedArticleId) && (
+                <article>
+                  <div className="flex items-center gap-2 mb-6">
+                    <div className="w-1 h-4 bg-brand-fg" />
+                    <span className="text-[10px] font-black uppercase tracking-[0.4em] opacity-40">Rescate Log #{selectedArticleId}</span>
+                  </div>
+                  <h1 className="text-4xl md:text-6xl font-black uppercase tracking-tighter mb-10 leading-[0.9]">
+                    {t.blog.articles.find((a: any) => a.id === selectedArticleId).title}
+                  </h1>
+
+                  {t.blog.articles.find((a: any) => a.id === selectedArticleId).image && (
+                    <div className="mb-12 relative group overflow-hidden border border-brand-border h-[400px]">
+                      <img 
+                        src={t.blog.articles.find((a: any) => a.id === selectedArticleId).image} 
+                        alt={t.blog.articles.find((a: any) => a.id === selectedArticleId).imageAlt} 
+                        className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+                        referrerPolicy="no-referrer"
+                      />
+                      <div className="absolute inset-0 bg-gradient-to-t from-brand-bg/80 to-transparent flex items-end p-8">
+                        <p className="text-xl md:text-2xl font-black uppercase tracking-tighter italic text-brand-fg leading-tight max-w-xl">
+                          {t.blog.articles.find((a: any) => a.id === selectedArticleId).slogan}
+                        </p>
+                      </div>
+                    </div>
+                  )}
+
+                  <div className="prose prose-invert prose-brand max-w-none">
+                    <div className="text-lg md:text-xl opacity-80 leading-relaxed font-medium mb-8 p-6 border-l-2 border-brand-fg bg-brand-fg/[0.03]">
+                      {t.blog.articles.find((a: any) => a.id === selectedArticleId).excerpt}
+                    </div>
+                    <div className="text-[16px] md:text-[18px] opacity-70 leading-loose space-y-6 whitespace-pre-wrap">
+                      {t.blog.articles.find((a: any) => a.id === selectedArticleId).content}
+                    </div>
+                  </div>
+                  
+                  <div className="mt-20 pt-10 border-t border-brand-border">
+                    <button 
+                       onClick={() => {
+                         setSelectedArticleId(null);
+                         setTimeout(() => document.getElementById('comanda')?.scrollIntoView({behavior: 'smooth'}), 100);
+                       }}
+                       className="bg-brand-fg text-brand-bg px-8 py-4 text-[12px] font-black uppercase tracking-[0.3em] hover:opacity-80 transition-opacity"
+                    >
+                      {t.contact.submit}
+                    </button>
+                  </div>
+                </article>
+              )}
+            </div>
+          </motion.div>
         )}
       </AnimatePresence>
       <Analytics />
