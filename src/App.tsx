@@ -1051,10 +1051,119 @@ const TechStepItem = ({ m }: { m: any; key?: any }) => {
   );
 };
 
+// --- SEO Metadata Injection Component ---
+const useJSONLD = (lang: string, t: any) => {
+  useEffect(() => {
+    const existing = document.getElementById('json-ld-local');
+    if (existing) existing.remove();
+
+    const schema = {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "name": "Fotografía Restaurante",
+      "alternateName": "Rescate Digital Gastronómico",
+      "description": t.seo.description,
+      "url": "https://fotografiarestaurante.com",
+      "logo": "https://fotografiarestaurante.com/logo.png",
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "contactType": "customer service",
+        "areaServed": "ES",
+        "availableLanguage": ["Spanish", "English", "French", "Italian"]
+      },
+      "serviceArea": {
+        "@type": "Country",
+        "name": "España"
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Barcelona",
+        "addressRegion": "Cataluña",
+        "addressCountry": "ES"
+      },
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Servicios de Fotografía IA",
+        "itemListElement": t.packs.map((p: any, i: number) => ({
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": p.title,
+            "description": p.subtitle
+          },
+          "price": p.price.replace('€', ''),
+          "priceCurrency": "EUR",
+          "position": i + 1
+        }))
+      }
+    };
+
+    const script = document.createElement('script');
+    script.id = 'json-ld-local';
+    script.type = 'application/ld+json';
+    script.text = JSON.stringify(schema);
+    document.head.appendChild(script);
+  }, [lang, t]);
+};
+
+const LocalSEOSection = ({ t }: { t: any }) => {
+  return (
+    <section id="cobertura" className="mt-32 mb-16 scroll-mt-20">
+      <div className="px-0 py-8 border-t border-brand-fg/10">
+        <div className="flex items-center gap-2 mb-6">
+          <div className="w-1.5 h-6 bg-brand-fg" />
+          <h2 className="text-[12px] font-black text-brand-fg tracking-[0.4em] uppercase block">
+            {t.sections.coverage}
+          </h2>
+        </div>
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-end">
+          <div>
+            <h3 className="text-3xl md:text-5xl font-black uppercase tracking-tighter mb-4 leading-[0.9]">
+              {t.localSEO.title}
+            </h3>
+            <p className="text-[10px] uppercase tracking-[0.4em] opacity-40 mb-6">{t.localSEO.subtitle}</p>
+            <p className="text-[14px] md:text-[16px] opacity-70 max-w-xl leading-relaxed">
+              {t.localSEO.description}
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div className="mt-12 grid grid-cols-2 md:grid-cols-5 gap-px bg-brand-border border border-brand-border overflow-hidden rounded-[2px]">
+        {t.localSEO.cities.map((city: any, idx: number) => (
+          <div key={idx} className="bg-brand-bg p-6 group hover:bg-brand-fg/5 transition-all duration-300">
+            <h4 className="text-[11px] font-black uppercase tracking-[0.2em] text-brand-fg mb-4 flex items-center gap-2 group-hover:translate-x-1 transition-transform">
+              <MapPin size={10} className="text-[#ff0000]" />
+              {city.name}
+            </h4>
+            <div className="flex flex-col gap-1.5 opacity-40 group-hover:opacity-80 transition-opacity">
+              {city.keywords.split(',').map((kw: string, kIdx: number) => (
+                <span key={kIdx} className="text-[8px] uppercase tracking-widest leading-tight block font-mono">
+                  {kw.trim()}
+                </span>
+              ))}
+            </div>
+            <div className="mt-6 pt-4 border-t border-brand-fg/5 opacity-0 group-hover:opacity-100 transition-opacity">
+              <button 
+                onClick={() => document.getElementById('comanda')?.scrollIntoView({behavior: 'smooth'})}
+                className="text-[8px] font-black uppercase tracking-widest text-brand-fg hover:underline cursor-pointer"
+              >
+                CONSULTAR LOCAL
+              </button>
+            </div>
+          </div>
+        ))}
+      </div>
+    </section>
+  );
+};
+
 export default function App() {
   const [lang, setLang] = useState<Language>('es');
   const [isDark, setIsDark] = useState<boolean>(false);
   const t = translations[lang];
+
+  useJSONLD(lang, t);
 
   // Theme initialization
   useEffect(() => {
@@ -1506,6 +1615,8 @@ export default function App() {
             ))}
           </div>
         </section>
+
+        <LocalSEOSection t={t} />
 
         <footer className="mt-24 border-t border-brand-border pt-16 pb-24">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-16 items-start">

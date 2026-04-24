@@ -45,8 +45,8 @@ export const translations = {
         {
           id: "ia-ventas-delivery",
           category: "seo",
-          title: "Cómo la Fotografía IA puede duplicar tus ventas en UberEats",
-          excerpt: "Descubre por qué los algoritmos de las apps de delivery premian la iluminación quirúrgica y cómo puedes aprovecharlo.",
+          title: "IA EN MADRID: CÓMO LA FOTOGRAFÍA GASTRONÓMICA PUEDE DUPLICAR TUS VENTAS EN UBEREATS",
+          excerpt: "Descubre por qué los algoritmos de las apps de delivery en Madrid premian la iluminación quirúrgica y cómo puedes aprovecharlo para dominar tu código postal.",
           slogan: "No solo vendes comida, vendes el deseo de hincarle el diente.",
           image: "https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&q=80&w=1000",
           imageAlt: "fotografia-restaurantes-madrid-ubereats-ventas-ia-fotografiarestaurante-com.jpg",
@@ -151,6 +151,66 @@ export const translations = {
           image: "https://images.unsplash.com/photo-1559339352-11d035aa65de?auto=format&fit=crop&q=80&w=1000",
           imageAlt: "tendencias-fotografia-gastronomica-barcelona-2026-fotografiarestaurante-com.jpg",
           content: "Barcelona no es una sola ciudad, son muchos barrios con personalidades visuales distintas. En Gràcia triunfa lo artesano y rústico; en el Eixample, la elegancia minimalista y los contrastes de luz dura. \n\nEntender estas micro-tendencias es vital para conectar con tu público local. En fotografiarestaurante.com adaptamos el 'vibe' de tu rescate al código visual de tu zona. No es lo mismo una foto para un delivery en Poblenou que para un restaurante en Sarrià. Domina tu código postal a través de una imagen quirúrgicamente diseñada para tu vecino."
+        },
+        {
+          id: "domina-glovo-fotografia",
+          category: "marketing",
+          title: "DOMINANDO GLOVO EN BARCELONA: EL IMPACTO CRÍTICO DE LA FOTOGRAFÍA EN TU CUOTA DE MERCADO",
+          excerpt: "Descubre por qué los restaurantes de Barcelona que optimizan sus fotos de Glovo con IA están dominando el sector delivery local.",
+          slogan: "En el delivery, el apetito entra por los ojos o no entra.",
+          image: "https://images.unsplash.com/photo-1591130219388-ae3d1c17431b?auto=format&fit=crop&q=80&w=1000",
+          imageAlt: "estrategia-glovo-fotografia-restaurantes-marketing.jpg",
+          content: "Competir en Glovo no es solo cuestión de precio. El algoritmo posiciona mejor a los restaurantes con mayor ratio de conversión, y nada convierte más que una foto con iluminación quirúrgica. Inspirados en las mejores prácticas de gestión, recomendamos tratar cada imagen como un activo financiero de alto rendimiento."
+        },
+        {
+          id: "escandallo-visual",
+          category: "seo",
+          title: "El Escandallo Visual: ¿Cuánto margen pierdes por una mala iluminación?",
+          excerpt: "Si tu plato es gourmet pero tu foto es mediocre, estás devaluando tu producto. Aprende a alinear tu imagen con tu precio.",
+          slogan: "La calidad que no se ve, es calidad que no se paga.",
+          image: "https://images.unsplash.com/photo-1455619452474-d2be8b1e70cd?auto=format&fit=crop&q=80&w=1000",
+          imageAlt: "escandallo-visual-marketing-gastronomico-rentabilidad.jpg",
+          content: "El escandallo no solo ocurre en la cocina. El 'escandallo visual' determina si un cliente percibe tu plato como una opción de 15€ o de 25€. Una iluminación correcta y una textura mejorada por IA justifican el valor de tu propuesta gastronómica."
+        },
+        {
+          id: "digitalizacion-activos-gourmet",
+          category: "tech",
+          title: "Digitalización Gourmet: Por qué tus fotos son tu inventario más valioso",
+          excerpt: "En la era de la IA, digitalizar tu carta no es una opción, es una necesidad de supervivencia. Optimiza tu stock visual hoy.",
+          slogan: "Tu restaurante es físico, pero tu venta es digital.",
+          image: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?auto=format&fit=crop&q=80&w=1000",
+          imageAlt: "digitalizacion-restaurantes-activos-visuales-ia.jpg",
+          content: "La digitalización real va más allá de un software de gestión. Se trata de tener un inventario de activos visuales de alta fidelidad que puedas desplegar en cualquier plataforma. Nuestra cirugía estética digital transforma tu contenido actual en piezas de colección listas para vender."
+        },
+        {
+          id: "checklist-restaurante-cirugia-visual",
+          category: "tech",
+          title: "CHECKLIST EN VALENCIA: 10 PUNTOS PARA QUE TU PLATO BRILLE EN GOOGLE BUSINESS",
+          excerpt: "No envíes cualquier foto de tu restaurante en Valencia. Sigue estos 10 pasos críticos para asegurar que la IA opere su magia local.",
+          slogan: "La perfección nace de la preparación, incluso en la cirugía digital.",
+          image: "https://images.unsplash.com/photo-1484158814513-356a59b9ef3e?auto=format&fit=crop&q=80&w=1000",
+          imageAlt: "checklist-fotografia-restaurantes-google-business.jpg",
+          content: "Preparar una sesión de 'rescate' es más sencillo que una sesión tradicional, pero requiere rigor. Desde la limpieza del borde del plato hasta la orientación de la luz natural. Este checklist te guía para que cada envío a fotografiarestaurante.com sea un éxito rotundo. Optimizamos la base para que el resultado sea indistinguible de la alta fotografía de estudio."
+        },
+        {
+          id: "poder-video-hosteleria",
+          category: "marketing",
+          title: "Cinemagrafía Gastronómica: Por qué el Movimiento Detiene el Scroll",
+          excerpt: "Una foto estática es ignorada; un vídeo de 6 segundos es devorado. Aprende el poder del pack integral.",
+          slogan: "El apetito es dinámico. Tu marketing también debería serlo.",
+          image: "https://images.unsplash.com/photo-1470333732907-837b9778f0a2?auto=format&fit=crop&q=80&w=1000",
+          imageAlt: "video-marketing-restaurantes-gastronomia.jpg",
+          content: "El vídeo no es el futuro, es el presente absoluto. En fotografiarestaurante.com no solo rescatamos fotos, creamos activos dinámicos que aumentan el tiempo de permanencia en tu perfil. Descubre cómo un simple clip de vapor o un brillo en movimiento puede duplicar tus clics en Instagram y TikTok."
+        },
+        {
+          id: "fotografia-restaurantes-rescate-clave",
+          category: "marketing",
+          title: "Fotografía de Restaurantes 2.0: Del Estudio al Quirófano Digital",
+          excerpt: "¿Sigue siendo rentable contratar un fotógrafo de 500€ la sesión? Comparamos el modelo tradicional vs el rescate IA.",
+          slogan: "No pagues por horas, paga por resultados quirúrgicos.",
+          image: "https://images.unsplash.com/photo-1514362545857-3bc16c4c7d1b?auto=format&fit=crop&q=80&w=1000",
+          imageAlt: "fotografia-restaurantes-ia-vs-tradicional.jpg",
+          content: "El sector de la hostelería está cambiando y la fotografía no puede quedarse atrás. Analizamos por qué el 'Rescate Visual' es la opción más inteligente para restaurantes que necesitan agilidad, calidad constante y un ROI inmediato. Menos logística, más conversión."
         }
       ]
     },
@@ -171,8 +231,26 @@ export const translations = {
       cinema: "VII. CINEMATOGRAFÍA",
       activeProtocols: "VIII. PROTOCOLOS ACTIVOS",
       blog: "IX. ARCHIVOS DE RESCATE (BLOG)",
+      coverage: "X. COBERTURA NACIONAL (SEO LOCAL)",
       contact: "CONSULTA COCINA",
       consultancy: "CONSULTORÍA 1 A 1"
+    },
+    localSEO: {
+      title: "COBERTURA NACIONAL: CIRURGÍA VISUAL EN TU CIUDAD",
+      subtitle: "RESCATE DIGITAL SIN DESPLAZAMIENTOS",
+      description: "Operamos en toda España. No importa dónde estés, el quirófano digital de fotografiarestaurante.com llega a tu cocina mediante la nube. Especialistas locales en los principales hubs gastronómicos.",
+      cities: [
+        { name: "Madrid", slug: "madrid", keywords: "Fotógrafo de restaurantes en Madrid, Fotografía Gastronómica Madrid, Marketing Gastro Madrid" },
+        { name: "Barcelona", slug: "barcelona", keywords: "Fotógrafo de restaurantes en Barcelona, Fotografía Gastronómica Barcelona, Fotógrafo de Comida Barcelona" },
+        { name: "Valencia", slug: "valencia", keywords: "Fotógrafo de restaurantes en Valencia, Fotografía Gastronómica Valencia, Marketing para Restaurantes Valencia" },
+        { name: "Sevilla", slug: "sevilla", keywords: "Fotógrafo de restaurantes en Sevilla, Fotografía Gastronómica Sevilla, Fotógrafos de Comida Sevilla" },
+        { name: "Zaragoza", slug: "zaragoza", keywords: "Fotógrafo de restaurantes en Zaragoza, Fotografía Gastronómica Zaragoza" },
+        { name: "Málaga", slug: "malaga", keywords: "Fotógrafo de restaurantes en Málaga, Fotografía Gastronómica Málaga, Marketing Restauración Costa del Sol" },
+        { name: "Murcia", slug: "murcia", keywords: "Fotógrafo de restaurantes en Murcia, Fotografía Gastronómica Murcia" },
+        { name: "Palma", slug: "palma", keywords: "Fotógrafo de restaurantes en Palma de Mallorca, Fotografía Gastronómica Baleares" },
+        { name: "Las Palmas", slug: "las-palmas", keywords: "Fotógrafo de restaurantes en Las Palmas, Fotografía Gastronómica Canarias" },
+        { name: "Bilbao", slug: "bilbao", keywords: "Fotógrafo de restaurantes en Bilbao, Fotografía Gastronómica País Vasco" }
+      ]
     },
     heroBanner: {
       slides: [
@@ -592,6 +670,66 @@ export const translations = {
           image: "https://images.unsplash.com/photo-1559339352-11d035aa65de?auto=format&fit=crop&q=80&w=1000",
           imageAlt: "gastronomic-photography-trends-barcelona-2026-fotografiarestaurante-com.jpg",
           content: "Barcelona is not just one city, but many neighborhoods with distinct visual personalities. In Gràcia, artisanal and rustic vibes triumph; in Eixample, minimalist elegance and hard light contrasts."
+        },
+        {
+          id: "glovo-mastery-photography",
+          category: "marketing",
+          title: "Glovo Mastery: The Critical Impact of Photography on Your Market Share",
+          excerpt: "Did you know that 70% of decisions on Glovo are made in the first 3 seconds? Your photo is your best salesperson.",
+          slogan: "In delivery, appetite enters through the eyes or not at all.",
+          image: "https://images.unsplash.com/photo-1591130219388-ae3d1c17431b?auto=format&fit=crop&q=80&w=1000",
+          imageAlt: "glovo-strategy-restaurant-photography-marketing.jpg",
+          content: "Competing on Glovo is not just a matter of price. The algorithm ranks restaurants with higher conversion rates better, and nothing converts more than a surgically lit photo. Inspired by top management practices, we recommend treating each image as a high-yield financial asset."
+        },
+        {
+          id: "visual-food-costing",
+          category: "seo",
+          title: "Visual Food Costing: How Much Margin Are You Losing to Bad Lighting?",
+          excerpt: "If your dish is gourmet but your photo is mediocre, you are devaluing your product. Learn to align your image with your price.",
+          slogan: "Quality that is not seen is quality that is not paid for.",
+          image: "https://images.unsplash.com/photo-1455619452474-d2be8b1e70cd?auto=format&fit=crop&q=80&w=1000",
+          imageAlt: "visual-food-costing-gastronomic-marketing-profitability.jpg",
+          content: "Food costing doesn't just happen in the kitchen. 'Visual food costing' determines whether a customer perceives your dish as a €15 or €25 option. Correct lighting and AI-enhanced texture justify the value of your culinary proposal."
+        },
+        {
+          id: "gourmet-digitalization-assets",
+          category: "tech",
+          title: "Gourmet Digitalization: Why Your Photos Are Your Most Valuable Inventory",
+          excerpt: "In the AI era, digitalizing your menu is not an option; it's a survival necessity. Optimize your visual stock today.",
+          slogan: "Your restaurant is physical, but your sale is digital.",
+          image: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?auto=format&fit=crop&q=80&w=1000",
+          imageAlt: "restaurant-digitalization-visual-assets-ai.jpg",
+          content: "Real digitalization goes beyond management software. It's about having an inventory of high-fidelity visual assets that you can deploy on any platform. Our digital esthetic surgery transforms your current content into collection pieces ready to sell."
+        },
+        {
+          id: "restaurant-checklist-visual-surgery",
+          category: "tech",
+          title: "Post-Rescue Checklist: 10 Points to Make Your Dish Shine on GMB",
+          excerpt: "Don't just send any photo. Follow these 10 critical steps to ensure AI can work its magic.",
+          slogan: "Perfection is born from preparation, even in digital surgery.",
+          image: "https://images.unsplash.com/photo-1484158814513-356a59b9ef3e?auto=format&fit=crop&q=80&w=1000",
+          imageAlt: "restaurant-photography-checklist-google-business.jpg",
+          content: "Preparing a 'rescue' session is simpler than a traditional session, but requires rigor. From cleaning the plate rim to the orientation of natural light. This checklist guides you so that every submission to fotografiarestaurante.com is a resounding success. We optimize the base so that the result is indistinguishable from top-tier studio photography."
+        },
+        {
+          id: "video-power-hospitality",
+          category: "marketing",
+          title: "Gastronomic Cinemagraphy: Why Movement Stops the Scroll",
+          excerpt: "A static photo is ignored; a 6-second video is devoured. Learn the power of the integral pack.",
+          slogan: "Appetite is dynamic. Your marketing should be too.",
+          image: "https://images.unsplash.com/photo-1470333732907-837b9778f0a2?auto=format&fit=crop&q=80&w=1000",
+          imageAlt: "video-marketing-restaurants-gastronomy.jpg",
+          content: "Video is not the future; it is the absolute present. At fotografiarestaurante.com, we don't just rescue photos; we create dynamic assets that increase dwell time on your profile. Discover how a simple steam clip or a moving highlight can double your clicks on Instagram and TikTok."
+        },
+        {
+          id: "restaurant-photography-rescue-key",
+          category: "marketing",
+          title: "Restaurant Photography 2.0: From the Studio to the Digital Theatre",
+          excerpt: "Is it still profitable to hire a €500-per-session photographer? We compare the traditional model vs AI rescue.",
+          slogan: "Don't pay for hours; pay for surgical results.",
+          image: "https://images.unsplash.com/photo-1514362545857-3bc16c4c7d1b?auto=format&fit=crop&q=80&w=1000",
+          imageAlt: "restaurant-photography-ai-vs-traditional.jpg",
+          content: "The hospitality sector is changing, and photography cannot fall behind. We analyze why 'Visual Rescue' is the smartest choice for restaurants needing agility, constant quality, and an immediate ROI. Less logistics, more conversion."
         }
       ]
     },
@@ -612,8 +750,26 @@ export const translations = {
       cinema: "VII. CINEMATOGRAPHY",
       activeProtocols: "VIII. ACTIVE PROTOCOLS",
       blog: "IX. RESCUE ARCHIVES (BLOG)",
+      coverage: "X. NATIONAL COVERAGE (LOCAL SEO)",
       contact: "KITCHEN INQUIRY",
       consultancy: "1-ON-1 CONSULTANCY"
+    },
+    localSEO: {
+      title: "NATIONAL COVERAGE: VISUAL SURGERY IN YOUR CITY",
+      subtitle: "DIGITAL RESCUE WITHOUT TRAVEL",
+      description: "We operate throughout Spain. No matter where you are, the digital operating room of fotografiarestaurante.com reaches your kitchen through the cloud.",
+      cities: [
+        { name: "Madrid", slug: "madrid", keywords: "Restaurant photographer in Madrid, Gastronomic Photography Madrid, Gastro Marketing Madrid" },
+        { name: "Barcelona", slug: "barcelona", keywords: "Restaurant photographer in Barcelona, Gastronomic Photography Barcelona, Food Photographer Barcelona" },
+        { name: "Valencia", slug: "valencia", keywords: "Restaurant photographer in Valencia, Gastronomic Photography Valencia, Restaurant Marketing Valencia" },
+        { name: "Seville", slug: "sevilla", keywords: "Restaurant photographer in Seville, Gastronomic Photography Seville, Food Photographers Seville" },
+        { name: "Zaragoza", slug: "zaragoza", keywords: "Restaurant photographer in Zaragoza, Gastronomic Photography Zaragoza" },
+        { name: "Malaga", slug: "malaga", keywords: "Restaurant photographer in Malaga, Gastronomic Photography Malaga, Costa del Sol Restaurant Marketing" },
+        { name: "Murcia", slug: "murcia", keywords: "Restaurant photographer in Murcia, Gastronomic Photography Murcia" },
+        { name: "Palma", slug: "palma", keywords: "Restaurant photographer in Palma de Mallorca, Gastronomic Photography Balearic Islands" },
+        { name: "Las Palmas", slug: "las-palmas", keywords: "Restaurant photographer in Las Palmas, Gastronomic Photography Canary Islands" },
+        { name: "Bilbao", slug: "bilbao", keywords: "Restaurant photographer in Bilbao, Gastronomic Photography Basque Country" }
+      ]
     },
     heroBanner: {
       slides: [
@@ -917,8 +1073,27 @@ export const translations = {
       equipment: "VI. INSTRUMENTS CHIRURGICAUX",
       cinema: "VII. CINÉMATOGRAPHIE",
       activeProtocols: "VIII. PROTOCOLES ACTIFS",
+      blog: "IX. ARCHIVES DE RESCATE (BLOG)",
+      coverage: "X. COUVERTURE NATIONALE (SEO LOCAL)",
       contact: "DEMANDE CUISINE",
       consultancy: "CONSULTANCE 1 À 1"
+    },
+    localSEO: {
+      title: "COUVERTURE NATIONALE : CHIRURGIE VISUELLE DANS VOTRE VILLE",
+      subtitle: "RECOUVREMENT DIGITAL SANS DÉPLACEMENT",
+      description: "Nous opérons dans toute l'Espagne. Peu importe où vous êtes, le bloc opératoire numérique de fotografiarestaurante.com arrive dans votre cuisine via le cloud.",
+      cities: [
+        { name: "Madrid", slug: "madrid", keywords: "Photographe de restaurant à Madrid, Photographie Gastronomique Madrid, Marketing Gastro Madrid" },
+        { name: "Barcelone", slug: "barcelone", keywords: "Photographe de restaurant à Barcelone, Photographie Gastronomique Barcelone, Photographe Culinaire Barcelone" },
+        { name: "Valence", slug: "valence", keywords: "Photographe de restaurant à Valence, Photographie Gastronomique Valence, Marketing pour Restaurants Valence" },
+        { name: "Séville", slug: "seville", keywords: "Photographe de restaurant à Séville, Photographie Gastronomique Séville, Photographes Culinaires Séville" },
+        { name: "Saragosse", slug: "saragosse", keywords: "Photographe de restaurant à Saragosse, Photographie Gastronomique Saragosse" },
+        { name: "Malaga", slug: "malaga", keywords: "Photographe de restaurant à Malaga, Photographie Gastronomique Malaga, Marketing Restauration Costa del Sol" },
+        { name: "Murcie", slug: "murcie", keywords: "Photographe de restaurant à Murcie, Photographie Gastronomique Murcie" },
+        { name: "Palma", slug: "palma", keywords: "Photographe de restaurant à Palma de Majorque, Photographie Gastronomique Baléares" },
+        { name: "Las Palmas", slug: "las-palmas", keywords: "Photographe de restaurant à Las Palmas, Photographie Gastronomique Canaries" },
+        { name: "Bilbao", slug: "bilbao", keywords: "Photographe de restaurant à Bilbao, Photographie Gastronomique Pays Basque" }
+      ]
     },
     heroBanner: {
       slides: [
@@ -1188,6 +1363,60 @@ export const translations = {
           category: "CHIRURGIE VISUELLE",
           image: "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?auto=format&fit=crop&q=80&w=800",
           imageAlt: "Processus de retouche gastronomique professionnelle"
+        },
+        {
+          id: "maitrise-glovo-photographie",
+          title: "MAÎTRISE DE GLOVO À BARCELONE : L'IMPACT CRITIQUE DE LA PHOTOGRAPHIE SUR VOTRE PART DE MARCHÉ",
+          excerpt: "Découvrez pourquoi les restaurants de Barcelone qui optimisent leurs photos Glovo avec l'IA voient une augmentation massive de leurs commandes.",
+          date: "25 FÉV 2024",
+          category: "MARKETING",
+          image: "https://images.unsplash.com/photo-1591130219388-ae3d1c17431b?auto=format&fit=crop&q=80&w=800",
+          imageAlt: "Stratégie Glovo et photographie de restaurant marketing"
+        },
+        {
+          id: "cout-visuel-gastronomie",
+          title: "COÛT DE REVIENT VISUEL : QUELLE MARGE PERDEZ-VOUS À CAUSE D'UN MAUVAIS ÉCLAIRAGE ?",
+          excerpt: "Si votre plat est gourmet mais votre photo médiocre, vous dévaluez votre produit. Apprenez à aligner votre image sur votre prix.",
+          date: "28 FÉV 2024",
+          category: "CHIRURGIE VISUELLE",
+          image: "https://images.unsplash.com/photo-1455619452474-d2be8b1e70cd?auto=format&fit=crop&q=80&w=800",
+          imageAlt: "Coût de revient visuel et marketing gastronomique rentable"
+        },
+        {
+          id: "digitalisation-gourmet-actifs",
+          title: "DIGITALISATION GOURMET : POURQUOI VOS PHOTOS SONT VOTRE INVENTAIRE LE PLUS PRÉCIEUX",
+          excerpt: "À l'ère de l'IA, digitaliser votre carte n'est pas une option, c'est une nécessité de survie. Optimisez votre stock visuel aujourd'hui.",
+          date: "01 MARS 2024",
+          category: "IA & TECHNOLOGIE",
+          image: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?auto=format&fit=crop&q=80&w=800",
+          imageAlt: "Digitalisation des restaurants et actifs visuels IA"
+        },
+        {
+          id: "checklist-restaurant-sauvetage",
+          title: "CHECKLIST POST-SAUVETAGE : 10 POINTS POUR QUE VOTRE PLAT BRILLE SUR GMB",
+          excerpt: "N'envoyez pas n'importe quelle photo. Suivez ces 10 étapes critiques pour que l'IA puisse opérer sa magie.",
+          date: "05 MARS 2024",
+          category: "CONSEILS TECHNIQUES",
+          image: "https://images.unsplash.com/photo-1484158814513-356a59b9ef3e?auto=format&fit=crop&q=80&w=800",
+          imageAlt: "Checklist photographie de restaurant Google Business"
+        },
+        {
+          id: "pouvoir-video-restauration",
+          title: "CINÉMAGRAPHIE GASTRONOMIQUE : POURQUOI LE MOUVEMENT ARRÊTE LE SCROLL",
+          excerpt: "Une photo statique est ignorée ; une vidéo de 6 secondes est dévorée. Apprenez le pouvoir du pack intégral.",
+          date: "10 MARS 2024",
+          category: "CINÉMATOGRAPHIE",
+          image: "https://images.unsplash.com/photo-1470333732907-837b9778f0a2?auto=format&fit=crop&q=80&w=800",
+          imageAlt: "Vidéo marketing restaurants gastronomie"
+        },
+        {
+          id: "photographie-restaurant-2-0",
+          title: "PHOTOGRAPHIE DE RESTAURANT 2.0 : DU STUDIO AU BLOC OPÉRATOIRE NUMÉRIQUE",
+          excerpt: "Est-il encore rentable d'engager un photographe à 500 € la séance ? Comparaison du modèle traditionnel vs le sauvetage IA.",
+          date: "15 MARS 2024",
+          category: "DOSSIER",
+          image: "https://images.unsplash.com/photo-1514362545857-3bc16c4c7d1b?auto=format&fit=crop&q=80&w=800",
+          imageAlt: "Photographie restaurant IA vs traditionnel"
         }
       ]
     },
@@ -1262,8 +1491,27 @@ export const translations = {
       equipment: "VI. STRUMENTI CHIRURGICI",
       cinema: "VII. CINEMATOGRAFIA",
       activeProtocols: "VIII. PROTOCOLLI ATTIVI",
+      blog: "IX. ARCHIVI DI SALVATAGGIO (BLOG)",
+      coverage: "X. COPERTURA NAZIONALE (SEO LOCALE)",
       contact: "CONSULENZA IN CUCINA",
       consultancy: "CONSULENZA 1 A 1"
+    },
+    localSEO: {
+      title: "COPERTURA NAZIONALE: CHIRURGIA VISUALE NELLA TUA CITTÀ",
+      subtitle: "SALVATAGGIO DIGITALE SENZA SPOSTAMENTI",
+      description: "Operiamo in tutta la Spagna. Non importa dove ti trovi, la sala operatoria digitale di fotografiarestaurante.com arriva nella tua cucina attraverso il cloud.",
+      cities: [
+        { name: "Madrid", slug: "madrid", keywords: "Fotografo di ristoranti a Madrid, Fotografia Gastronomica Madrid, Marketing Gastro Madrid" },
+        { name: "Barcellona", slug: "barcellona", keywords: "Fotografo di ristoranti a Barcellona, Fotografia Gastronomica Barcellona, Fotografo di Cibo Barcellona" },
+        { name: "Valencia", slug: "valencia", keywords: "Fotografo di ristoranti a Valencia, Fotografia Gastronomica Valencia, Marketing per Ristoranti Valencia" },
+        { name: "Siviglia", slug: "siviglia", keywords: "Fotografo di ristoranti a Siviglia, Fotografia Gastronomica Siviglia, Fotografi di Cibo Siviglia" },
+        { name: "Saragozza", slug: "saragozza", keywords: "Fotografo di ristoranti a Saragozza, Fotografia Gastronomica Saragozza" },
+        { name: "Malaga", slug: "malaga", keywords: "Fotografo di ristoranti a Malaga, Fotografia Gastronomica Malaga, Marketing Ristorazione Costa del Sol" },
+        { name: "Murcia", slug: "murcia", keywords: "Fotografo di ristoranti a Murcia, Fotografia Gastronomica Murcia" },
+        { name: "Palma", slug: "palma", keywords: "Fotografo di ristoranti a Palma di Maiorca, Fotografia Gastronomica Baleari" },
+        { name: "Las Palmas", slug: "las-palmas", keywords: "Fotografo di ristoranti a Las Palmas, Fotografia Gastronomica Canarie" },
+        { name: "Bilbao", slug: "bilbao", keywords: "Fotografo di ristoranti a Bilbao, Fotografia Gastronomica Paesi Baschi" }
+      ]
     },
     heroBanner: {
       slides: [
@@ -1532,6 +1780,60 @@ export const translations = {
           category: "CHIRURGIA VISIVA",
           image: "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?auto=format&fit=crop&q=80&w=800",
           imageAlt: "Processo di fotoritocco gastronomico professionale"
+        },
+        {
+          id: "dominare-glovo-fotografia",
+          title: "DOMINARE GLOVO: L'IMPATTO CRITICO DELLA FOTOGRAFIA SULLA TUA QUOTA DI MERCATO",
+          excerpt: "Sapevi che il 70% delle decisioni su Glovo viene preso nei primi 3 secondi? La tua foto è il tuo miglior venditore.",
+          date: "25 FEB 2024",
+          category: "MARKETING",
+          image: "https://images.unsplash.com/photo-1591130219388-ae3d1c17431b?auto=format&fit=crop&q=80&w=800",
+          imageAlt: "Strategia Glovo e fotografia per ristoranti marketing"
+        },
+        {
+          id: "food-cost-visivo",
+          title: "FOOD COST VISIVO: QUANTA MARGINALITÀ PERDI PER COLPA DI UNA CATTIVA ILLUMINAZIONE?",
+          excerpt: "Se il tuo piatto è gourmet ma la tua foto è mediocre, stai svalutando il tuo prodotto. Impara ad allineare la tua immagine al tuo prezzo.",
+          date: "28 FEB 2024",
+          category: "CHIRURGIA VISIVA",
+          image: "https://images.unsplash.com/photo-1455619452474-d2be8b1e70cd?auto=format&fit=crop&q=80&w=800",
+          imageAlt: "Food cost visivo e marketing gastronomico redditizio"
+        },
+        {
+          id: "digitalizzazione-gourmet-asset",
+          title: "DIGITALIZZAZIONE GOURMET: PERCHÉ LE TUE FOTO SONO IL TUO INVENTARIO PIÙ PREZIOSO",
+          excerpt: "Nell'era dell'IA, digitalizzare il tuo menu non è un'opzione, è una necessità di sopravvivenza. Ottimizza il tuo stock visivo oggi.",
+          date: "01 MAR 2024",
+          category: "IA & TECNOLOGIA",
+          image: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?auto=format&fit=crop&q=80&w=800",
+          imageAlt: "Digitalizzazione dei ristoranti e asset visivi IA"
+        },
+        {
+          id: "checklist-ristorante-salvataggio",
+          title: "CHECKLIST POST-SALVATAGGIO: 10 PUNTI PER FAR BRILLARE IL TUO PIATTO SU GMB",
+          excerpt: "Non inviare una foto qualunque. Segui questi 10 passaggi critici per assicurarti che l'IA possa fare la sua magia.",
+          date: "05 MAR 2024",
+          category: "CONSIGLI TECNICI",
+          image: "https://images.unsplash.com/photo-1484158814513-356a59b9ef3e?auto=format&fit=crop&q=80&w=800",
+          imageAlt: "Checklist fotografia per ristoranti Google Business"
+        },
+        {
+          id: "potere-video-ristorazione",
+          title: "CINEMAGRAFIA GASTRONOMICA: PERCHÉ IL MOVIMENTO FERMA LO SCROLL",
+          excerpt: "Una foto statica viene ignorata; un video di 6 secondi viene divorato. Scopri il potere del pacchetto integrale.",
+          date: "10 MAR 2024",
+          category: "CINEMATOGRAFIA",
+          image: "https://images.unsplash.com/photo-1470333732907-837b9778f0a2?auto=format&fit=crop&q=80&w=800",
+          imageAlt: "Video marketing ristoranti gastronomia"
+        },
+        {
+          id: "fotografia-ristoranti-2-0",
+          title: "FOTOGRAFIA PER RISTORANTI 2.0: DALLO STUDIO ALLA SALA OPERATORIA DIGITALE",
+          excerpt: "È ancora redditizio assumere un fotografo da 500€ a sessione? Confrontiamo il modello tradizionale con il salvataggio IA.",
+          date: "15 MAR 2024",
+          category: "DOSSIER",
+          image: "https://images.unsplash.com/photo-1514362545857-3bc16c4c7d1b?auto=format&fit=crop&q=80&w=800",
+          imageAlt: "Fotografia ristoranti IA vs tradizionale"
         }
       ]
     },
