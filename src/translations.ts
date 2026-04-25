@@ -211,13 +211,43 @@ export const translations = {
           image: "https://images.unsplash.com/photo-1514362545857-3bc16c4c7d1b?auto=format&fit=crop&q=80&w=1000",
           imageAlt: "fotografia-restaurantes-ia-vs-tradicional.jpg",
           content: "El sector de la hostelería está cambiando y la fotografía no puede quedarse atrás. Analizamos por qué el 'Rescate Visual' es la opción más inteligente para restaurantes que necesitan agilidad, calidad constante y un ROI inmediato. Menos logística, más conversión."
+        },
+        {
+          id: "humano-vs-app-ia",
+          category: "marketing",
+          title: "EL FACTOR HUMANO: POR QUÉ UNA IA SIN CONTROL ES UN DESASTRE PARA TU MARCA",
+          excerpt: "¿Crees que una app de 3€ puede entender el 'vibe' de tu restaurante? Descubre el peligro de la automatización ciega.",
+          slogan: "La IA es el bisturí, pero nosotros somos el cirujano.",
+          image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&q=80&w=1000",
+          imageAlt: "humano-vs-ia-marketing-gastronomico.jpg",
+          content: "Estamos inundados de apps que prometen resultados en 90 segundos. El resultado suele ser el mismo: platos que parecen de plástico, sombras imposibles y una falta total de coherencia de marca. En fotografiarestaurante.com, cada píxel es supervisado por un experto en estética gastronómica. No disparamos algoritmos al azar; realizamos intervenciones quirúrgicas personalizadas para que tu restaurante conserve su alma."
+        },
+        {
+          id: "real-vs-falso-ia",
+          category: "rescue",
+          title: "RESCATE REAL VS IA GENERATIVA: NO ENGAÑES A TU CLIENTE CON PLATOS QUE NO EXISTEN",
+          excerpt: "Generar una hamburguesa falsa con IA es fácil. Rescatar TU hamburguesa real es donde reside la verdadera magia.",
+          slogan: "Realismo quirúrgico: La foto es tuya, la perfección es nuestra.",
+          image: "https://images.unsplash.com/photo-1586190848861-99aa4a171e90?auto=format&fit=crop&q=80&w=1000",
+          imageAlt: "realismo-vs-generativa-gastronomia.jpg",
+          content: "Muchos competidores te invitan a 'generar' platos desde cero. Cuidado: el cliente se siente traicionado cuando lo que llega a su mesa no se parece en nada a la foto. Nuestro método de 'Rescate' respeta la arquitectura real de tu plato. No inventamos ingredientes; extraemos la belleza oculta de tu receta real para que la expectativa y la realidad estén 100% alineadas."
+        },
+        {
+          id: "personalizacion-quirurgica",
+          category: "tech",
+          title: "PERSONALIZACIÓN QUIRÚRGICA: ADAPTAMOS LA LUZ A TU VAJILLA, NO A UNA PLANTILLA",
+          excerpt: "Tu restaurante es único. Tus fotos no deberían ser una fotocopia de un filtro genérico. Conoce nuestro trato 1 a 1.",
+          slogan: "Tu ADN gastronómico, amplificado por especialistas.",
+          image: "https://images.unsplash.com/photo-1550966841-3ee206497746?auto=format&fit=crop&q=80&w=1000",
+          imageAlt: "personalizacion-fotografia-gastronomica-ia.jpg",
+          content: "Las plataformas de 'hazlo tú mismo' te obligan a encajar en sus moldes. Nosotros hacemos lo contrario. Analizamos la tonalidad de tus maderas, el brillo de tu vajilla y el estilo de tu cocina para diseñar un protocolo de iluminación a medida. Es un trato boutique en un mundo de producción en masa. Porque tu marca merece una firma, no un código de barras."
         }
       ]
     },
     aside: {
       diagnostic: "DIAGNÓSTICO TÉCNICO",
       hero: "FOTOGRAFÍA GASTRONÓMICA: CIRUGÍA ESTÉTICA PARA TUS PLATOS",
-      desc: "Rescatamos la esencia de tu cocina mediante IA avanzada. Optimizado para cartas de restaurantes, dark kitchens, chefs autónomos y comida para llevar (Take Away, UberEats, Glovo).",
+      desc: "Rescatamos la esencia de tu cocina mediante una intervención personalizada: Ojo humano + Precisión Quirúrgica IA. No somos una app de filtros, somos tu laboratorio de imagen.",
       selectMenu: "Selecciona tu intervención en el Menú",
       galleryBtn: "GOURMET GALLERY",
     },
@@ -231,7 +261,9 @@ export const translations = {
       cinema: "VII. CINEMATOGRAFÍA",
       activeProtocols: "VIII. PROTOCOLOS ACTIVOS",
       blog: "IX. ARCHIVOS DE RESCATE (BLOG)",
+      solutions: "XI. SOLUCIONES POR SECTOR",
       coverage: "X. COBERTURA NACIONAL (SEO LOCAL)",
+      faq: "XII. BRIEFING DE SEGURIDAD (FAQ)",
       contact: "CONSULTA COCINA",
       consultancy: "CONSULTORÍA 1 A 1"
     },
@@ -250,6 +282,54 @@ export const translations = {
         { name: "Palma", slug: "palma", keywords: "Fotógrafo de restaurantes en Palma de Mallorca, Fotografía Gastronómica Baleares" },
         { name: "Las Palmas", slug: "las-palmas", keywords: "Fotógrafo de restaurantes en Las Palmas, Fotografía Gastronómica Canarias" },
         { name: "Bilbao", slug: "bilbao", keywords: "Fotógrafo de restaurantes en Bilbao, Fotografía Gastronómica País Vasco" }
+      ]
+    },
+    solutions: {
+      title: "SOLUCIONES QUIRÚRGICAS SEGÚN TU SECTOR",
+      subtitle: "PROTOCOLOS ADAPTADOS A CADA TIPO DE COCINA",
+      items: [
+        {
+          title: "DELIVERY & DARK KITCHENS",
+          desc: "Optimización extrema para algoritmos. Creamos 'umami visual' que dispara el CTR y reduce la fricción en la decisión de compra.",
+          keywords: ["UberEats", "Glovo", "Conversion Rate", "High Contrast"]
+        },
+        {
+          title: "ALTA COCINA & CHEFS",
+          desc: "Respeto absoluto a la arquitectura del plato. Sin artificios, solo una iluminación que pone en valor la técnica y el ingrediente real.",
+          keywords: ["Bellas Artes", "Textura Real", "Sin Filtros", "Elegancia"]
+        },
+        {
+          title: "HOTELES & RESORTS",
+          desc: "Consistencia visual en cientos de activos. Estandarizamos la imagen de múltiples puntos de venta (buffet, lobby, gourmet) bajo un mismo sello.",
+          keywords: ["Scaling", "Brand Logic", "Asset Management", "Hospitality"]
+        },
+        {
+          title: "BAKERY & PASTRY",
+          desc: "Realce de glaseados, masas y texturas esponjosas. Capturamos la frescura que el ojo percibe antes del primer bocado.",
+          keywords: ["Macro Detail", "Organic Glow", "Soft Light", "Boutique"]
+        }
+      ]
+    },
+    faq: {
+      title: "BRIEFING DE SEGURIDAD",
+      subtitle: "RESOLUCIÓN DE DUDAS TÉCNICAS",
+      items: [
+        {
+          q: "¿NECESITO UN IPHONE DE ÚLTIMA GENERACIÓN?",
+          a: "No. Cualquier móvil con cámara decente sirve. Nuestra IA reconstruye la información lumínica y de textura, convirtiendo un sensor básico en una cámara de estudio de 4K."
+        },
+        {
+          q: "¿ES ESTO 'IA GENERATIVA' QUE INVENTA LA COMIDA?",
+          a: "Absolutamente NO. Nosotros operamos sobre el 'Rescate Real'. Tu plato es el tuyo. No generamos hamburguesas falsas; limpiamos y realzamos la tuya para que no haya engaño visual al cliente."
+        },
+        {
+          q: "¿SIRVEN LAS FOTOS PARA IMPRESIÓN FÍSICA?",
+          a: "Sí. Mediante el proceso 'Resolution Up', escalamos tus fotos a resolución pro (300DPI) aptas para cartas físicas, mupis y vallas publicitarias sin pérdida de calidad."
+        },
+        {
+          q: "¿CUÁL ES EL TIEMPO DE RESPUESTA QUIRÚRGICA?",
+          a: "Entregamos tus activos listos en un plazo de 24 a 48 horas. Sin esperas de 2 semanas como en la fotografía convencional."
+        }
       ]
     },
     heroBanner: {
@@ -730,13 +810,43 @@ export const translations = {
           image: "https://images.unsplash.com/photo-1514362545857-3bc16c4c7d1b?auto=format&fit=crop&q=80&w=1000",
           imageAlt: "restaurant-photography-ai-vs-traditional.jpg",
           content: "The hospitality sector is changing, and photography cannot fall behind. We analyze why 'Visual Rescue' is the smartest choice for restaurants needing agility, constant quality, and an immediate ROI. Less logistics, more conversion."
+        },
+        {
+          id: "human-vs-ai-app",
+          category: "marketing",
+          title: "THE HUMAN FACTOR: WHY UNCONTROLLED AI IS A DISASTER FOR YOUR BRAND",
+          excerpt: "Do you think a €3 app can understand the 'vibe' of your restaurant? Discover the danger of blind automation.",
+          slogan: "AI is the scalpel, but we are the surgeon.",
+          image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&q=80&w=1000",
+          imageAlt: "human-vs-ai-gastronomic-marketing.jpg",
+          content: "We are flooded with apps promising results in 90 seconds. The result is often the same: dishes that look plastic, impossible shadows, and a complete lack of brand consistency. At fotografiarestaurante.com, every pixel is supervised by an expert in gastronomic aesthetics. We don't fire random algorithms; we perform customized surgical interventions so your restaurant keeps its soul."
+        },
+        {
+          id: "real-vs-fake-ai",
+          category: "rescue",
+          title: "REAL RESCUE VS GENERATIVE AI: DON'T DECEIVE YOUR CUSTOMERS WITH NON-EXISTENT DISHES",
+          excerpt: "Generating a fake burger with AI is easy. Rescuing YOUR real burger is where the true magic lies.",
+          slogan: "Surgical realism: The photo is yours, the perfection is ours.",
+          image: "https://images.unsplash.com/photo-1586190848861-99aa4a171e90?auto=format&fit=crop&q=80&w=1000",
+          imageAlt: "realism-vs-generative-gastronomy.jpg",
+          content: "Many competitors invite you to 'generate' dishes from scratch. Careful: the customer feels betrayed when what arrives at their table looks nothing like the photo. Our 'Rescue' method respects the real architecture of your dish. We don't invent ingredients; we extract the hidden beauty of your real recipe so that expectation and reality are 100% aligned."
+        },
+        {
+          id: "surgical-personalization",
+          category: "tech",
+          title: "SURGICAL PERSONALIZATION: WE ADAPT LIGHT TO YOUR PLATE, NOT TO A TEMPLATE",
+          excerpt: "Your restaurant is unique. Your photos shouldn't be a photocopy of a generic filter. Meet our 1-on-1 treatment.",
+          slogan: "Your gastronomic DNA, amplified by specialists.",
+          image: "https://images.unsplash.com/photo-1550966841-3ee206497746?auto=format&fit=crop&q=80&w=1000",
+          imageAlt: "personalization-gastronomic-photography-ia.jpg",
+          content: "Self-service platforms force you to fit into their molds. We do the opposite. We analyze the tone of your woods, the shine of your tableware, and the style of your kitchen to design a custom lighting protocol. It's boutique treatment in a mass-production world. Because your brand deserves a signature, not a barcode."
         }
       ]
     },
     aside: {
       diagnostic: "TECHNICAL DIAGNOSIS",
       hero: "FOOD PHOTOGRAPHY: GOURMET ESTHETIC SURGERY FOR YOUR DISHES",
-      desc: "We rescue the essence of your cuisine through advanced AI. Optimized for restaurants, dark kitchens, private chefs, and take away (UberEats, Glovo). No expensive studio needed.",
+      desc: "We rescue the essence of your cuisine through a personalized intervention: Human eye + AI Surgical Precision. We are not a filter app; we are your image laboratory.",
       selectMenu: "Select your intervention in the Menu",
       galleryBtn: "GOURMET GALLERY",
     },
@@ -750,6 +860,7 @@ export const translations = {
       cinema: "VII. CINEMATOGRAPHY",
       activeProtocols: "VIII. ACTIVE PROTOCOLS",
       blog: "IX. RESCUE ARCHIVES (BLOG)",
+      solutions: "XI. SECTOR SOLUTIONS",
       coverage: "X. NATIONAL COVERAGE (LOCAL SEO)",
       contact: "KITCHEN INQUIRY",
       consultancy: "1-ON-1 CONSULTANCY"
@@ -769,6 +880,54 @@ export const translations = {
         { name: "Palma", slug: "palma", keywords: "Restaurant photographer in Palma de Mallorca, Gastronomic Photography Balearic Islands" },
         { name: "Las Palmas", slug: "las-palmas", keywords: "Restaurant photographer in Las Palmas, Gastronomic Photography Canary Islands" },
         { name: "Bilbao", slug: "bilbao", keywords: "Restaurant photographer in Bilbao, Gastronomic Photography Basque Country" }
+      ]
+    },
+    solutions: {
+      title: "SURGICAL SOLUTIONS BY SECTOR",
+      subtitle: "PROTOCOLS ADAPTED TO EVERY TYPE OF KITCHEN",
+      items: [
+        {
+          title: "DELIVERY & DARK KITCHENS",
+          desc: "Extreme optimization for algorithms. We create 'visual umami' that triggers CTR and reduces friction in the purchase decision.",
+          keywords: ["UberEats", "Glovo", "Conversion Rate", "High Contrast"]
+        },
+        {
+          title: "FINE DINING & CHEFS",
+          desc: "Absolute respect for the dish's architecture. No gimmicks, just lighting that highlights technique and the real ingredient.",
+          keywords: ["Fine Arts", "Real Texture", "No Filters", "Elegance"]
+        },
+        {
+          title: "HOTELS & RESORTS",
+          desc: "Visual consistency across hundreds of assets. We standardize the image of multiple outlets under one signature.",
+          keywords: ["Scaling", "Brand Logic", "Asset Management", "Hospitality"]
+        },
+        {
+          title: "BAKERY & PASTRY",
+          desc: "Enhancing glazes, doughs, and fluffy textures. We capture the freshness the eye perceives before the first bite.",
+          keywords: ["Macro Detail", "Organic Glow", "Soft Light", "Boutique"]
+        }
+      ]
+    },
+    faq: {
+      title: "SECURITY BRIEFING",
+      subtitle: "TECHNICAL Q&A RESOLUTION",
+      items: [
+        {
+          q: "DO I NEED THE LATEST IPHONE?",
+          a: "No. Any mobile with a decent camera works. Our AI reconstructs light and texture information, turning a basic sensor into a 4K studio camera."
+        },
+        {
+          q: "IS THIS 'GENERATIVE AI' THAT INVENT FOOD?",
+          a: "Absolutely NOT. We operate on 'Real Rescue'. Your dish is yours. We don't generate fake burgers; we clean and enhance yours so there's no visual deception for the customer."
+        },
+        {
+          q: "DO THE PHOTOS WORK FOR PHYSICAL PRINTING?",
+          a: "Yes. Through the 'Resolution Up' process, we upscale your photos to pro resolution (300DPI) suitable for physical menus, billboards, and posters without quality loss."
+        },
+        {
+          q: "WHAT IS THE SURGICAL RESPONSE TIME?",
+          a: "We deliver your ready assets within 24 to 48 hours. No 2-week waits like in conventional photography."
+        }
       ]
     },
     heroBanner: {
@@ -1060,7 +1219,7 @@ export const translations = {
     aside: {
       diagnostic: "DIAGNOSTIC TECHNIQUE",
       hero: "PHOTOGRAPHIE GASTRONOMIQUE : CHIRURGIE ESTHÉTIQUE POUR VOS PLATS",
-      desc: "Nous sauvons l'essence de votre cuisine grâce à une intelligence artificielle avancée. Sans photographes, sans rendez-vous et sans interrompre votre service. Votre carte, sous une nouvelle lumière en moins de 48 heures.",
+      desc: "Nous sauvons l'essence de votre cuisine grâce à une intervention personnalisée : Œil humain + Précision Chirurgicale IA. Nous ne sommes pas une application de filtres, nous sommes votre laboratoire d'image.",
       selectMenu: "Sélectionnez votre intervention dans le Menu",
       galleryBtn: "GOURMET GALLERY",
     },
@@ -1074,6 +1233,7 @@ export const translations = {
       cinema: "VII. CINÉMATOGRAPHIE",
       activeProtocols: "VIII. PROTOCOLES ACTIFS",
       blog: "IX. ARCHIVES DE RESCATE (BLOG)",
+      solutions: "XI. SOLUTIONS PAR SECTEUR",
       coverage: "X. COUVERTURE NATIONALE (SEO LOCAL)",
       contact: "DEMANDE CUISINE",
       consultancy: "CONSULTANCE 1 À 1"
@@ -1093,6 +1253,54 @@ export const translations = {
         { name: "Palma", slug: "palma", keywords: "Photographe de restaurant à Palma de Majorque, Photographie Gastronomique Baléares" },
         { name: "Las Palmas", slug: "las-palmas", keywords: "Photographe de restaurant à Las Palmas, Photographie Gastronomique Canaries" },
         { name: "Bilbao", slug: "bilbao", keywords: "Photographe de restaurant à Bilbao, Photographie Gastronomique Pays Basque" }
+      ]
+    },
+    solutions: {
+      title: "SOLUTIONS CHIRURGICALES PAR SECTEUR",
+      subtitle: "PROTOCOLES ADAPTÉS À CHAQUE TYPE DE CUISINE",
+      items: [
+        {
+          title: "DELIVERY & DARK KITCHENS",
+          desc: "Optimisation extrême pour les algorithmes. Nous créons un 'umami visuel' qui booste le CTR et réduit la friction de l'achat.",
+          keywords: ["UberEats", "Glovo", "Conversion Rate", "High Contrast"]
+        },
+        {
+          title: "HAUTE CUISINE & CHEFS",
+          desc: "Respect absolu de l'architecture du plat. Pas d'artifice, juste un éclairage qui magnifie la technique et l'ingrédient réel.",
+          keywords: ["Beaux-Arts", "Texture Réelle", "Sans Filtre", "Élégance"]
+        },
+        {
+          title: "HÔTELS & RESORTS",
+          desc: "Consistance visuelle sur des centaines d'actifs. Nous standardisons l'image de plusieurs points de vente sous une même signature.",
+          keywords: ["Scaling", "Brand Logic", "Asset Management", "Hospitality"]
+        },
+        {
+          title: "BOULANGERIE & PÂTISSERIE",
+          desc: "Mise en valeur des glaçages, pâtes et textures moelleuses. Nous capturons la fraîcheur que l'œil perçoit avant la première bouchée.",
+          keywords: ["Macro Detail", "Organic Glow", "Soft Light", "Boutique"]
+        }
+      ]
+    },
+    faq: {
+      title: "BRIEFING DE SÉCURITÉ",
+      subtitle: "RÉSOLUTION DES DOUTES TECHNIQUES",
+      items: [
+        {
+          q: "AI-JE BESOIN DU DERNIER IPHONE ?",
+          a: "Non. N'importe quel mobile avec un appareil photo décent fonctionne. Notre IA reconstruit les informations de lumière et de texture, transformant un capteur de base en une caméra de studio 4K."
+        },
+        {
+          q: "EST-CE DE 'L'IA GÉNÉRATIVE' QUI INVENTE LA NOURRITURE ?",
+          a: "Absolument PAS. Nous opérons sur le 'Sauvetage Réel'. Votre plat est le vôtre. Nous ne générons pas de faux burgers ; nous nettoyons et magnifions le vôtre pour qu'il n'y ait pas de déception visuelle pour le client."
+        },
+        {
+          q: "LES PHOTOS SERVENT-ELLES À L'IMPRESSION PHYSIQUE ?",
+          a: "Oui. Grâce au processus 'Resolution Up', nous mettons vos photos à l'échelle pro (300DPI) adaptées aux cartes physiques, mupis et affiches publicitaires sans perte de qualité."
+        },
+        {
+          q: "QUEL EST LE TEMPS DE RÉPONSE CHIRURGICALE ?",
+          a: "Nous livrons vos actifs prêts dans un délai de 24 à 48 heures. Pas d'attente de 2 semaines comme dans la photographie conventionnelle."
+        }
       ]
     },
     heroBanner: {
@@ -1417,6 +1625,33 @@ export const translations = {
           category: "DOSSIER",
           image: "https://images.unsplash.com/photo-1514362545857-3bc16c4c7d1b?auto=format&fit=crop&q=80&w=800",
           imageAlt: "Photographie restaurant IA vs traditionnel"
+        },
+        {
+          id: "humain-vs-app-ia",
+          title: "LE FACTEUR HUMAIN : POURQUOI UNE IA SANS CONTRÔLE EST UN DÉSASTRE POUR VOTRE MARQUE",
+          excerpt: "Pensez-vous qu'une application à 3€ peut comprendre le 'vibe' de votre restaurant ? Découvrez le danger de l'automatisation aveugle.",
+          date: "20 MARS 2024",
+          category: "MARKETING",
+          image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&q=80&w=800",
+          imageAlt: "humain-vs-ia-marketing-gastronomique"
+        },
+        {
+          id: "reel-vs-faux-ia",
+          title: "SAUVETAGE RÉEL VS IA GÉNÉRATIVE : NE TROMPEZ PAS VOTRE CLIENT AVEC DES PLATS QUI N'EXISTENT PAS",
+          excerpt: "Générer un faux burger avec l'IA est facile. Sauver VOTRE vrai burger est là où réside la vraie magie.",
+          date: "25 MARS 2024",
+          category: "SAUVETAGE",
+          image: "https://images.unsplash.com/photo-1586190848861-99aa4a171e90?auto=format&fit=crop&q=80&w=800",
+          imageAlt: "realisme-vs-generative-gastronomie"
+        },
+        {
+          id: "personnalisation-chirurgicale",
+          title: "PERSONNALISATION CHIRURGICALE : NOUS ADAPTONS LA LUMIÈRE À VOTRE VAISSELLE, PAS À UN MODÈLE",
+          excerpt: "Votre restaurant est unique. Vos photos ne devraient pas être la photocopie d'un filtre générique.",
+          date: "30 MARS 2024",
+          category: "CONSEILS TECHNIQUES",
+          image: "https://images.unsplash.com/photo-1550966841-3ee206497746?auto=format&fit=crop&q=80&w=800",
+          imageAlt: "personnalisation-photographie-gastronomique-ia"
         }
       ]
     },
@@ -1449,52 +1684,44 @@ export const translations = {
         title: "Remodelage de Carte (60 Photos)",
         subtitle: "Rénovation Stratégique",
         price: "499€",
-        details: "[PRINCIPES]\nPack 'Rénovation de Carte'. Le saut définitif pour les changements de saison ou les ouvertures. Intervention stratégique pour que l'ensemble de votre proposition ait la qualité de la haute cuisine. Inclut une mise à niveau 4K gratuite sur 6 images principales.\n[INCLUSIONS]\n• 60 Sauvetages d'Élite : Du contenu pour renouveler votre carte d'un coup ou sur 2 mois.\n• Contrôle de Perspective IA : Choisissez entre Zénithale, 45º, Frontale, Macro ou Vue du Client.\n• Audit GMB & Instagram : Nous suivons les photos des clients pour sauver les meilleures.\n• Garantie Bloc : Ré-intervention sur jusqu'à 30 images (max. 3 ajustements par photo).\n[CONDITIONS]\n• Formats à la Carte : Choisissez Original, Feed ou Vertical pour chaque prise.\n• Période de consommation : Maximum 60 jours (2 mois) pour consommer vos 60 sauvetages.\n• Délai de livraison : 48-72 heures (les images 4K peuvent nécessiter 24h supplémentaires).\n[INSTRUCTIONS]\nPour donner la priorité à votre commande, le protocole est strictement le suivant :\n1. CONTACT IG : Brève conversation via Instagram (@fotografiarestaurante) pour l'audit de base initial.\n2. CONFIRMATION DE COMMANDE : Le service est activé après validation du paiement sécurisé sur une plateforme.\n3. ENVOI DU MATÉRIEL : Après avoir payé le service, vous recevrez l'adresse technique d'expédition.\n4. DONNÉES OBLIGATOIRES : Incluez le nom de votre restaurant, Instagram, personne de contact et e-mail."
+        details: "[PRINCIPES]\nPack 'Rénovation de Carte'. Le saut définitif pour les changements de saison ou les ouvertures. Intervention stratégique pour que l'ensemble de votre proposition ait la qualité de la haute cuisine. Inclut une mise à niveau 4K gratuite sur 6 images principales.\n[INCLUSIONS]\n• 60 Sauvetages d'Élite : Du contenu pour renouveler votre carte d'un coup ou sur 2 mois.\n• Contrôle de Perspective IA : Choisissez entre Zénithale, 45º, Frontale, Macro ou Vue du Client.\n• Audit GMB & Instagram : Nous suivons les photos des clients pour salvar le migliori.\n• Garantie Bloc : Ré-intervention sur jusqu'à 30 images (max. 3 ajustements par photo).\n[CONDITIONS]\n• Formats à la Carte : Choisissez Original, Feed ou Vertical pour chaque prise.\n• Période de consommation : Maximum 60 jours (2 mois) pour consommer vos 60 sauvetages.\n• Délai de livraison : 48-72 heures (les images 4K peuvent nécessiter 24h supplémentaires).\n[INSTRUCTIONS]\nPour donner la priorité à votre commande, le protocole est strictement le suivant :\n1. CONTACT IG : Brève conversation via Instagram (@fotografiarestaurante) pour l'audit de base initial.\n2. CONFIRMATION DE COMMANDE : Le service est activé après validation du paiement sécurisé sur une plateforme.\n3. ENVOI DU MATÉRIEL : Après avoir payé le service, vous recevrez l'adresse technique d'expédition.\n4. DONNÉES OBLIGATOIRES : Incluez le nom de votre restaurant, Instagram, personne de contact et e-mail dans l'envoi."
       },
       {
         title: "Traitement Intégral (120 Photos)",
         subtitle: "Intervention Totale Annuelle",
         price: "799€",
-        details: "[PRINCIPES]\nL'Archiviste Latent - Intervention Totale. Audit et exécution totale de votre présence sur Google et Instagram. L'investissement le plus intelligent : identité visuelle pour toute une année (environ 6,60 € par image).\n[INCLUSIONS]\n• 120 Sauvetages d'Élite : Du contenu pour couvrir jusqu'à 4 mois ou renouveler toute votre offre d'un coup.\n• Contrôle de Perspective IA : Choisissez la vue (Zénithale, 45º, Frontale, Macro ou Vue de Table).\n• Mise à niveau 4K (20%) : Nous élevons 24 images principales en ultra-haute résolution pour l'impression.\n• Garantie Bloc : Ré-intervention sur jusqu'à 60 images (max. 3 ajustements par photo).\n[CONDITIONS]\n• Formats à la Carte : Choisissez Original, Feed ou Vertical pour chaque prise.\n• Période de consommation : Maximum 120 jours (4 mois) pour consommer vos 120 sauvetages.\n• Audit GMB & Instagram : Suivi massif sur Google et les réseaux sociaux pour localiser les actifs.\n[INSTRUCTIONS]\nPour donner la priorité à votre commande, le protocole est strictement le suivant :\n1. CONTACT IG : Brève conversation via Instagram (@fotografiarestaurante) pour l'audit de base initial.\n2. CONFIRMATION DE COMMANDE : Le service est activé après validation du paiement sécurisé sur une plateforme.\n3. ENVOI DU MATÉRIEL : Après avoir payé le service, vous recevrez l'adresse technique d'expédition.\n4. DONNÉES OBLIGATOIRES : Incluez le nom de votre restaurant, Instagram, personne de contact et e-mail."
+        details: "[PRINCIPES]\nL'Archiviste Latent - Intervention Totale. Audit et exécution totale de votre présence sur Google et Instagram. L'investissement le plus intelligent : identité visuelle pour toute une année (environ 6,60 € par image).\n[INCLUSIONS]\n• 120 Sauvetages d'Élite : Du contenu pour couvrir jusqu'à 4 mois ou renouveler toute votre offre d'un coup.\n• Contrôle de Perspective IA : Choisissez la vue (Zénithale, 45º, Frontale, Macro ou Vue de Table).\n• Mise à niveau 4K (20%) : Nous élevons 24 images principales en ultra-haute résolution pour l'impression.\n• Garantie Bloc : Ré-intervention sur jusqu'à 60 images (max. 3 ajustements par photo).\n[CONDITIONS]\n• Formats à la Carte : Choisissez Original, Feed ou Vertical pour chaque prise.\n• Période de consommation : Maximum 120 jours (4 mois) pour consommer vos 120 sauvetages.\n• Audit GMB & Instagram : Suivi massif sur Google et les réseaux sociaux pour localiser les actifs.\n[INSTRUCTIONS]\nPour donner la priorité à votre commande, le protocole est strictement le suivant :\n1. CONTACT IG : Brève conversation via Instagram (@fotografiarestaurante) pour l'audit de base initial.\n2. CONFIRMATION DE COMMANDE : Le service est activé après validation du paiement sécurisé sur une plateforme.\n3. ENVOI DU MATÉRIEL : Après avoir payé le service, vous recevrez l'adresse technique d'expédition.\n4. DONNÉES OBLIGATOIRES : Incluez le nom de votre restaurant, Instagram, personne de contact et e-mail dans l'envoi."
       }
     ]
   },
   it: {
     seo: {
-      description: "Specialisti in fotografia di ristoranti e fotografia gastronomica IA a Barcellona. Salviamo le tue foto da cellulare per UberEats, Glovo e JustEat in 48 ore. Ritocco professionale gourmet.",
-      keywords: "fotografia ristoranti Barcellona, fotografia gastronomica IA, marketing per ristoranti, ritocco foto cibo, foto UberEats Glovo, food photography professionale, marketing gastronomico digitale"
+      title: "Fotografia per Ristoranti | Salvataggio Asset Gastronomici con IA",
+      description: "Recuperiamo e ottimizziamo le tue foto di cibo con intelligenza artificiale. Qualità da studio senza fotografi in sala. Aumenta le vendite su GMB e Delivery.",
+      keywords: "Fotografia ristoranti, IA gastronomica, ritocco foto cibo, marketing ristorazione, recupero immagini, Glovo, UberEats"
     },
     header: {
-      title: "FOTOGRAFIA RISTORANTE",
-      nav: {
-        protocols: "Protocolli",
-        lab: "Laboratorio",
-        contact: "Contatto"
-      },
-      darkMode: "Modalità Scura",
-      lightMode: "Modalità Chiara",
-      subtitle: "SALA OPERATORIA FOTOGRAFICA"
+      lab: "IL LABORATORIO",
+      plans: "PIANI DI SALVATAGGIO",
+      blog: "BLOG",
+      cta: "PRONTO SOCCORSO (0€)"
     },
     aside: {
-      diagnostic: "DIAGNOSI TECNICA",
-      hero: "FOTOGRAFIA GASTRONOMICA: CHIRURGIA ESTETICA PER I TUOI PIATTI",
-      desc: "Salviamo l'essenza della vostra cucina attraverso l'intelligenza artificiale avanzata. Senza fotografi, senza appuntamenti e senza interrompere il vostro servizio. Il vostro menu, sotto una nuova luce in meno di 48 ore.",
-      selectMenu: "Seleziona il tuo intervento nel Menu",
-      galleryBtn: "GOURMET GALLERY",
+      vision: "Visione",
+      workflow: "Flusso di Lavoro",
+      gallery: "Galleria",
+      faq: "Domande Frequenti",
+      briefing: "Briefing Tecnico"
     },
     sections: {
-      tech: "I. LA NOSTRA TECNOLOGIA",
-      packs: "II. MENU DEGLI INTERVENTI",
-      gallery: "III. TASTE GALLERY (DIMOSTRAZIONE DI POTENZA)",
-      lab: "IV. IL LABORATORIO: SALA OPERATORIA LIVE",
-      testimonials: "V. TESTIMONIANZE (CASI DI SUCCESSO)",
-      equipment: "VI. STRUMENTI CHIRURGICI",
-      cinema: "VII. CINEMATOGRAFIA",
-      activeProtocols: "VIII. PROTOCOLLI ATTIVI",
-      blog: "IX. ARCHIVI DI SALVATAGGIO (BLOG)",
-      coverage: "X. COPERTURA NAZIONALE (SEO LOCALE)",
-      contact: "CONSULENZA IN CUCINA",
-      consultancy: "CONSULENZA 1 A 1"
+      steps: "PROTOCOLLO DI INTERVENTO",
+      solutions: "SOLUZIONI SETTORIALI",
+      gallery: "ARCHIVIO DI SALVATAGGIO",
+      lab: "INGEGNERIA GASTRONOMICA",
+      contact: "CENTRO RELAZIONI",
+      liveProof: "SALVATAGGIO DAL VIVO",
+      blog: "IL BLOG DEL CHIRURGO",
+      packs: "STAZIONE DI ASSUNZIONE"
     },
     localSEO: {
       title: "COPERTURA NAZIONALE: CHIRURGIA VISUALE NELLA TUA CITTÀ",
@@ -1511,6 +1738,54 @@ export const translations = {
         { name: "Palma", slug: "palma", keywords: "Fotografo di ristoranti a Palma di Maiorca, Fotografia Gastronomica Baleari" },
         { name: "Las Palmas", slug: "las-palmas", keywords: "Fotografo di ristoranti a Las Palmas, Fotografia Gastronomica Canarie" },
         { name: "Bilbao", slug: "bilbao", keywords: "Fotografo di ristoranti a Bilbao, Fotografia Gastronomica Paesi Baschi" }
+      ]
+    },
+    solutions: {
+      title: "SOLUZIONI CHIRURGICHE PER SETTORE",
+      subtitle: "PROTOCOLLI ADATTATI A OGNI TIPO DI CUCINA",
+      items: [
+        {
+          title: "DELIVERY & DARK KITCHENS",
+          desc: "Ottimizzazione estrema per gli algoritmi. Creiamo un 'umami visuale' che aumenta il CTR e riduce la frizione nell'acquisto.",
+          keywords: ["UberEats", "Glovo", "Conversion Rate", "High Contrast"]
+        },
+        {
+          title: "ALTA CUCINA & CHEF",
+          desc: "Rispetto assoluto dell'architettura del piatto. Senza artifici, solo un'illuminazione che valorizza la tecnica e l'ingrediente reale.",
+          keywords: ["Belle Arti", "Texture Reale", "Senza Filtri", "Eleganza"]
+        },
+        {
+          title: "HOTEL & RESORT",
+          desc: "Consistenza visuale su centinaia di asset. Standardizziamo l'immagine di più puntos vendita sotto un'unica firma.",
+          keywords: ["Scaling", "Brand Logic", "Asset Management", "Hospitality"]
+        },
+        {
+          title: "PANETTERIA & PASTICCERIA",
+          desc: "Valorizzazione di glasse, impasti e consistenze soffici. Catturiamo la freschezza che l'occhio percepisce al primo sguardo.",
+          keywords: ["Macro Detail", "Organic Glow", "Soft Light", "Boutique"]
+        }
+      ]
+    },
+    faq: {
+      title: "BRIEFING DI SICUREZZA",
+      subtitle: "RISOLUZIONE DEI DUBBI TECNICI",
+      items: [
+        {
+          q: "HO BISOGNO DELL'ULTIMO IPHONE?",
+          a: "No. Qualsiasi cellulare con una fotocamera decente funziona. La nostra IA ricostruisce le informazioni di luce e texture, trasformando un sensore di base in una fotocamera da studio 4K."
+        },
+        {
+          q: "È QUESTA 'IA GENERATIVA' CHE INVENTA IL CIBO?",
+          a: "Assolutamente NO. Operiamo sul 'Salvataggio Reale'. Il tuo piatto è il tuo. Non generiamo hamburger falsi; puliamo e valorizziamo il tuo in modo che non ci sia inganno visivo per il cliente."
+        },
+        {
+          q: "LE FOTO SERVONO PER LA STAMPA FISICA?",
+          a: "Sì. Attraverso il processo 'Resolution Up', scaliamo le tue foto alla risoluzione pro (300DPI) adatta per menu fisici, cartelloni e poster senza perdita di qualità."
+        },
+        {
+          q: "QUAL È IL TEMPO DI RISPOSTA CHIRURGICA?",
+          a: "Consegniamo i tuoi asset pronti entro 24-48 ore. Nessuna attesa di 2 settimane come nella fotografia convenzionale."
+        }
       ]
     },
     heroBanner: {
@@ -1834,6 +2109,33 @@ export const translations = {
           category: "DOSSIER",
           image: "https://images.unsplash.com/photo-1514362545857-3bc16c4c7d1b?auto=format&fit=crop&q=80&w=800",
           imageAlt: "Fotografia ristoranti IA vs tradizionale"
+        },
+        {
+          id: "umano-vs-app-ia",
+          title: "IL FATTORE UMANO: PERCHÉ UN'IA SENZA CONTROLLO È UN DISASTRE PER IL TUO BRAND",
+          excerpt: "Pensi che un'app da 3€ possa capire il 'vibe' del tuo ristorante? Scopri il pericolo dell'automazione cieca.",
+          date: "20 MAR 2024",
+          category: "MARKETING",
+          image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&q=80&w=800",
+          imageAlt: "umano-vs-ia-marketing-gastronomico"
+        },
+        {
+          id: "reale-vs-falso-ia",
+          title: "SALVATAGGIO REALE VS IA GENERATIVA: NON INGANNARE IL TUO CLIENTE CON PIATTI CHE NON ESISTONO",
+          excerpt: "Generare un falso hamburger con l'IA è facile. Salvare il TUO vero hamburger è dove risiede la vera magia.",
+          date: "25 MAR 2024",
+          category: "RESCUE",
+          image: "https://images.unsplash.com/photo-1586190848861-99aa4a171e90?auto=format&fit=crop&q=80&w=800",
+          imageAlt: "realismo-vs-generativa-gastronomia"
+        },
+        {
+          id: "personalizzazione-chirurgica",
+          title: "PERSONALIZZAZIONE CHIRURGICA: ADATTIAMO LA LUCE ALLA TUA VASTIGLIA, NON A UN MODELLO",
+          excerpt: "Il tuo ristorante è unico. Le tue foto non dovrebbero essere la fotocopia di un filtro generico.",
+          date: "30 MAR 2024",
+          category: "CONSIGLI TECNICI",
+          image: "https://images.unsplash.com/photo-1550966841-3ee206497746?auto=format&fit=crop&q=80&w=800",
+          imageAlt: "personalizzazione-fotografia-gastronomica-ia"
         }
       ]
     },

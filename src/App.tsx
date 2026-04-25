@@ -1158,6 +1158,52 @@ const LocalSEOSection = ({ t }: { t: any }) => {
   );
 };
 
+const SolutionsSection = ({ t }: { t: any }) => {
+  return (
+    <section id="soluciones" className="mt-32 mb-16 scroll-mt-20">
+      <div className="px-0 py-8 border-t border-brand-fg/10">
+        <div className="flex items-center gap-2 mb-6">
+          <div className="w-1.5 h-6 bg-brand-fg" />
+          <h2 className="text-[12px] font-black text-brand-fg tracking-[0.4em] uppercase block">
+            {t.sections.solutions}
+          </h2>
+        </div>
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-end">
+          <div>
+            <h3 className="text-3xl md:text-5xl font-black uppercase tracking-tighter mb-4 leading-[0.9]">
+              {t.solutions.title}
+            </h3>
+            <p className="text-[10px] uppercase tracking-[0.4em] opacity-40 mb-6">{t.solutions.subtitle}</p>
+          </div>
+        </div>
+      </div>
+
+      <div className="mt-12 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
+        {t.solutions.items.map((item: any, idx: number) => (
+          <div key={idx} className="bg-brand-bg border border-brand-fg/5 p-8 group hover:border-brand-fg/20 transition-all duration-300 flex flex-col justify-between h-full">
+            <div>
+              <div className="w-8 h-px bg-brand-fg/20 mb-6 group-hover:w-16 transition-all" />
+              <h4 className="text-xl font-black uppercase tracking-tighter mb-4 leading-tight">
+                {item.title}
+              </h4>
+              <p className="text-[14px] opacity-60 leading-relaxed mb-8">
+                {item.desc}
+              </p>
+            </div>
+            <div className="flex flex-wrap gap-2">
+              {item.keywords.map((kw: string, kIdx: number) => (
+                <span key={kIdx} className="text-[9px] uppercase tracking-widest font-mono border border-brand-fg/10 px-2 py-1 rounded-[1px] opacity-40 group-hover:opacity-100 transition-opacity">
+                  {kw}
+                </span>
+              ))}
+            </div>
+          </div>
+        ))}
+      </div>
+    </section>
+  );
+};
+
 export default function App() {
   const [lang, setLang] = useState<Language>('es');
   const [isDark, setIsDark] = useState<boolean>(false);
@@ -1617,6 +1663,7 @@ export default function App() {
         </section>
 
         <LocalSEOSection t={t} />
+        <SolutionsSection t={t} />
 
         <footer className="mt-24 border-t border-brand-border pt-16 pb-24">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-16 items-start">
