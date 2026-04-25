@@ -1210,6 +1210,7 @@ export const translations = {
       nav: {
         protocols: "Protocoles",
         lab: "Laboratoire",
+        blog: "Archives",
         contact: "Contact"
       },
       darkMode: "Mode Sombre",
@@ -1701,10 +1702,16 @@ export const translations = {
       keywords: "Fotografia ristoranti, IA gastronomica, ritocco foto cibo, marketing ristorazione, recupero immagini, Glovo, UberEats"
     },
     header: {
-      lab: "IL LABORATORIO",
-      plans: "PIANI DI SALVATAGGIO",
-      blog: "BLOG",
-      cta: "PRONTO SOCCORSO (0€)"
+      title: "FOTOGRAFIA PER RISTORANTI",
+      nav: {
+        protocols: "Protocolli",
+        lab: "Laboratorio",
+        blog: "Archivio",
+        contact: "Contatto"
+      },
+      darkMode: "Modo Scuro",
+      lightMode: "Modo Chiaro",
+      subtitle: "SALA OPERATORIA FOTOGRAFICA"
     },
     aside: {
       vision: "Visione",
