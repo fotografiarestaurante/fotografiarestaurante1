@@ -126,36 +126,38 @@ const LanguageSwitcher = ({ current, onChange }: { current: Language, onChange: 
     <div className="relative">
       <button 
         onClick={() => setIsOpen(!isOpen)}
-        className="flex items-center gap-1 hover:opacity-50 transition-opacity font-black tracking-[0.2em] text-[10px] py-1 px-2 border border-transparent hover:border-brand-border"
+        className="flex items-center gap-1.5 hover:bg-brand-fg/5 transition-all font-black tracking-[0.2em] text-[10px] py-1 px-3 border border-brand-border h-[32px] bg-brand-bg"
         aria-label="Change Language"
       >
         <Globe size={12} strokeWidth={3} />
-        <span>{current.toUpperCase()}</span>
+        <span className="w-4 text-center">{current.toUpperCase()}</span>
       </button>
       <AnimatePresence>
         {isOpen && (
-          <>
-            <div className="fixed inset-0 z-[190]" onClick={() => setIsOpen(false)} />
+          <div key="lang-dropdown">
+            <div className="fixed inset-0 z-[190] cursor-default" onClick={() => setIsOpen(false)} />
             <motion.div 
               initial={{ opacity: 0, y: 5 }}
               animate={{ opacity: 1, y: 0 }}
               exit={{ opacity: 0, y: 5 }}
-              className="absolute top-full mt-2 right-0 bg-brand-bg border border-brand-border p-1 min-w-[60px] z-[200] shadow-xl"
+              className="absolute top-full mt-2 right-0 bg-brand-bg border border-brand-border p-1 min-w-[70px] z-[200] shadow-2xl"
             >
-              {langs.map((l) => (
-                <button
-                  key={l.key}
-                  onClick={() => {
-                    onChange(l.key);
-                    setIsOpen(false);
-                  }}
-                  className={`block w-full text-left px-3 py-2 text-[9px] font-black hover:bg-brand-fg hover:text-brand-bg transition-colors tracking-widest ${current === l.key ? 'bg-brand-fg text-brand-bg' : 'text-brand-fg'}`}
-                >
-                  {l.name}
-                </button>
-              ))}
+              <div className="flex flex-col">
+                {langs.map((l) => (
+                  <button
+                    key={l.key}
+                    onClick={() => {
+                      onChange(l.key);
+                      setIsOpen(false);
+                    }}
+                    className={`block w-full text-left px-4 py-2 text-[10px] font-black hover:bg-brand-fg hover:text-brand-bg transition-colors tracking-[0.2em] ${current === l.key ? 'bg-brand-fg text-brand-bg' : 'text-brand-fg'}`}
+                  >
+                    {l.name}
+                  </button>
+                ))}
+              </div>
             </motion.div>
-          </>
+          </div>
         )}
       </AnimatePresence>
     </div>
@@ -1106,6 +1108,47 @@ const useJSONLD = (lang: string, t: any) => {
   }, [lang, t]);
 };
 
+const FAQSection = ({ t }: { t: any }) => {
+  return (
+    <section id="qa" className="mt-32 pt-20 border-t border-brand-border">
+      <div className="flex items-center gap-2 mb-12">
+        <div className="w-1.5 h-6 bg-brand-fg" />
+        <div>
+          <h2 className="text-3xl font-black uppercase tracking-tighter">{t.faq.title}</h2>
+          <p className="text-[10px] uppercase tracking-[0.4em] opacity-40 mt-1">{t.faq.subtitle}</p>
+        </div>
+      </div>
+
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-x-16 gap-y-12">
+        {t.faq.items.map((item: any, idx: number) => (
+          <motion.div 
+            key={idx} 
+            initial={{ opacity: 0, y: 10 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ delay: idx * 0.05 }}
+            viewport={{ once: true }}
+            className="flex flex-col gap-4"
+          >
+            <h3 className="text-[14px] font-black uppercase tracking-tight leading-tight group flex items-start gap-3">
+              <span className="text-brand-fg/30 mt-0.5 font-mono">Q.</span>
+              <span>{item.q}</span>
+            </h3>
+            <div className="flex items-start gap-3">
+              <div className="flex flex-col items-center gap-1 mt-1.5 shrink-0">
+                <span className="text-brand-fg font-black text-[12px] font-mono">A.</span>
+                <div className="w-px h-6 bg-brand-fg/10" />
+              </div>
+              <p className="text-[14px] opacity-70 leading-relaxed italic border-l border-brand-fg/20 pl-4 py-1">
+                {item.a}
+              </p>
+            </div>
+          </motion.div>
+        ))}
+      </div>
+    </section>
+  );
+};
+
 const LocalSEOSection = ({ t }: { t: any }) => {
   return (
     <section id="cobertura" className="mt-32 mb-16 scroll-mt-20">
@@ -1125,6 +1168,13 @@ const LocalSEOSection = ({ t }: { t: any }) => {
             <p className="text-[14px] md:text-[16px] opacity-70 max-w-xl leading-relaxed">
               {t.localSEO.description}
             </p>
+            <button 
+              onClick={() => document.getElementById('qa')?.scrollIntoView({behavior: 'smooth'})}
+              className="mt-6 text-[10px] font-black uppercase tracking-[0.3em] flex items-center gap-2 hover:opacity-50 transition-opacity cursor-pointer group"
+            >
+              <span className="w-6 h-[1px] bg-brand-fg/30 group-hover:w-10 transition-all" />
+              {t.faq.title}
+            </button>
           </div>
         </div>
       </div>
@@ -1345,13 +1395,21 @@ export default function App() {
     <div className="min-h-screen lg:h-screen w-full grid grid-cols-1 lg:grid-cols-[340px_1fr_280px] bg-brand-bg text-brand-fg selection:bg-brand-fg selection:text-brand-bg">
       {/* Header */}
       <header className="col-span-full border-b border-brand-border flex items-center justify-between px-4 md:px-10 tracking-[0.2em] uppercase text-[9px] min-[320px]:text-[10px] sm:text-[11px] md:text-[12px] h-[80px] sticky top-0 bg-brand-bg/80 backdrop-blur-sm z-[100]">
-        <nav className="flex items-center gap-2 md:gap-10 w-full font-black">
-          <span className="shrink-0 cursor-default text-[12px] md:text-[14px] lg:text-[16px] tracking-[0.25em]">{t.header.title}</span>
-          <div className="hidden lg:flex gap-6">
-            <button onClick={() => document.getElementById('tecnologia')?.scrollIntoView({behavior: 'smooth'})} className="hover:opacity-50 transition-all cursor-pointer">{t.header.nav.protocols}</button>
-            <button onClick={() => document.getElementById('laboratorio')?.scrollIntoView({behavior: 'smooth'})} className="hover:opacity-50 transition-all cursor-pointer">{t.header.nav.lab}</button>
-            <button onClick={() => document.getElementById('archivos')?.scrollIntoView({behavior: 'smooth'})} className="hover:opacity-50 transition-all cursor-pointer">{t.header.nav.blog}</button>
-            <button onClick={() => document.getElementById('comanda')?.scrollIntoView({behavior: 'smooth'})} className="hover:opacity-50 transition-all cursor-pointer">{t.header.nav.contact}</button>
+        <nav className="flex items-center gap-4 md:gap-10 w-full font-black px-2">
+          <div className="flex items-center gap-4 shrink-0 px-2 lg:px-0">
+            <span className="shrink-0 cursor-default text-[11px] md:text-[14px] lg:text-[16px] tracking-[0.25em]">{t.header.title}</span>
+            <button 
+              onClick={() => document.getElementById('qa')?.scrollIntoView({behavior: 'smooth'})} 
+              className="text-[10px] md:text-[11px] border border-brand-fg px-4 py-2 rounded-none hover:bg-brand-fg hover:text-brand-bg transition-all cursor-pointer whitespace-nowrap font-black uppercase tracking-[0.1em]"
+            >
+              {t.header.nav.qa}
+            </button>
+          </div>
+          <div className="hidden md:flex items-center gap-4 lg:gap-8 ml-auto lg:ml-0 overflow-x-auto no-scrollbar">
+            <button onClick={() => document.getElementById('tecnologia')?.scrollIntoView({behavior: 'smooth'})} className="hover:opacity-50 transition-all cursor-pointer whitespace-nowrap">{t.header.nav.protocols}</button>
+            <button onClick={() => document.getElementById('laboratorio')?.scrollIntoView({behavior: 'smooth'})} className="hover:opacity-50 transition-all cursor-pointer whitespace-nowrap">{t.header.nav.lab}</button>
+            <button onClick={() => document.getElementById('archivos')?.scrollIntoView({behavior: 'smooth'})} className="hover:opacity-50 transition-all cursor-pointer whitespace-nowrap">{t.header.nav.blog}</button>
+            <button onClick={() => document.getElementById('comanda')?.scrollIntoView({behavior: 'smooth'})} className="hover:opacity-50 transition-all cursor-pointer whitespace-nowrap">{t.header.nav.contact}</button>
           </div>
           <div className="ml-auto flex items-center gap-3 sm:gap-6">
             <ThemeToggle isDark={isDark} onToggle={() => setIsDark(!isDark)} t={t} />
@@ -1394,29 +1452,16 @@ export default function App() {
           </div>
         </div>
         
-        <div className="mt-8">
-          <div className="flex flex-wrap gap-2 mb-4">
-            {t.liveProof.examples.map((ex: any, idx: number) => (
-              <button
-                key={ex.id}
-                onClick={() => setSelectedLiveProofIndex(idx)}
-                className={`text-[8px] font-black uppercase tracking-widest px-3 py-2 border transition-all ${
-                  selectedLiveProofIndex === idx 
-                    ? 'bg-brand-fg text-brand-bg border-brand-fg' 
-                    : 'bg-transparent text-brand-fg/40 border-brand-border hover:border-brand-fg/40'
-                }`}
-              >
-                EX {ex.id}
-              </button>
-            ))}
-          </div>
-          <BeforeAfterSlider 
-            t={t} 
-            beforeUrl={t.liveProof.examples[selectedLiveProofIndex].before || t.liveProof.examples[0].before}
-            afterUrl={t.liveProof.examples[selectedLiveProofIndex].after || t.liveProof.examples[0].after}
-            beforeLabel={t.liveProof.beforeLabel} 
-            afterLabel={t.liveProof.afterLabel}
+        <div className="mt-8 relative group overflow-hidden border border-brand-border h-[200px] lg:h-[300px]">
+          <img 
+            src={t.liveProof.examples[0].after} 
+            alt={t.liveProof.examples[0].name}
+            className="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-700"
+            referrerPolicy="no-referrer"
           />
+          <div className="absolute inset-0 bg-gradient-to-t from-brand-bg/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity flex items-end p-4">
+            <span className="text-[10px] font-black uppercase tracking-[0.2em]">{t.liveProof.examples[0].name}</span>
+          </div>
         </div>
       </aside>
 
@@ -1697,6 +1742,7 @@ export default function App() {
         </section>
 
         <LocalSEOSection t={t} />
+        <FAQSection t={t} />
         <SolutionsSection t={t} />
 
         <footer className="mt-24 border-t border-brand-border pt-16 pb-24">
@@ -1757,6 +1803,7 @@ export default function App() {
                 <li><button onClick={() => scrollToAndHighlight('pack-degustacion')} className="text-left text-[12px] hover:underline uppercase tracking-widest opacity-50 hover:opacity-100 transition-colors">{t.packs[0].title}</button></li>
                 <li><button onClick={() => scrollToAndHighlight('pack-lifting')} className="text-left text-[12px] hover:underline uppercase tracking-widest opacity-50 hover:opacity-100 transition-colors">{t.packs[2].title}</button></li>
                 <li><button onClick={() => scrollToAndHighlight('pack-integral')} className="text-left text-[12px] hover:underline uppercase tracking-widest opacity-50 hover:opacity-100 transition-colors">{t.packs[5].title}</button></li>
+                <li><button onClick={() => document.getElementById('qa')?.scrollIntoView({behavior: 'smooth'})} className="text-left text-[12px] hover:underline uppercase tracking-widest opacity-50 hover:opacity-100 transition-colors">{t.header.nav.qa}</button></li>
               </ul>
             </div>
 

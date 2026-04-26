@@ -13,6 +13,7 @@ export const translations = {
         protocols: "Protocolos",
         lab: "Laboratorio",
         blog: "Archivos",
+        qa: "POR QUÉ NOSOTROS",
         contact: "Contacto"
       },
       darkMode: "Modo Oscuro",
@@ -316,23 +317,31 @@ export const translations = {
     },
     faq: {
       title: "BRIEFING DE SEGURIDAD",
-      subtitle: "RESOLUCIÓN DE DUDAS TÉCNICAS",
+      subtitle: "RESOLUCIÓN DE DUDAS TÉCNICAS (Q&A)",
       items: [
         {
-          q: "¿NECESITO UN IPHONE DE ÚLTIMA GENERACIÓN?",
-          a: "No. Cualquier móvil con cámara decente sirve. Nuestra IA reconstruye la información lumínica y de textura, convirtiendo un sensor básico en una cámara de estudio de 4K."
+          q: "¿POR QUÉ USAR VUESTRO SERVICIO EN LUGAR DE CHATGPT O MIDJOURNEY?",
+          a: "Aunque cualquiera puede usar IA, el resultado profesional no es ni de lejos el mismo. Para obtener un resultado de alta gama te harían falta cientos de horas de prueba-error hasta encontrar el prompt perfecto, y volver a empezar en cada plato. Nosotros aportamos el 'umami visual' mediante la intervención de un experto humano que guía a la IA."
         },
         {
-          q: "¿ES ESTO 'IA GENERATIVA' QUE INVENTA LA COMIDA?",
-          a: "Absolutamente NO. Nosotros operamos sobre el 'Rescate Real'. Tu plato es el tuyo. No generamos hamburguesas falsas; limpiamos y realzamos la tuya para que no haya engaño visual al cliente."
+          q: "¿VIENE LA IA A SUSTITUIR A LOS FOTÓGRAFOS?",
+          a: "No, la IA es una herramienta que asiste en el proceso. Los fotógrafos a pie de campo siguen siendo vitales para capturar el alma del restaurante. Nosotros somos un laboratorio de rescate que ayuda cuando no hay tiempo o presupuesto para una sesión presencial diaria."
         },
         {
-          q: "¿SIRVEN LAS FOTOS PARA IMPRESIÓN FÍSICA?",
-          a: "Sí. Mediante el proceso 'Resolution Up', escalamos tus fotos a resolución pro (300DPI) aptas para cartas físicas, mupis y vallas publicitarias sin pérdida de calidad."
+          q: "¿POR QUÉ APROVECHAR LAS FOTOS QUE HACEN MIS CLIENTES O EL STAFF?",
+          a: "Cada día se desperdician miles de fotos espontáneas en redes sociales. Recuperar esas imágenes es la forma más rápida y auténtica de mantener tu oferta visible, fresca y al día sin complicaciones logísticas."
         },
         {
-          q: "¿CUÁL ES EL TIEMPO DE RESPUESTA QUIRÚRGICA?",
-          a: "Entregamos tus activos listos en un plazo de 24 a 48 horas. Sin esperas de 2 semanas como en la fotografía convencional."
+          q: "¿QUÉ IMPACTO TIENE UNA BUENA FOTO EN MIS VENTAS?",
+          a: "Una imagen optimizada quirúrgicamente puede subir las ventas más de un 40% en plataformas de delivery (UberEats, Glovo). El apetito entra por los ojos y nada vende más que la realidad aumentada."
+        },
+        {
+          q: "¿POR QUÉ ES IMPORTANTE MANTENER VISIBLE MI OFERTA DIARIAMENTE?",
+          a: "Mantener tu menú del día o la carta actualizada genera confianza y recurrencia. Con nuestro servicio, el ahorro de molestias y recursos es total: tú cocinas el plato real, nosotros operamos el archivo digital."
+        },
+        {
+          q: "¿COMPRAR EL PACK AHORRA REALMENTE RECURSOS?",
+          a: "Absolutamente. Evitas el coste de desplazamiento, montaje de luces, y el paro de servicio que supone una sesión tradicional. Es eficiencia quirúrgica aplicada a tu presupuesto de marketing."
         }
       ]
     },
@@ -422,13 +431,13 @@ export const translations = {
         },
         {
           id: 2,
-          name: "PIES DE CERDO CON SANFAINA",
+          name: "PIES DE CERDO À LA SANFAINA",
           before: "https://res.cloudinary.com/dsahovs5z/image/upload/v1777177225/ezpmbdvkng60jtaclwpc_d0kh91.webp",
           after: "https://res.cloudinary.com/dsahovs5z/image/upload/v1777177226/t2rk4ebe2tys0o8lt2qj_ac8hwn.webp"
         },
         { id: 3, name: "LENGUADO", before: "https://res.cloudinary.com/dsahovs5z/image/upload/v1777177226/truktc3iv2xrqsvbyqr0_c0it2i.webp", after: "https://res.cloudinary.com/dsahovs5z/image/upload/v1777177225/jtzc882jxwybi8stq5gw_xmmoch.webp" },
         { id: 4, name: "ARROZ NEGRO", before: "https://res.cloudinary.com/dsahovs5z/image/upload/q_auto/f_auto/v1777177225/ntwpv91v496gevjkiixe_scazg3.webp", after: "https://res.cloudinary.com/dsahovs5z/image/upload/v1777177226/r0jkoplxznkzjwqxcp9q_chfhyg.webp" },
-        { id: 5, name: "ESPAGUETIS MARINERA", before: "https://res.cloudinary.com/dsahovs5z/image/upload/q_auto/f_auto/v1777177226/jvvs46ud0chcb7borsha_bysnor.webp", after: "https://res.cloudinary.com/dsahovs5z/image/upload/q_auto/f_auto/v1777177225/c2gtsp3xaybvp3gpsywt_e5fvef.webp" },
+        { id: 5, name: "ESPAGUETIS FRUTTI DI MARE", before: "https://res.cloudinary.com/dsahovs5z/image/upload/q_auto/f_auto/v1777177226/jvvs46ud0chcb7borsha_bysnor.webp", after: "https://res.cloudinary.com/dsahovs5z/image/upload/q_auto/f_auto/v1777177225/c2gtsp3xaybvp3gpsywt_e5fvef.webp" },
         { id: 6, name: "CANELONES DE ESPINACAS", before: "https://res.cloudinary.com/dsahovs5z/image/upload/q_auto/f_auto/v1777177225/nb7skwwxpmmiolo0dg5u_vtc9tv.webp", after: "https://res.cloudinary.com/dsahovs5z/image/upload/q_auto/f_auto/v1777177225/ko67qqjlzdod3qdh6lss_fl2spi.webp" }
       ]
     },
@@ -634,6 +643,7 @@ export const translations = {
         protocols: "Protocols",
         lab: "Laboratory",
         blog: "Archives",
+        qa: "WHY US",
         contact: "Contact"
       },
       darkMode: "Dark Mode",
@@ -935,24 +945,32 @@ export const translations = {
       ]
     },
     faq: {
-      title: "SECURITY BRIEFING",
+      title: "SAFETY BRIEFING",
       subtitle: "TECHNICAL Q&A RESOLUTION",
       items: [
         {
-          q: "DO I NEED THE LATEST IPHONE?",
-          a: "No. Any mobile with a decent camera works. Our AI reconstructs light and texture information, turning a basic sensor into a 4K studio camera."
+          q: "WHY USE YOUR SERVICE INSTEAD OF CHATGPT OR MIDJOURNEY?",
+          a: "While anyone can use AI, the professional result is not the same at all. To get high-end results, you would need hundreds of hours of trial and error to find the perfect prompt, and start over for every dish. We provide 'visual umami' through expert human intervention guiding the AI."
         },
         {
-          q: "IS THIS 'GENERATIVE AI' THAT INVENT FOOD?",
-          a: "Absolutely NOT. We operate on 'Real Rescue'. Your dish is yours. We don't generate fake burgers; we clean and enhance yours so there's no visual deception for the customer."
+          q: "IS AI REPLACING PHOTOGRAPHERS?",
+          a: "No, AI is a tool that assists in the process. On-site photographers remain vital for capturing the restaurant's soul. We are a rescue laboratory that helps when there is no time or budget for a daily in-person session."
         },
         {
-          q: "DO THE PHOTOS WORK FOR PHYSICAL PRINTING?",
-          a: "Yes. Through the 'Resolution Up' process, we upscale your photos to pro resolution (300DPI) suitable for physical menus, billboards, and posters without quality loss."
+          q: "WHY LEVERAGE PHOTOS TAKEN BY MY CUSTOMERS OR STAFF?",
+          a: "Every day thousands of spontaneous photos are wasted on social media. Recovering those images is the fastest and most authentic way to keep your offer visible, fresh, and up-to-date without logistical complications."
         },
         {
-          q: "WHAT IS THE SURGICAL RESPONSE TIME?",
-          a: "We deliver your ready assets within 24 to 48 hours. No 2-week waits like in conventional photography."
+          q: "WHAT IMPACT DOES A GOOD PHOTO HAVE ON MY SALES?",
+          a: "A surgically optimized image can increase sales by more than 40% on delivery platforms (UberEats, Glovo). Appetite comes through the eyes and nothing sells better than augmented reality."
+        },
+        {
+          q: "WHY IS IT IMPORTANT TO KEEP MY MENU VISIBLE DAILY?",
+          a: "Keeping your daily menu or card updated generates trust and recurrence. With our service, the saving of hassle and resources is total: you cook the real dish, we operate the digital file."
+        },
+        {
+          q: "DOES BUYING THE PACK REALLY SAVE RESOURCES?",
+          a: "Absolutely. You avoid the cost of travel, lighting setup, and the service interruption that a traditional session entails. It is surgical efficiency applied to your marketing budget."
         }
       ]
     },
@@ -1042,11 +1060,11 @@ export const translations = {
         },
         {
           id: 2,
-          name: "PORK TROTTERS WITH SANFAINA",
+          name: "PIG'S FEET WITH SANFAINA",
           before: "https://res.cloudinary.com/dsahovs5z/image/upload/v1777177225/ezpmbdvkng60jtaclwpc_d0kh91.webp",
           after: "https://res.cloudinary.com/dsahovs5z/image/upload/v1777177226/t2rk4ebe2tys0o8lt2qj_ac8hwn.webp"
         },
-        { id: 3, name: "SOLE FISH", before: "https://res.cloudinary.com/dsahovs5z/image/upload/v1777177226/truktc3iv2xrqsvbyqr0_c0it2i.webp", after: "https://res.cloudinary.com/dsahovs5z/image/upload/v1777177225/jtzc882jxwybi8stq5gw_xmmoch.webp" },
+        { id: 3, name: "SOLE", before: "https://res.cloudinary.com/dsahovs5z/image/upload/v1777177226/truktc3iv2xrqsvbyqr0_c0it2i.webp", after: "https://res.cloudinary.com/dsahovs5z/image/upload/v1777177225/jtzc882jxwybi8stq5gw_xmmoch.webp" },
         { id: 4, name: "BLACK RICE", before: "https://res.cloudinary.com/dsahovs5z/image/upload/q_auto/f_auto/v1777177225/ntwpv91v496gevjkiixe_scazg3.webp", after: "https://res.cloudinary.com/dsahovs5z/image/upload/v1777177226/r0jkoplxznkzjwqxcp9q_chfhyg.webp" },
         { id: 5, name: "SEAFOOD SPAGHETTI", before: "https://res.cloudinary.com/dsahovs5z/image/upload/q_auto/f_auto/v1777177226/jvvs46ud0chcb7borsha_bysnor.webp", after: "https://res.cloudinary.com/dsahovs5z/image/upload/q_auto/f_auto/v1777177225/c2gtsp3xaybvp3gpsywt_e5fvef.webp" },
         { id: 6, name: "SPINACH CANNELLONI", before: "https://res.cloudinary.com/dsahovs5z/image/upload/q_auto/f_auto/v1777177225/nb7skwwxpmmiolo0dg5u_vtc9tv.webp", after: "https://res.cloudinary.com/dsahovs5z/image/upload/q_auto/f_auto/v1777177225/ko67qqjlzdod3qdh6lss_fl2spi.webp" }
@@ -1255,6 +1273,7 @@ export const translations = {
         protocols: "Protocoles",
         lab: "Laboratoire",
         blog: "Archives",
+        qa: "POURQUOI NOUS",
         contact: "Contact"
       },
       darkMode: "Mode Sombre",
@@ -1328,23 +1347,31 @@ export const translations = {
     },
     faq: {
       title: "BRIEFING DE SÉCURITÉ",
-      subtitle: "RÉSOLUTION DES DOUTES TECHNIQUES",
+      subtitle: "RÉSOLUTION DES DOUTES TECHNIQUES (Q&A)",
       items: [
         {
-          q: "AI-JE BESOIN DU DERNIER IPHONE ?",
-          a: "Non. N'importe quel mobile avec un appareil photo décent fonctionne. Notre IA reconstruit les informations de lumière et de texture, transformant un capteur de base en une caméra de studio 4K."
+          q: "POURQUOI UTILISER VOTRE SERVICE AU LIEU DE CHATGPT OU MIDJOURNEY ?",
+          a: "Bien que n'importe qui puisse utiliser l'IA, le résultat professionnel n'est pas du tout le même. Pour obtenir un résultat haut de gamme, il vous faudrait des centaines d'heures d'essais et d'erreurs pour trouver le prompt parfait, et recommencer pour chaque plat. Nous apportons l'umami visuel' grâce à l'intervention d'un expert humain qui guide l'IA."
         },
         {
-          q: "EST-CE DE 'L'IA GÉNÉRATIVE' QUI INVENTE LA NOURRITURE ?",
-          a: "Absolument PAS. Nous opérons sur le 'Sauvetage Réel'. Votre plat est le vôtre. Nous ne générons pas de faux burgers ; nous nettoyons et magnifions le vôtre pour qu'il n'y ait pas de déception visuelle pour le client."
+          q: "L'IA VIENE-T-ELLE REMPLACER LES PHOTOGRAPHES ?",
+          a: "Non, l'IA est un outil qui aide au processus. Les photographes sur le terrain restent vitaux pour capturer l'âme du restaurant. Nous sommes un laboratoire de sauvetage qui aide lorsqu'il n'y a pas de temps ou de budget pour une séance en personne quotidienne."
         },
         {
-          q: "LES PHOTOS SERVENT-ELLES À L'IMPRESSION PHYSIQUE ?",
-          a: "Oui. Grâce au processus 'Resolution Up', nous mettons vos photos à l'échelle pro (300DPI) adaptées aux cartes physiques, mupis et affiches publicitaires sans perte de qualité."
+          q: "POURQUOI PROFITER DES PHOTOS PRISES PAR MES CLIENTS OU LE PERSONNEL ?",
+          a: "Chaque jour, des milliers de photos spontanées sont gaspillées sur les réseaux sociaux. Récupérer ces images est le moyen le plus rapide et le plus authentique de maintenir votre offre visible, fraîche et à jour sans complications logistiques."
         },
         {
-          q: "QUEL EST LE TEMPS DE RÉPONSE CHIRURGICALE ?",
-          a: "Nous livrons vos actifs prêts dans un délai de 24 à 48 heures. Pas d'attente de 2 semaines comme dans la photographie conventionnelle."
+          q: "QUEL IMPACT UNE BONNE PHOTO A-T-ELLE SUR MES VENTES ?",
+          a: "Une image optimisée chirurgicalement peut augmenter les ventes de plus de 40 % sur les plateformes de livraison (UberEats, Glovo). L'appétit passe par les yeux et rien ne vend mieux que la réalité augmentée."
+        },
+        {
+          q: "POURQUOI EST-IL IMPORTANT DE GARDER MON OFFRE VISIBLE QUOTIDIENNEMENT ?",
+          a: "Maintenir votre menu du jour ou votre carte à jour génère de la confiance et de la récurrence. Avec notre service, l'économie de tracas et de ressources est totale : vous cuisinez le plat réel, nous opérons le fichier numérique."
+        },
+        {
+          q: "L'ACHAT DU PACK ÉCONOMISE-T-IL RÉELLEMENT DES RESSOURCES ?",
+          a: "Absolument. Vous évitez les frais de déplacement, l'installation des lumières et l'interruption de service qu'implique une séance traditionnelle. C'est l'efficacité chirurgicale appliquée à votre budget marketing."
         }
       ]
     },
@@ -1799,6 +1826,7 @@ export const translations = {
         protocols: "Protocolli",
         lab: "Laboratorio",
         blog: "Archivio",
+        qa: "PERCHÉ NOI",
         contact: "Contatto"
       },
       darkMode: "Modo Scuro",
@@ -1856,7 +1884,7 @@ export const translations = {
         },
         {
           title: "ALTA CUCINA & CHEF",
-          desc: "Rispetto assoluto dell'architettura del piatto. Senza artifici, solo un'illuminazione che valorizza la tecnica e l'ingrediente reale.",
+          desc: "Rispetto assoluto dell'architettura del piatto. Senza artifici, solo un'illuminazione que valorizza la tecnica e l'ingrediente reale.",
           keywords: ["Belle Arti", "Texture Reale", "Senza Filtri", "Eleganza"]
         },
         {
@@ -1873,23 +1901,31 @@ export const translations = {
     },
     faq: {
       title: "BRIEFING DI SICUREZZA",
-      subtitle: "RISOLUZIONE DEI DUBBI TECNICI",
+      subtitle: "RISOLUZIONE DEI DUBBI TECNICI (Q&A)",
       items: [
         {
-          q: "HO BISOGNO DELL'ULTIMO IPHONE?",
-          a: "No. Qualsiasi cellulare con una fotocamera decente funziona. La nostra IA ricostruisce le informazioni di luce e texture, trasformando un sensore di base in una fotocamera da studio 4K."
+          q: "PERCHÉ USARE IL VOSTRO SERVIZIO INVECE DI CHATGPT O MIDJOURNEY?",
+          a: "Anche se chiunque può usare l'IA, il risultato professionale non è affatto lo stesso. Per ottenere un'immagine d'alta gamma servirebbero centinaia di ore di prove ed errori per trovare il prompt perfetto, e dovresti ricominciare da zero per ogni piatto. Noi forniamo l'umami visivo' attraverso un intervento umano esperto che guida l'IA."
         },
         {
-          q: "È QUESTA 'IA GENERATIVA' CHE INVENTA IL CIBO?",
-          a: "Assolutamente NO. Operiamo sul 'Salvataggio Reale'. Il tuo piatto è il tuo. Non generiamo hamburger falsi; puliamo e valorizziamo il tuo in modo che non ci sia inganno visivo per il cliente."
+          q: "L'IA VIENE A SOSTITUIRE I FOTOGRAFI?",
+          a: "No, l'IA è uno strumento che assiste nel processo. I fotografi sul campo rimangono vitali per capturare l'anima del ristorante. Noi siamo un laboratorio di salvataggio che aiuta quando non c'è tempo o budget per una sessione in presenza quotidiana."
         },
         {
-          q: "LE FOTO SERVONO PER LA STAMPA FISICA?",
-          a: "Sì. Attraverso il processo 'Resolution Up', scaliamo le tue foto alla risoluzione pro (300DPI) adatta per menu fisici, cartelloni e poster senza perdita di qualità."
+          q: "PERCHÉ SFRUTTARE LE FOTO SCATTATE DAI MIEI CLIENTI O DALLO STAFF?",
+          a: "Ogni giorno migliaia di foto spontanee vengono sprecate sui social network. Recuperare quelle immagini è il modo più rapido e autentico per mantenere la tua offerta visibile, fresca e aggiornata senza complicazioni logistiche."
         },
         {
-          q: "QUAL È IL TEMPO DI RISPOSTA CHIRURGICA?",
-          a: "Consegniamo i tuoi asset pronti entro 24-48 ore. Nessuna attesa di 2 settimane come nella fotografia convenzionale."
+          q: "CHE IMPATTO HA UNA BUONA FOTO SULLE MIE VENDITE?",
+          a: "Un'immagine ottimizzata chirurgicamente può aumentare le vendite di oltre il 40% sulle piattaforme di delivery (UberEats, Glovo). L'appetito entra dagli occhi e nulla vende meglio della realtà aumentata."
+        },
+        {
+          q: "PERCHÉ È IMPORTANTE AGGIORNARE LA MIA OFFERTA QUOTIDIANAMENTE?",
+          a: "Mantenere il tuo menu del giorno o la carta aggiornata genera fiducia e ricorrenza. Con il nostro servizio, il risparmio di fastidi e risorse è totale: tu cucini il piatto reale, noi operiamo il file digitale."
+        },
+        {
+          q: "COMPRARE IL PACCHETTO FA RISPARMIARE DAVVERO RISORSE?",
+          a: "Assolutamente sì. Eviti i costi di trasferta, l'allestimento delle luci e l'interruzione del servizio che comporta una sessione tradizionale. È efficienza chirurgica applicata al tuo budget di marketing."
         }
       ]
     },
@@ -1973,7 +2009,7 @@ export const translations = {
       examples: [
         {
           id: 1,
-          name: "POLPETTE CON POLPETTI",
+          name: "POLPETTE CON MOSCARDINI",
           before: "https://res.cloudinary.com/dsahovs5z/image/upload/q_auto/f_auto/v1776986622/enhanced-image-1775560540228_q4ofc5.webp",
           after: "https://res.cloudinary.com/dsahovs5z/image/upload/q_auto/f_auto/v1776987095/enhanced-image-1775560899143_x7pb06.webp"
         },
