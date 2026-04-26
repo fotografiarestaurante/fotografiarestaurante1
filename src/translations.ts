@@ -480,6 +480,7 @@ export const translations = {
       contactBtn: "Contactar",
       labDisclaimer: "Protocolo Activo",
       igFollow: "Síguenos en Instagram",
+      igFollowWords: "VER GALERÍA",
       igThanks: "Agradecemos de corazón cada \"like\" que nos regales.",
       sliderBefore: "Fotografía original sin procesar - Estado RAW",
       sliderAfter: "Resultado tras intervención de retoque gastronómico 8K"
@@ -1109,6 +1110,7 @@ export const translations = {
       contactBtn: "Contact",
       labDisclaimer: "Active Protocol",
       igFollow: "Follow us on Instagram",
+      igFollowWords: "VIEW GALLERY",
       igThanks: "We sincerely appreciate every \"like\" you give us.",
       sliderBefore: "Original unprocessed photograph - RAW state",
       sliderAfter: "Result after 8K gastronomic retouching intervention"
@@ -1510,6 +1512,7 @@ export const translations = {
       contactBtn: "Contacter",
       labDisclaimer: "Protocole Actif",
       igFollow: "Suivez-nous sur Instagram",
+      igFollowWords: "VOIR GALERIE",
       igThanks: "Nous apprécions sincèrement chaque \"like\" que vous nous offrez.",
       sliderBefore: "Photographie originale non traitée - État RAW",
       sliderAfter: "Résultat après intervention de retouche gastronomique 8K"
@@ -2064,6 +2067,7 @@ export const translations = {
       contactBtn: "Contattare",
       labDisclaimer: "Protocollo Attivo",
       igFollow: "Seguici su Instagram",
+      igFollowWords: "VEDI GALLERIA",
       igThanks: "Apprezziamo di cuore ogni \"like\" che ci regalerai.",
       sliderBefore: "Fotografia originale non elaborata - Stato RAW",
       sliderAfter: "Risultato dopo l'intervento di ritocco gastronomico 8K"

@@ -1438,29 +1438,44 @@ export default function App() {
           <p className="text-[10px] uppercase tracking-[0.2em] font-black text-brand-fg flex items-center gap-2">
             {t.aside.selectMenu} <ArrowRight size={12} strokeWidth={3} />
           </p>
-          <div className="mt-6">
+          <div className="mt-12 pt-10 border-t border-brand-fg/10">
+            <div className="flex items-center gap-2 mb-6">
+              <div className="w-1 h-3 bg-brand-fg" />
+              <span className="text-[10px] font-black text-brand-fg tracking-[0.3em] uppercase block">
+                {t.aside.galleryBtn}
+              </span>
+            </div>
+            
             <motion.a 
               href="https://instagram.com/fotografiarestaurante" 
               target="_blank" 
-              rel="noopener noreferrer" 
-              whileHover={{ x: 10 }}
-              className="inline-flex items-center gap-2 bg-brand-fg text-brand-bg px-6 py-3 text-[10px] uppercase tracking-[0.3em] hover:opacity-80 transition-colors"
+              rel="noopener noreferrer"
+              className="block relative group overflow-hidden border border-brand-border h-[250px] lg:h-[320px] bg-brand-fg/5"
+              whileHover={{ scale: 1.02 }}
+              transition={{ duration: 0.4 }}
             >
-              <Instagram size={14} />
-              {t.aside.galleryBtn}
+              <img 
+                src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&q=80&w=800"
+                alt="Gourmet Gallery Preview"
+                className="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-1000 ease-in-out"
+                referrerPolicy="no-referrer"
+              />
+              <div className="absolute inset-0 bg-brand-fg/5 group-hover:bg-transparent transition-colors z-10" />
+              
+              <div className="absolute inset-0 flex flex-col items-center justify-center opacity-0 group-hover:opacity-100 transition-all duration-500 bg-brand-bg/40 backdrop-blur-[2px] z-20">
+                <div className="bg-brand-bg text-brand-fg p-4 rounded-full shadow-2xl transform scale-75 group-hover:scale-100 transition-transform duration-500">
+                  <Instagram size={24} />
+                </div>
+                <span className="mt-4 text-[9px] font-black uppercase tracking-[0.2em] bg-brand-fg text-brand-bg px-3 py-1">
+                  {t.common.igFollowWords || "VIEW COLLECTION"}
+                </span>
+              </div>
+
+              <div className="absolute bottom-0 left-0 right-0 p-3 bg-brand-bg/90 backdrop-blur-sm transform translate-y-full group-hover:translate-y-0 transition-transform duration-300 z-30 flex items-center justify-between">
+                <span className="text-[8px] font-black uppercase tracking-[0.1em]">{t.common.igFollow}</span>
+                <ArrowRight size={12} />
+              </div>
             </motion.a>
-          </div>
-        </div>
-        
-        <div className="mt-8 relative group overflow-hidden border border-brand-border h-[200px] lg:h-[300px]">
-          <img 
-            src={t.liveProof.examples[0].after} 
-            alt={t.liveProof.examples[0].name}
-            className="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-700"
-            referrerPolicy="no-referrer"
-          />
-          <div className="absolute inset-0 bg-gradient-to-t from-brand-bg/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity flex items-end p-4">
-            <span className="text-[10px] font-black uppercase tracking-[0.2em]">{t.liveProof.examples[0].name}</span>
           </div>
         </div>
       </aside>
