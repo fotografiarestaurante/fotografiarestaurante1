@@ -71,7 +71,7 @@ export const translations = {
           id: "metodo-chef-ia",
           category: "tech",
           title: "Cirugía Estética para Cartas Digitales: El Método del Chef IA",
-          excerpt: "Descubre cómo el retoque quirúrgico puede elevar el ticket promedio de tu restaurante sin cambiar un solo ingrediente corregir.",
+          excerpt: "Descubre cómo el retoque quirúrgico puede elevar el ticket promedio de tu restaurante sin cambiar un solo ingrediente.",
           slogan: "La belleza técnica es el atajo más rápido hacia la rentabilidad.",
           image: "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?auto=format&fit=crop&q=80&w=1000",
           imageAlt: "metodo-chef-ia-retoque-gastronomico-profesional-fotografiarestaurante-com.jpg",
@@ -902,7 +902,7 @@ export const translations = {
     },
     aside: {
       diagnostic: "TECHNICAL DIAGNOSIS",
-      hero: "FOOD PHOTOGRAPHY: GOURMET ESTHETIC SURGERY FOR YOUR DISHES",
+      hero: "FOOD PHOTOGRAPHY: GOURMET AESTHETIC SURGERY FOR YOUR DISHES",
       desc: "We rescue the essence of your cuisine through a personalized intervention: Human eye + AI Surgical Precision. We are not a filter app; we are your image laboratory.",
       selectMenu: "Select your intervention in the Menu",
       galleryBtn: "GOURMET GALLERY",
@@ -1055,7 +1055,7 @@ export const translations = {
       disclaimer: "* All images are the result of digital interventions on low-resolution source files."
     },
     lab: {
-      desc: "Our esthetic surgeries are exclusively applied to gastronomic files (food). We do not intervene on premises, facades, or people. We rescue your digital culinary heritage.",
+      desc: "Our aesthetic surgeries are exclusively applied to gastronomic files (food). We do not intervene on premises, facades, or people. We rescue your digital culinary heritage.",
       baseProtocol: "Base Protocols",
       postProcess: "Post-Processing"
     },
@@ -1338,7 +1338,7 @@ export const translations = {
       equipment: "VI. INSTRUMENTS CHIRURGICAUX",
       cinema: "VII. CINÉMATOGRAPHIE",
       activeProtocols: "VIII. PROTOCOLES ACTIFS",
-      blog: "IX. ARCHIVES DE RESCATE (BLOG)",
+      blog: "IX. ARCHIVES DE SAUVETAGE (BLOG)",
       solutions: "XI. SOLUTIONS PAR SECTEUR",
       coverage: "X. COUVERTURE NATIONALE (SEO LOCAL)",
       contact: "DEMANDE CUISINE",
@@ -1416,7 +1416,7 @@ export const translations = {
           a: "Bien que n'importe qui puisse utiliser l'IA, le résultat professionnel n'est pas du tout le même. Pour obtenir un résultat haut de gamme, il vous faudrait des centaines d'heures d'essais et d'erreurs pour trouver le prompt parfait, et recommencer pour chaque plat. Nous apportons l'umami visuel' grâce à l'intervention d'un expert humain qui guide l'IA."
         },
         {
-          q: "L'IA VIENE-T-ELLE REMPLACER LES PHOTOGRAPHES ?",
+          q: "L'IA VIENT-ELLE REMPLACER LES PHOTOGRAPHES ?",
           a: "Non, l'IA est un outil qui aide au processus. Les photographes sur le terrain restent vitaux pour capturer l'âme du restaurant. Nous sommes un laboratoire de sauvetage qui aide lorsqu'il n'y a pas de temps ou de budget pour une séance en personne quotidienne."
         },
         {
@@ -1685,7 +1685,7 @@ export const translations = {
     legalContent: {
       terms: "1. Acceptation\nEn faisant appel à nos services numériques, le client accepte expressément les présentes conditions. Le protocole d'intervention technique commence immédiatement après la validation du paiement.\n2. Prestation du Service\nLes délais de livraison technique (48-72h) sont des estimations basées sur la complexité du sauvetage numérique et la charge du bloc opératoire. Ils ne constituent pas une obligation contractuelle de résultat en temps exact.\n3. Politique d'Annulation\nEn raison de la nature numérique et immédiate du service, aucun remboursement ou annulation n'est admis une fois que le Chef Digital a commencé le processus de réanimation des actifs.\n4. Propriété et Responsabilité\nLe client garantit posséder les droits d'exploitation des images originales envoyées. Photographie de Restauration n'est pas responsable des réclamations de tiers concernant l'utilisation de matériel non autorisé.",
       privacy: "1. Traitement des Données Sensibles\nNous traitons vos photographies comme du matériel hautement sensible. Les données personnelles et fichiers reçus sont utilisés exclusivement pour la gestion de la commande et la communication technique nécessaire au sauvetage.\n2. Protocole de Suppression Absolue\nUne fois l'intervention numérique terminée et la réception confirmée par le client, nous procédons à la suppression permanente de tous les fichiers originaux et traités de nos postes de travail. Aucune copie de sauvegarde ni duplicata n'est conservé après un délai de 7 jours suivant la livraison finale.\n3. Confidentialité Chirurgicale\nNous garantissons la non-cession de données à des tiers. Vos plats et secrets visuels sont protégés par un cryptage de bout en bout pendant le processus de transport numérique.\n4. Droits de la Personne Concernée\nVous pouvez demander l'accès, la rectification ou la suppression immédiate de votre historique de commande en envoyant un e-mail à notre adresse officielle.",
-      ip: "1. Transfert de Propriété\nAprès paiement intégral de la commande, la propriété intellectuelle des résultats traités est entièrement transférée au client pour un usage commercial illimitato.\n2. Droit de Portfolio\nPhotographie de Restauration se réserve le droit d'utiliser les résultats visuels pour son portfolio commercial ou les réseaux sociaux, avec mention de l'auteur, sauf si le client en fait explicitement la demande écrite contraire.\n3. Intégrité de la Marque\nLe client s'engage à ne pas utiliser les résultats traités à des fins portant atteinte à la réputation du secteur gastronomique ou enfreignant les lois en vigueur."
+      ip: "1. Transfert de Propriété\nAprès paiement intégral de la commande, la propriété intellectuelle des résultats traités est entièrement transférée au client pour un usage commercial illimité.\n2. Droit de Portfolio\nPhotographie de Restauration se réserve le droit d'utiliser les résultats visuels pour son portfolio commercial ou les réseaux sociaux, avec mention de l'auteur, sauf si le client en fait explicitement la demande écrite contraire.\n3. Intégrité de la Marque\nLe client s'engage à ne pas utiliser les résultats traités à des fins portant atteinte à la réputation du secteur gastronomique ou enfreignant les lois en vigueur."
     },
     blog: {
       title: "LE BLOG DU CHIRURGIEN DIGITAL",
@@ -1867,7 +1867,7 @@ export const translations = {
         title: "Remodelage de Carte (60 Photos)",
         subtitle: "Rénovation Stratégique",
         price: "499€",
-        details: "[PRINCIPES]\nPack 'Rénovation de Carte'. Le saut définitif pour les changements de saison ou les ouvertures. Intervention stratégique pour que l'ensemble de votre proposition ait la qualité de la haute cuisine. Inclut une mise à niveau 4K gratuite sur 6 images principales.\n[INCLUSIONS]\n• 60 Sauvetages d'Élite : Du contenu pour renouveler votre carte d'un coup ou sur 2 mois.\n• Contrôle de Perspective IA : Choisissez entre Zénithale, 45º, Frontale, Macro ou Vue du Client.\n• Audit GMB & Instagram : Nous suivons les photos des clients pour salvar le migliori.\n• Garantie Bloc : Ré-intervention sur jusqu'à 30 images (max. 3 ajustements par photo).\n[CONDITIONS]\n• Formats à la Carte : Choisissez Original, Feed ou Vertical pour chaque prise.\n• Période de consommation : Maximum 60 jours (2 mois) pour consommer vos 60 sauvetages.\n• Délai de livraison : 48-72 heures (les images 4K peuvent nécessiter 24h supplémentaires).\n[INSTRUCTIONS]\nPour donner la priorité à votre commande, le protocole est strictement le suivant :\n1. CONTACT IG : Brève conversation via Instagram (@fotografiarestaurante) pour l'audit de base initial.\n2. CONFIRMATION DE COMMANDE : Le service est activé après validation du paiement sécurisé sur une plateforme.\n3. ENVOI DU MATÉRIEL : Après avoir payé le service, vous recevrez l'adresse technique d'expédition.\n4. DONNÉES OBLIGATOIRES : Incluez le nom de votre restaurant, Instagram, personne de contact et e-mail dans l'envoi."
+        details: "[PRINCIPES]\nPack 'Rénovation de Carte'. Le saut définitif pour les changements de saison ou les ouvertures. Intervention stratégique pour que l'ensemble de votre proposition ait la qualité de la haute cuisine. Inclut une mise à niveau 4K gratuite sur 6 images principales.\n[INCLUSIONS]\n• 60 Sauvetages d'Élite : Du contenu pour renouveler votre carte d'un coup ou sur 2 mois.\n• Contrôle de Perspective IA : Choisissez entre Zénithale, 45º, Frontale, Macro ou Vue du Client.\n• Audit GMB & Instagram : Nous suivons les photos des clients pour sauver les meilleurs.\n• Garantie Bloc : Ré-intervention sur jusqu'à 30 images (max. 3 ajustements par photo).\n[CONDITIONS]\n• Formats à la Carte : Choisissez Original, Feed ou Vertical pour chaque prise.\n• Période de consommation : Maximum 60 jours (2 mois) pour consommer vos 60 sauvetages.\n• Délai de livraison : 48-72 heures (les images 4K peuvent nécessiter 24h supplémentaires).\n[INSTRUCTIONS]\nPour donner la priorité à votre commande, le protocole est strictement le suivant :\n1. CONTACT IG : Brève conversation via Instagram (@fotografiarestaurante) pour l'audit de base initial.\n2. CONFIRMATION DE COMMANDE : Le service est activé après validation du paiement sécurisé sur une plateforme.\n3. ENVOI DU MATÉRIEL : Après avoir payé le service, vous recevrez l'adresse technique d'expédition.\n4. DONNÉES OBLIGATOIRES : Incluez le nom de votre restaurant, Instagram, personne de contact et e-mail dans l'envoi."
       },
       {
         title: "Traitement Intégral (120 Photos)",
@@ -1912,7 +1912,7 @@ export const translations = {
       equipment: "VI. STRUMENTAZIONE CHIRURGICA",
       cinema: "VII. CINEMATOGRAFIA",
       activeProtocols: "VIII. PROTOCOLLI ATTIVI",
-      blog: "IX. ARCHIVI DI SALVATAGGIO (BLOG)",
+      title: "ARCHIVI DI SALVATAGGIO (BLOG)",
       solutions: "XI. SOLUZIONI PER SETTORE",
       coverage: "X. COPERTURA NAZIONALE (SEO LOCALE)",
       faq: "XII. BRIEFING DI SICUREZZA (FAQ)",
@@ -1947,12 +1947,12 @@ export const translations = {
         },
         {
           title: "HOTEL & RESORT",
-          desc: "Consistenza visuale su centinaia di asset. Standardizziamo l'immagine di più puntos vendita (buffet, lobby, gourmet) sotto un'unica firma.",
+          desc: "Consistenza visuale su centinaia di asset. Standardizziamo l'immagine di più punti vendita (buffet, lobby, gourmet) sotto un'unica firma.",
           keywords: ["Scaling", "Brand Logic", "Asset Management", "Hospitality"]
         },
         {
           title: "ALTA CUCINA & CHEF",
-          desc: "Rispetto assoluto dell'architettura del piatto. Senza artifici, solo un'illuminazione que valorizza la tecnica e l'ingrediente reale.",
+          desc: "Rispetto assoluto dell'architettura del piatto. Senza artifici, solo un'illuminazione che valorizza la tecnica e l'ingrediente reale.",
           keywords: ["Belle Arti", "Texture Reale", "Senza Filtri", "Eleganza"]
         },
         {
@@ -2283,7 +2283,7 @@ export const translations = {
           title: "SALVATAGGIO DIGITALE VS SESSIONI TRADIZIONALI: QUAL È L'OPZIONE MIGLIORE?",
           excerpt: "Scoprite perché non è più necessario interrompere il servizio per avere foto di alta qualità. L'efficienza dell'IA rispetto al costo del fotografo tradizionale.",
           slogan: "Non pagate per le ore; pagate per i risultati chirurgici.",
-          date: "20 FEB 2024",
+          date: "20 FEBBRAIO 2024",
           category: "ia",
           image: "https://images.unsplash.com/photo-1551218808-94e220e031c2?auto=format&fit=crop&q=80&w=800",
           imageAlt: "Confronto tra fotografia tradizionale e salvataggio tramite AI",
@@ -2294,7 +2294,7 @@ export const translations = {
           title: "IA: TERAPIA INTENSIVA PER LE VOSTRE FOTO UBEREATS E GLOVO",
           excerpt: "Come moltiplicare i vostri ordini sulle piattaforme di delivery senza cucinare un solo piatto in più. Il potere dell'appetito visivo digitale.",
           slogan: "Le piattaforme non vendono cibo, vendono foto di cibo.",
-          date: "15 FEB 2024",
+          date: "15 FEBBRAIO 2024",
           category: "marketing",
           image: "https://images.unsplash.com/photo-1526367790936-2319409893af?auto=format&fit=crop&q=80&w=800",
           imageAlt: "Interfaccia dell'app di consegna ottimizzata con foto AI",
@@ -2305,7 +2305,7 @@ export const translations = {
           title: "IL METODO: CHIRURGIA ESTETICA PER IL VOSTRO MENU DIGITALE",
           excerpt: "Entrate nel nostro laboratorio. Vi mostriamo come applichiamo texturing, re-illumination ed estrazione per elevare il vostro prodotto a opera d'arte.",
           slogan: "Precisione pixel per pixel per un appetito insaziabile.",
-          date: "10 FEB 2024",
+          date: "10 FEBBRAIO 2024",
           category: "surgery",
           image: "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?auto=format&fit=crop&q=80&w=800",
           imageAlt: "Processo di fotoritocco gastronomico professionale",
@@ -2316,7 +2316,7 @@ export const translations = {
           title: "DOMINARE GLOVO: L'IMPATTO CRITICO DELLA FOTOGRAFIA SULLA TUA QUOTA DI MERCATO",
           excerpt: "Sapevi che il 70% delle decisioni su Glovo viene preso nei primi 3 secondi? La tua foto è il tuo miglior venditore.",
           slogan: "Nel delivery, l'appetito entra dagli occhi o non entra affatto.",
-          date: "25 FEB 2024",
+          date: "25 FEBBRAIO 2024",
           category: "marketing",
           image: "https://images.unsplash.com/photo-1591130219388-ae3d1c17431b?auto=format&fit=crop&q=80&w=800",
           imageAlt: "Strategia Glovo e fotografia per ristoranti marketing",
@@ -2325,9 +2325,9 @@ export const translations = {
         {
           id: "food-cost-visivo",
           title: "FOOD COST VISIVO: QUANTA MARGINALITÀ PERDI PER COLPA DI UNA CATTIVA ILLUMINAZIONE?",
-          excerpt: "Se il tuo piatto is gourmet ma la tua foto is mediocre, stai svalutando il tuo prodotto. Impara ad allineare la tua immagine al tuo prezzo.",
+          excerpt: "Se il tuo piatto è gourmet ma la tua foto è mediocre, stai svalutando il tuo prodotto. Impara ad allineare la tua immagine al tuo prezzo.",
           slogan: "La qualità che non si vede è qualità che non viene pagata.",
-          date: "28 FEB 2024",
+          date: "28 FEBBRAIO 2024",
           category: "surgery",
           image: "https://images.unsplash.com/photo-1455619452474-d2be8b1e70cd?auto=format&fit=crop&q=80&w=800",
           imageAlt: "Food cost visivo e marketing gastronomico redditizio",
@@ -2338,7 +2338,7 @@ export const translations = {
           title: "DIGITALIZZAZIONE GOURMET: PERCHÉ LE TUE FOTO SONO IL TUO INVENTARIO PIÙ PREZIOSO",
           excerpt: "Nell'era dell'IA, digitalizzare il tuo menu non è un'opzione, è una necessità di sopravvivenza. Ottimizza il tuo stock visivo oggi.",
           slogan: "Il tuo ristorante è fisico, ma la tua vendita è digitale.",
-          date: "01 MAR 2024",
+          date: "01 MARZO 2024",
           category: "ia",
           image: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?auto=format&fit=crop&q=80&w=800",
           imageAlt: "Digitalizzazione dei ristoranti e asset visivi IA",
@@ -2349,7 +2349,7 @@ export const translations = {
           title: "CHECKLIST POST-SALVATAGGIO: 10 PUNTI PER FAR BRILLARE IL TUO PIATTO SU GMB",
           excerpt: "Non inviare una foto qualunque. Segui questi 10 passaggi critici per assicurarti che l'IA possa fare la sua magia.",
           slogan: "La perfezione nasce dalla preparazione, anche nella chirurgia digitale.",
-          date: "05 MAR 2024",
+          date: "05 MARZO 2024",
           category: "tech",
           image: "https://images.unsplash.com/photo-1484158814513-356a59b9ef3e?auto=format&fit=crop&q=80&w=800",
           imageAlt: "Checklist fotografia per ristoranti Google Business",
@@ -2360,7 +2360,7 @@ export const translations = {
           title: "CINEMAGRAFIA GASTRONOMICA: PERCHÉ IL MOVIMENTO FERMA LO SCROLL",
           excerpt: "Una foto statica viene ignorata; un video de 6 secondi viene divorato. Scopri il potere del pacchetto integrale.",
           slogan: "L'appetito è dinamico. Anche il tuo marketing dovrebbe esserlo.",
-          date: "10 MAR 2024",
+          date: "10 MARZO 2024",
           category: "cinema",
           image: "https://images.unsplash.com/photo-1470333732907-837b9778f0a2?auto=format&fit=crop&q=80&w=800",
           imageAlt: "Video marketing ristoranti gastronomia",
@@ -2371,7 +2371,7 @@ export const translations = {
           title: "FOTOGRAFIA PER RISTORANTI 2.0: DALLO STUDIO ALLA SALA OPERATORIA DIGITALE",
           excerpt: "È ancora redditizio assumere un fotografo da 500€ a sessione? Confrontiamo il modello tradizionale con il salvataggio IA.",
           slogan: "Non pagate per le ore; pagate per risultati chirurgici.",
-          date: "15 MAR 2024",
+          date: "15 MARZO 2024",
           category: "dossier",
           image: "https://images.unsplash.com/photo-1514362545857-3bc16c4c7d1b?auto=format&fit=crop&q=80&w=800",
           imageAlt: "Fotografia ristoranti IA vs tradizionale",
@@ -2379,10 +2379,10 @@ export const translations = {
         },
         {
           id: "umano-vs-app-ia",
-          title: "IL FATTORE UMANO: PERCHÉ UN'IA SENZA CONTROLLO È UN DISASTRE PER IL TUO BRAND",
+          title: "IL FATTORE UMANO: PERCHÉ UN'IA SENZA CONTROLLO È UN DISASTRO PER IL TUO BRAND",
           excerpt: "Pensi che un'app da 3€ possa capire il 'vibe' del tuo ristorante? Scopri il pericolo dell'automazione cieca.",
-          slogan: "L'IA is il bisturi, ma noi siamo il chirurgo.",
-          date: "20 MAR 2024",
+          slogan: "L'IA è il bisturi, ma noi siamo il chirurgo.",
+          date: "20 MARZO 2024",
           category: "marketing",
           image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&q=80&w=800",
           imageAlt: "umano-vs-ia-marketing-gastronomico",
@@ -2393,7 +2393,7 @@ export const translations = {
           title: "SALVATAGGIO REALE VS IA GENERATIVA: NON INGANNARE IL TUO CLIENTE CON PIATTI CHE NON ESISTONO",
           excerpt: "Generare un falso hamburger con l'IA è facile. Salvare il TUO vero hamburger è dove risiede la vera magia.",
           slogan: "Realismo chirurgico: La foto è tua, la perfezione è nostra.",
-          date: "25 MARS 2024",
+          date: "25 MARZO 2024",
           category: "rescue",
           image: "https://images.unsplash.com/photo-1586190848861-99aa4a171e90?auto=format&fit=crop&q=80&w=800",
           imageAlt: "realismo-vs-generativa-gastronomia",
@@ -2401,10 +2401,10 @@ export const translations = {
         },
         {
           id: "personalizzazione-chirurgica",
-          title: "PERSONALIZZAZIONE CHIRURGICA: ADATTIAMO LA LUCE ALLA TUA VASTIGLIA, NON A UN MODELLO",
+          title: "PERSONALIZZAZIONE CHIRURGICA: ADATTIAMO LA LUCE ALLE TUE STOVIGLIE, NON A UN MODELLO",
           excerpt: "Il tuo ristorante è unico. Le tue foto non dovrebbero essere la fotocopia di un filtro generico.",
           slogan: "Il tuo DNA gastronomico, amplificato da specialisti.",
-          date: "30 MARS 2024",
+          date: "30 MARZO 2024",
           category: "tech",
           image: "https://images.unsplash.com/photo-1550966841-3ee206497746?auto=format&fit=crop&q=80&w=800",
           imageAlt: "personalizzazione-fotografia-gastronomica-ia",
