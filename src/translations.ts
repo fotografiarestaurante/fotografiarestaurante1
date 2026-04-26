@@ -4,7 +4,7 @@ export type Language = 'es' | 'en' | 'fr' | 'it';
 export const translations = {
   es: {
     seo: {
-      description: "Especialistas en fotografía de restaurantes y fotografía gastronómica IA. Rescatamos tus fotos de móvil para UberEats y Glovo en 48h. Retoque profesional gourmet en toda España.",
+      description: "Especialistas en fotografía de restaurantes y fotografía gastronómica IA. Rescatamos tus fotos de móvil para tus redes sociales y carta digital en 48h. Retoque profesional gourmet en toda España.",
       keywords: "fotografia restaurantes Madrid, Barcelona, Valencia, Sevilla, Zaragoza, Málaga, Murcia, Bilbao, Alicante, fotografia gastronomica IA España, retoque gourmet, fotos comida marketing"
     },
     header: {
@@ -45,7 +45,7 @@ export const translations = {
           slogan: "Cirugía de urgencia para platos que necesitan vender hoy mismo.",
           image: "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?auto=format&fit=crop&q=80&w=1000",
           imageAlt: "uci-fotografia-gastronomica-rescate-mobile-fotografiarestaurante-com.jpg",
-          content: "Lo primero, una declaración de principios: No somos fotógrafos convencionales. No venimos a retratar vuestras salas vacías ni el alma de vuestros fogones; para eso ya existen artistas excelentes.\n\nNosotros somos la UCI. Venimos a salvar vuestras fotos de móvil. Esa foto que hiciste rápido con el Samsung entre comandas, esa que tiene sombras duras y un fondo que grita 'estoy en la cocina', esa es la que rescatamos.\n\nEn 2026, el umami visual es el primer ingrediente de cualquier pedido. Si tu plato no salta de la pantalla en UberEats o Glovo, el cliente pasará de largo en 0.5 segundos. Nuestra metodología de rescate mediante IA inyecta luz de estudio, extrae el ruido y realza el producto para que parezca alta cocina, incluso si la base era mediocre. Fotografiarestaurante.com es tu hospital de confianza."
+          content: "Lo primero, una declaración de principios: No somos fotógrafos convencionales. No venimos a retratar vuestras salas vacías ni el alma de vuestros fogones; para eso ya existen artistas excelentes.\n\nNosotros somos la UCI. Venimos a salvar vuestras fotos de móvil. Esa foto que hiciste rápido con el Samsung entre comandas, esa que tiene sombras duras y un fondo que grita 'estoy en la cocina', esa es la que rescatamos.\n\nEn 2026, el umami visual es el primer ingrediente de cualquier reserva. Si tu plato no salta de la pantalla en tus redes sociales o carta digital, el cliente pasará de largo en 0.5 segundos. Nuestra metodología de rescate mediante IA inyecta luz de estudio, extrae el ruido y realza el producto para que parezca alta cocina, incluso si la base era mediocre. Fotografiarestaurante.com es tu hospital de confianza."
         },
         {
           id: "ia-ventas-delivery",
@@ -55,7 +55,7 @@ export const translations = {
           slogan: "No solo vendes comida, vendes el deseo de hincarle el diente.",
           image: "https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&q=80&w=1000",
           imageAlt: "fotografia-restaurantes-madrid-ubereats-ventas-ia-fotografiarestaurante-com.jpg",
-          content: "En el saturado mundo de UberEats y Glovo, solo tienes 2 segundos para captar la atención de un cliente hambriento. Los estudios demuestran que una iluminación coherente y texturas realzadas aumentan el ratio de clicks en un 40%.\n\nNuestra metodología de rescate mediante IA no solo mejora la estética; inyecta 'umami visual' que dispara el deseo de compra. En Madrid y Barcelona, la competencia es feroz, y contar con fotos que parezcan hechas en un estudio de Michelin, partiendo de un simple móvil, es tu mayor ventaja competitiva."
+          content: "En el saturado mundo del marketing digital, solo tienes 2 segundos para captar la atención de un cliente. Los estudios demuestran que una iluminación coherente y texturas realzadas aumentan el ratio de interés en un 40%.\n\nNuestra metodología de rescate mediante IA no solo mejora la estética; inyecta 'umami visual' que dispara el deseo de compra. En Madrid y Barcelona, la competencia es feroz, y contar con fotos que parezcan hechas en un estudio de Michelin, partiendo de un simple móvil, es tu mayor ventaja competitiva."
         },
         {
           id: "importancia-fondos",
@@ -294,14 +294,9 @@ export const translations = {
       subtitle: "PROTOCOLOS ADAPTADOS A CADA TIPO DE COCINA",
       items: [
         {
-          title: "DELIVERY & DARK KITCHENS",
-          desc: "Optimización extrema para algoritmos. Creamos 'umami visual' que dispara el CTR y reduce la fricción en la decisión de compra.",
-          keywords: ["UberEats", "Glovo", "Conversion Rate", "High Contrast"]
-        },
-        {
-          title: "ALTA COCINA & CHEFS",
-          desc: "Respeto absoluto a la arquitectura del plato. Sin artificios, solo una iluminación que pone en valor la técnica y el ingrediente real.",
-          keywords: ["Bellas Artes", "Textura Real", "Sin Filtros", "Elegancia"]
+          title: "RESTAURANTES",
+          desc: "Potenciamos la identidad única de tu sala. Transformamos fotos cotidianas en activos de marketing que llenan mesas y fidelizan comensales.",
+          keywords: ["Identidad", "Social Media", "Reservas", "Ventas"]
         },
         {
           title: "HOTELES & RESORTS",
@@ -309,9 +304,34 @@ export const translations = {
           keywords: ["Scaling", "Brand Logic", "Asset Management", "Hospitality"]
         },
         {
-          title: "BAKERY & PASTRY",
-          desc: "Realce de glaseados, masas y texturas esponjosas. Capturamos la frescura que el ojo percibe antes del primer bocado.",
-          keywords: ["Macro Detail", "Organic Glow", "Soft Light", "Boutique"]
+          title: "ALTA COCINA & CHEFS",
+          desc: "Respeto absoluto a la arquitectura del plato. Sin artificios, solo una iluminación que pone en valor la técnica y el ingrediente real.",
+          keywords: ["Bellas Artes", "Textura Real", "Sin Filtros", "Elegancia"]
+        },
+        {
+          title: "COCTELERÍAS",
+          desc: "Retoque de cristalería, brillos y texturas líquidas. Resaltamos la sofisticación de cada combinado para redes sociales.",
+          keywords: ["Mixología", "Brillo", "Ambiente", "Nocturno"]
+        },
+        {
+          title: "BARES DE TAPAS",
+          desc: "Capturamos la esencia del producto fresco y el tapeo dinámico. Imágenes que invitan a la barra y al consumo inmediato.",
+          keywords: ["Tradición", "Barra", "Momento", "Compartir"]
+        },
+        {
+          title: "DELIVERY",
+          desc: "Optimización quirúrgica para cartas digitales. Fotos diseñadas para convertir clics en pedidos en segundos.",
+          keywords: ["Conversión", "Venta Digital", "Catálogo", "Rapidez"]
+        },
+        {
+          title: "DARK KITCHENS & CATERING",
+          desc: "Potenciamos la imagen de marcas sin sala física y servicios de eventos. Profesionalidad visual que garantiza confianza.",
+          keywords: ["Eventos", "Confianza", "Logística", "Producción"]
+        },
+        {
+          title: "TAKE AWAY & PROXIMIDAD",
+          desc: "Elevamos la imagen de la comida para llevar. Soluciones para tiendas de proximidad y platos listos para consumir que exigen máxima frescura visual.",
+          keywords: ["Ready-to-eat", "Frescura", "Venta Impulsiva", "Calidad"]
         }
       ]
     },
@@ -333,7 +353,7 @@ export const translations = {
         },
         {
           q: "¿QUÉ IMPACTO TIENE UNA BUENA FOTO EN MIS VENTAS?",
-          a: "Una imagen optimizada quirúrgicamente puede subir las ventas más de un 40% en plataformas de delivery (UberEats, Glovo). El apetito entra por los ojos y nada vende más que la realidad aumentada."
+          a: "Una imagen de alta fidelidad aumenta drásticamente tu relevancia en redes sociales y la confianza de clientes de ticket alto. Aunque no dependas de plataformas externas, una presencia visual impecable es vital para convertir seguidores en reservas y destacar en la oferta de comida para llevar de calidad."
         },
         {
           q: "¿POR QUÉ ES IMPORTANTE MANTENER VISIBLE MI OFERTA DIARIAMENTE?",
@@ -354,9 +374,9 @@ export const translations = {
           button: "PRUÉBALO GRATIS (0€)"
         },
         {
-          title: "MULTIPLICA TUS VENTAS EN APPS DE DELIVERY",
+          title: "MULTIPLICA TU RELEVANCIA DIGITAL",
           subtitle: "OPTIMIZACIÓN DE CONVERSIÓN",
-          desc: "Nuestros platos rescatados con IA aumentan el ratio de pedidos hasta un 40%.",
+          desc: "Nuestros platos rescatados con IA aumentan el interés de tus clientes y la tasa de reservas.",
           button: "RECIBIR DIAGNÓSTICO"
         },
         {
@@ -635,8 +655,8 @@ export const translations = {
   },
   en: {
     seo: {
-      description: "Restaurant photography and food photography specialists using advanced AI in Barcelona. We rescue mobile photos for UberEats, Glovo and Deliveroo in 48h. Professional gourmet retouching.",
-      keywords: "restaurant photography Barcelona, food photography AI, gastro marketing, digital marketing for restaurants, UberEats food photos, professional food retouching, Barcelona food stylist"
+      description: "Restaurant photography and food photography specialists using advanced AI. We rescue mobile photos for your social media and digital menus in 48h. Professional gourmet retouching.",
+      keywords: "restaurant photography, food photography AI, gastro marketing, digital marketing for restaurants, social media food photos, professional food retouching, food stylist"
     },
     header: {
       title: "RESTAURANT PHOTOGRAPHY",
@@ -924,24 +944,44 @@ export const translations = {
       subtitle: "PROTOCOLS ADAPTED TO EVERY TYPE OF KITCHEN",
       items: [
         {
-          title: "DELIVERY & DARK KITCHENS",
-          desc: "Extreme optimization for algorithms. We create 'visual umami' that triggers CTR and reduces friction in the purchase decision.",
-          keywords: ["UberEats", "Glovo", "Conversion Rate", "High Contrast"]
+          title: "RESTAURANTS",
+          desc: "We boost the unique identity of your dining room. We transform everyday photos into marketing assets that fill tables and build customer loyalty.",
+          keywords: ["Identity", "Social Media", "Bookings", "Sales"]
         },
         {
-          title: "FINE DINING & CHEFS",
+          title: "HOTELS & RESORTS",
+          desc: "Visual consistency across hundreds of assets. We standardize the image of multiple outlets (buffet, lobby, gourmet) under one signature.",
+          keywords: ["Scaling", "Brand Logic", "Asset Management", "Hospitality"]
+        },
+        {
+          title: "HAUTE CUISINE & CHEFS",
           desc: "Absolute respect for the dish's architecture. No gimmicks, just lighting that highlights technique and the real ingredient.",
           keywords: ["Fine Arts", "Real Texture", "No Filters", "Elegance"]
         },
         {
-          title: "HOTELS & RESORTS",
-          desc: "Visual consistency across hundreds of assets. We standardize the image of multiple outlets under one signature.",
-          keywords: ["Scaling", "Brand Logic", "Asset Management", "Hospitality"]
+          title: "COCKTAIL BARS",
+          desc: "Retouching of glassware, glares and liquid textures. We highlight the sophistication of each drink for social media.",
+          keywords: ["Mixology", "Shine", "Atmosphere", "Nightlife"]
         },
         {
-          title: "BAKERY & PASTRY",
-          desc: "Enhancing glazes, doughs, and fluffy textures. We capture the freshness the eye perceives before the first bite.",
-          keywords: ["Macro Detail", "Organic Glow", "Soft Light", "Boutique"]
+          title: "TAPAS BARS",
+          desc: "We capture the essence of fresh products and dynamic tapas. Images that invite to the bar and immediate consumption.",
+          keywords: ["Tradition", "Bar", "Moment", "Sharing"]
+        },
+        {
+          title: "DELIVERY",
+          desc: "Surgical optimization for digital menus. Photos designed to convert clicks into orders in seconds.",
+          keywords: ["Conversion", "Digital Sales", "Catalog", "Speed"]
+        },
+        {
+          title: "DARK KITCHENS & CATERING",
+          desc: "We boost the image of brands without physical rooms and event services. Visual professionalism that guarantees trust.",
+          keywords: ["Events", "Trust", "Logistics", "Production"]
+        },
+        {
+          title: "TAKE AWAY & PROXIMITY",
+          desc: "Enhancing the image of take-away food. Solutions for proximity stores and ready-to-eat dishes that demand maximum visual freshness.",
+          keywords: ["Ready-to-eat", "Freshness", "Impulsive Sale", "Quality"]
         }
       ]
     },
@@ -963,7 +1003,7 @@ export const translations = {
         },
         {
           q: "WHAT IMPACT DOES A GOOD PHOTO HAVE ON MY SALES?",
-          a: "A surgically optimized image can increase sales by more than 40% on delivery platforms (UberEats, Glovo). Appetite comes through the eyes and nothing sells better than augmented reality."
+          a: "A high-fidelity image drastically increases your social media relevance and the trust of high-ticket clients. Even if you don't rely on external platforms, an impeccable visual presence is vital for converting followers into bookings and standing out in high-quality take-away offerings."
         },
         {
           q: "WHY IS IT IMPORTANT TO KEEP MY MENU VISIBLE DAILY?",
@@ -984,9 +1024,9 @@ export const translations = {
           button: "TRY IT FOR FREE (0€)"
         },
         {
-          title: "MULTIPLY YOUR SALES ON DELIVERY APPS",
+          title: "MULTIPLY YOUR DIGITAL RELEVANCE",
           subtitle: "CONVERSION OPTIMIZATION",
-          desc: "Our AI-rescued dishes increase order ratios by up to 40%.",
+          desc: "Our AI-rescued dishes increase customer interest and booking rates.",
           button: "GET DIAGNOSIS"
         },
         {
@@ -1266,8 +1306,8 @@ export const translations = {
   },
   fr: {
     seo: {
-      description: "Spécialistes en photographie de restaurant et photographie gastronomique IA à Barcelone. Nous sauvons vos photos mobiles pour UberEats, Glovo et Deliveroo en 48h. Retouche gourmet professionnelle.",
-      keywords: "photographie restaurant Barcelone, photographie gastronomique IA, marketing restaurant, retouche photo cuisine, photos UberEats Glovo, stylisme culinaire numérique, marketing gastronomique"
+      description: "Spécialistes en photographie de restaurant et photographie gastronomique IA. Nous sauvons vos photos mobiles pour vos réseaux sociaux et menus digitaux en 48h. Retouche gourmet professionnelle.",
+      keywords: "photographie restaurant, photographie gastronomique IA, marketing restaurant, retouche photo cuisine, photos réseaux sociaux, stylisme culinaire numérique, marketing gastronomique"
     },
     header: {
       title: "PHOTOGRAPHIE RESTAURANT",
@@ -1326,9 +1366,14 @@ export const translations = {
       subtitle: "PROTOCOLES ADAPTÉS À CHAQUE TYPE DE CUISINE",
       items: [
         {
-          title: "DELIVERY & DARK KITCHENS",
-          desc: "Optimisation extrême pour les algorithmes. Nous créons un 'umami visuel' qui booste le CTR et réduit la friction de l'achat.",
-          keywords: ["UberEats", "Glovo", "Conversion Rate", "High Contrast"]
+          title: "RESTAURANTS",
+          desc: "Nous boostons l'identité unique de votre salle. Nous transformons les photos du quotidien en actifs marketing qui remplissent les tables.",
+          keywords: ["Identité", "Social Media", "Réservations", "Ventes"]
+        },
+        {
+          title: "HÔTELS & RESORTS",
+          desc: "Consistance visuelle sur des centaines d'actifs. Nous standardisons l'image de plusieurs points de vente (buffet, lobby, gourmet) sous une même signature.",
+          keywords: ["Scaling", "Brand Logic", "Asset Management", "Hospitality"]
         },
         {
           title: "HAUTE CUISINE & CHEFS",
@@ -1336,14 +1381,29 @@ export const translations = {
           keywords: ["Beaux-Arts", "Texture Réelle", "Sans Filtre", "Élégance"]
         },
         {
-          title: "HÔTELS & RESORTS",
-          desc: "Consistance visuelle sur des centaines d'actifs. Nous standardisons l'image de plusieurs points de vente sous une même signature.",
-          keywords: ["Scaling", "Brand Logic", "Asset Management", "Hospitality"]
+          title: "COCKTAILERIES",
+          desc: "Retouche de la verrerie, des reflets et des textures liquides. Nous soulignons la sophistication de chaque mélange pour les réseaux sociaux.",
+          keywords: ["Mixologie", "Éclat", "Ambiance", "Nocturne"]
         },
         {
-          title: "BOULANGERIE & PÂTISSERIE",
-          desc: "Mise en valeur des glaçages, pâtes et textures moelleuses. Nous capturons la fraîcheur que l'œil perçoit avant la première bouchée.",
-          keywords: ["Macro Detail", "Organic Glow", "Soft Light", "Boutique"]
+          title: "BARS À TAPAS",
+          desc: "Nous capturons l'essence du produit frais et du 'tapeo' dynamique. Des images qui invitent au bar et à la consommation immédiate.",
+          keywords: ["Tradition", "Bar", "Moment", "Partage"]
+        },
+        {
+          title: "LIVRAISON",
+          desc: "Optimisation chirurgicale pour les menus numériques. Des photos conçues pour convertir les clics en commandes en quelques secondes.",
+          keywords: ["Conversion", "Vente Digitale", "Catalogue", "Rapidité"]
+        },
+        {
+          title: "DARK KITCHENS & CATERING",
+          desc: "Nous boostons l'image des marques sans salle physique et des services événementiels. Professionnalisme visuel garantissant la confiance.",
+          keywords: ["Événements", "Confiance", "Logistique", "Production"]
+        },
+        {
+          title: "TAKE AWAY & PROXIMITÉ",
+          desc: "Sublimer l'image des plats à emporter. Solutions pour les commerces de proximité et plats prêts à consommer exigeant une fraîcheur visuelle maximale.",
+          keywords: ["Ready-to-eat", "Fraîcheur", "Vente Impulsive", "Qualité"]
         }
       ]
     },
@@ -1365,7 +1425,7 @@ export const translations = {
         },
         {
           q: "QUEL IMPACT UNE BONNE PHOTO A-T-ELLE SUR MES VENTES ?",
-          a: "Une image optimisée chirurgicalement peut augmenter les ventes de plus de 40 % sur les plateformes de livraison (UberEats, Glovo). L'appétit passe par les yeux et rien ne vend mieux que la réalité augmentée."
+          a: "Une image haute fidélité augmente considérablement votre pertinence sur les réseaux sociaux et la confiance des clients à ticket élevé. Même si vous ne dépendez pas de plateformes externes, une présence visuelle impeccable est vitale pour convertir vos abonnés en réservations et vous démarquer dans l'offre de plats à emporter de qualité."
         },
         {
           q: "POURQUOI EST-IL IMPORTANT DE GARDER MON OFFRE VISIBLE QUOTIDIENNEMENT ?",
@@ -1386,9 +1446,9 @@ export const translations = {
           button: "ESSAYEZ-LE GRATUITEMENT (0€)"
         },
         {
-          title: "MULTIPLIEZ VOS VENTES SUR LES APPS DE LIVRAISON",
+          title: "MULTIPLIEZ VOTRE PERTINENCE DIGITALE",
           subtitle: "OPTIMISATION DE LA CONVERSION",
-          desc: "Nos plats sauvés par l'IA augmentent les ratios de commande jusqu'à 40%.",
+          desc: "Nos plats sauvés par l'IA augmentent l'intérêt de vos clients et le taux de réservation.",
           button: "RECEVOIR UN DIAGNOSTIC"
         },
         {
@@ -1820,8 +1880,8 @@ export const translations = {
   it: {
     seo: {
       title: "Fotografia per Ristoranti | Salvataggio Asset Gastronomici con IA",
-      description: "Recuperiamo e ottimizziamo le tue foto di cibo con intelligenza artificiale. Qualità da studio senza fotografi in sala. Aumenta le vendite su GMB e Delivery.",
-      keywords: "Fotografia ristoranti, IA gastronomica, ritocco foto cibo, marketing ristorazione, recupero immagini, Glovo, UberEats"
+      description: "Recuperiamo e ottimizziamo le tue foto di cibo con intelligenza artificiale. Qualità da studio senza fotografi in sala. Aumenta la rilevanza sui social e la fiducia dei clienti.",
+      keywords: "Fotografia ristoranti, IA gastronomica, ritocco foto cibo, marketing ristorazione, recupero immagini, social media marketing, Instagram food"
     },
     header: {
       title: "FOTOGRAFIA PER RISTORANTI",
@@ -1878,12 +1938,17 @@ export const translations = {
     },
     solutions: {
       title: "SOLUZIONI CHIRURGICHE PER SETTORE",
-      subtitle: "PROTOCOLLI ADATTATI A OGNI TIPO DI CUCINA",
+      subtitle: "PROTOCOLI ADATTATI A OGNI TIPO DI CUCINA",
       items: [
         {
-          title: "DELIVERY & DARK KITCHENS",
-          desc: "Ottimizzazione estrema per gli algoritmi. Creiamo un 'umami visuale' che aumenta il CTR e riduce la frizione nell'acquisto.",
-          keywords: ["UberEats", "Glovo", "Conversion Rate", "High Contrast"]
+          title: "RISTORANTI",
+          desc: "Potenziamo l'identità unica della tua sala. Trasformiamo le foto quotidiane in asset di marketing che riempiono i tavoli.",
+          keywords: ["Identità", "Social Media", "Prenotazioni", "Vendite"]
+        },
+        {
+          title: "HOTEL & RESORT",
+          desc: "Consistenza visuale su centinaia di asset. Standardizziamo l'immagine di più puntos vendita (buffet, lobby, gourmet) sotto un'unica firma.",
+          keywords: ["Scaling", "Brand Logic", "Asset Management", "Hospitality"]
         },
         {
           title: "ALTA CUCINA & CHEF",
@@ -1891,14 +1956,29 @@ export const translations = {
           keywords: ["Belle Arti", "Texture Reale", "Senza Filtri", "Eleganza"]
         },
         {
-          title: "HOTEL & RESORT",
-          desc: "Consistenza visuale su centinaia di asset. Standardizziamo l'immagine di più puntos vendita sotto un'unica firma.",
-          keywords: ["Scaling", "Brand Logic", "Asset Management", "Hospitality"]
+          title: "COCKTAIL BAR",
+          desc: "Ritocco di vetreria, riflessi e consistenze liquide. Sottolineiamo la raffinatezza di ogni drink per i social media.",
+          keywords: ["Mixologia", "Brillantezza", "Atmosfera", "Nightlife"]
         },
         {
-          title: "PANETTERIA & PASTICCERIA",
-          desc: "Valorizzazione di glasse, impasti e consistenze soffici. Catturiamo la freschezza che l'occhio percepisce al primo sguardo.",
-          keywords: ["Macro Detail", "Organic Glow", "Soft Light", "Boutique"]
+          title: "TAPAS BAR",
+          desc: "Catturiamo l'essenza del prodotto fresco e del 'tapeo' dinamico. Immagini che invitano al bancone e al consumo immediato.",
+          keywords: ["Tradizione", "Bancone", "Momento", "Condivisione"]
+        },
+        {
+          title: "DELIVERY",
+          desc: "Ottimizzazione chirurgica per i menu digitali. Foto progettate per convertire i clic in ordini in pochi secondi.",
+          keywords: ["Conversione", "Vendita Digitale", "Catalogo", "Rapidità"]
+        },
+        {
+          title: "DARK KITCHENS & CATERING",
+          desc: "Potenziamo l'immagine dei marchi senza sala fisica e dei servizi di ristorazione per eventi. Professionalità visiva che garantisce fiducia.",
+          keywords: ["Eventi", "Fiducia", "Logistica", "Produzione"]
+        },
+        {
+          title: "TAKE AWAY & PROSSIMITÀ",
+          desc: "Eleviamo l'immagine del cibo da asporto. Soluzioni per negozi di prossimità e piatti pronti che richiedono la massima freschezza visiva.",
+          keywords: ["Ready-to-eat", "Freschezza", "Vendita Impulsiva", "Qualità"]
         }
       ]
     },
@@ -1920,7 +2000,7 @@ export const translations = {
         },
         {
           q: "CHE IMPATTO HA UNA BUONA FOTO SULLE MIE VENDITE?",
-          a: "Un'immagine ottimizzata chirurgicamente può aumentare le vendite di oltre il 40% sulle piattaforme di delivery (UberEats, Glovo). L'appetito entra dagli occhi e nulla vende meglio della realtà aumentata."
+          a: "Un'immagine ad alta fedeltà aumenta drasticamente la tua rilevanza sui social media e la fiducia dei clienti di alto livello. Anche se non dipendente da piattaforme esterne, una presenza visiva impeccabile è vitale per convertire i follower in prenotazioni e distinguersi nell'offerta di cibo da asporto di qualità."
         },
         {
           q: "PERCHÉ È IMPORTANTE AGGIORNARE LA MIA OFFERTA QUOTIDIANAMENTE?",
@@ -1941,9 +2021,9 @@ export const translations = {
           button: "PROVALO GRATUITAMENTE (0€)"
         },
         {
-          title: "MOLTIPLICA LE TUE VENDITE SULLE APP DI DELIVERY",
+          title: "MOLTIPLICA LA TUA RILEVANZA DIGITALE",
           subtitle: "OTTIMIZZAZIONE DELLA CONVERSIONE",
-          desc: "I nostri piatti recuperati con l'IA aumentano i tassi di ordinazione fino al 40%.",
+          desc: "I nostri piatti recuperati con l'IA aumentano l'interesse dei tuoi clienti e il tasso di prenotazione.",
           button: "RICEVI DIAGNOSI"
         },
         {
