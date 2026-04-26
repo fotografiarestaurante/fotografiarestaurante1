@@ -1269,6 +1269,7 @@ export default function App() {
   const [legalType, setLegalType] = useState<'terms' | 'privacy' | 'ip' | null>(null);
   const [selectedArticleId, setSelectedArticleId] = useState<string | null>(null);
   const [selectedCategory, setSelectedCategory] = useState<string>('all');
+  const [selectedLiveProofIndex, setSelectedLiveProofIndex] = useState(0);
   const [activeProtocol, setActiveProtocol] = useState<{title: string, details: string} | null>(null);
   const [showCookieBanner, setShowCookieBanner] = useState(false);
   const [showCookieModal, setShowCookieModal] = useState(false);
@@ -1394,8 +1395,25 @@ export default function App() {
         </div>
         
         <div className="mt-8">
+          <div className="flex flex-wrap gap-2 mb-4">
+            {t.liveProof.examples.map((ex: any, idx: number) => (
+              <button
+                key={ex.id}
+                onClick={() => setSelectedLiveProofIndex(idx)}
+                className={`text-[8px] font-black uppercase tracking-widest px-3 py-2 border transition-all ${
+                  selectedLiveProofIndex === idx 
+                    ? 'bg-brand-fg text-brand-bg border-brand-fg' 
+                    : 'bg-transparent text-brand-fg/40 border-brand-border hover:border-brand-fg/40'
+                }`}
+              >
+                EX {ex.id}
+              </button>
+            ))}
+          </div>
           <BeforeAfterSlider 
             t={t} 
+            beforeUrl={t.liveProof.examples[selectedLiveProofIndex].before || t.liveProof.examples[0].before}
+            afterUrl={t.liveProof.examples[selectedLiveProofIndex].after || t.liveProof.examples[0].after}
             beforeLabel={t.liveProof.beforeLabel} 
             afterLabel={t.liveProof.afterLabel}
           />
@@ -1512,10 +1530,26 @@ export default function App() {
               </p>
             </div>
 
+            <div className="flex flex-wrap items-center justify-center gap-3 mb-8">
+              {t.liveProof.examples.map((ex: any, idx: number) => (
+                <button
+                  key={ex.id}
+                  onClick={() => setSelectedLiveProofIndex(idx)}
+                  className={`text-[10px] font-black uppercase tracking-[0.2em] px-6 py-3 border transition-all ${
+                    selectedLiveProofIndex === idx 
+                      ? 'bg-brand-fg text-brand-bg border-brand-fg' 
+                      : 'bg-transparent text-brand-fg/40 border-brand-border hover:border-brand-fg/40'
+                  }`}
+                >
+                  {ex.name}
+                </button>
+              ))}
+            </div>
+
             <BeforeAfterSlider 
               t={t}
-              beforeUrl="https://res.cloudinary.com/dsahovs5z/image/upload/q_auto/f_auto/v1776986622/enhanced-image-1775560540228_q4ofc5.webp"
-              afterUrl="https://res.cloudinary.com/dsahovs5z/image/upload/q_auto/f_auto/v1776987095/enhanced-image-1775560899143_x7pb06.webp"
+              beforeUrl={t.liveProof.examples[selectedLiveProofIndex].before || t.liveProof.examples[0].before}
+              afterUrl={t.liveProof.examples[selectedLiveProofIndex].after || t.liveProof.examples[0].after}
               beforeLabel={t.liveProof.beforeLabel}
               afterLabel={t.liveProof.afterLabel}
               aspectRatio="aspect-square md:aspect-[16/9]"

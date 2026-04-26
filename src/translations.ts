@@ -410,9 +410,27 @@ export const translations = {
       title: "PRUEBA EN VIVO",
       subtitle: "RESCATE EN TIEMPO REAL",
       slogan: "Comprueba en vivo lo que podemos hacer",
-      beforeLabel: "Foto de montón",
+      beforeLabel: "FOTO ESPONTÁNEA",
       afterLabel: "Una foto de 10",
-      tagline: "* Deslizamiento táctil activo para evaluación técnica"
+      tagline: "* Deslizamiento táctil activo para evaluación técnica",
+      examples: [
+        {
+          id: 1,
+          name: "ALBÓNDIGAS CON PULPITOS",
+          before: "https://res.cloudinary.com/dsahovs5z/image/upload/q_auto/f_auto/v1776986622/enhanced-image-1775560540228_q4ofc5.webp",
+          after: "https://res.cloudinary.com/dsahovs5z/image/upload/q_auto/f_auto/v1776987095/enhanced-image-1775560899143_x7pb06.webp"
+        },
+        {
+          id: 2,
+          name: "PIES DE CERDO CON SANFAINA",
+          before: "https://res.cloudinary.com/dsahovs5z/image/upload/v1777177225/ezpmbdvkng60jtaclwpc_d0kh91.webp",
+          after: "https://res.cloudinary.com/dsahovs5z/image/upload/v1777177226/t2rk4ebe2tys0o8lt2qj_ac8hwn.webp"
+        },
+        { id: 3, name: "LENGUADO", before: "https://res.cloudinary.com/dsahovs5z/image/upload/v1777177226/truktc3iv2xrqsvbyqr0_c0it2i.webp", after: "https://res.cloudinary.com/dsahovs5z/image/upload/v1777177225/jtzc882jxwybi8stq5gw_xmmoch.webp" },
+        { id: 4, name: "ARROZ NEGRO", before: "https://res.cloudinary.com/dsahovs5z/image/upload/q_auto/f_auto/v1777177225/ntwpv91v496gevjkiixe_scazg3.webp", after: "https://res.cloudinary.com/dsahovs5z/image/upload/v1777177226/r0jkoplxznkzjwqxcp9q_chfhyg.webp" },
+        { id: 5, name: "ESPAGUETIS MARINERA", before: "https://res.cloudinary.com/dsahovs5z/image/upload/q_auto/f_auto/v1777177226/jvvs46ud0chcb7borsha_bysnor.webp", after: "https://res.cloudinary.com/dsahovs5z/image/upload/q_auto/f_auto/v1777177225/c2gtsp3xaybvp3gpsywt_e5fvef.webp" },
+        { id: 6, name: "CANELONES DE ESPINACAS", before: "https://res.cloudinary.com/dsahovs5z/image/upload/q_auto/f_auto/v1777177225/nb7skwwxpmmiolo0dg5u_vtc9tv.webp", after: "https://res.cloudinary.com/dsahovs5z/image/upload/q_auto/f_auto/v1777177225/ko67qqjlzdod3qdh6lss_fl2spi.webp" }
+      ]
     },
     cookies: {
       bannerTitle: "Aviso de Privacidad",
@@ -1012,9 +1030,27 @@ export const translations = {
       title: "LIVE PROOF",
       subtitle: "REAL-TIME RESCUE",
       slogan: "Check live what we can do",
-      beforeLabel: "Basic Snap",
-      afterLabel: "Top-Tier Shot",
-      tagline: "* Active touch swipe for technical evaluation"
+      beforeLabel: "SPONTANEOUS PHOTO",
+      afterLabel: "A 10/10 Shot",
+      tagline: "* Active touch swipe for technical evaluation",
+      examples: [
+        {
+          id: 1,
+          name: "MEATBALLS WITH BABY OCTOPUS",
+          before: "https://res.cloudinary.com/dsahovs5z/image/upload/q_auto/f_auto/v1776986622/enhanced-image-1775560540228_q4ofc5.webp",
+          after: "https://res.cloudinary.com/dsahovs5z/image/upload/q_auto/f_auto/v1776987095/enhanced-image-1775560899143_x7pb06.webp"
+        },
+        {
+          id: 2,
+          name: "PORK TROTTERS WITH SANFAINA",
+          before: "https://res.cloudinary.com/dsahovs5z/image/upload/v1777177225/ezpmbdvkng60jtaclwpc_d0kh91.webp",
+          after: "https://res.cloudinary.com/dsahovs5z/image/upload/v1777177226/t2rk4ebe2tys0o8lt2qj_ac8hwn.webp"
+        },
+        { id: 3, name: "SOLE FISH", before: "https://res.cloudinary.com/dsahovs5z/image/upload/v1777177226/truktc3iv2xrqsvbyqr0_c0it2i.webp", after: "https://res.cloudinary.com/dsahovs5z/image/upload/v1777177225/jtzc882jxwybi8stq5gw_xmmoch.webp" },
+        { id: 4, name: "BLACK RICE", before: "https://res.cloudinary.com/dsahovs5z/image/upload/q_auto/f_auto/v1777177225/ntwpv91v496gevjkiixe_scazg3.webp", after: "https://res.cloudinary.com/dsahovs5z/image/upload/v1777177226/r0jkoplxznkzjwqxcp9q_chfhyg.webp" },
+        { id: 5, name: "SEAFOOD SPAGHETTI", before: "https://res.cloudinary.com/dsahovs5z/image/upload/q_auto/f_auto/v1777177226/jvvs46ud0chcb7borsha_bysnor.webp", after: "https://res.cloudinary.com/dsahovs5z/image/upload/q_auto/f_auto/v1777177225/c2gtsp3xaybvp3gpsywt_e5fvef.webp" },
+        { id: 6, name: "SPINACH CANNELLONI", before: "https://res.cloudinary.com/dsahovs5z/image/upload/q_auto/f_auto/v1777177225/nb7skwwxpmmiolo0dg5u_vtc9tv.webp", after: "https://res.cloudinary.com/dsahovs5z/image/upload/q_auto/f_auto/v1777177225/ko67qqjlzdod3qdh6lss_fl2spi.webp" }
+      ]
     },
     cookies: {
       bannerTitle: "Privacy Notice",
@@ -1386,9 +1422,27 @@ export const translations = {
       title: "PREUVE EN DIRECT",
       subtitle: "SAUVETAGE EN TEMPS RÉEL",
       slogan: "Vérifiez en direct ce que nous pouvons faire",
-      beforeLabel: "Photo banale",
+      beforeLabel: "PHOTO SPONTANÉE",
       afterLabel: "Une photo de 10",
-      tagline: "* Balayage tactile actif pour évaluation technique"
+      tagline: "* Balayage tactile actif pour évaluation technique",
+      examples: [
+        {
+          id: 1,
+          name: "BOULETTES AUX PETITS POULPES",
+          before: "https://res.cloudinary.com/dsahovs5z/image/upload/q_auto/f_auto/v1776986622/enhanced-image-1775560540228_q4ofc5.webp",
+          after: "https://res.cloudinary.com/dsahovs5z/image/upload/q_auto/f_auto/v1776987095/enhanced-image-1775560899143_x7pb06.webp"
+        },
+        {
+          id: 2,
+          name: "PIEDS DE PORC À LA SANFAINA",
+          before: "https://res.cloudinary.com/dsahovs5z/image/upload/v1777177225/ezpmbdvkng60jtaclwpc_d0kh91.webp",
+          after: "https://res.cloudinary.com/dsahovs5z/image/upload/v1777177226/t2rk4ebe2tys0o8lt2qj_ac8hwn.webp"
+        },
+        { id: 3, name: "SOLE", before: "https://res.cloudinary.com/dsahovs5z/image/upload/v1777177226/truktc3iv2xrqsvbyqr0_c0it2i.webp", after: "https://res.cloudinary.com/dsahovs5z/image/upload/v1777177225/jtzc882jxwybi8stq5gw_xmmoch.webp" },
+        { id: 4, name: "RIZ NOIR", before: "https://res.cloudinary.com/dsahovs5z/image/upload/q_auto/f_auto/v1777177225/ntwpv91v496gevjkiixe_scazg3.webp", after: "https://res.cloudinary.com/dsahovs5z/image/upload/v1777177226/r0jkoplxznkzjwqxcp9q_chfhyg.webp" },
+        { id: 5, name: "SPAGHETTI AUX FRUITS DE MER", before: "https://res.cloudinary.com/dsahovs5z/image/upload/q_auto/f_auto/v1777177226/jvvs46ud0chcb7borsha_bysnor.webp", after: "https://res.cloudinary.com/dsahovs5z/image/upload/q_auto/f_auto/v1777177225/c2gtsp3xaybvp3gpsywt_e5fvef.webp" },
+        { id: 6, name: "CANNELLONIS AUX ÉPINARDS", before: "https://res.cloudinary.com/dsahovs5z/image/upload/q_auto/f_auto/v1777177225/nb7skwwxpmmiolo0dg5u_vtc9tv.webp", after: "https://res.cloudinary.com/dsahovs5z/image/upload/q_auto/f_auto/v1777177225/ko67qqjlzdod3qdh6lss_fl2spi.webp" }
+      ]
     },
     cookies: {
       bannerTitle: "Avis de Confidentialité",
@@ -1913,9 +1967,27 @@ export const translations = {
       title: "PROVA DAL VIVO",
       subtitle: "SALVATAGGIO IN TEMPO REALE",
       slogan: "Verifica dal vivo cosa possiamo fare",
-      beforeLabel: "Foto di routine",
+      beforeLabel: "FOTO SPONTANEA",
       afterLabel: "Una foto da 10",
-      tagline: "* Scorrimento touch attivo per valutazione tecnica"
+      tagline: "* Scorrimento touch attivo per valutazione tecnica",
+      examples: [
+        {
+          id: 1,
+          name: "POLPETTE CON POLPETTI",
+          before: "https://res.cloudinary.com/dsahovs5z/image/upload/q_auto/f_auto/v1776986622/enhanced-image-1775560540228_q4ofc5.webp",
+          after: "https://res.cloudinary.com/dsahovs5z/image/upload/q_auto/f_auto/v1776987095/enhanced-image-1775560899143_x7pb06.webp"
+        },
+        {
+          id: 2,
+          name: "PIEDINI DI MAIALE CON SANFAINA",
+          before: "https://res.cloudinary.com/dsahovs5z/image/upload/v1777177225/ezpmbdvkng60jtaclwpc_d0kh91.webp",
+          after: "https://res.cloudinary.com/dsahovs5z/image/upload/v1777177226/t2rk4ebe2tys0o8lt2qj_ac8hwn.webp"
+        },
+        { id: 3, name: "SOGLIOLA", before: "https://res.cloudinary.com/dsahovs5z/image/upload/v1777177226/truktc3iv2xrqsvbyqr0_c0it2i.webp", after: "https://res.cloudinary.com/dsahovs5z/image/upload/v1777177225/jtzc882jxwybi8stq5gw_xmmoch.webp" },
+        { id: 4, name: "RISO NERO", before: "https://res.cloudinary.com/dsahovs5z/image/upload/q_auto/f_auto/v1777177225/ntwpv91v496gevjkiixe_scazg3.webp", after: "https://res.cloudinary.com/dsahovs5z/image/upload/v1777177226/r0jkoplxznkzjwqxcp9q_chfhyg.webp" },
+        { id: 5, name: "SPAGHETTI ALLO SCOGLIO", before: "https://res.cloudinary.com/dsahovs5z/image/upload/q_auto/f_auto/v1777177226/jvvs46ud0chcb7borsha_bysnor.webp", after: "https://res.cloudinary.com/dsahovs5z/image/upload/q_auto/f_auto/v1777177225/c2gtsp3xaybvp3gpsywt_e5fvef.webp" },
+        { id: 6, name: "CANNELLONI AGLI SPINACI", before: "https://res.cloudinary.com/dsahovs5z/image/upload/q_auto/f_auto/v1777177225/nb7skwwxpmmiolo0dg5u_vtc9tv.webp", after: "https://res.cloudinary.com/dsahovs5z/image/upload/q_auto/f_auto/v1777177225/ko67qqjlzdod3qdh6lss_fl2spi.webp" }
+      ]
     },
     cookies: {
       bannerTitle: "Informativa sulla Privacy",
