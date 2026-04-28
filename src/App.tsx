@@ -28,6 +28,7 @@ import {
 } from 'lucide-react';
 import { Analytics } from '@vercel/analytics/react';
 import { Language, translations } from './translations';
+import { useLocation, useNavigate, Link } from 'react-router-dom';
 import { initializeApp } from 'firebase/app';
 import { getFirestore, collection, addDoc, serverTimestamp, doc, getDocFromServer, getDocs, writeBatch, query } from 'firebase/firestore';
 import firebaseConfig from '../firebase-applet-config.json';
@@ -192,8 +193,8 @@ const BeforeAfterSlider = ({
     setSliderPos(Math.min(Math.max(position, 0), 100));
   };
 
-  const finalBeforeUrl = beforeUrl || "https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?auto=format&fit=crop&q=80&w=1000&sat=-100&bri=-20";
-  const finalAfterUrl = afterUrl || "https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?auto=format&fit=crop&q=80&w=1000";
+  const finalBeforeUrl = beforeUrl || "https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?auto=format&fit=crop&q=80&w=1000&sat=-100&bri=-20&fm=webp";
+  const finalAfterUrl = afterUrl || "https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?auto=format&fit=crop&q=80&w=1000&fm=webp";
   const finalBeforeLabel = beforeLabel || "BEFORE [RAW]";
   const finalAfterLabel = afterLabel || "AFTER [8K]";
 
@@ -263,9 +264,9 @@ const MainHero = ({ t, scrollToAndHighlight }: { t: any, scrollToAndHighlight: (
   const [currentSlide, setCurrentSlide] = useState(0);
   const slides = t.heroBanner.slides;
   const images = [
-    "https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&q=80&w=1600",
-    "https://images.unsplash.com/photo-1551024601-bec78aea704b?auto=format&fit=crop&q=80&w=1600",
-    "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?auto=format&fit=crop&q=80&w=1600"
+    "https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&q=80&w=1600&fm=webp",
+    "https://images.unsplash.com/photo-1551024601-bec78aea704b?auto=format&fit=crop&q=80&w=1600&fm=webp",
+    "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?auto=format&fit=crop&q=80&w=1600&fm=webp"
   ];
 
   useEffect(() => {
@@ -850,21 +851,21 @@ const LaboratoryTabs = ({ t }: { t: any }) => {
 
   const labData = t.labData;
   const labImages = [
-    "https://images.unsplash.com/photo-1563379926898-05f4575a45d8?auto=format&fit=crop&q=80&w=800",
-    "https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?auto=format&fit=crop&q=80&w=800",
-    "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?auto=format&fit=crop&q=80&w=800",
-    "https://images.unsplash.com/photo-1600565193348-f74bd3c7ccdf?auto=format&fit=crop&q=80&w=800",
-    "https://images.unsplash.com/photo-1579871494447-9811cf80d66c?auto=format&fit=crop&q=80&w=800",
-    "https://images.unsplash.com/photo-1543353071-10c8ba85a904?auto=format&fit=crop&q=80&w=800",
-    "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?auto=format&fit=crop&q=80&w=800",
-    "https://images.unsplash.com/photo-1490818387583-1baba5e638af?auto=format&fit=crop&q=80&w=800",
-    "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?auto=format&fit=crop&q=80&w=800",
-    "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&q=80&w=800",
-    "https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&q=80&w=800",
-    "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?auto=format&fit=crop&q=80&w=800",
-    "https://images.unsplash.com/photo-1542744173-8e7e53415bb0?auto=format&fit=crop&q=80&w=800",
-    "https://images.unsplash.com/photo-1551024601-bec78aea704b?auto=format&fit=crop&q=80&w=800",
-    "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&q=80&w=800"
+    "https://images.unsplash.com/photo-1563379926898-05f4575a45d8?auto=format&fit=crop&q=80&w=800&fm=webp",
+    "https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?auto=format&fit=crop&q=80&w=800&fm=webp",
+    "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?auto=format&fit=crop&q=80&w=800&fm=webp",
+    "https://images.unsplash.com/photo-1600565193348-f74bd3c7ccdf?auto=format&fit=crop&q=80&w=800&fm=webp",
+    "https://images.unsplash.com/photo-1579871494447-9811cf80d66c?auto=format&fit=crop&q=80&w=800&fm=webp",
+    "https://images.unsplash.com/photo-1543353071-10c8ba85a904?auto=format&fit=crop&q=80&w=800&fm=webp",
+    "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?auto=format&fit=crop&q=80&w=800&fm=webp",
+    "https://images.unsplash.com/photo-1490818387583-1baba5e638af?auto=format&fit=crop&q=80&w=800&fm=webp",
+    "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?auto=format&fit=crop&q=80&w=800&fm=webp",
+    "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&q=80&w=800&fm=webp",
+    "https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&q=80&w=800&fm=webp",
+    "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?auto=format&fit=crop&q=80&w=800&fm=webp",
+    "https://images.unsplash.com/photo-1542744173-8e7e53415bb0?auto=format&fit=crop&q=80&w=800&fm=webp",
+    "https://images.unsplash.com/photo-1551024601-bec78aea704b?auto=format&fit=crop&q=80&w=800&fm=webp",
+    "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&q=80&w=800&fm=webp"
   ];
 
   return (
@@ -1255,6 +1256,8 @@ const SolutionsSection = ({ t }: { t: any }) => {
 };
 
 export default function App() {
+  const location = useLocation();
+  const navigate = useNavigate();
   const [lang, setLang] = useState<Language>('es');
   const [isDark, setIsDark] = useState<boolean>(false);
   const t = translations[lang];
@@ -1280,12 +1283,30 @@ export default function App() {
   }, [isDark]);
 
   useEffect(() => {
-    document.title = t.header.title + " | " + t.header.subtitle;
+    let pageTitle = t.header.title + " | " + t.header.subtitle;
+    let pageDesc = t.seo.description;
+
+    const path = location.pathname;
+    if (path === '/servicios') {
+      pageTitle = `Servicios de Fotografía Gastronomica | ${t.header.title}`;
+      pageDesc = "Protocolos de rescate de imagen para restaurantes, hoteles y delivery. Cirugía estética gourmet para tus platos.";
+    } else if (path === '/laboratorio') {
+      pageTitle = `Laboratorio de Imagen | ${t.header.title}`;
+      pageDesc = "Tecnología de inteligencia artificial aplicada a la gastronomía. Rescatamos tus fotos de móvil con precisión quirúrgica.";
+    } else if (path === '/archivos') {
+      pageTitle = `Blog de Fotografía y Marketing | ${t.header.title}`;
+      pageDesc = "Consejos, estrategias y casos de éxito en marketing gastronómico y fotografía de rescate.";
+    } else if (path === '/comanda') {
+      pageTitle = `Contacto y Presupuesto | ${t.header.title}`;
+      pageDesc = "Solicita tu diagnóstico técnico y reserva tu protocolo de rescate de imagen hoy mismo.";
+    }
+
+    document.title = pageTitle;
     document.documentElement.lang = lang;
     
     // Update meta description
     const metaDesc = document.querySelector('meta[name="description"]');
-    if (metaDesc) metaDesc.setAttribute('content', t.seo.description);
+    if (metaDesc) metaDesc.setAttribute('content', pageDesc);
     
     // Update meta keywords
     const metaKeywords = document.querySelector('meta[name="keywords"]');
@@ -1293,10 +1314,16 @@ export default function App() {
 
     // Update OG tags
     const ogTitle = document.querySelector('meta[property="og:title"]');
-    if (ogTitle) ogTitle.setAttribute('content', t.header.title + " | " + t.header.subtitle);
+    if (ogTitle) ogTitle.setAttribute('content', pageTitle);
     
     const ogDesc = document.querySelector('meta[property="og:description"]');
-    if (ogDesc) ogDesc.setAttribute('content', t.seo.description);
+    if (ogDesc) ogDesc.setAttribute('content', pageDesc);
+
+    // Update canonical
+    let canonical = document.querySelector('link[rel="canonical"]') as HTMLLinkElement;
+    if (canonical) {
+      canonical.href = window.location.origin + path;
+    }
 
     // Update hreflang
     let link = document.querySelector('link[rel="alternate"][hreflang="' + lang + '"]') as HTMLLinkElement;
@@ -1389,6 +1416,34 @@ export default function App() {
     }
   };
 
+  // SEO Routing sync
+  useEffect(() => {
+    const path = location.pathname;
+    const sectionIdMap: Record<string, string> = {
+      '/servicios': 'tecnologia',
+      '/laboratorio': 'laboratorio',
+      '/archivos': 'archivos',
+      '/comanda': 'comanda',
+      '/qa': 'qa',
+      '/procedimiento': 'soluciones-quirurgicas'
+    };
+
+    const targetId = sectionIdMap[path];
+    if (targetId) {
+      // Delay slightly to ensure DOM is ready
+      setTimeout(() => {
+        const el = document.getElementById(targetId);
+        if (el) el.scrollIntoView({ behavior: 'smooth' });
+      }, 500);
+    }
+  }, [location.pathname]);
+
+  const handleNavClick = (path: string, id: string) => {
+    navigate(path);
+    const el = document.getElementById(id);
+    if (el) el.scrollIntoView({ behavior: 'smooth' });
+  };
+
   const legalContent = t.legalContent;
 
   return (
@@ -1397,19 +1452,19 @@ export default function App() {
       <header className="col-span-full border-b border-brand-border flex items-center justify-between px-4 md:px-10 tracking-[0.2em] uppercase text-[9px] min-[320px]:text-[10px] sm:text-[11px] md:text-[12px] h-[80px] sticky top-0 bg-brand-bg/80 backdrop-blur-sm z-[100]">
         <nav className="flex items-center gap-4 md:gap-10 w-full font-black px-2">
           <div className="flex items-center gap-4 shrink-0 px-2 lg:px-0">
-            <span className="shrink-0 cursor-default text-[11px] md:text-[14px] lg:text-[16px] tracking-[0.25em]">{t.header.title}</span>
+            <Link to="/" className="shrink-0 cursor-pointer text-[11px] md:text-[14px] lg:text-[16px] tracking-[0.25em]">{t.header.title}</Link>
             <button 
-              onClick={() => document.getElementById('qa')?.scrollIntoView({behavior: 'smooth'})} 
+              onClick={() => handleNavClick('/qa', 'qa')} 
               className="text-[10px] md:text-[11px] border border-brand-fg px-4 py-2 rounded-none hover:bg-brand-fg hover:text-brand-bg transition-all cursor-pointer whitespace-nowrap font-black uppercase tracking-[0.1em]"
             >
               {t.header.nav.qa}
             </button>
           </div>
           <div className="hidden md:flex items-center gap-4 lg:gap-8 ml-auto lg:ml-0 overflow-x-auto no-scrollbar">
-            <button onClick={() => document.getElementById('tecnologia')?.scrollIntoView({behavior: 'smooth'})} className="hover:opacity-50 transition-all cursor-pointer whitespace-nowrap">{t.header.nav.protocols}</button>
-            <button onClick={() => document.getElementById('laboratorio')?.scrollIntoView({behavior: 'smooth'})} className="hover:opacity-50 transition-all cursor-pointer whitespace-nowrap">{t.header.nav.lab}</button>
-            <button onClick={() => document.getElementById('archivos')?.scrollIntoView({behavior: 'smooth'})} className="hover:opacity-50 transition-all cursor-pointer whitespace-nowrap">{t.header.nav.blog}</button>
-            <button onClick={() => document.getElementById('comanda')?.scrollIntoView({behavior: 'smooth'})} className="hover:opacity-50 transition-all cursor-pointer whitespace-nowrap">{t.header.nav.contact}</button>
+            <button onClick={() => handleNavClick('/servicios', 'tecnologia')} className="hover:opacity-50 transition-all cursor-pointer whitespace-nowrap">{t.header.nav.protocols}</button>
+            <button onClick={() => handleNavClick('/laboratorio', 'laboratorio')} className="hover:opacity-50 transition-all cursor-pointer whitespace-nowrap">{t.header.nav.lab}</button>
+            <button onClick={() => handleNavClick('/archivos', 'archivos')} className="hover:opacity-50 transition-all cursor-pointer whitespace-nowrap">{t.header.nav.blog}</button>
+            <button onClick={() => handleNavClick('/comanda', 'comanda')} className="hover:opacity-50 transition-all cursor-pointer whitespace-nowrap">{t.header.nav.contact}</button>
           </div>
           <div className="ml-auto flex items-center gap-3 sm:gap-6">
             <ThemeToggle isDark={isDark} onToggle={() => setIsDark(!isDark)} t={t} />
@@ -1455,7 +1510,7 @@ export default function App() {
               transition={{ duration: 0.4 }}
             >
               <img 
-                src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&q=80&w=800"
+                src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&q=80&w=800&fm=webp"
                 alt="Gourmet Gallery Preview"
                 className="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-1000 ease-in-out"
                 referrerPolicy="no-referrer"
@@ -1543,25 +1598,25 @@ export default function App() {
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mt-6">
             <GalleryItem 
-              src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&q=80&w=800"
+              src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&q=80&w=800&fm=webp"
               alt={t.gallery.alt1}
               tag={t.gallery.tag1}
               t={t}
             />
             <GalleryItem 
-              src="https://images.unsplash.com/photo-1551024601-bec78aea704b?auto=format&fit=crop&q=80&w=800"
+              src="https://images.unsplash.com/photo-1551024601-bec78aea704b?auto=format&fit=crop&q=80&w=800&fm=webp"
               alt={t.gallery.alt2}
               tag={t.gallery.tag2}
               t={t}
             />
             <GalleryItem 
-              src="https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?auto=format&fit=crop&q=80&w=800"
+              src="https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?auto=format&fit=crop&q=80&w=800&fm=webp"
               alt={t.gallery.alt3}
               tag={t.gallery.tag3}
               t={t}
             />
             <GalleryItem 
-              src="https://images.unsplash.com/photo-1579871494447-9811cf80d66c?auto=format&fit=crop&q=80&w=800"
+              src="https://images.unsplash.com/photo-1579871494447-9811cf80d66c?auto=format&fit=crop&q=80&w=800&fm=webp"
               alt={t.gallery.alt4}
               tag={t.gallery.tag4}
               t={t}
@@ -1738,19 +1793,31 @@ export default function App() {
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: idx * 0.1 }}
                 whileHover={{ y: -5 }}
-                className="bg-brand-fg/[0.02] border border-brand-border p-10 flex flex-col items-start gap-4 hover:bg-brand-fg/[0.05] transition-all"
+                className="bg-brand-fg/[0.02] border border-brand-border overflow-hidden flex flex-col group hover:bg-brand-fg/[0.05] transition-all"
               >
-                <div className="text-[10px] uppercase tracking-[0.3em] font-black text-brand-fg/30">
-                  Rescate Log #{(t.blog.articles.findIndex((a: any) => a.id === article.id) + 1).toString().padStart(2, '0')}
+                {article.image && (
+                  <div className="h-48 overflow-hidden border-b border-brand-border bg-brand-fg/5">
+                    <img 
+                      src={article.image} 
+                      alt={article.imageAlt}
+                      className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+                      referrerPolicy="no-referrer"
+                    />
+                  </div>
+                )}
+                <div className="p-8 flex flex-col items-start gap-4 flex-grow">
+                  <div className="text-[10px] uppercase tracking-[0.3em] font-black text-brand-fg/30">
+                    Rescate Log #{(t.blog.articles.findIndex((a: any) => a.id === article.id) + 1).toString().padStart(2, '0')}
+                  </div>
+                  <h3 className="text-xl font-black uppercase tracking-tight leading-tight">{article.title}</h3>
+                  <p className="text-[14px] opacity-70 leading-relaxed italic">"{article.excerpt}"</p>
+                  <button 
+                    onClick={() => setSelectedArticleId(article.id)}
+                    className="mt-auto flex items-center gap-2 text-[10px] font-black uppercase tracking-[0.3em] px-4 py-2 bg-brand-fg text-brand-bg hover:opacity-80 transition-opacity"
+                  >
+                    {t.blog.readMore} <ArrowRight size={12} />
+                  </button>
                 </div>
-                <h3 className="text-xl font-black uppercase tracking-tight leading-tight">{article.title}</h3>
-                <p className="text-[14px] opacity-70 leading-relaxed italic">"{article.excerpt}"</p>
-                <button 
-                  onClick={() => setSelectedArticleId(article.id)}
-                  className="mt-6 flex items-center gap-2 text-[10px] font-black uppercase tracking-[0.3em] px-4 py-2 bg-brand-fg text-brand-bg hover:opacity-80 transition-opacity"
-                >
-                  {t.blog.readMore} <ArrowRight size={12} />
-                </button>
               </motion.div>
             ))}
           </div>
