@@ -72,7 +72,7 @@ const Viewfinder = ({ children, className = "" }: { children: React.ReactNode, c
       {children}
 
       {/* Nikon Metadata Bar */}
-      <div className="absolute top-3 md:top-6 left-1/2 -translate-x-1/2 flex items-center gap-3 md:gap-6 px-4 md:px-6 py-1 md:py-1.5 bg-black/60 backdrop-blur-md border border-white/10 rounded-full z-20 pointer-events-none opacity-0 group-hover:opacity-100 transition-all duration-500 -translate-y-2 group-hover:translate-y-0 scale-75 md:scale-100">
+      <div className="absolute top-3 md:top-6 left-1/2 -translate-x-1/2 flex items-center gap-3 md:gap-6 px-4 md:px-6 py-1 md:py-1.5 bg-black/60 backdrop-blur-md border border-white/10 rounded-full z-20 pointer-events-none opacity-0 group-hover:opacity-100 transition-[opacity,transform] duration-500 -translate-y-2 group-hover:translate-y-0 scale-75 md:scale-100">
         <div className="flex items-center gap-1.5">
           <span className="text-[6px] md:text-[7px] font-mono text-white/40 uppercase tracking-tighter">F-Stop</span>
           <span className="text-[8px] md:text-[9px] font-mono text-white font-bold tracking-widest">2.8</span>
@@ -185,16 +185,26 @@ const BeforeAfterSlider = ({
   const [sliderPos, setSliderPos] = useState(60);
   const containerRef = useRef<HTMLDivElement>(null);
 
+  const rectRef = useRef<DOMRect | null>(null);
+
+  const startMove = (e: React.MouseEvent | React.TouchEvent) => {
+    if (containerRef.current) {
+      rectRef.current = containerRef.current.getBoundingClientRect();
+    }
+  };
+
   const handleMove = (e: React.MouseEvent | React.TouchEvent) => {
     if (!containerRef.current) return;
-    const rect = containerRef.current.getBoundingClientRect();
+    
+    // Use cached rect if available, otherwise get it (fallback)
+    const rect = rectRef.current || containerRef.current.getBoundingClientRect();
     const x = 'touches' in e ? e.touches[0].clientX : e.clientX;
     const position = ((x - rect.left) / rect.width) * 100;
     setSliderPos(Math.min(Math.max(position, 0), 100));
   };
 
-  const finalBeforeUrl = beforeUrl || "https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?auto=format&fit=crop&q=80&w=1000&sat=-100&bri=-20&fm=webp";
-  const finalAfterUrl = afterUrl || "https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?auto=format&fit=crop&q=80&w=1000&fm=webp";
+  const finalBeforeUrl = beforeUrl || "https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?auto=format&fit=crop&q=45&w=1000&sat=-100&bri=-20&fm=webp";
+  const finalAfterUrl = afterUrl || "https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?auto=format&fit=crop&q=45&w=1000&fm=webp";
   const finalBeforeLabel = beforeLabel || "BEFORE [RAW]";
   const finalAfterLabel = afterLabel || "AFTER [8K]";
 
@@ -204,9 +214,21 @@ const BeforeAfterSlider = ({
         <div 
           ref={containerRef}
           className="relative w-full h-full bg-brand-fg/5 overflow-hidden cursor-ew-resize select-none border border-brand-border"
-          onMouseMove={(e) => (e.buttons === 1 || e.type === 'mousedown') && handleMove(e)}
+          onMouseMove={(e) => {
+            if (e.buttons === 1) {
+              if (!rectRef.current) startMove(e);
+              handleMove(e);
+            }
+          }}
           onTouchMove={handleMove}
-          onMouseDown={handleMove}
+          onMouseDown={(e) => {
+            startMove(e);
+            handleMove(e);
+          }}
+          onTouchStart={startMove}
+          onMouseUp={() => { rectRef.current = null }}
+          onMouseLeave={() => { rectRef.current = null }}
+          onTouchEnd={() => { rectRef.current = null }}
         >
           {/* After (Color) - Always full width background */}
           <div className="absolute inset-0">
@@ -221,24 +243,27 @@ const BeforeAfterSlider = ({
             </div>
           </div>
 
-          {/* Before (B&W or original) - Overlaid with controllable width */}
+          {/* Before (B&W or original) - Overlaid using clip-path for high performance */}
           <div 
-            className="absolute inset-y-0 left-0 overflow-hidden z-20 pointer-events-none border-r border-brand-fg/50"
-            style={{ width: `${sliderPos}%` }}
+            className="absolute inset-0 z-20 pointer-events-none"
+            style={{ clipPath: `inset(0 ${100 - sliderPos}% 0 0)` }}
           >
-            <div className="absolute inset-0 w-[1000%] h-full"> 
-              <img 
-                src={finalBeforeUrl} 
-                alt={t.common.sliderBefore} 
-                className="absolute inset-0 h-full object-cover max-w-none"
-                style={{ width: containerRef.current ? `${containerRef.current.offsetWidth}px` : '1000px' }}
-                referrerPolicy="no-referrer"
-              />
-            </div>
+            <img 
+              src={finalBeforeUrl} 
+              alt={t.common.sliderBefore} 
+              className="w-full h-full object-cover"
+              referrerPolicy="no-referrer"
+            />
             <div className="absolute top-[20px] md:top-[30px] left-[20px] md:left-[30px] z-30 text-white text-[9px] md:text-[10px] font-black uppercase tracking-[0.3em] bg-black/40 px-2 py-1">
               {finalBeforeLabel}
             </div>
           </div>
+
+          {/* Vertical Divider Line */}
+          <div 
+            className="absolute inset-y-0 z-25 pointer-events-none border-r border-brand-fg/50"
+            style={{ left: `${sliderPos}%` }}
+          />
 
           {/* Handle */}
           <div 
@@ -264,9 +289,9 @@ const MainHero = ({ t, scrollToAndHighlight }: { t: any, scrollToAndHighlight: (
   const [currentSlide, setCurrentSlide] = useState(0);
   const slides = t.heroBanner.slides;
   const images = [
-    "https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&q=80&w=1600&fm=webp",
-    "https://images.unsplash.com/photo-1551024601-bec78aea704b?auto=format&fit=crop&q=80&w=1600&fm=webp",
-    "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?auto=format&fit=crop&q=80&w=1600&fm=webp"
+    "https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&q=45&w=1000&fm=webp",
+    "https://images.unsplash.com/photo-1551024601-bec78aea704b?auto=format&fit=crop&q=45&w=1000&fm=webp",
+    "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?auto=format&fit=crop&q=45&w=1000&fm=webp"
   ];
 
   useEffect(() => {
@@ -293,6 +318,9 @@ const MainHero = ({ t, scrollToAndHighlight }: { t: any, scrollToAndHighlight: (
             className="w-full h-full object-cover opacity-40 md:opacity-50"
             alt={slides[currentSlide].title}
             referrerPolicy="no-referrer"
+            fetchPriority={currentSlide === 0 ? "high" : "auto"}
+            loading={currentSlide === 0 ? "eager" : "lazy"}
+            decoding="async"
           />
           <div className="absolute inset-0 bg-gradient-to-r from-brand-bg via-brand-bg/60 to-transparent z-10" />
         </motion.div>
@@ -837,7 +865,8 @@ const LabArticle = ({
             src={imageUrl} 
             alt={`Ejemplo de protocolo visual: ${title}`} 
             loading="lazy"
-            className="w-full grayscale group-hover:grayscale-0 transition-all duration-1000 border border-brand-border aspect-square object-cover"
+            decoding="async"
+            className="w-full grayscale group-hover:grayscale-0 transition-[filter] duration-1000 border border-brand-border aspect-square object-cover"
             referrerPolicy="no-referrer"
           />
         </Viewfinder>
@@ -851,21 +880,21 @@ const LaboratoryTabs = ({ t }: { t: any }) => {
 
   const labData = t.labData;
   const labImages = [
-    "https://images.unsplash.com/photo-1563379926898-05f4575a45d8?auto=format&fit=crop&q=80&w=800&fm=webp",
-    "https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?auto=format&fit=crop&q=80&w=800&fm=webp",
-    "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?auto=format&fit=crop&q=80&w=800&fm=webp",
-    "https://images.unsplash.com/photo-1600565193348-f74bd3c7ccdf?auto=format&fit=crop&q=80&w=800&fm=webp",
-    "https://images.unsplash.com/photo-1579871494447-9811cf80d66c?auto=format&fit=crop&q=80&w=800&fm=webp",
-    "https://images.unsplash.com/photo-1543353071-10c8ba85a904?auto=format&fit=crop&q=80&w=800&fm=webp",
-    "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?auto=format&fit=crop&q=80&w=800&fm=webp",
-    "https://images.unsplash.com/photo-1490818387583-1baba5e638af?auto=format&fit=crop&q=80&w=800&fm=webp",
-    "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?auto=format&fit=crop&q=80&w=800&fm=webp",
-    "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&q=80&w=800&fm=webp",
-    "https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&q=80&w=800&fm=webp",
-    "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?auto=format&fit=crop&q=80&w=800&fm=webp",
-    "https://images.unsplash.com/photo-1542744173-8e7e53415bb0?auto=format&fit=crop&q=80&w=800&fm=webp",
-    "https://images.unsplash.com/photo-1551024601-bec78aea704b?auto=format&fit=crop&q=80&w=800&fm=webp",
-    "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&q=80&w=800&fm=webp"
+    "https://images.unsplash.com/photo-1563379926898-05f4575a45d8?auto=format&fit=crop&q=45&w=700&fm=webp",
+    "https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?auto=format&fit=crop&q=45&w=700&fm=webp",
+    "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?auto=format&fit=crop&q=45&w=700&fm=webp",
+    "https://images.unsplash.com/photo-1600565193348-f74bd3c7ccdf?auto=format&fit=crop&q=45&w=700&fm=webp",
+    "https://images.unsplash.com/photo-1579871494447-9811cf80d66c?auto=format&fit=crop&q=45&w=700&fm=webp",
+    "https://images.unsplash.com/photo-1543353071-10c8ba85a904?auto=format&fit=crop&q=45&w=700&fm=webp",
+    "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?auto=format&fit=crop&q=45&w=700&fm=webp",
+    "https://images.unsplash.com/photo-1490818387583-1baba5e638af?auto=format&fit=crop&q=45&w=700&fm=webp",
+    "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?auto=format&fit=crop&q=45&w=700&fm=webp",
+    "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&q=45&w=700&fm=webp",
+    "https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&q=45&w=700&fm=webp",
+    "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?auto=format&fit=crop&q=45&w=700&fm=webp",
+    "https://images.unsplash.com/photo-1542744173-8e7e53415bb0?auto=format&fit=crop&q=45&w=700&fm=webp",
+    "https://images.unsplash.com/photo-1551024601-bec78aea704b?auto=format&fit=crop&q=45&w=700&fm=webp",
+    "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&q=45&w=700&fm=webp"
   ];
 
   return (
@@ -922,7 +951,7 @@ const LaboratoryTabs = ({ t }: { t: any }) => {
 };
 
 const Testimonials = ({ t }: { t: any }) => (
-  <section className="mb-24 py-16 border-y border-brand-border overflow-hidden">
+  <section className="mb-24 py-16 border-y border-brand-border overflow-hidden section-optimize">
     <div className="flex items-center gap-2 mb-12 px-6">
       <div className="w-1 h-4 bg-brand-fg" />
       <h2 className="text-[10px] font-black text-brand-fg tracking-[0.3em] uppercase block">
@@ -951,7 +980,7 @@ const Testimonials = ({ t }: { t: any }) => (
 );
 
 const Equipment = ({ t }: { t: any }) => (
-  <section className="mb-24">
+  <section className="mb-24 section-optimize">
     <div className="flex items-center gap-2 mb-12">
       <div className="w-1 h-4 bg-brand-fg" />
       <h2 className="text-[10px] font-black text-brand-fg tracking-[0.3em] uppercase block">
@@ -985,11 +1014,12 @@ const GalleryItem = ({ src, alt, tag, t }: { src: string, alt: string, tag: stri
           src={src} 
           alt={alt} 
           loading="lazy"
+          decoding="async"
           animate={{
             scale: isTapped ? 1.05 : 1,
             filter: isTapped ? "grayscale(0%)" : undefined
           }}
-          className="w-full h-full object-cover grayscale md:group-hover:grayscale-0 transition-all duration-1000 scale-100 md:group-hover:scale-110"
+          className="w-full h-full object-cover grayscale md:group-hover:grayscale-0 transition-[filter,transform] duration-1000 scale-100 md:group-hover:scale-110"
           referrerPolicy="no-referrer"
         />
         <div className="absolute inset-0 bg-brand-fg/5 md:group-hover:bg-transparent transition-colors pointer-events-none z-10" />
@@ -1111,7 +1141,7 @@ const useJSONLD = (lang: string, t: any) => {
 
 const FAQSection = ({ t }: { t: any }) => {
   return (
-    <section id="qa" className="mt-32 pt-20 border-t border-brand-border">
+    <section id="qa" className="mt-32 pt-20 border-t border-brand-border section-optimize">
       <div className="flex items-center gap-2 mb-12">
         <div className="w-1.5 h-6 bg-brand-fg" />
         <div>
@@ -1152,7 +1182,7 @@ const FAQSection = ({ t }: { t: any }) => {
 
 const LocalSEOSection = ({ t }: { t: any }) => {
   return (
-    <section id="cobertura" className="mt-32 mb-16 scroll-mt-20">
+    <section id="cobertura" className="mt-32 mb-16 scroll-mt-20 section-optimize">
       <div className="px-0 py-8 border-t border-brand-fg/10">
         <div className="flex items-center gap-2 mb-6">
           <div className="w-1.5 h-6 bg-brand-fg" />
@@ -1211,7 +1241,7 @@ const LocalSEOSection = ({ t }: { t: any }) => {
 
 const SolutionsSection = ({ t }: { t: any }) => {
   return (
-    <section id="soluciones" className="mt-32 mb-16 scroll-mt-20">
+    <section id="soluciones" className="mt-32 mb-16 scroll-mt-20 section-optimize">
       <div className="px-0 py-8 border-t border-brand-fg/10">
         <div className="flex items-center gap-2 mb-6">
           <div className="w-1.5 h-6 bg-brand-fg" />
@@ -1270,6 +1300,28 @@ export default function App() {
     if (savedTheme === 'dark' || (!savedTheme && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
       setIsDark(true);
     }
+    
+    // Lazy load Tally to improve PageSpeed
+    const loadTally = () => {
+      if ((window as any)._tallyLoaded) return;
+      (window as any)._tallyLoaded = true;
+      const script = document.createElement('script');
+      script.src = 'https://tally.so/widgets/embed.js';
+      script.async = true;
+      document.body.appendChild(script);
+    };
+
+    const timer = setTimeout(loadTally, 6000);
+    window.addEventListener('scroll', loadTally, { once: true });
+    window.addEventListener('mousemove', loadTally, { once: true });
+    window.addEventListener('touchstart', loadTally, { once: true });
+
+    return () => {
+      clearTimeout(timer);
+      window.removeEventListener('scroll', loadTally);
+      window.removeEventListener('mousemove', loadTally);
+      window.removeEventListener('touchstart', loadTally);
+    };
   }, []);
 
   useEffect(() => {
@@ -1510,10 +1562,13 @@ export default function App() {
               transition={{ duration: 0.4 }}
             >
               <img 
-                src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&q=80&w=800&fm=webp"
+                src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&q=45&w=700&fm=webp"
                 alt="Gourmet Gallery Preview"
-                className="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-1000 ease-in-out"
+                className="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-[filter] duration-1000 ease-in-out"
                 referrerPolicy="no-referrer"
+                fetchPriority="high"
+                loading="eager"
+                decoding="async"
               />
               <div className="absolute inset-0 bg-brand-fg/5 group-hover:bg-transparent transition-colors z-10" />
               
@@ -1540,7 +1595,7 @@ export default function App() {
         <MainHero t={t} scrollToAndHighlight={scrollToAndHighlight} />
         
         {/* El Método de Rescate AI */}
-        <section id="tecnologia" className="mb-24">
+        <section id="tecnologia" className="mb-24 section-optimize">
           <div className="px-0 py-8 border-t border-brand-fg/10">
             <div className="flex items-center gap-2 mb-4">
               <div className="w-1 h-4 bg-brand-fg" />
@@ -1598,25 +1653,25 @@ export default function App() {
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mt-6">
             <GalleryItem 
-              src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&q=80&w=800&fm=webp"
+              src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&q=45&w=700&fm=webp"
               alt={t.gallery.alt1}
               tag={t.gallery.tag1}
               t={t}
             />
             <GalleryItem 
-              src="https://images.unsplash.com/photo-1551024601-bec78aea704b?auto=format&fit=crop&q=80&w=800&fm=webp"
+              src="https://images.unsplash.com/photo-1551024601-bec78aea704b?auto=format&fit=crop&q=45&w=700&fm=webp"
               alt={t.gallery.alt2}
               tag={t.gallery.tag2}
               t={t}
             />
             <GalleryItem 
-              src="https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?auto=format&fit=crop&q=80&w=800&fm=webp"
+              src="https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?auto=format&fit=crop&q=45&w=700&fm=webp"
               alt={t.gallery.alt3}
               tag={t.gallery.tag3}
               t={t}
             />
             <GalleryItem 
-              src="https://images.unsplash.com/photo-1579871494447-9811cf80d66c?auto=format&fit=crop&q=80&w=800&fm=webp"
+              src="https://images.unsplash.com/photo-1579871494447-9811cf80d66c?auto=format&fit=crop&q=45&w=700&fm=webp"
               alt={t.gallery.alt4}
               tag={t.gallery.tag4}
               t={t}
@@ -1679,7 +1734,7 @@ export default function App() {
         {/* Equipment Section */}
         <Equipment t={t} />
 
-        <div id="laboratorio" className="mt-24">
+        <div id="laboratorio" className="mt-24 section-optimize">
           <div className="mb-12">
             <div className="px-0 py-8 border-t border-brand-fg/10">
               <div className="flex items-center gap-2 mb-4">
@@ -1758,7 +1813,7 @@ export default function App() {
         </div>
 
         {/* Blog Section */}
-        <section id="archivos" className="mt-32 pt-20 border-t border-brand-border">
+        <section id="archivos" className="mt-32 pt-20 border-t border-brand-border section-optimize">
           <div className="flex items-center gap-2 mb-12">
             <div className="w-1.5 h-6 bg-brand-fg" />
             <div>
@@ -1800,6 +1855,8 @@ export default function App() {
                     <img 
                       src={article.image} 
                       alt={article.imageAlt}
+                      loading="lazy"
+                      decoding="async"
                       className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
                       referrerPolicy="no-referrer"
                     />
@@ -2285,6 +2342,8 @@ export default function App() {
                       <img 
                         src={t.blog.articles.find((a: any) => a.id === selectedArticleId).image} 
                         alt={t.blog.articles.find((a: any) => a.id === selectedArticleId).imageAlt} 
+                        loading="lazy"
+                        decoding="async"
                         className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
                         referrerPolicy="no-referrer"
                       />

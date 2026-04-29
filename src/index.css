@@ -1,4 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500&display=swap');
 @import "tailwindcss";
 
 @theme {
@@ -51,6 +50,11 @@
 .custom-scrollbar {
   scrollbar-width: thin;
   scrollbar-color: var(--scrollbar-thumb) var(--scrollbar-track);
+}
+
+.section-optimize {
+  content-visibility: auto;
+  contain-intrinsic-size: 1px 1000px;
 }
 
 .silver-glow {
