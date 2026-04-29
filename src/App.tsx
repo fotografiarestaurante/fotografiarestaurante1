@@ -1066,8 +1066,8 @@ const useJSONLD = (lang: string, t: any) => {
       "name": "Fotografía Restaurante",
       "alternateName": "Rescate Digital Gastronómico",
       "description": t.seo.description,
-      "url": "https://fotografiarestaurante.com",
-      "logo": "https://fotografiarestaurante.com/logo.png",
+      "url": "https://www.fotografiarestaurante.com",
+      "logo": "https://www.fotografiarestaurante.com/logo.png",
       "contactPoint": {
         "@type": "ContactPoint",
         "contactType": "customer service",
