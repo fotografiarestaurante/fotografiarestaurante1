@@ -1,4 +1,4 @@
-import React, { useState, useRef, useEffect } from 'react';
+import React, { useState, useRef, useEffect, lazy, Suspense } from 'react';
 import { motion, AnimatePresence } from 'motion/react';
 import { 
   Instagram, 
@@ -32,6 +32,14 @@ import { useLocation, useNavigate, Link } from 'react-router-dom';
 import { initializeApp } from 'firebase/app';
 import { getFirestore, collection, addDoc, serverTimestamp, doc, getDocFromServer, getDocs, writeBatch, query } from 'firebase/firestore';
 import firebaseConfig from '../firebase-applet-config.json';
+
+// --- Lazy loaded sections ---
+const FAQSection = lazy(() => import('./components/Sections').then(m => ({ default: m.FAQSection })));
+const LocalSEOSection = lazy(() => import('./components/Sections').then(m => ({ default: m.LocalSEOSection })));
+const SolutionsSection = lazy(() => import('./components/Sections').then(m => ({ default: m.SolutionsSection })));
+const Testimonials = lazy(() => import('./components/Sections').then(m => ({ default: m.Testimonials })));
+const Equipment = lazy(() => import('./components/Sections').then(m => ({ default: m.Equipment })));
+const LaboratoryTabs = lazy(() => import('./components/LabSections').then(m => ({ default: m.LaboratoryTabs })));
 
 // --- Tally Type Declaration ---
 declare global {
@@ -812,193 +820,6 @@ const PackItem = ({ id, title, subtitle, price, details, t }: { id?: string, tit
   );
 };
 
-const LabBox = ({ title, description }: { title: string, description: string }) => (
-  <div className="border border-brand-border p-3 text-[11px]">
-    <strong className="block mb-1 uppercase text-[10px] tracking-[0.05em]">{title}</strong>
-    {description}
-  </div>
-);
-
-const LabArticle = ({ 
-  title, 
-  subtitle, 
-  description, 
-  options, 
-  imageUrl,
-  t
-}: { 
-  title: string, 
-  subtitle: string, 
-  description: string, 
-  options: string[], 
-  imageUrl?: string,
-  t: any
-}) => (
-  <div className="mb-8 overflow-hidden">
-    <div className="flex items-baseline gap-4 mb-2">
-      <h3 className="text-2xl font-thin uppercase tracking-tighter">{title}</h3>
-    </div>
-    <span className="section-label mb-6 inline-block bg-brand-fg text-brand-bg px-2 py-1">{subtitle}</span>
-    
-    <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 items-start">
-      <div>
-        <div className="text-[13px] leading-relaxed opacity-70 mb-6 whitespace-pre-line">
-          {description}
-        </div>
-        <div className="grid grid-cols-2 gap-x-6 gap-y-3">
-          {options.map((opt, i) => (
-            <motion.div 
-              key={i} 
-              whileHover={{ x: 5 }}
-              className="flex flex-col border-l border-brand-border pl-3 group hover:border-brand-fg transition-colors cursor-pointer"
-            >
-              <span className="text-[10px] uppercase tracking-[0.1em] font-medium mb-1 group-hover:text-brand-fg">{opt}</span>
-              <span className="text-[8px] opacity-40 uppercase tracking-widest">{t.common.labDisclaimer}</span>
-            </motion.div>
-          ))}
-        </div>
-      </div>
-      {imageUrl && (
-        <Viewfinder className="relative group">
-          <div className="absolute inset-0 bg-brand-fg/5 group-hover:bg-transparent transition-colors z-10" />
-          <img 
-            src={imageUrl} 
-            alt={`Ejemplo de protocolo visual: ${title}`} 
-            loading="lazy"
-            decoding="async"
-            className="w-full grayscale group-hover:grayscale-0 transition-[filter] duration-1000 border border-brand-border aspect-square object-cover"
-            referrerPolicy="no-referrer"
-          />
-        </Viewfinder>
-      )}
-    </div>
-  </div>
-);
-
-const LaboratoryTabs = ({ t }: { t: any }) => {
-  const [activeTab, setActiveTab] = useState(0);
-
-  const labData = t.labData;
-  const labImages = [
-    "https://images.unsplash.com/photo-1563379926898-05f4575a45d8?auto=format&fit=crop&q=25&w=500&fm=webp",
-    "https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?auto=format&fit=crop&q=25&w=500&fm=webp",
-    "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?auto=format&fit=crop&q=25&w=500&fm=webp",
-    "https://images.unsplash.com/photo-1600565193348-f74bd3c7ccdf?auto=format&fit=crop&q=25&w=500&fm=webp",
-    "https://images.unsplash.com/photo-1579871494447-9811cf80d66c?auto=format&fit=crop&q=25&w=500&fm=webp",
-    "https://images.unsplash.com/photo-1543353071-10c8ba85a904?auto=format&fit=crop&q=25&w=500&fm=webp",
-    "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?auto=format&fit=crop&q=25&w=500&fm=webp",
-    "https://images.unsplash.com/photo-1490818387583-1baba5e638af?auto=format&fit=crop&q=25&w=500&fm=webp",
-    "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?auto=format&fit=crop&q=25&w=500&fm=webp",
-    "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&q=25&w=500&fm=webp",
-    "https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&q=25&w=500&fm=webp",
-    "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?auto=format&fit=crop&q=25&w=500&fm=webp",
-    "https://images.unsplash.com/photo-1542744173-8e7e53415bb0?auto=format&fit=crop&q=25&w=500&fm=webp",
-    "https://images.unsplash.com/photo-1551024601-bec78aea704b?auto=format&fit=crop&q=25&w=500&fm=webp",
-    "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&q=25&w=500&fm=webp"
-  ];
-
-  return (
-    <div className="flex flex-col lg:flex-row gap-12">
-      <div className="lg:w-1/3 flex flex-col gap-1">
-        <div className="mb-4">
-          <span className="text-[10px] font-black uppercase tracking-[0.2em] opacity-40">{t.lab.baseProtocol}</span>
-        </div>
-        {labData.slice(0, 5).map((item: any, idx: number) => (
-          <button
-            key={idx}
-            onClick={() => setActiveTab(idx)}
-            className={`text-left px-4 py-4 text-[11px] uppercase tracking-widest transition-all ${
-              activeTab === idx ? "bg-brand-fg text-brand-bg font-black" : "hover:bg-brand-fg/5 opacity-50"
-            }`}
-          >
-            {item.title}
-          </button>
-        ))}
-        <div className="mt-8 mb-4">
-          <span className="text-[10px] font-black uppercase tracking-[0.2em] opacity-40">{t.lab.postProcess}</span>
-        </div>
-        {labData.slice(5).map((item: any, idx: number) => (
-          <button
-            key={idx + 5}
-            onClick={() => setActiveTab(idx + 5)}
-            className={`text-left px-4 py-4 text-[11px] uppercase tracking-widest transition-all ${
-              activeTab === idx + 5 ? "bg-brand-fg text-brand-bg font-black" : "hover:bg-brand-fg/5 opacity-50"
-            }`}
-          >
-            {item.title}
-          </button>
-        ))}
-      </div>
-      <div className="lg:w-2/3 border-t lg:border-t-0 lg:border-l border-brand-border pt-12 lg:pt-0 lg:pl-12 min-h-[500px]">
-        <motion.div
-          key={activeTab}
-          initial={{ opacity: 0, x: 20 }}
-          animate={{ opacity: 1, x: 0 }}
-          transition={{ duration: 0.4 }}
-        >
-          <LabArticle 
-            title={labData[activeTab].title}
-            subtitle={labData[activeTab].subtitle}
-            description={labData[activeTab].description}
-            options={labData[activeTab].options}
-            imageUrl={labImages[activeTab]}
-            t={t}
-          />
-        </motion.div>
-      </div>
-    </div>
-  );
-};
-
-const Testimonials = ({ t }: { t: any }) => (
-  <section className="mb-24 py-16 border-y border-brand-border overflow-hidden section-optimize">
-    <div className="flex items-center gap-2 mb-12 px-6">
-      <div className="w-1 h-4 bg-brand-fg" />
-      <h2 className="text-[10px] font-black text-brand-fg tracking-[0.3em] uppercase block">
-        {t.sections.testimonials}
-      </h2>
-    </div>
-    
-    <div className="relative flex whitespace-nowrap group">
-      <div className="flex gap-8 animate-marquee group-hover:[animation-play-state:paused] px-4">
-        {[...t.testimonials, ...t.testimonials].map((test: any, i: number) => (
-          <div 
-            key={i}
-            className="min-w-[320px] max-w-[320px] border border-brand-border p-8 bg-brand-bg flex flex-col justify-between whitespace-normal silver-glow"
-          >
-            <p className="text-[14px] leading-relaxed italic opacity-70 mb-6 font-light">
-              {test.text}
-            </p>
-            <div className="border-t border-brand-border pt-4">
-              <span className="text-[10px] font-black uppercase tracking-widest block">{test.author}</span>
-            </div>
-          </div>
-        ))}
-      </div>
-    </div>
-  </section>
-);
-
-const Equipment = ({ t }: { t: any }) => (
-  <section className="mb-24 section-optimize">
-    <div className="flex items-center gap-2 mb-12">
-      <div className="w-1 h-4 bg-brand-fg" />
-      <h2 className="text-[10px] font-black text-brand-fg tracking-[0.3em] uppercase block">
-        {t.sections.equipment}
-      </h2>
-    </div>
-    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-      {t.equipment.map((item: any) => (
-        <div key={item.id} className="border border-brand-border p-6 hover:border-brand-fg transition-colors group">
-          <span className="text-[10px] font-mono opacity-40 block mb-2">{item.id}</span>
-          <h4 className="text-[14px] font-black uppercase tracking-tighter mb-2 group-hover:underline">{item.name}</h4>
-          <p className="text-[10px] opacity-50 uppercase tracking-widest leading-relaxed">{item.specs}</p>
-        </div>
-      ))}
-    </div>
-  </section>
-);
-
 const GalleryItem = ({ src, alt, tag, t }: { src: string, alt: string, tag: string, t: any }) => {
   const [isTapped, setIsTapped] = useState(false);
 
@@ -1139,151 +960,7 @@ const useJSONLD = (lang: string, t: any) => {
   }, [lang, t]);
 };
 
-const FAQSection = ({ t }: { t: any }) => {
-  return (
-    <section id="qa" className="mt-32 pt-20 border-t border-brand-border section-optimize">
-      <div className="flex items-center gap-2 mb-12">
-        <div className="w-1.5 h-6 bg-brand-fg" />
-        <div>
-          <h2 className="text-3xl font-black uppercase tracking-tighter">{t.faq.title}</h2>
-          <p className="text-[10px] uppercase tracking-[0.4em] opacity-40 mt-1">{t.faq.subtitle}</p>
-        </div>
-      </div>
-
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-x-16 gap-y-12">
-        {t.faq.items.map((item: any, idx: number) => (
-          <motion.div 
-            key={idx} 
-            initial={{ opacity: 0, y: 10 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            transition={{ delay: idx * 0.05 }}
-            viewport={{ once: true }}
-            className="flex flex-col gap-4"
-          >
-            <h3 className="text-[14px] font-black uppercase tracking-tight leading-tight group flex items-start gap-3">
-              <span className="text-brand-fg/30 mt-0.5 font-mono">Q.</span>
-              <span>{item.q}</span>
-            </h3>
-            <div className="flex items-start gap-3">
-              <div className="flex flex-col items-center gap-1 mt-1.5 shrink-0">
-                <span className="text-brand-fg font-black text-[12px] font-mono">A.</span>
-                <div className="w-px h-6 bg-brand-fg/10" />
-              </div>
-              <p className="text-[14px] opacity-70 leading-relaxed italic border-l border-brand-fg/20 pl-4 py-1">
-                {item.a}
-              </p>
-            </div>
-          </motion.div>
-        ))}
-      </div>
-    </section>
-  );
-};
-
-const LocalSEOSection = ({ t }: { t: any }) => {
-  return (
-    <section id="cobertura" className="mt-32 mb-16 scroll-mt-20 section-optimize">
-      <div className="px-0 py-8 border-t border-brand-fg/10">
-        <div className="flex items-center gap-2 mb-6">
-          <div className="w-1.5 h-6 bg-brand-fg" />
-          <h2 className="text-[12px] font-black text-brand-fg tracking-[0.4em] uppercase block">
-            {t.sections.coverage}
-          </h2>
-        </div>
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-end">
-          <div>
-            <h3 className="text-3xl md:text-5xl font-black uppercase tracking-tighter mb-4 leading-[0.9]">
-              {t.localSEO.title}
-            </h3>
-            <p className="text-[10px] uppercase tracking-[0.4em] opacity-40 mb-6">{t.localSEO.subtitle}</p>
-            <p className="text-[14px] md:text-[16px] opacity-70 max-w-xl leading-relaxed">
-              {t.localSEO.description}
-            </p>
-            <button 
-              onClick={() => document.getElementById('qa')?.scrollIntoView({behavior: 'smooth'})}
-              className="mt-6 text-[10px] font-black uppercase tracking-[0.3em] flex items-center gap-2 hover:opacity-50 transition-opacity cursor-pointer group"
-            >
-              <span className="w-6 h-[1px] bg-brand-fg/30 group-hover:w-10 transition-all" />
-              {t.faq.title}
-            </button>
-          </div>
-        </div>
-      </div>
-
-      <div className="mt-12 grid grid-cols-2 md:grid-cols-5 gap-px bg-brand-border border border-brand-border overflow-hidden rounded-[2px]">
-        {t.localSEO.cities.map((city: any, idx: number) => (
-          <div key={idx} className="bg-brand-bg p-6 group hover:bg-brand-fg/5 transition-all duration-300">
-            <h4 className="text-[11px] font-black uppercase tracking-[0.2em] text-brand-fg mb-4 flex items-center gap-2 group-hover:translate-x-1 transition-transform">
-              <MapPin size={10} className="text-[#ff0000]" />
-              {city.name}
-            </h4>
-            <div className="flex flex-col gap-1.5 opacity-40 group-hover:opacity-80 transition-opacity">
-              {city.keywords.split(',').map((kw: string, kIdx: number) => (
-                <span key={kIdx} className="text-[8px] uppercase tracking-widest leading-tight block font-mono">
-                  {kw.trim()}
-                </span>
-              ))}
-            </div>
-            <div className="mt-6 pt-4 border-t border-brand-fg/5 opacity-0 group-hover:opacity-100 transition-opacity">
-              <button 
-                onClick={() => document.getElementById('comanda')?.scrollIntoView({behavior: 'smooth'})}
-                className="text-[8px] font-black uppercase tracking-widest text-brand-fg hover:underline cursor-pointer"
-              >
-                CONSULTAR LOCAL
-              </button>
-            </div>
-          </div>
-        ))}
-      </div>
-    </section>
-  );
-};
-
-const SolutionsSection = ({ t }: { t: any }) => {
-  return (
-    <section id="soluciones" className="mt-32 mb-16 scroll-mt-20 section-optimize">
-      <div className="px-0 py-8 border-t border-brand-fg/10">
-        <div className="flex items-center gap-2 mb-6">
-          <div className="w-1.5 h-6 bg-brand-fg" />
-          <h2 className="text-[12px] font-black text-brand-fg tracking-[0.4em] uppercase block">
-            {t.sections.solutions}
-          </h2>
-        </div>
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-end">
-          <div>
-            <h3 className="text-3xl md:text-5xl font-black uppercase tracking-tighter mb-4 leading-[0.9]">
-              {t.solutions.title}
-            </h3>
-            <p className="text-[10px] uppercase tracking-[0.4em] opacity-40 mb-6">{t.solutions.subtitle}</p>
-          </div>
-        </div>
-      </div>
-
-      <div className="mt-12 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
-        {t.solutions.items.map((item: any, idx: number) => (
-          <div key={idx} className="bg-brand-bg border border-brand-fg/5 p-8 group hover:border-brand-fg/20 transition-all duration-300 flex flex-col justify-between h-full">
-            <div>
-              <div className="w-8 h-px bg-brand-fg/20 mb-6 group-hover:w-16 transition-all" />
-              <h4 className="text-xl font-black uppercase tracking-tighter mb-4 leading-tight">
-                {item.title}
-              </h4>
-              <p className="text-[14px] opacity-60 leading-relaxed mb-8">
-                {item.desc}
-              </p>
-            </div>
-            <div className="flex flex-wrap gap-2">
-              {item.keywords.map((kw: string, kIdx: number) => (
-                <span key={kIdx} className="text-[9px] uppercase tracking-widest font-mono border border-brand-fg/10 px-2 py-1 rounded-[1px] opacity-40 group-hover:opacity-100 transition-opacity">
-                  {kw}
-                </span>
-              ))}
-            </div>
-          </div>
-        ))}
-      </div>
-    </section>
-  );
-};
+/* Removed SEO Metadata Component - Moved logic into App component or lazy loaded utility if needed */
 
 export default function App() {
   const location = useLocation();
@@ -1562,7 +1239,7 @@ export default function App() {
               transition={{ duration: 0.4 }}
             >
               <img 
-                src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&q=25&w=500&fm=webp"
+                src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&q=20&w=450&fm=webp"
                 alt="Gourmet Gallery Preview"
                 className="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-[filter] duration-1000 ease-in-out"
                 referrerPolicy="no-referrer"
@@ -1653,25 +1330,25 @@ export default function App() {
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mt-6">
             <GalleryItem 
-              src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&q=25&w=500&fm=webp"
+              src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&q=20&w=450&fm=webp"
               alt={t.gallery.alt1}
               tag={t.gallery.tag1}
               t={t}
             />
             <GalleryItem 
-              src="https://images.unsplash.com/photo-1551024601-bec78aea704b?auto=format&fit=crop&q=25&w=500&fm=webp"
+              src="https://images.unsplash.com/photo-1551024601-bec78aea704b?auto=format&fit=crop&q=20&w=450&fm=webp"
               alt={t.gallery.alt2}
               tag={t.gallery.tag2}
               t={t}
             />
             <GalleryItem 
-              src="https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?auto=format&fit=crop&q=25&w=500&fm=webp"
+              src="https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?auto=format&fit=crop&q=20&w=450&fm=webp"
               alt={t.gallery.alt3}
               tag={t.gallery.tag3}
               t={t}
             />
             <GalleryItem 
-              src="https://images.unsplash.com/photo-1579871494447-9811cf80d66c?auto=format&fit=crop&q=25&w=500&fm=webp"
+              src="https://images.unsplash.com/photo-1579871494447-9811cf80d66c?auto=format&fit=crop&q=20&w=450&fm=webp"
               alt={t.gallery.alt4}
               tag={t.gallery.tag4}
               t={t}
@@ -1729,10 +1406,14 @@ export default function App() {
         </section>
 
         {/* Testimonials Section */}
-        <Testimonials t={t} />
+        <Suspense fallback={<div className="h-40" />}>
+          <Testimonials t={t} />
+        </Suspense>
 
         {/* Equipment Section */}
-        <Equipment t={t} />
+        <Suspense fallback={<div className="h-40" />}>
+          <Equipment t={t} />
+        </Suspense>
 
         <div id="laboratorio" className="mt-24 section-optimize">
           <div className="mb-12">
@@ -1748,7 +1429,9 @@ export default function App() {
               {t.lab.desc}
             </p>
           </div>
-          <LaboratoryTabs t={t} />
+          <Suspense fallback={<div className="h-80" />}>
+            <LaboratoryTabs t={t} />
+          </Suspense>
         </div>
 
         {/* Marquee Sections */}
@@ -1880,9 +1563,15 @@ export default function App() {
           </div>
         </section>
 
-        <LocalSEOSection t={t} />
-        <FAQSection t={t} />
-        <SolutionsSection t={t} />
+        <Suspense fallback={null}>
+          <LocalSEOSection t={t} />
+        </Suspense>
+        <Suspense fallback={null}>
+          <FAQSection t={t} />
+        </Suspense>
+        <Suspense fallback={null}>
+          <SolutionsSection t={t} />
+        </Suspense>
 
         <footer className="mt-24 border-t border-brand-border pt-16 pb-24">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-16 items-start">

@@ -43,7 +43,7 @@ export const translations = {
           title: "La UCI de tu Fotografía Gastronómica: Rescate de Producto 2026",
           excerpt: "No somos fotógrafos. No venimos a retratar vuestras salas, ni el alma de vuestros fogones. Venimos a salvar vuestras fotos de móvil.",
           slogan: "Cirugía de urgencia para platos que necesitan vender hoy mismo.",
-          image: "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?auto=format&fit=crop&q=25&w=500&fm=webp",
+          image: "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?auto=format&fit=crop&q=15&w=350&fm=webp",
           imageAlt: "uci-fotografia-gastronomica-rescate-mobile-fotografiarestaurante-com.jpg",
           content: "Lo primero, una declaración de principios: No somos fotógrafos convencionales. No venimos a retratar vuestras salas vacías ni el alma de vuestros fogones; para eso ya existen artistas excelentes.\n\nNosotros somos la UCI. Venimos a salvar vuestras fotos de móvil. Esa foto que hiciste rápido con el Samsung entre comandas, esa que tiene sombras duras y un fondo que grita 'estoy en la cocina', esa es la que rescatamos.\n\nEn 2026, el umami visual es el primer ingrediente de cualquier reserva. Si tu plato no salta de la pantalla en tus redes sociales o carta digital, el cliente pasará de largo en 0.5 segundos. Nuestra metodología de rescate mediante IA inyecta luz de estudio, extrae el ruido y realza el producto para que parezca alta cocina, incluso si la base era mediocre. Fotografiarestaurante.com es tu hospital de confianza."
         },
@@ -54,7 +54,7 @@ export const translations = {
           excerpt: "Descubre por qué los restaurantes de Barcelona que optimizan su presencia digital con IA están dominando el sector local.",
           slogan: "Tu feed es tu nueva carta de presentación.",
           date: "15 MAR 2024",
-          image: "https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&q=25&w=500&fm=webp",
+          image: "https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&q=15&w=350&fm=webp",
           imageAlt: "interfaz-instagram-optimizada-ia-fotografiarestaurante-com.jpg",
           content: "En el saturado mundo de las redes sociales, solo tienes 2 segundos para captar la atención de un cliente. Los estudios demuestran que una iluminación coherente y texturas realzadas aumentan el ratio de clicks en un 40%.\n\nNuestra metodología de rescate mediante IA no solo mejora la estética; inyecta 'umami visual' que dispara el deseo de reserva. En Madrid y Barcelona, la competencia es feroz, y contar con fotos que parezcan hechas en un estudio de Michelin, partiendo de un simple móvil, es tu mayor ventaja competitiva."
         },
@@ -64,7 +64,7 @@ export const translations = {
           title: "El fin de los fondos ruidosos: Limpieza visual para chefs",
           excerpt: "Un plato exquisito en una mesa desordenada pierde su valor. La extracción de fondo es la clave del lujo digital.",
           slogan: "Tu plato es el protagonista. El resto es ruido que te hace perder dinero.",
-          image: "https://images.unsplash.com/photo-1493770348161-369560ae357d?auto=format&fit=crop&q=25&w=500&fm=webp",
+          image: "https://images.unsplash.com/photo-1493770348161-369560ae357d?auto=format&fit=crop&q=15&w=350&fm=webp",
           imageAlt: "fotografia-gastronomica-barcelona-fondos-profesionales-ia-fotografiarestaurante-com.jpg",
           content: "Muchos restaurantes cometen el error de subir fotos con fondos que distraen: servilletas usadas, reflejos en el acero o sombras duras. La IA nos permite extraer el plato quirúrgicamente y situarlo en entornos minimalistas que elevan el ticket promedio.\n\nLa limpieza visual transmite higiene y profesionalidad. Un restaurante en Valencia o Sevilla que cuida sus fondos está comunicando que también cuida cada detalle de su cocina."
         },
@@ -74,7 +74,7 @@ export const translations = {
           title: "Cirugía Estética para Cartas Digitales: El Método del Chef IA",
           excerpt: "Descubre cómo el retoque quirúrgico puede elevar el ticket promedio de tu restaurante sin cambiar un solo ingrediente.",
           slogan: "La belleza técnica es el atajo más rápido hacia la rentabilidad.",
-          image: "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?auto=format&fit=crop&q=25&w=500&fm=webp",
+          image: "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?auto=format&fit=crop&q=15&w=350&fm=webp",
           imageAlt: "metodo-chef-ia-retoque-gastronomico-profesional-fotografiarestaurante-com.jpg",
           content: "El 'Método del Chef IA' no se trata de engañar al cliente, sino de mostrar la mejor versión posible de tu cocina. La realidad es que una cámara de móvil, por muy buena que sea, aplana las texturas y apaga los colores de un plato recién servido.\n\nMediante procesos de post-producción avanzada, devolvemos la jugosidad a las carnes, el brillo a los vegetales y el vapor a los platos calientes. Esta 'cirugía estética digital' permite que un restaurante pequeño compita visualmente con grandes cadenas que gastan miles de euros en producciones de estudio. En fotografiarestaurante.com democratizamos la imagen de lujo para todos los hosteleros de España."
         },
@@ -84,7 +84,7 @@ export const translations = {
           title: "El Protocolo de Autoridad: Cómo Domina el Algoritmo de Google en 2026",
           excerpt: "¿Por qué algunos restaurantes aparecen siempre arriba y otros son invisibles? La respuesta está en la consistencia visual.",
           slogan: "Google no solo lee tus reseñas, también analiza la autoridad de tus imágenes.",
-          image: "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&q=25&w=500&fm=webp",
+          image: "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&q=15&w=350&fm=webp",
           imageAlt: "seo-local-gastronomico-google-business-fotografiarestaurante-com.jpg",
           content: "El SEO local para restaurantes ha evolucionado. Ya no basta con tener el nombre y el teléfono (NAP) bien puestos. En 2026, los algoritmos de visión artificial de Google analizan la calidad de las fotos que subes a tu ficha de Google Business.\n\nLas fotos optimizadas, con metadatos limpios y una estética profesional, generan señales de confianza que te posicionan por encima de la competencia. Implementar un protocolo de autoridad visual significa que cada imagen que publiques actúe como un imán para el posicionamiento orgánico. No dejes tu visibilidad al azar; usa el método de fotografiarestaurante.com para dominar tu área local."
         },
@@ -94,7 +94,7 @@ export const translations = {
           title: "Móvil vs Réflex: ¿Ha muerto la fotografía de estudio tradicional?",
           excerpt: "En 2026, el mejor equipo no es una cámara de 5.000€, sino tu smartphone combinado con un post-procesado IA agresivo.",
           slogan: "La potencia de un estudio de Michelin en la palma de tu mano.",
-          image: "https://images.unsplash.com/photo-1512428559087-560fa5ceab42?auto=format&fit=crop&q=25&w=500&fm=webp",
+          image: "https://images.unsplash.com/photo-1512428559087-560fa5ceab42?auto=format&fit=crop&q=15&w=350&fm=webp",
           imageAlt: "fotografia-movil-gastronómica-vs-reflex-ia-fotografiarestaurante-com.jpg",
           content: "Durante décadas, los restaurantes han dependido de fotógrafos cargados de focos y trípodes que interrumpían el servicio. Eso se ha terminado. Hoy, el sensor de un iPhone o un Samsung captura información suficiente para que nuestra IA reconstruya la escena como si hubiera sido iluminada por un profesional.\n\nEn ciudades como Málaga o Bilbao, donde el ritmo de las cocinas no para, esperar a un shooting convencional es perder dinero. Con fotografiarestaurante.com, tú disparas con el móvil y nosotros hacemos la magia técnica. Menos costes, más rapidez y la misma calidad que una cámara réflex de gama alta."
         },
@@ -104,7 +104,7 @@ export const translations = {
           title: "Psicología del Color: Cómo hackear el apetito de tus clientes",
           excerpt: "La diferencia entre un plato aburrido y uno irresistible está en el balance de blancos y la saturación selectiva.",
           slogan: "Cocinamos para los ojos antes que para el paladar.",
-          image: "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?auto=format&fit=crop&q=25&w=500&fm=webp",
+          image: "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?auto=format&fit=crop&q=15&w=350&fm=webp",
           imageAlt: "psicologia-color-gastronomico-marketing-fotografiarestaurante-com.jpg",
           content: "Un filete con tonos azulados o una ensalada con verdes apagados mata el hambre al instante. La psicología del color gastronómico nos dice que los tonos cálidos (rojos, naranjas, ocres) activan el sistema nervioso y abren el apetito.\n\nMediante nuestro 'Rescate de Color', ajustamos quirúrgicamente cada tono para que el cerebro del cliente reciba la señal de 'delicioso' al instante. No saturamos toda la imagen; saturamos el sabor. Ya sea que tengas un asador en Valladolid o un local de sushi en Vigo, el ajuste cromático IA es tu mejor aliado de ventas."
         },
@@ -114,7 +114,7 @@ export const translations = {
           title: "El Oro Oculto en las Fotos de tus Clientes: Rescate de UGC",
           excerpt: "Tus clientes suben fotos horribles a Google Maps. Aprende cómo usarlas a tu favor para mejorar tu reputación online.",
           slogan: "Si la foto de tu cliente es mala, la culpa es de la luz, no del plato. Nosotros lo arreglamos.",
-          image: "https://images.unsplash.com/photo-1559339352-11d035aa65de?auto=format&fit=crop&q=25&w=500&fm=webp",
+          image: "https://images.unsplash.com/photo-1559339352-11d035aa65de?auto=format&fit=crop&q=15&w=350&fm=webp",
           imageAlt: "rescate-fotos-clientes-google-maps-restaurantes-fotografiarestaurante-com.jpg",
           content: "Las reseñas de Google Maps son el escaparate más importante de la actualidad. El problema es que los clientes suelen subir fotos movidas, oscuras o mal encuadradas que arruinan tu imagen de marca. \n\n¿Sabías que puedes descargar esas fotos, enviárnoslas para un rescate IA y volver a subirlas como 'Propietario'? Al inundar tu perfil con fotos rescatadas de alta calidad, desplazas las fotos mediocres hacia abajo. En fotografiarestaurante.com ayudamos a locales de toda España a tomar el control de su galería pública. Deja de recibir críticas por 'fotos que no hacen justicia' y empieza a mostrar la realidad gourmet de tu negocio."
         },
@@ -124,7 +124,7 @@ export const translations = {
           title: "Fotógrafo Gastronómico en Barcelona: ¿Por qué el 90% de las sesiones son ineficientes?",
           excerpt: "En ciudades competitivas como Barcelona, esperar 2 semanas por el retoque de un fotógrafo es perder cientos de pedidos.",
           slogan: "El tiempo es el ingrediente que nadie te devuelve. Cocina rápido, rescata más rápido.",
-          image: "https://images.unsplash.com/photo-1493770348161-369560ae357d?auto=format&fit=crop&q=25&w=500&fm=webp",
+          image: "https://images.unsplash.com/photo-1493770348161-369560ae357d?auto=format&fit=crop&q=15&w=350&fm=webp",
           imageAlt: "fotografo-gastronomico-barcelona-precios-eficiencia-fotografiarestaurante-com.jpg",
           content: "Barcelona es la capital del diseño, pero también de las prisas. Contratar a un fotógrafo tradicional implica: cuadrar agendas, cerrar zona de mesas, esperar al 'vuelta de fotos' y pagar por horas de presencia física. \n\nEn fotografiarestaurante.com hemos eliminado la fricción. Si buscas un fotógrafo gastronómico en Barcelona para tu nuevo menú, nuestra recomendación es que ahorres el 70% del presupuesto haciendo tú las fotos base. Nuestra IA se encarga de que el acabado final supere al de cualquier estudio del Eixample. Resultados en 48h, no en 14 días. La eficiencia 4.0 ha llegado a la hostelería catalana."
         },
@@ -134,7 +134,7 @@ export const translations = {
           title: "Marketing de Guerrilla para Hosteleros: La imagen que tu competencia no puede comprar",
           excerpt: "No necesitas un presupuesto de franquicia para tener fotos de estrella Michelin. Necesitas inteligencia técnica.",
           slogan: "Sé más listo que tu competencia, no más caro.",
-          image: "https://images.unsplash.com/photo-1552566626-52f8b828add9?auto=format&fit=crop&q=25&w=500&fm=webp",
+          image: "https://images.unsplash.com/photo-1552566626-52f8b828add9?auto=format&fit=crop&q=15&w=350&fm=webp",
           imageAlt: "marketing-gastronomico-guerrilla-ia-fotografiarestaurante-com.jpg",
           content: "El marketing de guerrilla se basa en usar el ingenio para batir al presupuesto. Mientras tu competencia ahorra durante meses para una sesión de fotos profesional, tú puedes actualizar tu carta cada semana usando fotografiarestaurante.com.\n\nEsta agilidad te permite reaccionar a tendencias, platos de temporada o sugerencias del día con imágenes de impacto inmediato. El futuro del sector no es de los más grandes, sino de los más rápidos en adaptarse visualmente a lo que el cliente demanda hoy mismo. Entra en el quirófano y empieza a ganar la batalla digital."
         },
@@ -144,7 +144,7 @@ export const translations = {
           title: "Manual del 'No-Shooting': Cómo renovar tu carta en 15 minutos",
           excerpt: "Olvida los trípodes, los focos y las esperas. Aprende la técnica del 'disparo limpio' para enviarnos tus fotos.",
           slogan: "Tú cocinas, nosotros iluminamos. La simbiosis perfecta.",
-          image: "https://images.unsplash.com/photo-1482049016688-2d3e1b311543?auto=format&fit=crop&q=25&w=500&fm=webp",
+          image: "https://images.unsplash.com/photo-1482049016688-2d3e1b311543?auto=format&fit=crop&q=15&w=350&fm=webp",
           imageAlt: "manual-fotografia-restaurantes-rapida-ia-fotografiarestaurante-com.jpg",
           content: "La mayoría de manuales te enseñan a preparar una sesión de 4 horas. Nosotros te enseñamos a no necesitarla. Para un rescate IA perfecto solo necesitas: luz natural de ventana, un fondo neutro (incluso un mantel limpio vale) y un encuadre estable. \n\nNo busques el acabado final en el móvil, búscalo en el quirófano de fotografiarestaurante.com. Al eliminar el 90% del trabajo de campo, permitimos que chefs y propietarios se centren en lo que de verdad importa: el servicio. Este es el manual definitivo para el hostelero moderno que no tiene tiempo que perder."
         },
@@ -154,7 +154,7 @@ export const translations = {
           title: "Barcelona Gastro-Visual: Tendencias 2026 para dominar el Eixample y Gràcia",
           excerpt: "Desde el brunch de Gràcia hasta las cenas de lujo del Eixample. Cómo adaptar tu estética al barrio.",
           slogan: "Cada barrio de Barcelona tiene su luz. Nosotros la inyectamos mediante IA.",
-          image: "https://images.unsplash.com/photo-1559339352-11d035aa65de?auto=format&fit=crop&q=25&w=500&fm=webp",
+          image: "https://images.unsplash.com/photo-1559339352-11d035aa65de?auto=format&fit=crop&q=15&w=350&fm=webp",
           imageAlt: "tendencias-fotografia-gastronomica-barcelona-2026-fotografiarestaurante-com.jpg",
           content: "Barcelona no es una sola ciudad, son muchos barrios con personalidades visuales distintas. En Gràcia triunfa lo artesano y rústico; en el Eixample, la elegancia minimalista y los contrastes de luz dura. \n\nEntender estas micro-tendencias es vital para conectar con tu público local. En fotografiarestaurante.com adaptamos el 'vibe' de tu rescate al código visual de tu zona. No es lo mismo una foto para un delivery en Poblenou que para un restaurante en Sarrià. Domina tu código postal a través de una imagen quirúrgicamente diseñada para tu vecino."
         },
@@ -165,7 +165,7 @@ export const translations = {
           excerpt: "¿Sabías que el 70% de las decisiones de reserva se toman en los primeros 3 segundos al ver tu perfil? Tu foto es tu mejor comercial.",
           slogan: "En el ticket alto, la confianza entra por los ojos.",
           date: "25 MAR 2024",
-          image: "https://images.unsplash.com/photo-1591130219388-ae3d1c17431b?auto=format&fit=crop&q=25&w=500&fm=webp",
+          image: "https://images.unsplash.com/photo-1591130219388-ae3d1c17431b?auto=format&fit=crop&q=15&w=350&fm=webp",
           imageAlt: "estrategia-digital-fotografia-restaurante-marketing-fotografiarestaurante-com.jpg",
           content: "Competir en el sector premium no es solo cuestión de calidad culinaria. El cliente busca una experiencia visual coherente antes de poner un pie en tu sala. El algoritmo de Instagram posiciona mejor a las cuentas con mayor interacción, y nada genera más interacción que una foto con iluminación quirúrgica. Inspirados en las mejores prácticas de gestión, recomendamos tratar cada imagen como un activo financiero de alto rendimiento."
         },
@@ -175,7 +175,7 @@ export const translations = {
           title: "El Escandallo Visual: ¿Cuánto margen pierdes por una mala iluminación?",
           excerpt: "Si tu plato es gourmet pero tu foto es mediocre, estás devaluando tu producto. Aprende a alinear tu imagen con tu precio.",
           slogan: "La calidad que no se ve, es calidad que no se paga.",
-          image: "https://images.unsplash.com/photo-1455619452474-d2be8b1e70cd?auto=format&fit=crop&q=25&w=500&fm=webp",
+          image: "https://images.unsplash.com/photo-1455619452474-d2be8b1e70cd?auto=format&fit=crop&q=15&w=350&fm=webp",
           imageAlt: "escandallo-visual-marketing-gastronomico-rentabilidad.jpg",
           content: "El escandallo no solo ocurre en la cocina. El 'escandallo visual' determina si un cliente percibe tu plato como una opción de 15€ o de 25€. Una iluminación correcta y una textura mejorada por IA justifican el valor de tu propuesta gastronómica."
         },
@@ -185,7 +185,7 @@ export const translations = {
           title: "Digitalización Gourmet: Por qué tus fotos son tu inventario más valioso",
           excerpt: "En la era de la IA, digitalizar tu carta no es una opción, es una necesidad de supervivencia. Optimiza tu stock visual hoy.",
           slogan: "Tu restaurante es físico, pero tu venta es digital.",
-          image: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?auto=format&fit=crop&q=25&w=500&fm=webp",
+          image: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?auto=format&fit=crop&q=15&w=350&fm=webp",
           imageAlt: "digitalizacion-restaurantes-activos-visuales-ia.jpg",
           content: "La digitalización real va más allá de un software de gestión. Se trata de tener un inventario de activos visuales de alta fidelidad que puedas desplegar en cualquier plataforma. Nuestra cirugía estética digital transforma tu contenido actual en piezas de colección listas para vender."
         },
@@ -195,7 +195,7 @@ export const translations = {
           title: "CHECKLIST EN VALENCIA: 10 PUNTOS PARA QUE TU PLATO BRILLE EN GOOGLE BUSINESS",
           excerpt: "No envíes cualquier foto de tu restaurante en Valencia. Sigue estos 10 pasos críticos para asegurar que la IA opere su magia local.",
           slogan: "La perfección nace de la preparación, incluso en la cirugía digital.",
-          image: "https://images.unsplash.com/photo-1484723091739-30a097e8f929?auto=format&fit=crop&q=25&w=500&fm=webp",
+          image: "https://images.unsplash.com/photo-1484723091739-30a097e8f929?auto=format&fit=crop&q=15&w=350&fm=webp",
           imageAlt: "checklist-fotografia-restaurantes-google-business.jpg",
           content: "Preparar una sesión de 'rescate' es más sencillo que una sesión tradicional, pero requiere rigor. Desde la limpieza del borde del plato hasta la orientación de la luz natural. Este checklist te guía para que cada envío a fotografiarestaurante.com sea un éxito rotundo. Optimizamos la base para que el resultado sea indistinguible de la alta fotografía de estudio."
         },
@@ -205,7 +205,7 @@ export const translations = {
           title: "Cinemagrafía Gastronómica: Por qué el Movimiento Detiene el Scroll",
           excerpt: "Una foto estática es ignorada; un vídeo de 6 segundos es devorado. Aprende el poder del pack integral.",
           slogan: "El apetito es dinámico. Tu marketing también debería serlo.",
-          image: "https://images.unsplash.com/photo-1473093226795-af9932fe5856?auto=format&fit=crop&q=25&w=500&fm=webp",
+          image: "https://images.unsplash.com/photo-1473093226795-af9932fe5856?auto=format&fit=crop&q=15&w=350&fm=webp",
           imageAlt: "video-marketing-restaurantes-gastronomia.jpg",
           content: "El vídeo no es el futuro, es el presente absoluto. En fotografiarestaurante.com no solo rescatamos fotos, creamos activos dinámicos que aumentan el tiempo de permanencia en tu perfil. Descubre cómo un simple clip de vapor o un brillo en movimiento puede duplicar tus clics en Instagram y TikTok."
         },
@@ -215,7 +215,7 @@ export const translations = {
           title: "Fotografía de Restaurantes 2.0: Del Estudio al Quirófano Digital",
           excerpt: "¿Sigue siendo rentable contratar un fotógrafo de 500€ la sesión? Comparamos el modelo tradicional vs el rescate IA.",
           slogan: "No pagues por horas, paga por resultados quirúrgicos.",
-          image: "https://images.unsplash.com/photo-1514362545857-3bc16c4c7d1b?auto=format&fit=crop&q=25&w=500&fm=webp",
+          image: "https://images.unsplash.com/photo-1514362545857-3bc16c4c7d1b?auto=format&fit=crop&q=15&w=350&fm=webp",
           imageAlt: "fotografia-restaurantes-ia-vs-tradicional.jpg",
           content: "El sector de la hostelería está cambiando y la fotografía no puede quedarse atrás. Analizamos por qué el 'Rescate Visual' es la opción más inteligente para restaurantes que necesitan agilidad, calidad constante y un ROI inmediato. Menos logística, más conversión."
         },
@@ -225,7 +225,7 @@ export const translations = {
           title: "EL FACTOR HUMANO: POR QUÉ UNA IA SIN CONTROL ES UN DESASTRE PARA TU MARCA",
           excerpt: "¿Crees que una app de 3€ puede entender el 'vibe' de tu restaurante? Descubre el peligro de la automatización ciega.",
           slogan: "La IA es el bisturí, pero nosotros somos el cirujano.",
-          image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&q=25&w=500&fm=webp",
+          image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&q=15&w=350&fm=webp",
           imageAlt: "humano-vs-ia-marketing-gastronomico.jpg",
           content: "Estamos inundados de apps que prometen resultados en 90 segundos. El resultado suele ser el mismo: platos que parecen de plástico, sombras imposibles y una falta total de coherencia de marca. En fotografiarestaurante.com, cada píxel es supervisado por un experto en estética gastronómica. No disparamos algoritmos al azar; realizamos intervenciones quirúrgicas personalizadas para que tu restaurante conserve su alma."
         },
@@ -235,7 +235,7 @@ export const translations = {
           title: "RESCATE REAL VS IA GENERATIVA: NO ENGAÑES A TU CLIENTE CON PLATOS QUE NO EXISTEN",
           excerpt: "Generar una hamburguesa falsa con IA es fácil. Rescatar TU hamburguesa real es donde reside la verdadera magia.",
           slogan: "Realismo quirúrgico: La foto es tuya, la perfección es nuestra.",
-          image: "https://images.unsplash.com/photo-1586190848861-99aa4a171e90?auto=format&fit=crop&q=25&w=500&fm=webp",
+          image: "https://images.unsplash.com/photo-1586190848861-99aa4a171e90?auto=format&fit=crop&q=15&w=350&fm=webp",
           imageAlt: "realismo-vs-generativa-gastronomia.jpg",
           content: "Muchos competidores te invitan a 'generar' platos desde cero. Cuidado: el cliente se siente traicionado cuando lo que llega a su mesa no se parece en nada a la foto. Nuestro método de 'Rescate' respeta la arquitectura real de tu plato. No inventamos ingredientes; extraemos la belleza oculta de tu receta real para que la expectativa y la realidad estén 100% alineadas."
         },
@@ -245,7 +245,7 @@ export const translations = {
           title: "PERSONALIZACIÓN QUIRÚRGICA: ADAPTAMOS LA LUZ A TU VAJILLA, NO A UNA PLANTILLA",
           excerpt: "Tu restaurante es único. Tus fotos no deberían ser una fotocopia de un filtro genérico. Conoce nuestro trato 1 a 1.",
           slogan: "Tu ADN gastronómico, amplificado por especialistas.",
-          image: "https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?auto=format&fit=crop&q=25&w=500&fm=webp",
+          image: "https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?auto=format&fit=crop&q=15&w=350&fm=webp",
           imageAlt: "personalizacion-fotografia-gastronomica-ia.jpg",
           content: "Las plataformas de 'hazlo tú mismo' te obligan a encajar en sus moldes. Nosotros hacemos lo contrario. Analizamos la tonalidad de tus maderas, el brillo de tu vajilla y el estilo de tu cocina para diseñar un protocolo de iluminación a medida. Es un trato boutique en un mundo de producción en masa. Porque tu marca merece una firma, no un código de barras."
         },
@@ -256,7 +256,7 @@ export const translations = {
           excerpt: "Mover tu cocina a un estudio es caro y arriesgado. Descubre cómo la IA recicla tus activos actuales sin mover un plato.",
           slogan: "Tu producto brilla más donde se cocina, no en una caja de luz a 20km.",
           date: "15 ABR 2024",
-          image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?auto=format&fit=crop&q=25&w=500&fm=webp",
+          image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?auto=format&fit=crop&q=15&w=350&fm=webp",
           imageAlt: "tecnologia-ia-vs-estudio-fotografia-gastronomica.jpg",
           content: "Contratar un estudio implica transporte, pérdida de frescura y costes logísticos inmensos. Con nuestro modelo, reciclamos tus fotos de móvil transformándolas en piezas de estudio Michelin. Es el fin de la logística y el inicio de la rentabilidad digital."
         },
@@ -267,7 +267,7 @@ export const translations = {
           excerpt: "Mira el antes y el después de una intervención quirúrgica digital. De la mediocridad de la cocina al lujo de Instagram.",
           slogan: "Inyectamos vida a píxeles muertos.",
           date: "18 ABR 2024",
-          image: "https://images.unsplash.com/photo-1542038784456-1ea8e935640e?auto=format&fit=crop&q=25&w=500&fm=webp",
+          image: "https://images.unsplash.com/photo-1542038784456-1ea8e935640e?auto=format&fit=crop&q=15&w=350&fm=webp",
           imageAlt: "anatomia-cirugia-visual-gastronomica-antes-despues.jpg",
           content: "Una intervención visual no es un filtro. Es una reconstrucción técnica: limpieza de ruido, re-iluminación 3D y realce de texturas orgánicas. Te mostramos cómo convertimos un disparo rápido en un activo de venta premium."
         },
@@ -278,7 +278,7 @@ export const translations = {
           excerpt: "Dietas, desplazamientos, equipo y horas. Te enseñamos a leer entre líneas y por qué el modelo de rescate gana por goleada.",
           slogan: "No pagues por el camión del fotógrafo, paga por la imagen de tu plato.",
           date: "20 ABR 2024",
-          image: "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?auto=format&fit=crop&q=25&w=500&fm=webp",
+          image: "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?auto=format&fit=crop&q=15&w=350&fm=webp",
           imageAlt: "presupuesto-fotografia-gastronomica-profesional-dossier.jpg",
           content: "Una sesión presencial puede superar los 600€ sumando costes indirectos. Nuestro dossier demuestra que el rescate IA ofrece una calidad indistinguible a una fracción del coste, permitiéndote reinvertir ese ahorro en producto real."
         },
@@ -289,7 +289,7 @@ export const translations = {
           excerpt: "Captura el vapor, el crujido y el brillo. La técnica cinema que convierte seguidores en clientes reales.",
           slogan: "El vídeomarketing no es una opción, es tu nuevo escaparate.",
           date: "22 ABR 2024",
-          image: "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?auto=format&fit=crop&q=25&w=500&fm=webp",
+          image: "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?auto=format&fit=crop&q=15&w=350&fm=webp",
           imageAlt: "cinematografia-gastronomica-tiktok-reels.jpg",
           content: "El algoritmo prioriza el movimiento. En nuestra sección de cinematografía, transformamos clips estáticos en experiencias dinámicas que detienen el scroll. Es la diferencia entre que te vean y que deseen visitarte."
         },
@@ -300,7 +300,7 @@ export const translations = {
           excerpt: "¿Sabías que tu ficha de Google es comunicación de crisis constante y tu Instagram es pura aspiración? Descubre por qué necesitas dominar ambos.",
           slogan: "Instagram te hace famoso, Google te hace rico.",
           date: "30 ABR 2024",
-          image: "https://images.unsplash.com/photo-1512428559087-560fa5ceab42?auto=format&fit=crop&q=25&w=500&fm=webp",
+          image: "https://images.unsplash.com/photo-1512428559087-560fa5ceab42?auto=format&fit=crop&q=15&w=350&fm=webp",
           imageAlt: "google-maps-vs-instagram-restaurante-estrategia.jpg",
           content: "Instagram es marketing: tú controlas el mensaje, la estética y el ritmo. Pero Google Maps es Relaciones Públicas (PR) pasivo: es lo que otros dicen de ti cuando no estás mirando. Las fotos en Google confirman si el restaurante está 'vivo', si la carta sigue siendo la misma o si ha habido un cambio de dirección.\n\nUna ficha de Google con fotos de hace 3 años proyecta abandono. Una ficha con fotos rescatadas por IA que coinciden con la estética de tu Instagram genera una coherencia que rompe la barrera de la duda del cliente. El boca a boca empieza en la mesa, pero se confirma en los pines de Google."
         },
@@ -311,7 +311,7 @@ export const translations = {
           excerpt: "Un cambio de chef o de gestión se nota primero en las fotos. Aprende a usar la imagen para demostrar que tu local está en su mejor momento.",
           slogan: "Si tu comida ha evolucionado, tus fotos no pueden ser fósiles.",
           date: "02 MAY 2024",
-          image: "https://images.unsplash.com/photo-1559339352-11d035aa65de?auto=format&fit=crop&q=25&w=500&fm=webp",
+          image: "https://images.unsplash.com/photo-1559339352-11d035aa65de?auto=format&fit=crop&q=15&w=350&fm=webp",
           imageAlt: "coherencia-visual-carta-restaurante.jpg",
           content: "La falta de coherencia en una carta digital es la mayor causa de abandono en carritos de delivery. Si el 'Look & Feel' de tus entrantes no coincide con el de tus principales, el cliente sospecha de una cocina desorganizada o un cambio de manos dudoso.\n\nMantener un estándar visual mediante nuestra cirugía digital permite que, aunque cambies de personal o de proveedores, tu marca mantenga una línea de excelencia ininterrumpida. Es el seguro de vida visual de tu reputación."
         },
@@ -322,7 +322,7 @@ export const translations = {
           excerpt: "Descubre por qué el logo no lo es todo y cómo la consistencia del NAP junto a tus fotos actúan como señales de autoridad para Google.",
           slogan: "Tu logo es el sello, tu NAP es el mapa, tus fotos son el alma.",
           date: "05 MAY 2024",
-          image: "https://images.unsplash.com/photo-1560179707-f14e90ef3623?auto=format&fit=crop&q=25&w=500&fm=webp",
+          image: "https://images.unsplash.com/photo-1560179707-f14e90ef3623?auto=format&fit=crop&q=15&w=350&fm=webp",
           imageAlt: "logo-vs-nap-seo-local-reputacion.jpg",
           content: "En el SEO Local, el NAP (Name, Address, Phone) es sagrado. Si tu nombre varía entre plataformas, Google desconfía. Pero hay un 'backlink' invisible del que nadie habla: la coherencia visual. Cada foto que subes a Instagram, TikTok o Google Maps con tu logo o estética definida es una señal de reputación.\n\nCuando Google ve que las fotos de tus clientes (UGC) coinciden con la calidad de tu imagen oficial, confirma que tu negocio es real, activo y recomendable. No es solo diseño, es arquitectura de confianza. Tu logo debe coronar una presencia impecable donde cada imagen actúe como un enlace directo a la mente del consumidor."
         }
@@ -768,7 +768,7 @@ export const translations = {
           title: "The Food Photography ICU: Product Rescue 2026",
           excerpt: "We are not photographers. We don't come to portray your rooms or the soul of your kitchens. We come to save your mobile photos.",
           slogan: "Emergency surgery for dishes that need to sell right now.",
-          image: "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?auto=format&fit=crop&q=25&w=500&fm=webp",
+          image: "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?auto=format&fit=crop&q=15&w=350&fm=webp",
           imageAlt: "food-photography-icu-mobile-rescue-fotografiarestaurante-com.jpg",
           content: "First, a declaration of principles: we are not conventional photographers. We don't come to portray your empty rooms or the soul of your kitchens; there are already excellent artists for that.\n\nWe are the ICU. We come to save your mobile photos. That photo you took quickly with your Samsung between shifts, the one with harsh shadows and a background that screams 'I'm in the kitchen'—that's the one we rescue.\n\nIn 2026, visual umami is the first ingredient of any order. If your dish does not jump off the screen on UberEats or Glovo, the customer will pass by in 0.5 seconds. Our AI rescue methodology injects studio light, extracts noise, and enhances the product so that it looks like fine dining, even if the base was mediocre. Fotografiarestaurante.com is your trusted hospital."
         },
@@ -779,7 +779,7 @@ export const translations = {
           excerpt: "Discover why local algorithms reward surgical lighting and how you can take advantage of it.",
           slogan: "Your feed is your new business card.",
           date: "15 MAR 2024",
-          image: "https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&q=25&w=500&fm=webp",
+          image: "https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&q=15&w=350&fm=webp",
           imageAlt: "instagram-interface-optimized-ai-photographyrestaurante-com.jpg",
           content: "In the saturated world of social media, you only have 2 seconds to catch the attention of a customer. Studies show that consistent lighting and enhanced textures increase engagement rates by 40%. Our AI rescue methodology injects studio light, extracts noise, and enhances the product so that it looks like fine dining, even if the base was mediocre."
         },
@@ -789,7 +789,7 @@ export const translations = {
           title: "The End of Noisy Backgrounds: Visual Clarity for Chefs",
           excerpt: "An exquisite dish on a messy table loses its value. Background extraction is the key to digital luxury.",
           slogan: "Your dish is the star. The rest is noise making you lose money.",
-          image: "https://images.unsplash.com/photo-1493770348161-369560ae357d?auto=format&fit=crop&q=25&w=500&fm=webp",
+          image: "https://images.unsplash.com/photo-1493770348161-369560ae357d?auto=format&fit=crop&q=15&w=350&fm=webp",
           imageAlt: "food-photography-ai-background-removal-fotografiarestaurante-com.jpg",
           content: "Many restaurants make the mistake of uploading photos with distracting backgrounds: used napkins, steel reflections, or harsh shadows. AI allows us to surgically extract the dish and place it in minimalist settings that raise the average ticket."
         },
@@ -799,7 +799,7 @@ export const translations = {
           title: "Esthetic Surgery for Digital Menus: The AI Chef Method",
           excerpt: "Discover how surgical retouching can raise your restaurant's average ticket without changing a single ingredient.",
           slogan: "Technical beauty is the fastest shortcut to profitability.",
-          image: "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?auto=format&fit=crop&q=25&w=500&fm=webp",
+          image: "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?auto=format&fit=crop&q=15&w=350&fm=webp",
           imageAlt: "ai-chef-method-professional-food-retouching-fotografiarestaurante-com.jpg",
           content: "The 'AI Chef Method' isn't about deceiving the customer; it's about showing the best possible version of your kitchen. The reality is that a mobile camera, no matter how good, flattens textures and dulls the colors of a freshly served dish."
         },
@@ -809,7 +809,7 @@ export const translations = {
           title: "The Authority Protocol: Dominating the Google Algorithm in 2026",
           excerpt: "Why are some restaurants always at the top while others remain invisible? The answer lies in visual consistency.",
           slogan: "Google doesn't just read your reviews, it also analyzes your image authority.",
-          image: "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&q=25&w=500&fm=webp",
+          image: "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&q=15&w=350&fm=webp",
           imageAlt: "gastronomic-local-seo-google-business-fotografiarestaurante-com.jpg",
           content: "Local SEO for restaurants has evolved. It's no longer enough to have your NAP correctly set. In 2026, Google's artificial vision algorithms analyze the quality of the photos you upload to your Google Business profile."
         },
@@ -819,7 +819,7 @@ export const translations = {
           title: "Mobile vs DSLR: Has Traditional Studio Photography Died?",
           excerpt: "In 2026, the best equipment isn't a €5,000 camera, but your smartphone combined with aggressive AI post-processing.",
           slogan: "The power of a Michelin studio in the palm of your hand.",
-          image: "https://images.unsplash.com/photo-1512428559087-560fa5ceab42?auto=format&fit=crop&q=25&w=500&fm=webp",
+          image: "https://images.unsplash.com/photo-1512428559087-560fa5ceab42?auto=format&fit=crop&q=15&w=350&fm=webp",
           imageAlt: "mobile-food-photography-vs-dslr-ai-fotografiarestaurante-com.jpg",
           content: "For decades, restaurants have depended on photographers loaded with lights and tripods that interrupted service. That's over. Today, a smartphone sensor captures enough information for our AI to reconstruct the scene as if it were lit by a professional."
         },
@@ -829,7 +829,7 @@ export const translations = {
           title: "Color Psychology: How to Hack Your Customers' Appetite",
           excerpt: "The difference between a boring dish and an irresistible one lies in white balance and selective saturation.",
           slogan: "We cook for the eyes before the palate.",
-          image: "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?auto=format&fit=crop&q=25&w=500&fm=webp",
+          image: "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?auto=format&fit=crop&q=15&w=350&fm=webp",
           imageAlt: "gastronomic-color-psychology-marketing-fotografiarestaurante-com.jpg",
           content: "A steak with blue tones or a salad with dull greens kills hunger instantly. Gastronomic color psychology tells us that warm tones (reds, oranges, ochres) activate the nervous system and open the appetite."
         },
@@ -839,7 +839,7 @@ export const translations = {
           title: "The Hidden Gold in Your Customers' Photos: UGC Rescue",
           excerpt: "Your customers upload horrible photos to Google Maps. Learn how to use them to your advantage to improve your online reputation.",
           slogan: "If your customer's photo is bad, it's the light's fault, not the dish. We fix it.",
-          image: "https://images.unsplash.com/photo-1559339352-11d035aa65de?auto=format&fit=crop&q=25&w=500&fm=webp",
+          image: "https://images.unsplash.com/photo-1559339352-11d035aa65de?auto=format&fit=crop&q=15&w=350&fm=webp",
           imageAlt: "customer-photo-rescue-google-maps-restaurants-fotografiarestaurante-com.jpg",
           content: "Google Maps reviews are today's most important storefront. The problem is that customers often upload blurry, dark, or poorly framed photos that ruin your brand image."
         },
@@ -849,7 +849,7 @@ export const translations = {
           title: "Gastronomic Photographer in Barcelona: Why 90% of Sessions are Inefficient",
           excerpt: "In competitive cities like Barcelona, waiting 2 weeks for a photographer's retouch is losing hundreds of orders.",
           slogan: "Time is the ingredient nobody gives back. Cook fast, rescue faster.",
-          image: "https://images.unsplash.com/photo-1493770348161-369560ae357d?auto=format&fit=crop&q=25&w=500&fm=webp",
+          image: "https://images.unsplash.com/photo-1493770348161-369560ae357d?auto=format&fit=crop&q=15&w=350&fm=webp",
           imageAlt: "gastronomic-photographer-barcelona-prices-efficiency-fotografiarestaurante-com.jpg",
           content: "Barcelona is the capital of design, but also of haste. Hiring a traditional photographer implies: squaring schedules, closing tables, waiting for the 'photo return', and paying for hours of physical presence."
         },
@@ -859,7 +859,7 @@ export const translations = {
           title: "Guerrilla Marketing for Hoteliers: The Image Your Competition Can't Buy",
           excerpt: "You don't need a franchise budget to have Michelin-star photos. You need technical intelligence.",
           slogan: "Be smarter than your competition, not more expensive.",
-          image: "https://images.unsplash.com/photo-1552566626-52f8b828add9?auto=format&fit=crop&q=25&w=500&fm=webp",
+          image: "https://images.unsplash.com/photo-1552566626-52f8b828add9?auto=format&fit=crop&q=15&w=350&fm=webp",
           imageAlt: "gastronomic-guerrilla-marketing-ai-fotografiarestaurante-com.jpg",
           content: "Guerrilla marketing is based on using ingenuity to beat the budget. While your competition saves for months for one professional photo session, you can update your menu every week using fotografiarestaurante.com."
         },
@@ -869,7 +869,7 @@ export const translations = {
           title: "The 'No-Shooting' Manual: Renew Your Menu in 15 Minutes",
           excerpt: "Forget tripods, lights, and waiting. Learn the 'clean shot' technique to send us your photos.",
           slogan: "You cook, we light. The perfect symbiosis.",
-          image: "https://images.unsplash.com/photo-1482049016688-2d3e1b311543?auto=format&fit=crop&q=25&w=500&fm=webp",
+          image: "https://images.unsplash.com/photo-1482049016688-2d3e1b311543?auto=format&fit=crop&q=15&w=350&fm=webp",
           imageAlt: "manual-fast-restaurant-photography-ai-fotografiarestaurante-com.jpg",
           content: "Most manuals teach you to prepare a 4-hour session. We teach you how not to need it. For a perfect AI rescue, you only need natural window light, a neutral background, and a stable frame."
         },
@@ -879,7 +879,7 @@ export const translations = {
           title: "Barcelona Gastro-Visual: 2026 Trends to Dominate Eixample and Gràcia",
           excerpt: "From Gràcia's brunch to Eixample's luxury dinners. How to adapt your aesthetic to the neighborhood.",
           slogan: "Every Barcelona neighborhood has its light. We inject it via AI.",
-          image: "https://images.unsplash.com/photo-1559339352-11d035aa65de?auto=format&fit=crop&q=25&w=500&fm=webp",
+          image: "https://images.unsplash.com/photo-1559339352-11d035aa65de?auto=format&fit=crop&q=15&w=350&fm=webp",
           imageAlt: "gastronomic-photography-trends-barcelona-2026-fotografiarestaurante-com.jpg",
           content: "Barcelona is not just one city, but many neighborhoods with distinct visual personalities. In Gràcia, artisanal and rustic vibes triumph; in Eixample, minimalist elegance and hard light contrasts."
         },
@@ -890,7 +890,7 @@ export const translations = {
           excerpt: "Did you know that 70% of booking decisions are made in the first 3 seconds of seeing your profile?",
           slogan: "For high-ticket dining, trust enters through the eyes.",
           date: "25 MAR 2024",
-          image: "https://images.unsplash.com/photo-1591130219388-ae3d1c17431b?auto=format&fit=crop&q=25&w=500&fm=webp",
+          image: "https://images.unsplash.com/photo-1591130219388-ae3d1c17431b?auto=format&fit=crop&q=15&w=350&fm=webp",
           imageAlt: "digital-strategy-restaurant-photography-marketing.jpg",
           content: "Competing in the premium sector is not just about culinary quality. Customers look for a coherent visual experience before stepping into your room. Instagram's algorithm ranks accounts with higher interaction better, and nothing generates more interaction than a surgically lit photo."
         },
@@ -900,7 +900,7 @@ export const translations = {
           title: "Visual Food Costing: How Much Margin Are You Losing to Bad Lighting?",
           excerpt: "If your dish is gourmet but your photo is mediocre, you are devaluing your product. Learn to align your image with your price.",
           slogan: "Quality that is not seen is quality that is not paid for.",
-          image: "https://images.unsplash.com/photo-1455619452474-d2be8b1e70cd?auto=format&fit=crop&q=25&w=500&fm=webp",
+          image: "https://images.unsplash.com/photo-1455619452474-d2be8b1e70cd?auto=format&fit=crop&q=15&w=350&fm=webp",
           imageAlt: "visual-food-costing-gastronomic-marketing-profitability.jpg",
           content: "Food costing doesn't just happen in the kitchen. 'Visual food costing' determines whether a customer perceives your dish as a €15 or €25 option. Correct lighting and AI-enhanced texture justify the value of your culinary proposal."
         },
@@ -910,7 +910,7 @@ export const translations = {
           title: "Gourmet Digitalization: Why Your Photos Are Your Most Valuable Inventory",
           excerpt: "In the AI era, digitalizing your menu is not an option; it's a survival necessity. Optimize your visual stock today.",
           slogan: "Your restaurant is physical, but your sale is digital.",
-          image: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?auto=format&fit=crop&q=25&w=500&fm=webp",
+          image: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?auto=format&fit=crop&q=15&w=350&fm=webp",
           imageAlt: "restaurant-digitalization-visual-assets-ai.jpg",
           content: "Real digitalization goes beyond management software. It's about having an inventory of high-fidelity visual assets that you can deploy on any platform. Our digital esthetic surgery transforms your current content into collection pieces ready to sell."
         },
@@ -920,7 +920,7 @@ export const translations = {
           title: "Post-Rescue Checklist: 10 Points to Make Your Dish Shine on GMB",
           excerpt: "Don't just send any photo. Follow these 10 critical steps to ensure AI can work its magic.",
           slogan: "Perfection is born from preparation, even in digital surgery.",
-          image: "https://images.unsplash.com/photo-1484723091739-30a097e8f929?auto=format&fit=crop&q=25&w=500&fm=webp",
+          image: "https://images.unsplash.com/photo-1484723091739-30a097e8f929?auto=format&fit=crop&q=15&w=350&fm=webp",
           imageAlt: "restaurant-photography-checklist-google-business.jpg",
           content: "Preparing a 'rescue' session is simpler than a traditional session, but requires rigor. From cleaning the plate rim to the orientation of natural light. This checklist guides you so that every submission to fotografiarestaurante.com is a resounding success. We optimize the base so that the result is indistinguishable from top-tier studio photography."
         },
@@ -930,7 +930,7 @@ export const translations = {
           title: "Gastronomic Cinemagraphy: Why Movement Stops the Scroll",
           excerpt: "A static photo is ignored; a 6-second video is devoured. Learn the power of the integral pack.",
           slogan: "Appetite is dynamic. Your marketing should be too.",
-          image: "https://images.unsplash.com/photo-1473093226795-af9932fe5856?auto=format&fit=crop&q=25&w=500&fm=webp",
+          image: "https://images.unsplash.com/photo-1473093226795-af9932fe5856?auto=format&fit=crop&q=15&w=350&fm=webp",
           imageAlt: "video-marketing-restaurants-gastronomy.jpg",
           content: "Video is not the future; it is the absolute present. At fotografiarestaurante.com, we don't just rescue photos; we create dynamic assets that increase dwell time on your profile. Discover how a simple steam clip or a moving highlight can double your clicks on Instagram and TikTok."
         },
@@ -940,7 +940,7 @@ export const translations = {
           title: "Restaurant Photography 2.0: From the Studio to the Digital Theatre",
           excerpt: "Is it still profitable to hire a €500-per-session photographer? We compare the traditional model vs AI rescue.",
           slogan: "Don't pay for hours; pay for surgical results.",
-          image: "https://images.unsplash.com/photo-1514362545857-3bc16c4c7d1b?auto=format&fit=crop&q=25&w=500&fm=webp",
+          image: "https://images.unsplash.com/photo-1514362545857-3bc16c4c7d1b?auto=format&fit=crop&q=15&w=350&fm=webp",
           imageAlt: "restaurant-photography-ai-vs-traditional.jpg",
           content: "The hospitality sector is changing, and photography cannot fall behind. We analyze why 'Visual Rescue' is the smartest choice for restaurants needing agility, constant quality, and an immediate ROI. Less logistics, more conversion."
         },
@@ -950,7 +950,7 @@ export const translations = {
           title: "THE HUMAN FACTOR: WHY UNCONTROLLED AI IS A DISASTER FOR YOUR BRAND",
           excerpt: "Do you think a €3 app can understand the 'vibe' of your restaurant? Discover the danger of blind automation.",
           slogan: "AI is the scalpel, but we are the surgeon.",
-          image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&q=25&w=500&fm=webp",
+          image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&q=15&w=350&fm=webp",
           imageAlt: "human-vs-ai-gastronomic-marketing.jpg",
           content: "We are flooded with apps promising results in 90 seconds. The result is often the same: dishes that look plastic, impossible shadows, and a complete lack of brand consistency. At fotografiarestaurante.com, every pixel is supervised by an expert in gastronomic aesthetics. We don't fire random algorithms; we perform customized surgical interventions so your restaurant keeps its soul."
         },
@@ -960,7 +960,7 @@ export const translations = {
           title: "REAL RESCUE VS GENERATIVE AI: DON'T DECEIVE YOUR CUSTOMERS WITH NON-EXISTENT DISHES",
           excerpt: "Generating a fake burger with AI is easy. Rescuing YOUR real burger is where the true magic lies.",
           slogan: "Surgical realism: The photo is yours, the perfection is ours.",
-          image: "https://images.unsplash.com/photo-1586190848861-99aa4a171e90?auto=format&fit=crop&q=25&w=500&fm=webp",
+          image: "https://images.unsplash.com/photo-1586190848861-99aa4a171e90?auto=format&fit=crop&q=15&w=350&fm=webp",
           imageAlt: "realism-vs-generative-gastronomy.jpg",
           content: "Many competitors invite you to 'generate' dishes from scratch. Careful: the customer feels betrayed when what arrives at their table looks nothing like the photo. Our 'Rescue' method respects the real architecture of your dish. We don't invent ingredients; we extract the hidden beauty of your real recipe so that expectation and reality are 100% aligned."
         },
@@ -970,7 +970,7 @@ export const translations = {
           title: "SURGICAL PERSONALIZATION: WE ADAPT LIGHT TO YOUR PLATE, NOT TO A TEMPLATE",
           excerpt: "Your restaurant is unique. Your photos shouldn't be a photocopy of a generic filter. Meet our 1-on-1 treatment.",
           slogan: "Your gastronomic DNA, amplified by specialists.",
-          image: "https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?auto=format&fit=crop&q=25&w=500&fm=webp",
+          image: "https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?auto=format&fit=crop&q=15&w=350&fm=webp",
           imageAlt: "personalization-gastronomic-photography-ia.jpg",
           content: "Self-service platforms force you to fit into their molds. We do the opposite. We analyze the tone of your woods, the shine of your tableware, and the style of your kitchen to design a custom lighting protocol. It's boutique treatment in a mass-production world. Because your brand deserves a signature, not a barcode."
         },
@@ -981,7 +981,7 @@ export const translations = {
           excerpt: "Moving your kitchen to a studio is expensive and risky. Discover how AI recycles your current assets without moving a plate.",
           slogan: "Your product shines best where it's cooked, not in a light box 20 miles away.",
           date: "APR 15 2024",
-          image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?auto=format&fit=crop&q=25&w=500&fm=webp",
+          image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?auto=format&fit=crop&q=15&w=350&fm=webp",
           imageAlt: "tech-ai-vs-studio-food-photography.jpg",
           content: "Hiring a studio involves transport, loss of freshness, and immense logistical costs. With our model, we recycle your mobile photos, transforming them into Michelin-quality studio pieces."
         },
@@ -992,7 +992,7 @@ export const translations = {
           excerpt: "See the before and after of a digital surgical intervention. From kitchen mediocrity to Instagram luxury.",
           slogan: "We inject life into dead pixels.",
           date: "APR 18 2024",
-          image: "https://images.unsplash.com/photo-1542038784456-1ea8e935640e?auto=format&fit=crop&q=25&w=500&fm=webp",
+          image: "https://images.unsplash.com/photo-1542038784456-1ea8e935640e?auto=format&fit=crop&q=15&w=350&fm=webp",
           imageAlt: "anatomy-visual-gastronomic-surgery-before-after.jpg",
           content: "A visual intervention is not a filter. It is a technical reconstruction: noise cleanup, 3D re-lighting, and enhancement of organic textures."
         },
@@ -1003,7 +1003,7 @@ export const translations = {
           excerpt: "Travel, equipment, and hours. We teach you how to read between the lines and why the rescue model wins by a landslide.",
           slogan: "Don't pay for the photographer's truck, pay for the image of your dish.",
           date: "APR 20 2024",
-          image: "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?auto=format&fit=crop&q=25&w=500&fm=webp",
+          image: "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?auto=format&fit=crop&q=15&w=350&fm=webp",
           imageAlt: "budget-professional-gastronomic-photography-dossier.jpg",
           content: "An on-site session can exceed €600 including indirect costs. Our dossier shows that AI rescue offers indistinguishable quality at a fraction of the cost."
         },
@@ -1014,7 +1014,7 @@ export const translations = {
           excerpt: "Capture the steam, the crunch, and the shine. The cinema technique that turns followers into real customers.",
           slogan: "Video marketing is not an option; it's your new storefront.",
           date: "APR 22 2024",
-          image: "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?auto=format&fit=crop&q=25&w=500&fm=webp",
+          image: "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?auto=format&fit=crop&q=15&w=350&fm=webp",
           imageAlt: "gastronomic-cinematography-tiktok-reels.jpg",
           content: "The algorithm prioritizes movement. In our cinematography section, we transform static clips into dynamic experiences."
         },
@@ -1025,7 +1025,7 @@ export const translations = {
           excerpt: "Did you know your Google listing is constant crisis communication while your Instagram is pure aspiration? Discover why you need to master both.",
           slogan: "Instagram makes you famous, Google makes you rich.",
           date: "APR 30 2024",
-          image: "https://images.unsplash.com/photo-1512428559087-560fa5ceab42?auto=format&fit=crop&q=25&w=500&fm=webp",
+          image: "https://images.unsplash.com/photo-1512428559087-560fa5ceab42?auto=format&fit=crop&q=15&w=350&fm=webp",
           imageAlt: "google-maps-vs-instagram-restaurant-strategy.jpg",
           content: "Instagram is marketing: you control the message, the aesthetics, and the pace. But Google Maps is passive Public Relations (PR): it's what others say about you when you're not looking. Photos on Google confirm if the restaurant is 'alive', if the menu is still the same, or if there's been a change in management.\n\nA Google listing with 3-year-old photos projects neglect. A profile with AI-rescued photos that match your Instagram aesthetic generates a coherence that breaks the customer's barrier of doubt. Word of mouth starts at the table but is confirmed on Google pins."
         },
@@ -1036,7 +1036,7 @@ export const translations = {
           excerpt: "A change in chef or management is noticed in photos first. Learn to use imagery to prove your place is in its prime.",
           slogan: "If your food has evolved, your photos cannot be fossils.",
           date: "MAY 02 2024",
-          image: "https://images.unsplash.com/photo-1559339352-11d035aa65de?auto=format&fit=crop&q=25&w=500&fm=webp",
+          image: "https://images.unsplash.com/photo-1559339352-11d035aa65de?auto=format&fit=crop&q=15&w=350&fm=webp",
           imageAlt: "visual-coherence-restaurant-menu.jpg",
           content: "The lack of coherence in a digital menu is the biggest cause of delivery cart abandonment. If the 'Look & Feel' of your appetizers doesn't match your mains, the customer suspects a disorganized kitchen or a questionable change of hands.\n\nMaintaining a visual standard through our digital surgery allows your brand to maintain an uninterrupted line of excellence, even if you change staff or suppliers. It is the visual life insurance of your reputation."
         },
@@ -1047,7 +1047,7 @@ export const translations = {
           excerpt: "Discover why the logo isn't everything and how NAP consistency along with your photos act as authority signals for Google.",
           slogan: "Your logo is the seal, your NAP is the map, your photos are the soul.",
           date: "MAY 05 2024",
-          image: "https://images.unsplash.com/photo-1560179707-f14e90ef3623?auto=format&fit=crop&q=25&w=500&fm=webp",
+          image: "https://images.unsplash.com/photo-1560179707-f14e90ef3623?auto=format&fit=crop&q=15&w=350&fm=webp",
           imageAlt: "logo-vs-nap-local-seo-reputation.jpg",
           content: "In Local SEO, NAP (Name, Address, Phone) is sacred. If your name varies between platforms, Google mistrusts you. But there’s an invisible 'backlink' no one talks about: visual consistency. Every photo you upload to Instagram, TikTok, or Google Maps with your logo or defined aesthetic is a reputation signal.\n\nWhen Google sees that your customers' photos (UGC) match the quality of your official image, it confirms that your business is real, active, and recommendable. It’s not just design; it’s trust architecture. Your logo should crown an impeccable presence where every image acts as a direct link to the consumer's mind."
         }
@@ -1854,7 +1854,7 @@ export const translations = {
           slogan: "Ne payez pas pour des heures ; payez pour des résultats chirurgicaux.",
           date: "20 FÉV 2024",
           category: "ia",
-          image: "https://images.unsplash.com/photo-1551024506-0bccd828d307?auto=format&fit=crop&q=25&w=500&fm=webp",
+          image: "https://images.unsplash.com/photo-1551024506-0bccd828d307?auto=format&fit=crop&q=15&w=350&fm=webp",
           imageAlt: "Comparaison entre photographie traditionnelle et sauvetage par IA",
           content: "Le secteur de la restauration change, et la photographie ne peut rester en arrière. Nous analysons pourquoi le 'Sauvetage Visuel' est le choix le plus intelligent pour les restaurants ayant besoin d'agilité, d'une qualité constante et d'un ROI immédiat. Moins de logistique, plus de conversion."
         },
@@ -1865,7 +1865,7 @@ export const translations = {
           excerpt: "Découvrez pourquoi les algorithmes locaux récompensent l'éclairage chirurgical et comment en tirer profit.",
           slogan: "Votre feed est votre nouvelle carte de visite.",
           date: "15 MAR 2024",
-          image: "https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&q=25&w=500&fm=webp",
+          image: "https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&q=15&w=350&fm=webp",
           imageAlt: "interface-instagram-optimisee-ia-photographyrestaurante-com.jpg",
           content: "Dans le monde saturé des réseaux sociaux, vous n'avez que 2 secondes pour capter l'attention d'un client. Des études montrent qu'un éclairage cohérent et des textures rehaussées augmentent le taux d'engagement de 40%."
         },
@@ -1876,7 +1876,7 @@ export const translations = {
           slogan: "Précision au pixel près pour un appétit insatiable.",
           date: "10 FÉV 2024",
           category: "surgery",
-          image: "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?auto=format&fit=crop&q=25&w=500&fm=webp",
+          image: "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?auto=format&fit=crop&q=15&w=350&fm=webp",
           imageAlt: "Processus de retouche gastronomique professionnelle",
           content: "Découvrez notre laboratoire. Nous vous montrons comment nous utilisons des techniques avancées de texturation, de ré-éclairage et d'extraction numérique pour transformer chaque plat en une œuvre d'art visuelle qui stimule le système nerveux de votre client."
         },
@@ -1887,7 +1887,7 @@ export const translations = {
           excerpt: "Saviez-vous que 70 % des décisions de réservation sont prises dans les 3 premières secondes de la consultation de votre profil ?",
           slogan: "Pour la gastronomie haut de gamme, la confiance passe par les yeux.",
           date: "25 MAR 2024",
-          image: "https://images.unsplash.com/photo-1591130219388-ae3d1c17431b?auto=format&fit=crop&q=25&w=500&fm=webp",
+          image: "https://images.unsplash.com/photo-1591130219388-ae3d1c17431b?auto=format&fit=crop&q=15&w=350&fm=webp",
           imageAlt: "strategie-digitale-photographie-restaurant-marketing.jpg",
           content: "La compétition dans le secteur premium n'est pas seulement une question de qualité culinaire. Le client recherche une expérience visuelle cohérente avant de mettre un pied dans votre salle. L'algorithme d'Instagram positionne mieux les comptes avec le plus haut taux d'interaction, et rien ne convertit mieux qu'une photo avec un éclairage chirurgical."
         },
@@ -1898,7 +1898,7 @@ export const translations = {
           slogan: "La qualité qui ne se voit pas est une qualité qui ne se paye pas.",
           date: "28 FÉV 2024",
           category: "surgery",
-          image: "https://images.unsplash.com/photo-1455619452474-d2be8b1e70cd?auto=format&fit=crop&q=25&w=500&fm=webp",
+          image: "https://images.unsplash.com/photo-1455619452474-d2be8b1e70cd?auto=format&fit=crop&q=15&w=350&fm=webp",
           imageAlt: "Coût de revient visuel et marketing gastronomique rentable",
           content: "Le 'coût de revient visuel' détermine si un client perçoit votre plat comme une option à 15€ ou à 25€. Un éclairage correct et une texture améliorée par l'IA justifient la valeur de votre proposition gastronomique."
         },
@@ -1909,7 +1909,7 @@ export const translations = {
           slogan: "Votre restaurant est physique, pero votre vente est digitale.",
           date: "01 MARS 2024",
           category: "ia",
-          image: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?auto=format&fit=crop&q=25&w=500&fm=webp",
+          image: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?auto=format&fit=crop&q=15&w=350&fm=webp",
           imageAlt: "Digitalisation des restaurants et actifs visuels IA",
           content: "La véritable digitalisation va au-delà d'un logiciel de gestion. Il s'agit d'avoir un inventaire d'actifs visuels haute fidélité que vous pouvez déployer sur n'importe quelle plateforme. Notre chirurgie esthétique numérique transforme votre contenu actuel en pièces de collection prêtes à être vendues."
         },
@@ -1920,7 +1920,7 @@ export const translations = {
           slogan: "La perfection naît de la préparation, même en chirurgie numérique.",
           date: "05 MARS 2024",
           category: "tech",
-          image: "https://images.unsplash.com/photo-1484723091739-30a097e8f929?auto=format&fit=crop&q=25&w=500&fm=webp",
+          image: "https://images.unsplash.com/photo-1484723091739-30a097e8f929?auto=format&fit=crop&q=15&w=350&fm=webp",
           imageAlt: "Checklist photographie de restaurant Google Business",
           content: "Préparer une session de 'sauvetage' est plus simple qu'une session traditionnelle, mais cela demande de la rigueur. De la propreté du bord de l'assiette à l'orientation de la lumière naturelle. Cette checklist vous guide pour que chaque envoi à fotografiarestaurante.com soit un succès retentissant."
         },
@@ -1931,7 +1931,7 @@ export const translations = {
           slogan: "L'appétit est dynamique. Votre marketing devrait l'être aussi.",
           date: "10 MARS 2024",
           category: "cinema",
-          image: "https://images.unsplash.com/photo-1473093226795-af9932fe5856?auto=format&fit=crop&q=25&w=500&fm=webp",
+          image: "https://images.unsplash.com/photo-1473093226795-af9932fe5856?auto=format&fit=crop&q=15&w=350&fm=webp",
           imageAlt: "Vidéo marketing restaurants gastronomie",
           content: "La vidéo n'est pas le futur ; c'est le présent absolu. Chez fotografiarestaurante.com, nous ne sauvons pas seulement des photos ; nous créons des actifs dynamiques qui augmentent le temps de rétention sur votre profil. Découvrez comment un simple clip de vapeur ou un highlight en mouvement peut doubler vos clics sur Instagram et TikTok."
         },
@@ -1942,7 +1942,7 @@ export const translations = {
           slogan: "Ne payez pas pour des heures ; payez pour des résultats chirurgici.",
           date: "15 MARS 2024",
           category: "dossier",
-          image: "https://images.unsplash.com/photo-1514362545857-3bc16c4c7d1b?auto=format&fit=crop&q=25&w=500&fm=webp",
+          image: "https://images.unsplash.com/photo-1514362545857-3bc16c4c7d1b?auto=format&fit=crop&q=15&w=350&fm=webp",
           imageAlt: "Photographie restaurant IA vs traditionnel",
           content: "Le secteur évolue et la technologie IA permet aujourd'hui d'obtenir des résultats professionnels à partir de photos prises au smartphone. Nous vous expliquons comment nous optimisons vos actifs pour garantir une image de marque d'élite à une fraction du coût et du temps d'une session traditionnelle."
         },
@@ -1953,7 +1953,7 @@ export const translations = {
           slogan: "L'IA est le scalpel, mais nous sommes le chirurgien.",
           date: "20 MARS 2024",
           category: "marketing",
-          image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&q=25&w=500&fm=webp",
+          image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&q=15&w=350&fm=webp",
           imageAlt: "humain-vs-ia-marketing-gastronomique",
           content: "Nous sommes inondés d'applications promettant des résultats en 90 secondes. Le résultat est souvent le même : des plats qui ont l'air en plastique, des ombres impossibles et un manque total de cohérence de marque. Chez fotografiarestaurante.com, chaque pixel est supervisé par un expert en esthétique gastronomique. Nous ne lançons pas des algorithmes au hasard ; nous effectuons des interventions chirurgicales personnalisées pour que votre restaurant garde son âme."
         },
@@ -1964,7 +1964,7 @@ export const translations = {
           slogan: "Réalisme chirurgical : La photo est à vous, la perfection est à nous.",
           date: "25 MARS 2024",
           category: "rescue",
-          image: "https://images.unsplash.com/photo-1586190848861-99aa4a171e90?auto=format&fit=crop&q=25&w=500&fm=webp",
+          image: "https://images.unsplash.com/photo-1586190848861-99aa4a171e90?auto=format&fit=crop&q=15&w=350&fm=webp",
           imageAlt: "realisme-vs-generative-gastronomie",
           content: "De nombreux concurrents vous invitent à 'générer' des plats de toutes pièces. Attention : le client se sent trahi quand ce qui arrive à table ne ressemble en rien à la photo. Notre méthode de 'Sauvetage' respecte l'architecture réelle de votre plat. Nous n'inventons pas d'ingrédients ; nous extrayons la beauté cachée de votre recette réelle afin que l'attente et la réalité soient alignées à 100%."
         },
@@ -1975,7 +1975,7 @@ export const translations = {
           slogan: "Votre ADN gastronomique, amplifié par des spécialistes.",
           date: "30 MARS 2024",
           category: "surgery",
-          image: "https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?auto=format&fit=crop&q=25&w=500&fm=webp",
+          image: "https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?auto=format&fit=crop&q=15&w=350&fm=webp",
           imageAlt: "personnalisation-photographie-gastronomique-ia",
           content: "Les plateformes en libre-service vous obligent à vous adapter à leurs moules. Nous faisons l'inverse. Nous analysons le ton de votre bois, la brillance de votre vaisselle et le style de votre cuisine pour concevoir un protocole d'éclairage personnalisé. C'est un traitement boutique dans un monde de production de masse. Parce que votre marque mérite une signature, pas un code-barres."
         },
@@ -1986,7 +1986,7 @@ export const translations = {
           excerpt: "Déplacer votre cuisine dans un studio est coûteux et risqué. Découvrez comment l'IA recycle vos actifs actuels sans déplacer une assiette.",
           slogan: "Votre product brille mieux là où il est cuisiné, pas dans une boîte à lumière à 20 km.",
           date: "15 AVRIL 2024",
-          image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?auto=format&fit=crop&q=25&w=500&fm=webp",
+          image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?auto=format&fit=crop&q=15&w=350&fm=webp",
           imageAlt: "technologie-ia-vs-studio-photographie-gastronomique.jpg",
           content: "Engager un studio implique transport, perte de fraîcheur et coûts logistiques immenses. Avec notre modèle, nous recyclons vos photos mobiles, les transformant en pièces de studio Michelin."
         },
@@ -1997,7 +1997,7 @@ export const translations = {
           excerpt: "Voyez l'avant et l'après d'une intervention chirurgicale numérique. De la médiocrité de la cuisine au luxe d'Instagram.",
           slogan: "Nous injectons de la vie dans des pixels morts.",
           date: "18 AVRIL 2024",
-          image: "https://images.unsplash.com/photo-1542038784456-1ea8e935640e?auto=format&fit=crop&q=25&w=500&fm=webp",
+          image: "https://images.unsplash.com/photo-1542038784456-1ea8e935640e?auto=format&fit=crop&q=15&w=350&fm=webp",
           imageAlt: "anatomie-chirurgie-visuelle-gastronomique-avant-apres.jpg",
           content: "Une intervention visuelle n'est pas un filtre. C'est une reconstruction technique : nettoyage du bruit, ré-éclairage 3D et mise en valeur des textures organiques."
         },
@@ -2008,7 +2008,7 @@ export const translations = {
           excerpt: "Déplacements, équipement et heures. Nous vous apprenons à lire entre les lignes et pourquoi le modèle de sauvetage gagne haut la main.",
           slogan: "Ne payez pas pour le camion du photographe, payez pour l'image de votre plat.",
           date: "20 AVRIL 2024",
-          image: "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?auto=format&fit=crop&q=25&w=500&fm=webp",
+          image: "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?auto=format&fit=crop&q=15&w=350&fm=webp",
           imageAlt: "budget-photographie-gastronomique-professionnelle-dossier.jpg",
           content: "Une séance en présentiel peut dépasser 600€ en comptant les coûts indirects. Notre dossier démontre que le sauvetage IA offre une qualité indiscernable à une fraction du coût."
         },
@@ -2019,7 +2019,7 @@ export const translations = {
           excerpt: "Capturez la vapeur, le craquement et l'éclat. La technique cinéma qui transforme les abonnés en vrais clients.",
           slogan: "Le marketing vidéo n'est pas une option, c'est votre nouvelle vitrine.",
           date: "22 AVRIL 2024",
-          image: "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?auto=format&fit=crop&q=25&w=500&fm=webp",
+          image: "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?auto=format&fit=crop&q=15&w=350&fm=webp",
           imageAlt: "cinematographie-gastronomique-tiktok-reels.jpg",
           content: "L'algorithme privilégie le mouvement. Dans notre section cinématographie, nous transformons des clips statiques en expériences dynamiques."
         },
@@ -2030,7 +2030,7 @@ export const translations = {
           excerpt: "Saviez-vous que votre fiche Google est une communication de crise constante alors que votre Instagram est une pure aspiration ? Découvrez pourquoi vous devez maîtriser les deux.",
           slogan: "Instagram vous rend célèbre, Google vous rend riche.",
           date: "30 AVRIL 2024",
-          image: "https://images.unsplash.com/photo-1512428559087-560fa5ceab42?auto=format&fit=crop&q=25&w=500&fm=webp",
+          image: "https://images.unsplash.com/photo-1512428559087-560fa5ceab42?auto=format&fit=crop&q=15&w=350&fm=webp",
           imageAlt: "google-maps-vs-instagram-restaurant-strategie.jpg",
           content: "Instagram, c'est du marketing : vous contrôlez le message, l'esthétique et le rythme. Mais Google Maps, ce sont des Relations Publiques (RP) passives : c'est ce que les autres disent de vous quand vous ne regardez pas. Les photos sur Google confirment si le restaurant est « vivant », si la carte est toujours la même ou s'il y a eu un changement de direction.\n\nUne fiche Google avec des photos datant de 3 ans projette l'abandon. Un profil avec des photos sauvées par l'IA qui correspondent à l'esthétique de votre Instagram génère une cohérence qui brise la barrière du doute du client. Le bouche-à-oreille commence à table, mais se confirme sur les épingles Google."
         },
@@ -2041,7 +2041,7 @@ export const translations = {
           excerpt: "Un changement de chef ou de direction se remarque d'abord sur les photos. Apprenez à utiliser l'image pour prouver que votre établissement est à son apogée.",
           slogan: "Si votre cuisine a évolué, vos photos ne peuvent pas être des fossiles.",
           date: "02 MAI 2024",
-          image: "https://images.unsplash.com/photo-1559339352-11d035aa65de?auto=format&fit=crop&q=25&w=500&fm=webp",
+          image: "https://images.unsplash.com/photo-1559339352-11d035aa65de?auto=format&fit=crop&q=15&w=350&fm=webp",
           imageAlt: "coherence-visuelle-carte-restaurant.jpg",
           content: "Le manque de cohérence dans une carte numérique est la principale cause d'abandon de panier en livraison. Si le « Look & Feel » de vos entrées ne correspond pas à celui de vos plats, le client soupçonne une cuisine désorganisée ou un changement de mains douteux.\n\nMaintenir un standard visuel grâce à notre chirurgie numérique permet à votre marque de conserver une ligne d'excellence ininterrompue, même si vous changez de personnel ou de fournisseurs. C'est l'assurance-vie visuelle de votre réputation."
         },
@@ -2052,7 +2052,7 @@ export const translations = {
           excerpt: "Découvrez pourquoi le logo ne fait pas tout et comment la cohérence du NAP associée à vos photos agit comme un signal d'autorité pour Google.",
           slogan: "Votre logo est le sceau, votre NAP est la carte, vos photos sont l'âme.",
           date: "05 MAI 2024",
-          image: "https://images.unsplash.com/photo-1560179707-f14e90ef3623?auto=format&fit=crop&q=25&w=500&fm=webp",
+          image: "https://images.unsplash.com/photo-1560179707-f14e90ef3623?auto=format&fit=crop&q=15&w=350&fm=webp",
           imageAlt: "logo-vs-nap-seo-local-reputation.jpg",
           content: "Dans le SEO local, le NAP (Name, Address, Phone) est sacré. Si votre nom varie d'une plateforme à l'autre, Google s'en méfie. Mais il existe un « backlink » invisible dont personne ne parle : la cohérence visuelle. Chaque photo que vous téléchargez sur Instagram, TikTok ou Google Maps avec votre logo ou une esthétique définie est un signal de réputation.\n\nLorsque Google constate que les photos de vos clients (UGC) correspondent à la qualité de votre image officielle, il confirme que votre entreprise est réelle, active et recommandable. Ce n'est pas seulement du design, c'est de l'architecture de confiance. Votre logo doit couronner une présence impeccable où chaque image agit comme un lien direct vers l'esprit du consommateur."
         }
@@ -2500,7 +2500,7 @@ export const translations = {
           slogan: "Non pagate per le ore; pagate per i risultati chirurgici.",
           date: "20 FEBBRAIO 2024",
           category: "ia",
-          image: "https://images.unsplash.com/photo-1551024506-0bccd828d307?auto=format&fit=crop&q=25&w=500&fm=webp",
+          image: "https://images.unsplash.com/photo-1551024506-0bccd828d307?auto=format&fit=crop&q=15&w=350&fm=webp",
           imageAlt: "Confronto tra fotografia tradizionale e salvataggio tramite AI",
           content: "Il settore della ristorazione sta cambiando e la fotografia non può restare indietro. Analizziamo perché il 'Salvataggio Visivo' è la scelta più intelligente per i ristoranti che necessitano di agilità, qualità costante e un ROI immediato. Meno logistica, più conversione."
         },
@@ -2511,7 +2511,7 @@ export const translations = {
           excerpt: "Scopri perché gli algoritmi locali premiano l'illuminazione chirurgica e come trarne vantaggio.",
           slogan: "Il tuo feed è il tuo nuovo biglietto da visita.",
           date: "15 MAR 2024",
-          image: "https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&q=25&w=500&fm=webp",
+          image: "https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&q=15&w=350&fm=webp",
           imageAlt: "interfaccia-instagram-ottimizzata-ia-photographyrestaurante-com.jpg",
           content: "Nel mondo saturo dei social media, hai solo 2 secondi per catturare l'attenzione di un cliente. Gli studi dimostrano che un'illuminazione coerente e texture migliorate aumentano il tasso di engagement del 40%."
         },
@@ -2522,7 +2522,7 @@ export const translations = {
           slogan: "Precisione pixel per pixel per un appetito insaziabile.",
           date: "10 FEBBRAIO 2024",
           category: "surgery",
-          image: "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?auto=format&fit=crop&q=25&w=500&fm=webp",
+          image: "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?auto=format&fit=crop&q=15&w=350&fm=webp",
           imageAlt: "Processo di fotoritocco gastronomico professionale",
           content: "Entrate nel nostro laboratorio. Vi mostriamo come applichiamo tecniche avanzate di texturing, re-illuminazione ed estrazione digitale per elevare ogni piatto a un'opera d'arte visiva che stimola il sistema nervoso del vostro cliente."
         },
@@ -2533,7 +2533,7 @@ export const translations = {
           excerpt: "Sapevi che il 70% delle decisioni di prenotazione viene preso nei primi 3 secondi di visualizzazione del tuo profilo?",
           slogan: "Per la ristorazione di alto livello, la fiducia passa dagli occhi.",
           date: "25 MAR 2024",
-          image: "https://images.unsplash.com/photo-1591130219388-ae3d1c17431b?auto=format&fit=crop&q=25&w=500&fm=webp",
+          image: "https://images.unsplash.com/photo-1591130219388-ae3d1c17431b?auto=format&fit=crop&q=15&w=350&fm=webp",
           imageAlt: "strategia-digitale-fotografia-ristorante-marketing.jpg",
           content: "Competere nel settore premium non è solo una questione di qualità culinaria. Il cliente cerca un'esperienza visiva coerente prima di mettere piede nella tua sala. L'algoritmo di Instagram posiziona meglio gli account con il più alto tasso di interazione, e nulla converte meglio di una foto con un'illuminazione chirurgica."
         },
@@ -2544,7 +2544,7 @@ export const translations = {
           slogan: "La perfezione nasce dalla preparazione, anche nella chirurgia digitale.",
           date: "05 MARZO 2024",
           category: "surgery",
-          image: "https://images.unsplash.com/photo-1484723091739-30a097e8f929?auto=format&fit=crop&q=25&w=500&fm=webp",
+          image: "https://images.unsplash.com/photo-1484723091739-30a097e8f929?auto=format&fit=crop&q=15&w=350&fm=webp",
           imageAlt: "Checklist fotografia per ristoranti Google Business",
           content: "Preparare una sessione di 'salvataggio' è più semplice di una sessione tradizionale, ma richiede rigore. Dalla pulizia del bordo del piatto all'orientamento della luce naturale. Questa checklist vi guida affinché ogni invio a fotografiarestaurante.com sia un successo strepitoso. Ottimizziamo la base affinché il risultato sia indistinguibile dalla fotografia di studio d'alta gamma."
         },
@@ -2555,7 +2555,7 @@ export const translations = {
           slogan: "L'appettito è dinamico. Anche il tuo marketing dovrebbe esserlo.",
           date: "10 MARZO 2024",
           category: "cinema",
-          image: "https://images.unsplash.com/photo-1473093226795-af9932fe5856?auto=format&fit=crop&q=25&w=500&fm=webp",
+          image: "https://images.unsplash.com/photo-1473093226795-af9932fe5856?auto=format&fit=crop&q=15&w=350&fm=webp",
           imageAlt: "Video marketing ristoranti gastronomia",
           content: "Il video non è il futuro; è il presente assoluto. Su fotografiarestaurante.com non salviamo solo foto; creiamo asset dinamicos che aumentano il tempo di permanenza sul vostro profilo. Scoprite come un semplice clip di vapore o un highlight in movimento possa raddoppiare i vostri click su Instagram e TikTok."
         },
@@ -2566,7 +2566,7 @@ export const translations = {
           slogan: "Non pagate per le ore; pagate per risultati chirurgici.",
           date: "15 MARZO 2024",
           category: "dossier",
-          image: "https://images.unsplash.com/photo-1514362545857-3bc16c4c7d1b?auto=format&fit=crop&q=25&w=500&fm=webp",
+          image: "https://images.unsplash.com/photo-1514362545857-3bc16c4c7d1b?auto=format&fit=crop&q=15&w=350&fm=webp",
           imageAlt: "Fotografia ristoranti IA vs tradizionale",
           content: "Il settore si sta evolvendo e la tecnologia IA permette oggi di ottenere risultati professionali partendo da foto scattate con lo smartphone. Vi spieghiamo come ottimizziamo i vostri asset per garantire un'immagine di marca d'élite con una frazione del costo e del tempo di una sessione tradizionale."
         },
@@ -2577,7 +2577,7 @@ export const translations = {
           slogan: "L'IA è il bisturi, ma noi siamo il chirurgo.",
           date: "20 MARZO 2024",
           category: "marketing",
-          image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&q=25&w=500&fm=webp",
+          image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&q=15&w=350&fm=webp",
           imageAlt: "umano-vs-ia-marketing-gastronomico",
           content: "Siamo inondati di app che promettono risultati in 90 secondi. Il risultato è spesso lo stesso: piatti che sembrano di plastica, ombre impossibili e una totale mancanza di coerenza del marchio. Su fotografiarestaurante.com ogni pixel è supervisionato da un esperto di estetica gastronomica. Non lanciamo algoritmi casuali; eseguiamo interventi chirurgici personalizzati affinché il vostro ristorante mantenga la sua anima."
         },
@@ -2588,7 +2588,7 @@ export const translations = {
           slogan: "Realismo chirurgico: La photo è tua, la perfezione è nostra.",
           date: "25 MARZO 2024",
           category: "rescue",
-          image: "https://images.unsplash.com/photo-1586190848861-99aa4a171e90?auto=format&fit=crop&q=25&w=500&fm=webp",
+          image: "https://images.unsplash.com/photo-1586190848861-99aa4a171e90?auto=format&fit=crop&q=15&w=350&fm=webp",
           imageAlt: "realismo-vs-generativa-gastronomia",
           content: "Molti concorrenti vi invitano a 'generare' piatti da zero. Attenzione: il cliente si sente tradito quando ciò che arriva al tavolo non assomiglia affatto alla foto. Il nostro metodo di 'Salvataggio' rispetta la vera architettura del vostro piatto. Non inventiamo ingredienti; estraiamo la bellezza nascosta della vostra ricetta reale affinché aspettativa e realtà siano allineate al 100%."
         },
@@ -2599,7 +2599,7 @@ export const translations = {
           slogan: "Il tuo DNA gastronomico, amplificato da specialisti.",
           date: "30 MARZO 2024",
           category: "tech",
-          image: "https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?auto=format&fit=crop&q=25&w=500&fm=webp",
+          image: "https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?auto=format&fit=crop&q=15&w=350&fm=webp",
           imageAlt: "personalizzazione-fotografia-gastronomica-ia",
           content: "Le piattaforme self-service vi costringono ad adattarvi ai loro stampi. Noi facciamo l'opposto. Analizziamo il tono dei vostri legni, la brillantezza delle vostre stoviglie e lo stile della vostra cucina per progettare un protocollo di illuminazione personalizzato. È un trattamento boutique in un mondo di produzione di massa. Perché il vostro marchio merita una firma, non un codice a barre."
         },
@@ -2610,7 +2610,7 @@ export const translations = {
           excerpt: "Spostare la tua cucina in uno studio è costoso e rischioso. Scopri come l'IA ricicla i tuoi attuali asset senza spostare un piatto.",
           slogan: "Il tuo prodotto brilla meglio dove viene cucinato, non in una scatola luminosa a 20 km.",
           date: "15 APRILE 2024",
-          image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?auto=format&fit=crop&q=25&w=500&fm=webp",
+          image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?auto=format&fit=crop&q=15&w=350&fm=webp",
           imageAlt: "tecnologia-ia-vs-studio-fotografia-gastronomica.jpg",
           content: "Assumere uno studio comporta trasporto, perdita di freschezza e costi logistici immensi. Con il nostro modello, ricicliamo le tue foto scattate con il cellulare, trasformandole in pezzi da studio Michelin."
         },
@@ -2621,7 +2621,7 @@ export const translations = {
           excerpt: "Guarda il prima e dopo di un intervento chirurgico digitale. Dalla mediocrità della cucina al lusso di Instagram.",
           slogan: "Iniettiamo vita in pixel morti.",
           date: "18 APRILE 2024",
-          image: "https://images.unsplash.com/photo-1542038784456-1ea8e935640e?auto=format&fit=crop&q=25&w=500&fm=webp",
+          image: "https://images.unsplash.com/photo-1542038784456-1ea8e935640e?auto=format&fit=crop&q=15&w=350&fm=webp",
           imageAlt: "anatomia-chirurgia-visiva-gastronomica-prima-dopo.jpg",
           content: "Un intervento visivo non è un filtro. È una ricostruzione tecnica: pulizia del rumore, ri-illuminazione 3D e miglioramento delle texture organiche."
         },
@@ -2632,7 +2632,7 @@ export const translations = {
           excerpt: "Spostamenti, attrezzatura e ore. Ti insegniamo a leggere tra le righe e perché il modello de salvataggio vince a mani basse.",
           slogan: "Non pagare per il furgone del fotografo, paga per l'immagine del tuo piatto.",
           date: "20 APRILE 2024",
-          image: "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?auto=format&fit=crop&q=25&w=500&fm=webp",
+          image: "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?auto=format&fit=crop&q=15&w=350&fm=webp",
           imageAlt: "preventivo-fotografia-gastronomica-professionale-dossier.jpg",
           content: "Una sessione in presenza può superare i 600€ sommando i costi indiretti. Il nostro dossier dimostra che il salvataggio IA offre una qualità indistinguibile a una frazione del costo."
         },
@@ -2643,7 +2643,7 @@ export const translations = {
           excerpt: "Cattura il vapore, lo scricchiolio e la brillantezza. La tecnica cinema que trasforma i follower in veri clienti.",
           slogan: "Il video marketing non è un'opzione, è la tua nuova vetrina.",
           date: "22 APRILE 2024",
-          image: "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?auto=format&fit=crop&q=25&w=500&fm=webp",
+          image: "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?auto=format&fit=crop&q=15&w=350&fm=webp",
           imageAlt: "cinematografia-gastronomica-tiktok-reels.jpg",
           content: "L'algorithmo privilegia il movimento. Nella nostra sezione di cinematografia, trasformiamo clip statiche in esperienze dinamiche."
         },
@@ -2654,7 +2654,7 @@ export const translations = {
           excerpt: "Scopri perché le foto geolocalizzate dei tuoi commensali valgono più per Google di una semplice recensione testuale.",
           slogan: "I tuoi clienti sono i tuoi fotografi sul campo; noi siamo il loro laboratorio.",
           date: "28 APRILE 2024",
-          image: "https://images.unsplash.com/photo-1541746972996-4e0b0f43e02a?auto=format&fit=crop&q=25&w=500&fm=webp",
+          image: "https://images.unsplash.com/photo-1541746972996-4e0b0f43e02a?auto=format&fit=crop&q=15&w=350&fm=webp",
           imageAlt: "seo-locale-google-maps-concorso-fotografico-clienti-ugc.jpg",
           content: "Le recensioni a 5 stelle sono fantastiche, ma nel Local SEO del 2026, il contenuto visivo regna sovrano. Un concorso fotografico tra i tuoi clienti per caricare foto sul tuo profilo Google Business genera enormi segnali di autorità.\n\nOgni foto caricata da un cliente porta con sé metadati di geolocalizzazione (pin) che confermano a Google che il tuo locale è reale e attivo in quella precisa posizione. Inoltre, riscattando quelle foto dei clienti tramite la nostra IA, puoi trasformarle in asset premium che dominano la tua galleria pubblica. È il mix perfetto tra autenticità ed eccellenza tecnica."
         },
@@ -2665,7 +2665,7 @@ export const translations = {
           excerpt: "Sapevi che la tua scheda Google è una comunicazione di crisi costante, mentre il tuo Instagram è pura aspirazione? Scopri perché devi padroneggiare entrambi.",
           slogan: "Instagram ti rende famoso, Google ti rende ricco.",
           date: "30 APRILE 2024",
-          image: "https://images.unsplash.com/photo-1512428559087-560fa5ceab42?auto=format&fit=crop&q=25&w=500&fm=webp",
+          image: "https://images.unsplash.com/photo-1512428559087-560fa5ceab42?auto=format&fit=crop&q=15&w=350&fm=webp",
           imageAlt: "google-maps-vs-instagram-ristorante-strategia.jpg",
           content: "Instagram è marketing: tu controlli il messaggio, l'estetica e il ritmo. Ma Google Maps è Relazioni Pubbliche (PR) passive: è quello che gli altri dicono di te quando non guardi. Le foto su Google confermano se il ristorante è 'vivo', se il menu è lo stesso o se c'è stato un cambio di gestione.\n\nUna scheda Google con foto di 3 anni fa proietta abbandono. Un profilo con foto salvate dall'IA che corrispondono all'estetica del tuo Instagram genera una coerenza che rompe la barriera del dubbio del cliente. Il passaparola inizia a tavola, ma si conferma sui pin di Google."
         },
@@ -2676,7 +2676,7 @@ export const translations = {
           excerpt: "Un cambio di chef o di gestione si nota prima nelle foto. Impara a usare l'immagine per dimostrare che il tuo locale è al suo apice.",
           slogan: "Se il tuo cibo si è evoluto, le tue foto non possono essere fossili.",
           date: "02 MAGGIO 2024",
-          image: "https://images.unsplash.com/photo-1559339352-11d035aa65de?auto=format&fit=crop&q=25&w=500&fm=webp",
+          image: "https://images.unsplash.com/photo-1559339352-11d035aa65de?auto=format&fit=crop&q=15&w=350&fm=webp",
           imageAlt: "coerenza-visiva-menu-ristorante.jpg",
           content: "La mancanza di coerenza in un menu digitale è la principale causa di abbandono del carrello nelle consegne. Se il 'Look & Feel' dei tuoi antipasti non corrisponde a quello dei piatti principali, il cliente sospetta una cucina disorganizzata o un dubbio cambio di gestione.\n\nMantenere uno standard visivo attraverso la nostra chirurgia digitale consente al tuo marchio di mantenere una linea di eccellenza ininterrotta, anche se cambi personale o fornitori. È l'assicurazione sulla vita visiva della tua reputazione."
         },
@@ -2687,7 +2687,7 @@ export const translations = {
           excerpt: "Scopri perché il logo non è tutto e come la coerenza del NAP insieme alle tue foto fungono da segnali di autorità per Google.",
           slogan: "Il tuo logo è il sigillo, il tuo NAP è la mappa, le tue foto sono l'anima.",
           date: "05 MAGGIO 2024",
-          image: "https://images.unsplash.com/photo-1560179707-f14e90ef3623?auto=format&fit=crop&q=25&w=500&fm=webp",
+          image: "https://images.unsplash.com/photo-1560179707-f14e90ef3623?auto=format&fit=crop&q=15&w=350&fm=webp",
           imageAlt: "logo-vs-nap-local-seo-reputation.jpg",
           content: "Nella Local SEO, il NAP (Name, Address, Phone) è sacro. Se il tuo nome varia tra le piattaforme, Google diffida di te. Ma c'è un 'backlink' invisibile di cui nessuno parla: la coerenza visiva. Ogni foto che carichi su Instagram, TikTok o Google Maps con il tuo logo o un'estetica definita è un segnale di reputazione.\n\nQuando Google vede che le foto dei tuoi clienti (UGC) corrispondono alla qualità della tua immagine ufficiale, conferma che la tua attività è reale, attiva e raccomandabile. Non è solo design, è architettura di fiducia. Il tuo logo dovrebbe coronare una presenza impeccabile dove ogni immagine funge da collegamento diretto alla mente del consumatore."
         }
